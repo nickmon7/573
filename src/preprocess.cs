@@ -11,7 +11,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Preprocess();       
+        Preprocess();
     }
 
     private static void Preprocess()
@@ -59,7 +59,7 @@ class Program
                     }
                     break;
                 case XmlNodeType.Text:
-                    currTopic.title = reader.Value;
+                    currTopic.title = reader.Value.Trim();
                     break;
                 case XmlNodeType.EndElement:
                     switch (reader.Name)
@@ -119,6 +119,13 @@ public class Document
     public string headline;
     public List<string> sentences;
     public Dictionary<string, int> wordCounts;
+
+    public Document()
+    {
+        id = "APW19990421.0001";
+        sentences = new List<string>();
+        wordCounts = new Dictionary<string, int>();
+    }
 
     public Document(string id)
     {
@@ -196,9 +203,9 @@ public class Document
         sr.Close();
     }
 
-    private void GetSentences(string text)
+    private void GetSentences(string doc)
     {
-        MatchCollection tags = Regex.Matches(text, @"(<\w+>|<\/\w+>)");
+        MatchCollection tags = Regex.Matches(doc, @"(<\w+>|<\/\w+>)");
         sentences = new List<string>();
 
         int index = 0;
@@ -208,25 +215,33 @@ public class Document
             string tag = m.Value;
 
             if (tag == "</DOC>") { break; }
-
-            switch (tag)
+            if (tag == "<HEADLINE>")
             {
-                case "<HEADLINE>":
-                    int h_start = m.Index + m.Length;
-                    headline = text.Substring(h_start, tags[index + 1].Index - h_start).Trim();
-                    index += 2;
-                    break;
-                case "<P>":
-                    int p_start = m.Index + m.Length;
-                    string sent = text.Substring(p_start, tags[index + 1].Index - p_start);
-                    sent = sent.Replace('\n', ' ').Trim();
-                    sentences.Add(sent);
-                    index += 2;
-                    break;
-                default:
-                    index++;
-                    break;
+                int start = m.Index + m.Length;
+                headline = doc.Substring(start, tags[index + 1].Index - start).Trim();
+                index += 2;
             }
+            else if (tag == "<TEXT>")
+            {
+                while (tags[index].Value != "</TEXT>")
+                {
+                    index++;
+                }
+
+                int start = m.Index + m.Length;
+                string text = doc.Substring(start, tags[index].Index - start);
+                text = Regex.Replace(text, @"\n", " ");
+                text = Regex.Replace(text, @"</P>", "");
+                text = Regex.Replace(text, @"<P>", "\n");
+                text = Regex.Replace(text, @"[ \t]+", " ");
+                text = Regex.Replace(text, @" \n ", "\n");
+                text = Regex.Replace(text, "\"", "\\\"");
+
+                string[] sents = text.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                sentences.AddRange(sents);
+                break;
+            }
+            else { index++; }
         }
     }
 
