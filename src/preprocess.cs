@@ -59,7 +59,8 @@ class Program
                     }
                     break;
                 case XmlNodeType.Text:
-                    currTopic.title = reader.Value.Trim();
+                    string headline = Regex.Replace(reader.Value, @"\s+", " ");
+                    currTopic.title = headline.Trim();
                     break;
                 case XmlNodeType.EndElement:
                     switch (reader.Name)
