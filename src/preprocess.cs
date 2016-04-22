@@ -179,7 +179,7 @@ public class Document
         GetWordCounts();
     }
 
-    private void ReadFile(string path)
+    public void ReadFile(string path)
     {
         StreamReader sr = new StreamReader(path);
         
@@ -219,7 +219,8 @@ public class Document
             if (tag == "<HEADLINE>")
             {
                 int start = m.Index + m.Length;
-                headline = doc.Substring(start, tags[index + 1].Index - start).Trim();
+                headline = doc.Substring(start, tags[index + 1].Index - start);
+                headline = Regex.Replace(headline, @"\s+", " ").Trim();
                 index += 2;
             }
             else if (tag == "<TEXT>")
@@ -231,14 +232,11 @@ public class Document
 
                 int start = m.Index + m.Length;
                 string text = doc.Substring(start, tags[index].Index - start);
-                text = Regex.Replace(text, @"\n", " ");
-                text = Regex.Replace(text, @"</P>", "");
-                text = Regex.Replace(text, @"<P>", "\n");
-                text = Regex.Replace(text, @"[ \t]+", " ");
-                text = Regex.Replace(text, @" \n ", "\n");
+                text = Regex.Replace(text, @"</?P>", " ");
+                text = Regex.Replace(text, @"\s+", " ");
                 text = Regex.Replace(text, "\"", "\\\"");
 
-                string[] sents = text.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] sents = Regex.Split(text.Trim(), @"(?<=[\.!\?])\s+");
                 sentences.AddRange(sents);
                 break;
             }
