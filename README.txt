@@ -4,10 +4,16 @@ Nick Monaco
 
 Deliverables 2 - README
 
+In order to run all programs together, run condor_submit D2.cmd
+
+To run preprocessing -
+
+Type "mono preprocess.exe" in the src folder
 
 
+To run content selection, information ordering, and content realization -
 
-
+Type "python content_selection.py" in the src folder
 
 
 To implement rouge with our system - 
