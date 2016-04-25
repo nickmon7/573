@@ -1,0 +1,22 @@
+
+Unhandled Exception:
+System.UnauthorizedAccessException: Access to the path "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/D1001A.json" is denied.
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter:.ctor (string)
+  at System.IO.File.WriteAllLines (System.String path, System.String[] contents) [0x00000] in <filename unknown>:0 
+  at Program.Preprocess () [0x00000] in <filename unknown>:0 
+  at Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.UnauthorizedAccessException: Access to the path "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/D1001A.json" is denied.
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter:.ctor (string)
+  at System.IO.File.WriteAllLines (System.String path, System.String[] contents) [0x00000] in <filename unknown>:0 
+  at Program.Preprocess () [0x00000] in <filename unknown>:0 
+  at Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 

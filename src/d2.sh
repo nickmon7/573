@@ -8,6 +8,7 @@ mono preprocess.exe
 
 #Step 2 - make summaries
 
+python content_selection.py
 
 #Step 3 - Evaluate the summaries using ROUGE
 
