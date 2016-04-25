@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
 import re
 import math
+import datetime
 import json
 import pickle
 import os
@@ -74,6 +75,13 @@ def create_summary(sorted_sentences):
             summary_sentences.append(sentence)
     return summary_sentences
 
+def reorder(summary_sentences,topic_docs):
+    final_summary_sentences = []
+    for doc in topic_docs:
+        for i,sentence in enumerate(topic_docs[doc]):
+            if sentence in summary_sentences:
+                final_summary_sentences.append((sentence,doc))
+    return sorted(final_summary_sentences,key=lambda x : (datetime.date(int(x[1].split(".")[0][-8:-4]),int(x[1].split(".")[0][-4:-2]),int(x[1].split(".")[0][-2:]))))
 
 def main():
     working_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/'
@@ -102,12 +110,12 @@ def main():
                     for item in x[y][g]:
                         x[y][g][item] = x[y][g][item] / 2.0
                     sentence_probs[g] = sentence_probs[g] / count
-            output.write("\n".join(create_summary(sorted(sentence_probs,reverse=True,key=sentence_probs.get))))
+            chosen_sentences = create_summary(sorted(sentence_probs,reverse=True,key=sentence_probs.get))
+            ordered_sentences = reorder(chosen_sentences,x)
+            output.write("\n".join([t[0] for t in ordered_sentences]))
         else:
             output = open(str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
             output.write(" ")
-##    sorted_sentences = [[sorted(x[y][g],reverse=True,key=lambda q : sum([x[y][g][q] for q in x[y][g]])) for g in x[y]] for y in x]
-##    print create_summary(sorted_sentences)
     
 
 
