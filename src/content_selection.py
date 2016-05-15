@@ -72,8 +72,14 @@ def create_summary(sorted_sentences):
         if word_count < 100:
             summary_sentences.append(sentence)
     return summary_sentences
+<<<<<<< HEAD
 
 def reorder_by_date(summary_sentences,topic_docs):
+=======
+    
+#This is D1 Information Ordering method - by date of publication
+def reorder(summary_sentences,topic_docs):
+>>>>>>> 954c81cc65ee72ea583d4015522731024750b214
     final_summary_sentences = []
     for doc in topic_docs:
         for i,sentence in enumerate(topic_docs[doc]):
