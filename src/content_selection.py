@@ -72,14 +72,8 @@ def create_summary(sorted_sentences):
         if word_count < 100:
             summary_sentences.append(sentence)
     return summary_sentences
-<<<<<<< HEAD
 
 def reorder_by_date(summary_sentences,topic_docs):
-=======
-    
-#This is D1 Information Ordering method - by date of publication
-def reorder(summary_sentences,topic_docs):
->>>>>>> 954c81cc65ee72ea583d4015522731024750b214
     final_summary_sentences = []
     for doc in topic_docs:
         for i,sentence in enumerate(topic_docs[doc]):
@@ -95,7 +89,7 @@ def extract_for_SVM(frequencies,doc_data):
             sentences.append((sentence,document['id'],j))
     x = 0
     while x < 10:
-        output = open('../test_for_rouge/D3/summary_result.txt','w')
+        output = open('../test_for_rouge/D3/D1001-A.M.100.A.1','w')
         all_sentence_combs['used_data'] = {}
         current_sentences = []
 ##        try:

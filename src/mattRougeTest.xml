@@ -1,7 +1,7 @@
 <ROUGE_EVAL version="1.5.5">
-<EVAL ID="D1001-A.M.100.A">
+<EVAL ID="D1008-A.M.100.B">
 <PEER-ROOT>
-/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D2
+/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3
 </PEER-ROOT>
 <MODEL-ROOT>
 /dropbox/15-16/573/Data/models/devtest/
@@ -9,13 +9,13 @@
 <INPUT-FORMAT TYPE="SPL">
 </INPUT-FORMAT>
 <PEERS>
-<P ID="1">D1001-A.M.100.A.1</P>
+<P ID="1">D1008-A.M.100.B.1</P>
 </PEERS>
 <MODELS>
-<M ID="A">D1001-A.M.100.A.A</M>
-<M ID="B">D1001-A.M.100.A.B</M>
-<M ID="F">D1001-A.M.100.A.F</M>
-<M ID="H">D1001-A.M.100.A.H</M>
+<M ID="B">D1008-A.M.100.B.B</M>
+<M ID="D">D1008-A.M.100.B.D</M>
+<M ID="E">D1008-A.M.100.B.E</M>
+<M ID="H">D1008-A.M.100.B.H</M>
 </MODELS>
 </EVAL>
 </ROUGE_EVAL>
