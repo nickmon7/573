@@ -2,9 +2,9 @@ Kirk LaBuda
 Matthew Calderwood
 Nick Monaco
 
-Deliverables 2 - README
+Deliverables 3 - README
 
-In order to run all programs together, run condor_submit D2.cmd
+In order to run all programs together, run condor_submit D3.cmd
 
 To run preprocessing -
 
