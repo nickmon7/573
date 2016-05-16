@@ -1,0 +1,63 @@
+000 (237317.000.000) 05/15 23:31:36 Job submitted from host: <192.168.100.50:41163>
+...
+001 (237317.000.000) 05/15 23:31:38 Job executing on host: <192.168.100.18:41613>
+...
+007 (237317.000.000) 05/15 23:31:38 Shadow exception!
+	Error from slot1@loris-n1.ling.washington.edu: Failed to execute '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/d3.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (237317.000.000) 05/15 23:31:38 Job was held.
+	Error from slot1@loris-n1.ling.washington.edu: Failed to execute '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/d3.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+000 (237318.000.000) 05/15 23:32:36 Job submitted from host: <192.168.100.50:41163>
+...
+001 (237318.000.000) 05/15 23:33:38 Job executing on host: <192.168.100.61:28275?addrs=192.168.100.61-28275>
+...
+006 (237318.000.000) 05/15 23:33:38 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (237318.000.000) 05/15 23:33:38 Job terminated.
+	(1) Normal termination (return value 127)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :        1        1          
+	   Memory (MB)          :        0     2048          
+...
+000 (237319.000.000) 05/15 23:34:35 Job submitted from host: <192.168.100.50:41163>
+...
+001 (237319.000.000) 05/15 23:35:07 Job executing on host: <192.168.100.61:28275?addrs=192.168.100.61-28275>
+...
+006 (237319.000.000) 05/15 23:35:15 Image size of job updated: 1
+	2  -  MemoryUsage of job (MB)
+	1752  -  ResidentSetSize of job (KB)
+...
+006 (237319.000.000) 05/15 23:35:34 Image size of job updated: 750056
+	2  -  MemoryUsage of job (MB)
+	1752  -  ResidentSetSize of job (KB)
+...
+005 (237319.000.000) 05/15 23:35:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:05, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:05, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :        1        1          
+	   Memory (MB)          :        2     2048          
+...
