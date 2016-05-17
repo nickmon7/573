@@ -1,0 +1,6 @@
+executable = /usr/bin/python
+
+	arguments  = content_selection.py
+	output     = python.$(Cluster).$(Process).output
+	error      = python.$(Cluster).$(Process).error
+	Queue

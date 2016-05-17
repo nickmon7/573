@@ -83,65 +83,10 @@ def reorder_by_date(summary_sentences,topic_docs):
     return sorted(final_summary_sentences,key=lambda x : (datetime.date(int(x[1].split(".")[0][-8:-4]),int(x[1].split(".")[0][-4:-2]),int(x[1].split(".")[0][-2:]))))
 
 #----------------------------------------------training for model----------------------------------------------
-##def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
-##    best_rouge = 0.0
-##    if test_mode == True:
-##        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test','a')
-##    else:
-##        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data','a')
-##    all_sentence_combs = {}
-####    for i,document in enumerate(doc_data['docSet']):
-####        for j,sentence in enumerate(document['sentences']):
-####            sentences.append((sentence,document['id'],j,i))
-##    x = 0
-##    current_summary = None
-##    while x < 500:
-##      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/' + doc_id,'w')
-##      all_sentence_combs[str(x)] = {'sentences':{},
-##                                      'rouge':0.0}
-##      current_sentences = []
-##      try:
-##        randoms = [random.randint(0,len(sentences)) for i in range(0,5)]
-##        for v,rands in enumerate(randoms):
-##            randoms.count(rands) > 1:
-##                randoms[v] += 1
-##        for rand_num in randoms:
-##            all_sentence_combs[str(x)]['sentences'][sentences[rand_num][0]] = {'freq' : sentences[rand_num][1],
-##                                                                  'position' : rand_num}
-##            current_sentences.append(sentences[rand_num][0])
-##        summary = create_summary(current_sentences)
-##        output.write("\n".join([t for t in summary]))
-##        output.close()
-##        Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/run_rouge_test.sh ' + "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/config_files/" + doc_id + ".config.xml 2> err", shell=True)
-##        rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/rouge_result.txt')
-##        all_sentence_combs[str(x)]['rouge'] = 0.0
-##        for k,line in enumerate(rouge_file):
-##            if k == 7:
-##                line = line.split()
-##                all_sentence_combs[str(x)]['rouge'] = float(line[3])
-##                current_rouge = float(line[3])
-##                if current_rouge > best_rouge:
-##                    current_summary = summary
-##                    best_rouge = current_rouge
-##        rouge_file.close()
-##        lib_data.write(str(all_sentence_combs[str(x)]['rouge']) + " ")
-##        for t,sent in enumerate(all_sentence_combs[str(x)]['sentences']):
-##            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " " + str(t+5) + ":" + str(float(all_sentence_combs[str(x)]['sentences'][sent]['position'])) + " ")
-##        lib_data.write("\n")
-##      except IndexError:
-##          ""
-##      x += 1
-##    output = output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/' + doc_id,'w')
-##    output.write("\n".join([t for t in current_summary]))
-##    print str(best_rouge) + " " + doc_id
-##    output.close()
-##    lib_data.close()
-#-----------------------------------------------------------------------------------------------------------    
-#--------------------------------------testing-----------------------------------------------
 def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
     best_rouge = 0.0
     if test_mode == True:
-        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test','w')
+        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test','a')
     else:
         lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data','a')
     all_sentence_combs = {}
@@ -150,8 +95,8 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
 ##            sentences.append((sentence,document['id'],j,i))
     x = 0
     current_summary = None
-    while x < 300:
-      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + doc_id,'w')
+    while x < 500:
+      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/' + doc_id,'w')
       all_sentence_combs[str(x)] = {'sentences':{},
                                       'rouge':0.0}
       current_sentences = []
@@ -167,12 +112,17 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
         summary = create_summary(current_sentences)
         output.write("\n".join([t for t in summary]))
         output.close()
-        all_sentence_combs[str(x)]['rouge'] = 0.0
+        Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/run_rouge_test.sh ' + "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/config_files/" + doc_id + ".config.xml 2> err", shell=True)
         rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/rouge_result.txt')
+        all_sentence_combs[str(x)]['rouge'] = 0.0
         for k,line in enumerate(rouge_file):
             if k == 7:
                 line = line.split()
                 all_sentence_combs[str(x)]['rouge'] = float(line[3])
+                current_rouge = float(line[3])
+                if current_rouge > best_rouge:
+                    current_summary = summary
+                    best_rouge = current_rouge
         rouge_file.close()
         lib_data.write(str(all_sentence_combs[str(x)]['rouge']) + " ")
         for t,sent in enumerate(all_sentence_combs[str(x)]['sentences']):
@@ -181,25 +131,75 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
       except IndexError:
           ""
       x += 1
-    Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test.scale',shell=True)
-    Popen('svm-predict /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/predicition',shell=True)
-    best_rouge = 0.0
-    spot = 0
-    for n,line in enumerate(open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/predicition')):
-        line = line.split()
-        try:
-            if (float(line[0]) > best_rouge) & (float(line[0]) < .2):
-                best_rouge = float(line[0])
-                spot = n
-        except IndexError:
-            ""
-    print spot
-    best_summary = all_sentence_combs[str(spot)]['sentences']
-    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + doc_id,'w')
-    output.write(reorder_by_theme("\n".join([t for t in best_summary]),stopwords.words('english'),doc_data))
+    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/' + doc_id,'w')
+    output.write("\n".join([t for t in current_summary]))
     print str(best_rouge) + " " + doc_id
     output.close()
     lib_data.close()
+#-----------------------------------------------------------------------------------------------------------    
+#--------------------------------------testing-----------------------------------------------
+##def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
+##    best_rouge = 0.0
+##    if test_mode == True:
+##        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test','w')
+##    else:
+##        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data','a')
+##    all_sentence_combs = {}
+####    for i,document in enumerate(doc_data['docSet']):
+####        for j,sentence in enumerate(document['sentences']):
+####            sentences.append((sentence,document['id'],j,i))
+##    x = 0
+##    current_summary = None
+##    while x < 300:
+##      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + doc_id,'w')
+##      all_sentence_combs[str(x)] = {'sentences':{},
+##                                      'rouge':0.0}
+##      current_sentences = []
+##      try:
+##        randoms = [random.randint(0,len(sentences)) for i in range(0,5)]
+##        for v,rands in enumerate(randoms):
+##            if randoms.count(rands) > 1:
+##                randoms[v] += 1
+##        for rand_num in randoms:
+##            all_sentence_combs[str(x)]['sentences'][sentences[rand_num][0]] = {'freq' : sentences[rand_num][1],
+##                                                                  'position' : rand_num}
+##            current_sentences.append(sentences[rand_num][0])
+##        summary = create_summary(current_sentences)
+##        output.write("\n".join([t for t in summary]))
+##        output.close()
+##        all_sentence_combs[str(x)]['rouge'] = 0.0
+##        rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/rouge_result.txt')
+##        for k,line in enumerate(rouge_file):
+##            if k == 7:
+##                line = line.split()
+##                all_sentence_combs[str(x)]['rouge'] = float(line[3])
+##        rouge_file.close()
+##        lib_data.write(str(all_sentence_combs[str(x)]['rouge']) + " ")
+##        for t,sent in enumerate(all_sentence_combs[str(x)]['sentences']):
+##            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " " + str(t+5) + ":" + str(float(all_sentence_combs[str(x)]['sentences'][sent]['position'])) + " ")
+##        lib_data.write("\n")
+##      except IndexError:
+##          ""
+##      x += 1
+##    Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test.scale',shell=True)
+##    Popen('svm-predict /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/predicition',shell=True)
+##    best_rouge = 0.0
+##    spot = 0
+##    for n,line in enumerate(open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/predicition')):
+##        line = line.split()
+##        try:
+##            if (float(line[0]) > best_rouge) & (float(line[0]) < .2):
+##                best_rouge = float(line[0])
+##                spot = n
+##        except IndexError:
+##            ""
+##    print spot
+##    best_summary = create_summary(all_sentence_combs[str(spot)]['sentences'])
+##    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + doc_id,'w')
+##    output.write(reorder_by_theme("\n".join([t for t in best_summary]),stopwords.words('english'),doc_data))
+##    print str(best_rouge) + " " + doc_id
+##    output.close()
+##    lib_data.close()
 
 #------------------------------------------------------------------------------------------
 
@@ -268,7 +268,7 @@ def reorder_by_theme(summary, stopwords, docSetDict):
 	return newSummary.strip()
 
 def main():
-    test_mode = True
+    test_mode = False
     working_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/'
     frequencies = json.load(open(working_dir[:-7] + 'brown_freqs','r'))
     all_docs = load_all_docs(working_dir)
@@ -307,7 +307,7 @@ def main():
             output.write(" ")
     if test_mode == False:
         Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale',shell=True)
-        Popen("svm-train -s 4 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model",shell=True)
+        Popen("svm-train -s 4 -t 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model",shell=True)
 
 if __name__== '__main__':
     main()

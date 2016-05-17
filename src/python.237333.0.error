@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "content_selection.py", line 313, in <module>
+    main()
+  File "content_selection.py", line 279, in main
+    x = topic_frequencies(frequencies,all_docs[item])
+  File "content_selection.py", line 64, in topic_frequencies
+    topic_frequency[doc['id']][sentence][word] = compare_frequency(word,brown_frequencies,doc['wordCounts'])
+  File "content_selection.py", line 46, in compare_frequency
+    if (word.lower() in brown_frequencies) & (not word.lower() in stopwords.words('english')):
+  File "/opt/python-2.6/lib/python2.6/site-packages/nltk/corpus/util.py", line 68, in __getattr__
+    self.__load()
+  File "/opt/python-2.6/lib/python2.6/site-packages/nltk/corpus/util.py", line 56, in __load
+    except LookupError: raise e
+LookupError: 
+**********************************************************************
+  Resource 'corpora/stopwords' not found.  Please use the NLTK
+  Downloader to obtain the resource:  >>> nltk.download()
+  Searched in:
+    - '/home2/calderma/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
