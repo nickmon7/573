@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Grosz</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>seen</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>by</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>many</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>Hungarians</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="8">
+            <word>as</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>discredited</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>hardliner</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>added</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>that</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>there</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="16">
+            <word>was</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>need</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>propagate</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="21">
+            <word>Communist</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>ideas</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>Hungary</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Mr) (NNP Grosz)) (, ,) (VP (VBN seen) (PP (IN by) (NP (JJ many) (NNPS Hungarians))) (PP (IN as) (NP (DT a) (JJ discredited) (NN hardliner)))) (, ,)) (VP (VBD added) (SBAR (IN that) (S (NP (EX there)) (VP (VBD was) (NP (DT a) (NN need) (S (VP (TO to) (VP (VB propagate) (NP (JJ Communist) (NNS ideas)) (PP (IN in) (NP (NNP Hungary))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">added</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">added</governor>
+            <dependent idx="2">Grosz</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="4">seen</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">seen</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Hungarians</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">by</governor>
+            <dependent idx="7">Hungarians</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">seen</governor>
+            <dependent idx="8">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="10">discredited</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">as</governor>
+            <dependent idx="11">hardliner</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">was</governor>
+            <dependent idx="14">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="16">was</governor>
+            <dependent idx="15">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">added</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">need</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">was</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">propagate</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">need</governor>
+            <dependent idx="20">propagate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">ideas</governor>
+            <dependent idx="21">Communist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">propagate</governor>
+            <dependent idx="22">ideas</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">propagate</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">in</governor>
+            <dependent idx="24">Hungary</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">added</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">added</governor>
+            <dependent idx="2">Grosz</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="4">seen</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Hungarians</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="4">seen</governor>
+            <dependent idx="7">Hungarians</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="10">discredited</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="4">seen</governor>
+            <dependent idx="11">hardliner</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">was</governor>
+            <dependent idx="14">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="16">was</governor>
+            <dependent idx="15">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">added</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">need</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">was</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">propagate</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">need</governor>
+            <dependent idx="20">propagate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">ideas</governor>
+            <dependent idx="21">Communist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">propagate</governor>
+            <dependent idx="22">ideas</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">propagate</governor>
+            <dependent idx="24">Hungary</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">added</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">added</governor>
+            <dependent idx="2">Grosz</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="2">Grosz</governor>
+            <dependent idx="4">seen</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">Hungarians</governor>
+            <dependent idx="6">many</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="4">seen</governor>
+            <dependent idx="7">Hungarians</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">hardliner</governor>
+            <dependent idx="10">discredited</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="4">seen</governor>
+            <dependent idx="11">hardliner</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">was</governor>
+            <dependent idx="14">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="16">was</governor>
+            <dependent idx="15">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">added</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">need</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">was</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">propagate</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">need</governor>
+            <dependent idx="20">propagate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">ideas</governor>
+            <dependent idx="21">Communist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">propagate</governor>
+            <dependent idx="22">ideas</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">propagate</governor>
+            <dependent idx="24">Hungary</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

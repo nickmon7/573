@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>her</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>only</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>hope</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>having</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>boys</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>returned</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>if</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>her</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="14">
+            <word>husband</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>had</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>difficulty</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>looking</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="19">
+            <word>after</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>them</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD said) (SBAR (S (NP (NP (PRP$ her) (JJ only) (NN hope)) (PP (IN of) (S (VP (VBG having) (S (NP (DT the) (NNS boys)) (VP (VBN returned))))))) (VP (VBD was) (SBAR (IN if) (S (NP (PRP$ her) (NN husband)) (VP (VBD had) (NP (NP (NN difficulty)) (PP (IN in) (S (VP (VBG looking) (PP (IN after) (NP (PRP them)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">hope</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hope</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">was</governor>
+            <dependent idx="5">hope</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">hope</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="6">of</governor>
+            <dependent idx="7">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">boys</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">returned</governor>
+            <dependent idx="9">boys</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">having</governor>
+            <dependent idx="10">returned</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">had</governor>
+            <dependent idx="12">if</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">husband</governor>
+            <dependent idx="13">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">had</governor>
+            <dependent idx="14">husband</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">was</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">had</governor>
+            <dependent idx="16">difficulty</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">difficulty</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="17">in</governor>
+            <dependent idx="18">looking</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">looking</governor>
+            <dependent idx="19">after</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">after</governor>
+            <dependent idx="20">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">hope</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hope</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">was</governor>
+            <dependent idx="5">hope</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="5">hope</governor>
+            <dependent idx="7">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">boys</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">returned</governor>
+            <dependent idx="9">boys</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">having</governor>
+            <dependent idx="10">returned</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">had</governor>
+            <dependent idx="12">if</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">husband</governor>
+            <dependent idx="13">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">had</governor>
+            <dependent idx="14">husband</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">was</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">had</governor>
+            <dependent idx="16">difficulty</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="16">difficulty</governor>
+            <dependent idx="18">looking</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="18">looking</governor>
+            <dependent idx="20">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">hope</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hope</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">was</governor>
+            <dependent idx="5">hope</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="5">hope</governor>
+            <dependent idx="7">having</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">boys</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">returned</governor>
+            <dependent idx="9">boys</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">having</governor>
+            <dependent idx="10">returned</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">had</governor>
+            <dependent idx="12">if</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">husband</governor>
+            <dependent idx="13">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">had</governor>
+            <dependent idx="14">husband</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">was</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">had</governor>
+            <dependent idx="16">difficulty</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="16">difficulty</governor>
+            <dependent idx="18">looking</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="18">looking</governor>
+            <dependent idx="20">them</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

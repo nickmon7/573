@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Given</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>impenetrable</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>darkness</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>surrounding</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>opinion</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>polls</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>who</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="11">
+            <word>better</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>rouse</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>rabble</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>than</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>host</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>Blind</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>Date</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>?</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (PP (VBN Given) (NP (NP (DT the) (JJ impenetrable) (NNS darkness)) (VP (VBG surrounding) (NP (DT the) (NN opinion) (NNS polls))) (, ,) (SBAR (WHNP (WP who)) (S (ADVP (RB better)) (VP (TO to) (VP (VB rouse) (NP (DT the) (NN rabble)) (PP (IN than) (NP (NP (DT the) (NN host)) (PP (IN of) (NP (NNP Blind) (NNP Date))))))))))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">darkness</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="3">impenetrable</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Given</governor>
+            <dependent idx="4">darkness</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="5">surrounding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">polls</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">polls</governor>
+            <dependent idx="7">opinion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">surrounding</governor>
+            <dependent idx="8">polls</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="10">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rouse</governor>
+            <dependent idx="11">better</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rouse</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="13">rouse</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">rabble</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="15">rabble</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">rouse</governor>
+            <dependent idx="16">than</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">host</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">than</governor>
+            <dependent idx="18">host</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">host</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Date</governor>
+            <dependent idx="20">Blind</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="21">Date</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">darkness</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="3">impenetrable</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Given</governor>
+            <dependent idx="4">darkness</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="5">surrounding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">polls</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">polls</governor>
+            <dependent idx="7">opinion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">surrounding</governor>
+            <dependent idx="8">polls</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="10">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rouse</governor>
+            <dependent idx="11">better</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rouse</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="13">rouse</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">rabble</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="15">rabble</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">host</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="13">rouse</governor>
+            <dependent idx="18">host</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Date</governor>
+            <dependent idx="20">Blind</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">host</governor>
+            <dependent idx="21">Date</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">darkness</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="3">impenetrable</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Given</governor>
+            <dependent idx="4">darkness</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="5">surrounding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">polls</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">polls</governor>
+            <dependent idx="7">opinion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">surrounding</governor>
+            <dependent idx="8">polls</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="10">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rouse</governor>
+            <dependent idx="11">better</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rouse</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">darkness</governor>
+            <dependent idx="13">rouse</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">rabble</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">rouse</governor>
+            <dependent idx="15">rabble</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">host</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="13">rouse</governor>
+            <dependent idx="18">host</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Date</governor>
+            <dependent idx="20">Blind</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">host</governor>
+            <dependent idx="21">Date</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

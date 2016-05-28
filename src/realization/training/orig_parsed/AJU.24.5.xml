@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>An</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>injunction</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>later</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>issued</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>stopping</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>her</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>taking</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>children</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>out</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>state</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT An) (NN injunction)) (VP (VBD was) (ADVP (RB later)) (VP (VBN issued) (S (VP (VBG stopping) (S (NP (PRP her)) (VP (VBG taking) (NP (DT the) (NNS children)) (PRT (RP out)) (PP (IN of) (NP (DT the) (NN state))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">issued</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">injunction</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="2">injunction</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">issued</governor>
+            <dependent idx="4">later</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">issued</governor>
+            <dependent idx="6">stopping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">taking</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">stopping</governor>
+            <dependent idx="8">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">children</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">taking</governor>
+            <dependent idx="10">children</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">taking</governor>
+            <dependent idx="11">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">taking</governor>
+            <dependent idx="12">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">state</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">of</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">issued</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">injunction</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="2">injunction</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">issued</governor>
+            <dependent idx="4">later</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">issued</governor>
+            <dependent idx="6">stopping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">taking</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">stopping</governor>
+            <dependent idx="8">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">children</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">taking</governor>
+            <dependent idx="10">children</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">state</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_out_of">
+            <governor idx="8">taking</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">issued</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">injunction</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="2">injunction</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">issued</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">issued</governor>
+            <dependent idx="4">later</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">issued</governor>
+            <dependent idx="6">stopping</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">taking</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">stopping</governor>
+            <dependent idx="8">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">children</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">taking</governor>
+            <dependent idx="10">children</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">state</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_out_of">
+            <governor idx="8">taking</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

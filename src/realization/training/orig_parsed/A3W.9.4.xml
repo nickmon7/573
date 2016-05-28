@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Over</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>three-month</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>period</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>opera</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>attracted</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>1</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>per</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>cent</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>population</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>but</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>ballet</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>contemporary</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>dance</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>fewer</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="20">
+            <word>than</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>1</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>per</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>cent</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Over) (NP (DT a) (JJ three-month) (NN period))) (, ,) (NP (NN opera)) (VP (VBD attracted) (NP (NP (NP (CD 1)) (PP (IN per) (NP (NP (NN cent)) (PP (IN of) (NP (DT the) (NN population)))))) (CC but) (NP (NP (ADJP (JJ ballet) (CC and) (JJ contemporary)) (NN dance)) (NP (NP (QP (XS (JJR fewer) (IN than)) (CD 1))) (PP (IN per) (NP (NN cent))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">attracted</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">attracted</governor>
+            <dependent idx="1">Over</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">period</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">period</governor>
+            <dependent idx="3">three-month</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Over</governor>
+            <dependent idx="4">period</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="6">opera</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="8">1</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">1</governor>
+            <dependent idx="9">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">per</governor>
+            <dependent idx="10">cent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">cent</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">population</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="13">population</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">1</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">dance</governor>
+            <dependent idx="15">ballet</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">ballet</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">ballet</governor>
+            <dependent idx="17">contemporary</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">1</governor>
+            <dependent idx="18">dance</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="20">than</governor>
+            <dependent idx="19">fewer</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="21">1</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">dance</governor>
+            <dependent idx="21">1</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">1</governor>
+            <dependent idx="22">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">per</governor>
+            <dependent idx="23">cent</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">attracted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">period</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">period</governor>
+            <dependent idx="3">three-month</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="7">attracted</governor>
+            <dependent idx="4">period</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="6">opera</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="8">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="8">1</governor>
+            <dependent idx="10">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">population</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">cent</governor>
+            <dependent idx="13">population</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">dance</governor>
+            <dependent idx="15">ballet</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">ballet</governor>
+            <dependent idx="17">contemporary</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="8">1</governor>
+            <dependent idx="18">dance</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="20">than</governor>
+            <dependent idx="19">fewer</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="21">1</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">dance</governor>
+            <dependent idx="21">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="21">1</governor>
+            <dependent idx="23">cent</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">attracted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">period</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">period</governor>
+            <dependent idx="3">three-month</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="7">attracted</governor>
+            <dependent idx="4">period</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="6">opera</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="8">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="8">1</governor>
+            <dependent idx="10">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">population</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">cent</governor>
+            <dependent idx="13">population</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">dance</governor>
+            <dependent idx="15">ballet</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">ballet</governor>
+            <dependent idx="17">contemporary</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">dance</governor>
+            <dependent idx="17">contemporary</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">attracted</governor>
+            <dependent idx="18">dance</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="8">1</governor>
+            <dependent idx="18">dance</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="20">than</governor>
+            <dependent idx="19">fewer</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="21">1</governor>
+            <dependent idx="20">than</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">dance</governor>
+            <dependent idx="21">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="21">1</governor>
+            <dependent idx="23">cent</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

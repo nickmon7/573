@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Anything</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>you</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>teach</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>us</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>will</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="6">
+            <word>be</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>logistics</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="9">
+            <word>''</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Anything)) (NP (PRP you)) (VP (VBP teach) (SBAR (S (NP (PRP us)) (VP (MD will) (VP (VB be) (NP (NNS logistics))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">teach</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">teach</governor>
+            <dependent idx="1">Anything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">teach</governor>
+            <dependent idx="2">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">logistics</governor>
+            <dependent idx="4">us</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">logistics</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">logistics</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">teach</governor>
+            <dependent idx="7">logistics</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">teach</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">teach</governor>
+            <dependent idx="1">Anything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">teach</governor>
+            <dependent idx="2">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">logistics</governor>
+            <dependent idx="4">us</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">logistics</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">logistics</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">teach</governor>
+            <dependent idx="7">logistics</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">teach</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">teach</governor>
+            <dependent idx="1">Anything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">teach</governor>
+            <dependent idx="2">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">logistics</governor>
+            <dependent idx="4">us</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">logistics</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">logistics</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">teach</governor>
+            <dependent idx="7">logistics</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>After</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>two</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="3">
+            <word>years</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>Transport</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Command</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>he</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="9">
+            <word>did</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>stint</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>as</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>deputy</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>director</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>equipment</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN After) (NP (NP (CD two) (NNS years)) (PP (IN in) (NP (NNP Transport) (NNP Command))))) (, ,) (NP (PRP he)) (VP (VBD did) (NP (DT a) (NN stint)) (PP (IN as) (NP (NP (JJ deputy) (NN director)) (PP (IN of) (NP (NN equipment)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">did</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">did</governor>
+            <dependent idx="1">After</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">years</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">After</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">years</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Command</governor>
+            <dependent idx="5">Transport</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="6">Command</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">did</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stint</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">did</governor>
+            <dependent idx="11">stint</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">did</governor>
+            <dependent idx="12">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">director</governor>
+            <dependent idx="13">deputy</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">as</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">director</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">of</governor>
+            <dependent idx="16">equipment</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">did</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">years</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="9">did</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Command</governor>
+            <dependent idx="5">Transport</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">years</governor>
+            <dependent idx="6">Command</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">did</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stint</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">did</governor>
+            <dependent idx="11">stint</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">director</governor>
+            <dependent idx="13">deputy</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="9">did</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">director</governor>
+            <dependent idx="16">equipment</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">did</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">years</governor>
+            <dependent idx="2">two</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="9">did</governor>
+            <dependent idx="3">years</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Command</governor>
+            <dependent idx="5">Transport</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">years</governor>
+            <dependent idx="6">Command</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">did</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stint</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">did</governor>
+            <dependent idx="11">stint</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">director</governor>
+            <dependent idx="13">deputy</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="9">did</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">director</governor>
+            <dependent idx="16">equipment</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

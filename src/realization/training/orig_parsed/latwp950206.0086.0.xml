@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>LOS</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>ANGELES</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>-</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="4">
+            <word>Doug</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>McClure</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>affable</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>good-looking</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>sidekick</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>Trampas</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>who</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="14">
+            <word>imprinted</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>himself</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>nation</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>'s</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="20">
+            <word>memory</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>riding</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>Western</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>television</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>range</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="26">
+            <word>with</word>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="27">
+            <word>``</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="28">
+            <word>The</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="29">
+            <word>Virginian</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="30">
+            <word>''</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="31">
+            <word>for</word>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="32">
+            <word>eight</word>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="33">
+            <word>years</word>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="34">
+            <word>,</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="35">
+            <word>is</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="36">
+            <word>dead</word>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="37">
+            <word>at</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>208</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="38">
+            <word>the</word>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="39">
+            <word>age</word>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="40">
+            <word>of</word>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="41">
+            <word>59</word>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="42">
+            <word>.</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>224</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP LOS) (NNP ANGELES)) (: -) (NP (NP (NNP Doug) (NNP McClure)) (, ,) (NP (DT the) (ADJP (JJ affable) (, ,) (JJ good-looking)) (NN sidekick) (NNS Trampas)) (SBAR (WHNP (WP who)) (S (VP (VBN imprinted) (NP (PRP himself)) (PP (IN in) (NP (NP (DT the) (NN nation) (POS 's)) (NN memory) (S (VP (VBG riding) (NP (DT the) (JJ Western) (NN television) (NN range)) (PP (IN with) (NP (`` ``) (NP (DT The) (NNP Virginian)) ('' '') (PP (IN for) (NP (CD eight) (NNS years))))))))))))) (, ,)) (VP (VBZ is) (ADJP (JJ dead) (PP (IN at) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (CD 59))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="36">dead</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">dead</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">McClure</governor>
+            <dependent idx="4">Doug</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">McClure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">good-looking</governor>
+            <dependent idx="8">affable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="10">good-looking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="11">sidekick</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">McClure</governor>
+            <dependent idx="12">Trampas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">McClure</governor>
+            <dependent idx="14">imprinted</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="15">himself</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">nation</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">memory</governor>
+            <dependent idx="18">nation</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="18">nation</governor>
+            <dependent idx="19">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="20">memory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">memory</governor>
+            <dependent idx="21">riding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">range</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">range</governor>
+            <dependent idx="23">Western</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">range</governor>
+            <dependent idx="24">television</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">riding</governor>
+            <dependent idx="25">range</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">riding</governor>
+            <dependent idx="26">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="28">The</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="26">with</governor>
+            <dependent idx="29">Virginian</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="31">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">years</governor>
+            <dependent idx="32">eight</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">for</governor>
+            <dependent idx="33">years</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="36">dead</governor>
+            <dependent idx="35">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="36">dead</governor>
+            <dependent idx="37">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="39">age</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="37">at</governor>
+            <dependent idx="39">age</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="39">age</governor>
+            <dependent idx="40">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="40">of</governor>
+            <dependent idx="41">59</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="36">dead</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">dead</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">McClure</governor>
+            <dependent idx="4">Doug</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">McClure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">good-looking</governor>
+            <dependent idx="8">affable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="10">good-looking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="11">sidekick</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">McClure</governor>
+            <dependent idx="12">Trampas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">McClure</governor>
+            <dependent idx="14">imprinted</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="15">himself</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">nation</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">memory</governor>
+            <dependent idx="18">nation</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="20">memory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">memory</governor>
+            <dependent idx="21">riding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">range</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">range</governor>
+            <dependent idx="23">Western</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">range</governor>
+            <dependent idx="24">television</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">riding</governor>
+            <dependent idx="25">range</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="28">The</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">riding</governor>
+            <dependent idx="29">Virginian</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">years</governor>
+            <dependent idx="32">eight</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="33">years</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="36">dead</governor>
+            <dependent idx="35">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="39">age</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="36">dead</governor>
+            <dependent idx="39">age</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="39">age</governor>
+            <dependent idx="41">59</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="36">dead</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">dead</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">McClure</governor>
+            <dependent idx="4">Doug</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">McClure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">good-looking</governor>
+            <dependent idx="8">affable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="10">good-looking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Trampas</governor>
+            <dependent idx="11">sidekick</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">McClure</governor>
+            <dependent idx="12">Trampas</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">McClure</governor>
+            <dependent idx="14">imprinted</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="15">himself</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">nation</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">memory</governor>
+            <dependent idx="18">nation</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">imprinted</governor>
+            <dependent idx="20">memory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">memory</governor>
+            <dependent idx="21">riding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">range</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">range</governor>
+            <dependent idx="23">Western</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">range</governor>
+            <dependent idx="24">television</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">riding</governor>
+            <dependent idx="25">range</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="28">The</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">riding</governor>
+            <dependent idx="29">Virginian</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="33">years</governor>
+            <dependent idx="32">eight</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="29">Virginian</governor>
+            <dependent idx="33">years</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="36">dead</governor>
+            <dependent idx="35">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="39">age</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="36">dead</governor>
+            <dependent idx="39">age</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="39">age</governor>
+            <dependent idx="41">59</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

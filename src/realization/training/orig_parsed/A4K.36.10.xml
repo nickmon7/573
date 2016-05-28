@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>However</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>nuns</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>said</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>ministry</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>changed</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>its</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>account</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>after</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>initially</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>telling</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>them</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>that</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>Salmonella</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>enteriditis</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>was</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>responsible</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB However)) (, ,) (NP (DT the) (NNS nuns)) (VP (VBD said) (SBAR (S (NP (DT the) (NN ministry)) (VP (VBD changed) (NP (PRP$ its) (NN account)) (PP (IN after) (S (ADVP (RB initially)) (VP (VBG telling) (NP (PRP them)) (SBAR (IN that) (S (NP (NNP Salmonella) (NNS enteriditis)) (VP (VBD was) (ADJP (JJ responsible)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">said</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">said</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">nuns</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">said</governor>
+            <dependent idx="4">nuns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ministry</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">changed</governor>
+            <dependent idx="7">ministry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">said</governor>
+            <dependent idx="8">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">account</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">changed</governor>
+            <dependent idx="10">account</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">changed</governor>
+            <dependent idx="11">after</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">telling</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">after</governor>
+            <dependent idx="13">telling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">telling</governor>
+            <dependent idx="14">them</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">responsible</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">enteriditis</governor>
+            <dependent idx="16">Salmonella</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">responsible</governor>
+            <dependent idx="17">enteriditis</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="19">responsible</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">telling</governor>
+            <dependent idx="19">responsible</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">said</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">said</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">nuns</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">said</governor>
+            <dependent idx="4">nuns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ministry</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">changed</governor>
+            <dependent idx="7">ministry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">said</governor>
+            <dependent idx="8">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">account</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">changed</governor>
+            <dependent idx="10">account</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">telling</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="8">changed</governor>
+            <dependent idx="13">telling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">telling</governor>
+            <dependent idx="14">them</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">responsible</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">enteriditis</governor>
+            <dependent idx="16">Salmonella</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">responsible</governor>
+            <dependent idx="17">enteriditis</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="19">responsible</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">telling</governor>
+            <dependent idx="19">responsible</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">said</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">said</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">nuns</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">said</governor>
+            <dependent idx="4">nuns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ministry</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">changed</governor>
+            <dependent idx="7">ministry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">said</governor>
+            <dependent idx="8">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">account</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">changed</governor>
+            <dependent idx="10">account</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">telling</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="8">changed</governor>
+            <dependent idx="13">telling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">telling</governor>
+            <dependent idx="14">them</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">responsible</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">enteriditis</governor>
+            <dependent idx="16">Salmonella</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">responsible</governor>
+            <dependent idx="17">enteriditis</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="19">responsible</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">telling</governor>
+            <dependent idx="19">responsible</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

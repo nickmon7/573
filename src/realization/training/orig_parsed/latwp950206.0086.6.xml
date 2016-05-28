@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>on</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>Jan.</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>8</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>he</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>collapsed</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>set</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>flown</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="14">
+            <word>Los</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>hospitalization</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (PP (IN on) (NP (NNP Jan.) (CD 8))) (NP (PRP he)) (VP (VP (VBD collapsed) (PP (IN on) (NP (DT the) (NN set)))) (CC and) (VP (VBD was) (VP (VBN flown) (PP (TO to) (NP (NP (NNP Los) (NNP Angeles)) (PP (IN for) (NP (NN hospitalization)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="2">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">on</governor>
+            <dependent idx="3">Jan.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">Jan.</governor>
+            <dependent idx="4">8</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">set</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">flown</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="12">flown</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">flown</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="14">Los</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">to</governor>
+            <dependent idx="15">Angeles</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="17">hospitalization</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="3">Jan.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">Jan.</governor>
+            <dependent idx="4">8</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">set</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">flown</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="12">flown</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="14">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="12">flown</governor>
+            <dependent idx="15">Angeles</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="17">hospitalization</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="3">Jan.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">Jan.</governor>
+            <dependent idx="4">8</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">flown</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">set</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">flown</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="12">flown</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="14">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="12">flown</governor>
+            <dependent idx="15">Angeles</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">Angeles</governor>
+            <dependent idx="17">hospitalization</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

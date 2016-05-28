@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Un</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Mission</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>not</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>yet</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>found</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>any</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>detainees</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Swapo</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>refugee</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>camps</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>prison</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>camps</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>bases</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>and</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>other</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>facilities</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>Angola</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>and</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="25">
+            <word>Zambia</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="26">
+            <word>,</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="27">
+            <word>the</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="28">
+            <word>Un</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="29">
+            <word>Special</word>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="30">
+            <word>Representative</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="31">
+            <word>for</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="32">
+            <word>Namibia</word>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="33">
+            <word>,</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="34">
+            <word>Martti</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="35">
+            <word>Ahtisaari</word>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="36">
+            <word>,</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="37">
+            <word>said</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="38">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="39">
+            <word>.</word>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT A) (NNP Un) (NNP Mission)) (VP (VBZ has) (RB not) (ADVP (RB yet)) (VP (VBN found) (NP (NP (DT any) (NNS detainees)) (PP (IN in) (NP (NP (NNP Swapo) (NN refugee) (NNS camps)) (, ,) (NP (NN prison) (NNS camps)) (, ,) (NP (NNS bases)) (CC and) (NP (JJ other) (NNS facilities))))) (PP (IN in) (NP (NNP Angola) (CC and) (NNP Zambia)))))) (, ,) (NP (NP (DT the) (NNP Un) (NNP Special) (NNP Representative)) (PP (IN for) (NP (NP (NNP Namibia)) (, ,) (NP (NNP Martti) (NNP Ahtisaari)) (, ,)))) (VP (VBD said) (NP-TMP (NN yesterday))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="37">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Mission</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Mission</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="3">Mission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">found</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">found</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">found</governor>
+            <dependent idx="6">yet</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="37">said</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">detainees</governor>
+            <dependent idx="8">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">detainees</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">detainees</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="12">refugee</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="13">camps</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">camps</governor>
+            <dependent idx="15">prison</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">camps</governor>
+            <dependent idx="16">camps</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">camps</governor>
+            <dependent idx="18">bases</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">camps</governor>
+            <dependent idx="19">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">facilities</governor>
+            <dependent idx="20">other</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">camps</governor>
+            <dependent idx="21">facilities</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">found</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">in</governor>
+            <dependent idx="23">Angola</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="23">Angola</governor>
+            <dependent idx="24">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="23">Angola</governor>
+            <dependent idx="25">Zambia</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">Representative</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="28">Un</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="29">Special</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">said</governor>
+            <dependent idx="30">Representative</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="30">Representative</governor>
+            <dependent idx="31">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">for</governor>
+            <dependent idx="32">Namibia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="35">Ahtisaari</governor>
+            <dependent idx="34">Martti</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="32">Namibia</governor>
+            <dependent idx="35">Ahtisaari</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="37">said</governor>
+            <dependent idx="38">yesterday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="37">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Mission</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Mission</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="3">Mission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">found</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">found</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">found</governor>
+            <dependent idx="6">yet</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="37">said</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">detainees</governor>
+            <dependent idx="8">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">detainees</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="12">refugee</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">detainees</governor>
+            <dependent idx="13">camps</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">camps</governor>
+            <dependent idx="15">prison</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="16">camps</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="18">bases</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">facilities</governor>
+            <dependent idx="20">other</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="21">facilities</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">found</governor>
+            <dependent idx="23">Angola</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="23">Angola</governor>
+            <dependent idx="25">Zambia</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">Representative</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="28">Un</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="29">Special</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">said</governor>
+            <dependent idx="30">Representative</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="30">Representative</governor>
+            <dependent idx="32">Namibia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="35">Ahtisaari</governor>
+            <dependent idx="34">Martti</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="32">Namibia</governor>
+            <dependent idx="35">Ahtisaari</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="37">said</governor>
+            <dependent idx="38">yesterday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="37">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Mission</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Mission</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">found</governor>
+            <dependent idx="3">Mission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">found</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="7">found</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">found</governor>
+            <dependent idx="6">yet</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="37">said</governor>
+            <dependent idx="7">found</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">detainees</governor>
+            <dependent idx="8">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">found</governor>
+            <dependent idx="9">detainees</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">camps</governor>
+            <dependent idx="12">refugee</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">detainees</governor>
+            <dependent idx="13">camps</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">camps</governor>
+            <dependent idx="15">prison</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">detainees</governor>
+            <dependent idx="16">camps</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="16">camps</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">detainees</governor>
+            <dependent idx="18">bases</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="18">bases</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">facilities</governor>
+            <dependent idx="20">other</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">detainees</governor>
+            <dependent idx="21">facilities</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">camps</governor>
+            <dependent idx="21">facilities</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">found</governor>
+            <dependent idx="23">Angola</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">found</governor>
+            <dependent idx="25">Zambia</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="23">Angola</governor>
+            <dependent idx="25">Zambia</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">Representative</governor>
+            <dependent idx="27">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="28">Un</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">Representative</governor>
+            <dependent idx="29">Special</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="37">said</governor>
+            <dependent idx="30">Representative</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="30">Representative</governor>
+            <dependent idx="32">Namibia</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="35">Ahtisaari</governor>
+            <dependent idx="34">Martti</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="32">Namibia</governor>
+            <dependent idx="35">Ahtisaari</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="37">said</governor>
+            <dependent idx="38">yesterday</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

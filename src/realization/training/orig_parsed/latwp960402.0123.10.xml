@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Burns</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>headed</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>defense</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>teams</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>black</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>communist</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>activist</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>Angela</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>Davis</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>Attica</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Brothers</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="16">
+            <word>after</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>1971</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="19">
+            <word>prison</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>rebellion</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Burns)) (VP (VBD headed) (NP (NP (DT the) (NN defense) (NNS teams)) (PP (IN of) (NP (NP (JJ black) (JJ communist) (NN activist) (NNP Angela) (NNP Davis)) (CC and) (NP (DT the) (NNP Attica) (NNPS Brothers))))) (PP (IN after) (NP (DT the) (CD 1971) (NN prison) (NN rebellion)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">headed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">headed</governor>
+            <dependent idx="1">Burns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">teams</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">teams</governor>
+            <dependent idx="4">defense</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">headed</governor>
+            <dependent idx="5">teams</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">teams</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="7">black</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="8">communist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="9">activist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="10">Angela</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="11">Davis</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">Davis</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="14">Attica</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">Davis</governor>
+            <dependent idx="15">Brothers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">headed</governor>
+            <dependent idx="16">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="18">1971</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="19">prison</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">after</governor>
+            <dependent idx="20">rebellion</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">headed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">headed</governor>
+            <dependent idx="1">Burns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">teams</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">teams</governor>
+            <dependent idx="4">defense</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">headed</governor>
+            <dependent idx="5">teams</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="7">black</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="8">communist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="9">activist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="10">Angela</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">teams</governor>
+            <dependent idx="11">Davis</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="14">Attica</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">Davis</governor>
+            <dependent idx="15">Brothers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="18">1971</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="19">prison</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="2">headed</governor>
+            <dependent idx="20">rebellion</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">headed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">headed</governor>
+            <dependent idx="1">Burns</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">teams</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">teams</governor>
+            <dependent idx="4">defense</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">headed</governor>
+            <dependent idx="5">teams</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="7">black</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">Davis</governor>
+            <dependent idx="8">communist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="9">activist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Davis</governor>
+            <dependent idx="10">Angela</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">teams</governor>
+            <dependent idx="11">Davis</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Brothers</governor>
+            <dependent idx="14">Attica</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">teams</governor>
+            <dependent idx="15">Brothers</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">Davis</governor>
+            <dependent idx="15">Brothers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="18">1971</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">rebellion</governor>
+            <dependent idx="19">prison</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="2">headed</governor>
+            <dependent idx="20">rebellion</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

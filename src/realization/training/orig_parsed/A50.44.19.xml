@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Bill</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>will</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>also</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>place</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>duty</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>on</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>councils</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>include</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>re-cycling</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>their</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="15">
+            <word>waste</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>disposal</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>plans</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Bill)) (VP (MD will) (ADVP (RB also)) (VP (VB place) (NP (NP (DT a) (NN duty)) (PP (IN on) (NP (NNS councils)))) (S (VP (TO to) (VP (VB include) (NP (NN re-cycling)) (PP (IN in) (NP (PRP$ their) (NN waste) (NN disposal) (NNS plans)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">place</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bill</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">place</governor>
+            <dependent idx="2">Bill</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">place</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">place</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">duty</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">place</governor>
+            <dependent idx="7">duty</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">duty</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">on</governor>
+            <dependent idx="9">councils</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">include</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">place</governor>
+            <dependent idx="11">include</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">include</governor>
+            <dependent idx="12">re-cycling</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">include</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">plans</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="15">waste</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="16">disposal</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="17">plans</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">place</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bill</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">place</governor>
+            <dependent idx="2">Bill</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">place</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">place</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">duty</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">place</governor>
+            <dependent idx="7">duty</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="7">duty</governor>
+            <dependent idx="9">councils</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">include</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">place</governor>
+            <dependent idx="11">include</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">include</governor>
+            <dependent idx="12">re-cycling</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">plans</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="15">waste</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="16">disposal</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">include</governor>
+            <dependent idx="17">plans</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">place</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bill</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">place</governor>
+            <dependent idx="2">Bill</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">place</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">place</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">duty</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">place</governor>
+            <dependent idx="7">duty</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="7">duty</governor>
+            <dependent idx="9">councils</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">include</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">place</governor>
+            <dependent idx="11">include</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">include</governor>
+            <dependent idx="12">re-cycling</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">plans</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="15">waste</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">plans</governor>
+            <dependent idx="16">disposal</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">include</governor>
+            <dependent idx="17">plans</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

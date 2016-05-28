@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>foreign</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>mediators</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>had</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>asked</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>him</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>not</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="10">
+            <word>use</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="11">
+            <word>force</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>break</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>Gen</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Aoun</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>'s</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="17">
+            <word>control</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>enclave</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (JJ foreign) (NNS mediators)) (VP (VBD had) (VP (VBN asked) (NP (PRP him)) (S (RB not) (VP (TO to) (VP (VB use) (NP (NN force)) (S (VP (TO to) (VP (VB break) (NP (NP (NP (NNP Gen) (NNP Aoun) (POS 's)) (NN control)) (PP (IN of) (NP (DT the) (NN enclave))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">mediators</governor>
+            <dependent idx="3">foreign</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">asked</governor>
+            <dependent idx="4">mediators</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">asked</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">asked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">asked</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">use</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">use</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">asked</governor>
+            <dependent idx="10">use</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">use</governor>
+            <dependent idx="11">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">break</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">use</governor>
+            <dependent idx="13">break</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aoun</governor>
+            <dependent idx="14">Gen</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">control</governor>
+            <dependent idx="15">Aoun</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="15">Aoun</governor>
+            <dependent idx="16">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">break</governor>
+            <dependent idx="17">control</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">control</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">enclave</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="20">enclave</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">mediators</governor>
+            <dependent idx="3">foreign</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">asked</governor>
+            <dependent idx="4">mediators</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">asked</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">asked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">asked</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">use</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">use</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">asked</governor>
+            <dependent idx="10">use</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">use</governor>
+            <dependent idx="11">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">break</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">use</governor>
+            <dependent idx="13">break</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aoun</governor>
+            <dependent idx="14">Gen</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">control</governor>
+            <dependent idx="15">Aoun</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">break</governor>
+            <dependent idx="17">control</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">enclave</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">control</governor>
+            <dependent idx="20">enclave</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">mediators</governor>
+            <dependent idx="3">foreign</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">asked</governor>
+            <dependent idx="4">mediators</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">asked</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">asked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">asked</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">use</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">use</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">asked</governor>
+            <dependent idx="10">use</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">use</governor>
+            <dependent idx="11">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">break</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">use</governor>
+            <dependent idx="13">break</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Aoun</governor>
+            <dependent idx="14">Gen</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">control</governor>
+            <dependent idx="15">Aoun</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">break</governor>
+            <dependent idx="17">control</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">enclave</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">control</governor>
+            <dependent idx="20">enclave</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

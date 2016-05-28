@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>Susan</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Fey</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>Ctc</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Trust</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>said</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>``</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="15">
+            <word>We</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="16">
+            <word>were</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>only</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>ever</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="19">
+            <word>given</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>a</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>target</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>of</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>20</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP-TMP (NN yesterday)) (, ,) (NP (NP (NNP Susan) (NNP Fey)) (, ,) (PP (IN of) (NP (DT the) (NNP Ctc) (NNP Trust))) (, ,)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP We)) (VP (VBD were) (ADVP (RB only)) (VP (ADVP (RB ever)) (VBN given) (NP (NP (DT a) (NN target)) (PP (IN of) (NP (CD 20)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">said</governor>
+            <dependent idx="2">yesterday</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Fey</governor>
+            <dependent idx="4">Susan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="5">Fey</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">Fey</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Trust</governor>
+            <dependent idx="9">Ctc</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="10">Trust</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">given</governor>
+            <dependent idx="15">We</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">given</governor>
+            <dependent idx="16">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="17">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="18">ever</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="19">given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">target</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">given</governor>
+            <dependent idx="21">target</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">target</governor>
+            <dependent idx="22">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">of</governor>
+            <dependent idx="23">20</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">said</governor>
+            <dependent idx="2">yesterday</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Fey</governor>
+            <dependent idx="4">Susan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="5">Fey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Trust</governor>
+            <dependent idx="9">Ctc</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">Fey</governor>
+            <dependent idx="10">Trust</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">given</governor>
+            <dependent idx="15">We</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">given</governor>
+            <dependent idx="16">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="17">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="18">ever</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="19">given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">target</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">given</governor>
+            <dependent idx="21">target</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">target</governor>
+            <dependent idx="23">20</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">said</governor>
+            <dependent idx="2">yesterday</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Fey</governor>
+            <dependent idx="4">Susan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">said</governor>
+            <dependent idx="5">Fey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Trust</governor>
+            <dependent idx="9">Ctc</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">Fey</governor>
+            <dependent idx="10">Trust</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">given</governor>
+            <dependent idx="15">We</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">given</governor>
+            <dependent idx="16">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="17">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">given</governor>
+            <dependent idx="18">ever</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">said</governor>
+            <dependent idx="19">given</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">target</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">given</governor>
+            <dependent idx="21">target</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">target</governor>
+            <dependent idx="23">20</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

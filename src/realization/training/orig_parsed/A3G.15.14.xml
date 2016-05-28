@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>But</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>so</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>rotten</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>has</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>policy</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>proved</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>that</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>not</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>even</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>``</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="14">
+            <word>taxpayer</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>bail-out</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>''</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="17">
+            <word>could</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="18">
+            <word>save</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>it</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (CC But) (NP (RB so) (JJ rotten)) (VP (VBZ has) (NP (NP (DT the) (NN policy)) (VP (VBN proved) (SBAR (IN that) (S (NP (NP (RB not) (RB even)) (NP (DT a) (`` ``) (NN taxpayer) (NN bail-out) ('' ''))) (VP (MD could) (VP (VB save) (NP (PRP it))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">has</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">rotten</governor>
+            <dependent idx="3">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">rotten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">policy</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="7">policy</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">policy</governor>
+            <dependent idx="8">proved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">save</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">even</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">save</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="14">taxpayer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">even</governor>
+            <dependent idx="15">bail-out</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">save</governor>
+            <dependent idx="17">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">proved</governor>
+            <dependent idx="18">save</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">save</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">has</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">rotten</governor>
+            <dependent idx="3">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">rotten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">policy</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="7">policy</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">policy</governor>
+            <dependent idx="8">proved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">save</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">even</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">save</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="14">taxpayer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">even</governor>
+            <dependent idx="15">bail-out</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">save</governor>
+            <dependent idx="17">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">proved</governor>
+            <dependent idx="18">save</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">save</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">has</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">has</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">rotten</governor>
+            <dependent idx="3">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">has</governor>
+            <dependent idx="4">rotten</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">policy</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">has</governor>
+            <dependent idx="7">policy</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">policy</governor>
+            <dependent idx="8">proved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">save</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">even</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">save</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">bail-out</governor>
+            <dependent idx="14">taxpayer</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">even</governor>
+            <dependent idx="15">bail-out</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">save</governor>
+            <dependent idx="17">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">proved</governor>
+            <dependent idx="18">save</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">save</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Indeed</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>even</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>Britain</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="5">
+            <word>blue</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>chip</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>businesses</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>boycotted</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>scheme</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>despite</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>being</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="13">
+            <word>put</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>under</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>intense</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>personal</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>199</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>political</word>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>213</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>pressure</word>
+            <CharacterOffsetBegin>214</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>224</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="21">
+            <word>''</word>
+            <CharacterOffsetBegin>225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="22">
+            <word>he</word>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="23">
+            <word>added</word>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Indeed)) (SBAR (RB even) (S (NP (NP (NNP Britain) (POS 's)) (JJ blue) (NN chip) (NNS businesses)) (VP (VBN boycotted) (NP (DT the) (NN scheme)) (PP (IN despite) (S (VP (VBG being) (VP (VBN put) (PP (IN under) (NP (JJ intense) (ADJP (JJ personal) (CC and) (JJ political)) (NN pressure)))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD added)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">added</governor>
+            <dependent idx="1">Indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">businesses</governor>
+            <dependent idx="3">Britain</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="3">Britain</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">businesses</governor>
+            <dependent idx="5">blue</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">businesses</governor>
+            <dependent idx="6">chip</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="7">businesses</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="23">added</governor>
+            <dependent idx="8">boycotted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">scheme</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="10">scheme</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="11">despite</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">put</governor>
+            <dependent idx="12">being</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">despite</governor>
+            <dependent idx="13">put</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">put</governor>
+            <dependent idx="14">under</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="15">intense</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="16">personal</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">personal</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">personal</governor>
+            <dependent idx="18">political</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">under</governor>
+            <dependent idx="19">pressure</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">added</governor>
+            <dependent idx="1">Indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">businesses</governor>
+            <dependent idx="3">Britain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">businesses</governor>
+            <dependent idx="5">blue</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">businesses</governor>
+            <dependent idx="6">chip</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="7">businesses</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="23">added</governor>
+            <dependent idx="8">boycotted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">scheme</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="10">scheme</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">put</governor>
+            <dependent idx="12">being</dependent>
+          </dep>
+          <dep type="prepc_despite">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="13">put</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="15">intense</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="16">personal</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">personal</governor>
+            <dependent idx="18">political</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="13">put</governor>
+            <dependent idx="19">pressure</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">added</governor>
+            <dependent idx="1">Indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">businesses</governor>
+            <dependent idx="3">Britain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">businesses</governor>
+            <dependent idx="5">blue</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">businesses</governor>
+            <dependent idx="6">chip</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="7">businesses</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="23">added</governor>
+            <dependent idx="8">boycotted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">scheme</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="10">scheme</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">put</governor>
+            <dependent idx="12">being</dependent>
+          </dep>
+          <dep type="prepc_despite">
+            <governor idx="8">boycotted</governor>
+            <dependent idx="13">put</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="15">intense</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="16">personal</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">personal</governor>
+            <dependent idx="18">political</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">pressure</governor>
+            <dependent idx="18">political</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="13">put</governor>
+            <dependent idx="19">pressure</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">he</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mastroianni</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>comic</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>but</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>also</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>suave</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>romantic</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>leading</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>man</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>some</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>120</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="15">
+            <word>motion</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>pictures</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>had</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>suffered</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>pancreatic</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>cancer</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Mastroianni)) (, ,) (NP (NP (DT a) (ADJP (ADJP (JJ comic)) (CC but) (ADJP (ADVP (RB also)) (JJ suave) (CC and) (JJ romantic))) (JJ leading) (NN man)) (PP (IN in) (NP (DT some) (CD 120) (NN motion) (NNS pictures)))) (, ,)) (VP (VBD had) (VP (VBN suffered) (PP (IN from) (NP (JJ pancreatic) (NN cancer))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">suffered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">suffered</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">man</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="4">comic</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">comic</governor>
+            <dependent idx="5">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">suave</governor>
+            <dependent idx="6">also</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">comic</governor>
+            <dependent idx="7">suave</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">suave</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">suave</governor>
+            <dependent idx="9">romantic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="10">leading</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mastroianni</governor>
+            <dependent idx="11">man</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">man</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pictures</governor>
+            <dependent idx="13">some</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">pictures</governor>
+            <dependent idx="14">120</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">pictures</governor>
+            <dependent idx="15">motion</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="16">pictures</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">suffered</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">suffered</governor>
+            <dependent idx="20">from</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">cancer</governor>
+            <dependent idx="21">pancreatic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">from</governor>
+            <dependent idx="22">cancer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">suffered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">suffered</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">man</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="4">comic</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">suave</governor>
+            <dependent idx="6">also</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="4">comic</governor>
+            <dependent idx="7">suave</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">suave</governor>
+            <dependent idx="9">romantic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="10">leading</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mastroianni</governor>
+            <dependent idx="11">man</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pictures</governor>
+            <dependent idx="13">some</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">pictures</governor>
+            <dependent idx="14">120</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">pictures</governor>
+            <dependent idx="15">motion</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">man</governor>
+            <dependent idx="16">pictures</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">suffered</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">cancer</governor>
+            <dependent idx="21">pancreatic</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">suffered</governor>
+            <dependent idx="22">cancer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">suffered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">suffered</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">man</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="4">comic</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">suave</governor>
+            <dependent idx="6">also</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="4">comic</governor>
+            <dependent idx="7">suave</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="7">suave</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="4">comic</governor>
+            <dependent idx="9">romantic</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">suave</governor>
+            <dependent idx="9">romantic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">man</governor>
+            <dependent idx="10">leading</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="1">Mastroianni</governor>
+            <dependent idx="11">man</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pictures</governor>
+            <dependent idx="13">some</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">pictures</governor>
+            <dependent idx="14">120</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">pictures</governor>
+            <dependent idx="15">motion</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">man</governor>
+            <dependent idx="16">pictures</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">suffered</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="22">cancer</governor>
+            <dependent idx="21">pancreatic</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">suffered</governor>
+            <dependent idx="22">cancer</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

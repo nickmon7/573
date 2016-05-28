@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Tens</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>thousands</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>traditional</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>mud-built</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>cob</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>buildings</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>are</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="10">
+            <word>still</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>use</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>throughout</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Devon</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>Cornwall</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Tens)) (PP (IN of) (NP (NP (NNS thousands)) (PP (IN of) (NP (JJ traditional) (JJ mud-built) (NN cob) (NNS buildings)))))) (VP (VBP are) (ADVP (RB still)) (PP (IN in) (NP (NN use))) (PP (IN throughout) (NP (NNP Devon) (CC and) (NNP Cornwall)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">are</governor>
+            <dependent idx="1">Tens</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Tens</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="3">thousands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">thousands</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="5">traditional</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="6">mud-built</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">buildings</governor>
+            <dependent idx="7">cob</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="8">buildings</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">are</governor>
+            <dependent idx="10">still</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">are</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="12">use</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">are</governor>
+            <dependent idx="13">throughout</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">throughout</governor>
+            <dependent idx="14">Devon</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">Devon</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">Devon</governor>
+            <dependent idx="16">Cornwall</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">are</governor>
+            <dependent idx="1">Tens</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Tens</governor>
+            <dependent idx="3">thousands</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="5">traditional</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="6">mud-built</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">buildings</governor>
+            <dependent idx="7">cob</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">thousands</governor>
+            <dependent idx="8">buildings</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">are</governor>
+            <dependent idx="10">still</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">are</governor>
+            <dependent idx="12">use</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="9">are</governor>
+            <dependent idx="14">Devon</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">Devon</governor>
+            <dependent idx="16">Cornwall</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">are</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">are</governor>
+            <dependent idx="1">Tens</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Tens</governor>
+            <dependent idx="3">thousands</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="5">traditional</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">buildings</governor>
+            <dependent idx="6">mud-built</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">buildings</governor>
+            <dependent idx="7">cob</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">thousands</governor>
+            <dependent idx="8">buildings</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">are</governor>
+            <dependent idx="10">still</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">are</governor>
+            <dependent idx="12">use</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="9">are</governor>
+            <dependent idx="14">Devon</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="9">are</governor>
+            <dependent idx="16">Cornwall</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">Devon</governor>
+            <dependent idx="16">Cornwall</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

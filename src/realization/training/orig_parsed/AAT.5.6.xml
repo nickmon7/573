@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>taken</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>1985</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>when</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>as</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Panama</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>honorary</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>consul</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Israel</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>he</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>accompanied</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>Gen</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>Noriega</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>on</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>an</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>official</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>visit</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBD was) (VP (VBN taken) (PP (IN in) (NP (CD 1985))) (SBAR (WHADVP (WRB when)) (S (, ,) (PP (IN as) (NP (NP (NP (NNP Panama) (POS 's)) (JJ honorary) (NN consul)) (PP (IN in) (NP (NNP Israel))))) (, ,) (NP (PRP he)) (VP (VBD accompanied) (NP (NP (NNP Gen) (NNP Noriega)) (PP (IN on) (NP (DT an) (JJ official) (NN visit))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">taken</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">taken</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">1985</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="8">as</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">consul</governor>
+            <dependent idx="9">Panama</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="9">Panama</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">consul</governor>
+            <dependent idx="11">honorary</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">as</governor>
+            <dependent idx="12">consul</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">consul</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="14">Israel</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">taken</governor>
+            <dependent idx="17">accompanied</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="18">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="19">Noriega</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="20">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">visit</governor>
+            <dependent idx="21">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">visit</governor>
+            <dependent idx="22">official</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">on</governor>
+            <dependent idx="23">visit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">taken</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">taken</governor>
+            <dependent idx="5">1985</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">consul</governor>
+            <dependent idx="9">Panama</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">consul</governor>
+            <dependent idx="11">honorary</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="12">consul</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">consul</governor>
+            <dependent idx="14">Israel</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">taken</governor>
+            <dependent idx="17">accompanied</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="18">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="19">Noriega</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">visit</governor>
+            <dependent idx="21">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">visit</governor>
+            <dependent idx="22">official</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="23">visit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">taken</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">taken</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">taken</governor>
+            <dependent idx="5">1985</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">consul</governor>
+            <dependent idx="9">Panama</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">consul</governor>
+            <dependent idx="11">honorary</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="12">consul</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">consul</governor>
+            <dependent idx="14">Israel</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">taken</governor>
+            <dependent idx="17">accompanied</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="18">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">accompanied</governor>
+            <dependent idx="19">Noriega</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">visit</governor>
+            <dependent idx="21">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">visit</governor>
+            <dependent idx="22">official</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="19">Noriega</governor>
+            <dependent idx="23">visit</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

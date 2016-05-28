@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Above</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>#</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="4">
+            <word>20,000</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>income</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>threshold</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>more</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="9">
+            <word>than</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>half</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PDT</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>those</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>interviewed</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>go</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>arts</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>events</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Above) (NP (DT the) (ADJP (# #) (CD 20,000)) (NN income) (NN threshold))) (, ,) (NP (NP (QP (JJR more) (IN than) (PDT half))) (PP (IN of) (NP (DT those)))) (VP (VBD interviewed) (VP (VB go) (PP (TO to) (NP (NNS arts) (NNS events))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">interviewed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="1">Above</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">threshold</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">20,000</governor>
+            <dependent idx="3">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">threshold</governor>
+            <dependent idx="4">20,000</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">threshold</governor>
+            <dependent idx="5">income</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Above</governor>
+            <dependent idx="6">threshold</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="8">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="9">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="10">half</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">half</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="12">those</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="14">go</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">go</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">events</governor>
+            <dependent idx="16">arts</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">to</governor>
+            <dependent idx="17">events</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">interviewed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">threshold</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">20,000</governor>
+            <dependent idx="3">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">threshold</governor>
+            <dependent idx="4">20,000</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">threshold</governor>
+            <dependent idx="5">income</dependent>
+          </dep>
+          <dep type="prep_above">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="6">threshold</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="8">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="9">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="10">half</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">half</governor>
+            <dependent idx="12">those</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="14">go</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">events</governor>
+            <dependent idx="16">arts</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">go</governor>
+            <dependent idx="17">events</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">interviewed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">threshold</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">20,000</governor>
+            <dependent idx="3">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">threshold</governor>
+            <dependent idx="4">20,000</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">threshold</governor>
+            <dependent idx="5">income</dependent>
+          </dep>
+          <dep type="prep_above">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="6">threshold</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="8">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="10">half</governor>
+            <dependent idx="9">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="10">half</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">half</governor>
+            <dependent idx="12">those</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">interviewed</governor>
+            <dependent idx="14">go</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">events</governor>
+            <dependent idx="16">arts</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">go</governor>
+            <dependent idx="17">events</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

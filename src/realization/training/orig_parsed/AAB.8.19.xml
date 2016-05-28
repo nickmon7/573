@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Prof</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Wilkinson</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>points</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>out</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>international</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>community</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>might</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="10">
+            <word>not</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>decry</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>unilateralist</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>intervention</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>provided</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>that</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>it</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>approves</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>outcome</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Prof) (NNP Wilkinson)) (VP (VBZ points) (PRT (RP out)) (SBAR (IN that) (S (NP (DT the) (JJ international) (NN community)) (VP (MD might) (RB not) (ADVP (RB decry)) (VP (VB unilateralist) (NP (NP (NN intervention)) (VP (VBN provided) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ approves) (PP (IN of) (NP (DT the) (NN outcome))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">points</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Wilkinson</governor>
+            <dependent idx="1">Prof</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">points</governor>
+            <dependent idx="2">Wilkinson</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">points</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">community</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">community</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="8">community</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="9">might</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="11">decry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">points</governor>
+            <dependent idx="12">unilateralist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="13">intervention</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">intervention</governor>
+            <dependent idx="14">provided</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">approves</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">approves</governor>
+            <dependent idx="16">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">provided</governor>
+            <dependent idx="17">approves</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">approves</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outcome</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="20">outcome</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">points</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Wilkinson</governor>
+            <dependent idx="1">Prof</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">points</governor>
+            <dependent idx="2">Wilkinson</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">points</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">community</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">community</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="8">community</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="9">might</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="11">decry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">points</governor>
+            <dependent idx="12">unilateralist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="13">intervention</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">intervention</governor>
+            <dependent idx="14">provided</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">approves</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">approves</governor>
+            <dependent idx="16">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">provided</governor>
+            <dependent idx="17">approves</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outcome</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">approves</governor>
+            <dependent idx="20">outcome</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">points</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Wilkinson</governor>
+            <dependent idx="1">Prof</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">points</governor>
+            <dependent idx="2">Wilkinson</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">points</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">community</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">community</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="8">community</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="9">might</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="11">decry</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">points</governor>
+            <dependent idx="12">unilateralist</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">unilateralist</governor>
+            <dependent idx="13">intervention</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">intervention</governor>
+            <dependent idx="14">provided</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">approves</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">approves</governor>
+            <dependent idx="16">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">provided</governor>
+            <dependent idx="17">approves</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outcome</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">approves</governor>
+            <dependent idx="20">outcome</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>However</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>bigger</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="4">
+            <word>special</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>access</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>funds</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>encourage</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>poorer</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="10">
+            <word>students</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>scholarship</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>scheme</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>bright</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>youngsters</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>have</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="20">
+            <word>not</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="21">
+            <word>been</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="22">
+            <word>ruled</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="23">
+            <word>out</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB However)) (, ,) (S (NP (JJR bigger) (JJ special) (NN access) (NNS funds)) (VP (TO to) (VP (VB encourage) (NP (JJR poorer) (NNS students))))) (, ,) (CC and) (S (NP (NP (DT a) (NN scholarship) (NN scheme)) (PP (IN for) (NP (JJ bright) (NNS youngsters)))) (VP (VBP have) (RB not) (VP (VBN been) (VP (VBN ruled) (PRT (RP out)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">encourage</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">encourage</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="3">bigger</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">special</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">access</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">encourage</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">students</governor>
+            <dependent idx="9">poorer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="10">students</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">encourage</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">scheme</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">scheme</governor>
+            <dependent idx="14">scholarship</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="15">scheme</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">scheme</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">youngsters</governor>
+            <dependent idx="17">bright</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="18">youngsters</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">ruled</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="22">ruled</governor>
+            <dependent idx="20">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="21">been</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="22">ruled</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="22">ruled</governor>
+            <dependent idx="23">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">encourage</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">encourage</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="3">bigger</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">special</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">access</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">encourage</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">students</governor>
+            <dependent idx="9">poorer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="10">students</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">scheme</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">scheme</governor>
+            <dependent idx="14">scholarship</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="15">scheme</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">youngsters</governor>
+            <dependent idx="17">bright</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">scheme</governor>
+            <dependent idx="18">youngsters</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">ruled</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="22">ruled</governor>
+            <dependent idx="20">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="21">been</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">encourage</governor>
+            <dependent idx="22">ruled</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="22">ruled</governor>
+            <dependent idx="23">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">encourage</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">encourage</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="3">bigger</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">special</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">access</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">encourage</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">students</governor>
+            <dependent idx="9">poorer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">encourage</governor>
+            <dependent idx="10">students</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">scheme</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">scheme</governor>
+            <dependent idx="14">scholarship</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="15">scheme</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">youngsters</governor>
+            <dependent idx="17">bright</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">scheme</governor>
+            <dependent idx="18">youngsters</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">ruled</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="22">ruled</governor>
+            <dependent idx="20">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="22">ruled</governor>
+            <dependent idx="21">been</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">encourage</governor>
+            <dependent idx="22">ruled</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="22">ruled</governor>
+            <dependent idx="23">out</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>These</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>will</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>include</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>tough</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>quality</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>service</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>targets</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>improve</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>safety</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>reliability</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>passenger</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>comfort</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (DT These)) (VP (MD will) (VP (VB include) (NP (NP (JJ tough) (NN quality)) (PP (IN of) (NP (NN service) (NNS targets)))) (S (VP (TO to) (VP (VB improve) (NP (NP (NN safety) (, ,) (NN reliability) (CC and) (NN passenger)) (NN comfort))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">include</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">include</governor>
+            <dependent idx="2">These</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">include</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">quality</governor>
+            <dependent idx="5">tough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">include</governor>
+            <dependent idx="6">quality</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">quality</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">targets</governor>
+            <dependent idx="8">service</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">improve</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">include</governor>
+            <dependent idx="11">improve</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">comfort</governor>
+            <dependent idx="12">safety</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">safety</governor>
+            <dependent idx="14">reliability</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">safety</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">safety</governor>
+            <dependent idx="16">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">improve</governor>
+            <dependent idx="17">comfort</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">include</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">include</governor>
+            <dependent idx="2">These</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">include</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">quality</governor>
+            <dependent idx="5">tough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">include</governor>
+            <dependent idx="6">quality</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">targets</governor>
+            <dependent idx="8">service</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">quality</governor>
+            <dependent idx="9">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">improve</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">include</governor>
+            <dependent idx="11">improve</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">comfort</governor>
+            <dependent idx="12">safety</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">safety</governor>
+            <dependent idx="14">reliability</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">safety</governor>
+            <dependent idx="16">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">improve</governor>
+            <dependent idx="17">comfort</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">include</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">include</governor>
+            <dependent idx="2">These</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">include</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">quality</governor>
+            <dependent idx="5">tough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">include</governor>
+            <dependent idx="6">quality</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">targets</governor>
+            <dependent idx="8">service</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">quality</governor>
+            <dependent idx="9">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">improve</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">include</governor>
+            <dependent idx="11">improve</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">comfort</governor>
+            <dependent idx="12">safety</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">safety</governor>
+            <dependent idx="14">reliability</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">comfort</governor>
+            <dependent idx="14">reliability</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">safety</governor>
+            <dependent idx="16">passenger</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">comfort</governor>
+            <dependent idx="16">passenger</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">improve</governor>
+            <dependent idx="17">comfort</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>financial</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>framework</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="5">
+            <word>policy</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>objectives</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>would</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="8">
+            <word>be</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>set</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>by</word>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>Labour</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>government</word>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ financial) (NN framework)) (CC and) (NP (NN policy) (NNS objectives))) (VP (MD would) (VP (VB be) (VP (VBN set) (PP (IN by) (NP (DT a) (NNP Labour) (NN government)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">framework</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">framework</governor>
+            <dependent idx="2">financial</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">set</governor>
+            <dependent idx="3">framework</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">framework</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">objectives</governor>
+            <dependent idx="5">policy</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">framework</governor>
+            <dependent idx="6">objectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">set</governor>
+            <dependent idx="7">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">set</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">set</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">by</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">framework</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">framework</governor>
+            <dependent idx="2">financial</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">set</governor>
+            <dependent idx="3">framework</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">objectives</governor>
+            <dependent idx="5">policy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">framework</governor>
+            <dependent idx="6">objectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">set</governor>
+            <dependent idx="7">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">set</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">Labour</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="9">set</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">framework</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">framework</governor>
+            <dependent idx="2">financial</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">set</governor>
+            <dependent idx="3">framework</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">objectives</governor>
+            <dependent idx="5">policy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">framework</governor>
+            <dependent idx="6">objectives</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">set</governor>
+            <dependent idx="6">objectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">set</governor>
+            <dependent idx="7">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">set</governor>
+            <dependent idx="8">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">Labour</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="9">set</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

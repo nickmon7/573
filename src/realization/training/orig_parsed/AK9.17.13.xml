@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>However</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>it</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>not</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>necessary</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>disclose</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>whom</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>had</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>been</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>sold</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>or</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>where</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>cash</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>had</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>gone</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB However)) (NP (PRP it)) (VP (VBD was) (RB not) (ADJP (JJ necessary) (S (VP (TO to) (VP (VB disclose) (SBAR (SBAR (WHPP (TO to) (WHNP (WP whom))) (S (NP (PRP they)) (VP (VBD had) (VP (VBN been) (VP (VBN sold)))))) (CC or) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN cash)) (VP (VBD had) (VP (VBN gone))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">necessary</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">necessary</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">necessary</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">necessary</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">necessary</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">disclose</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">necessary</governor>
+            <dependent idx="7">disclose</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">sold</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="9">whom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">sold</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">disclose</governor>
+            <dependent idx="13">sold</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">sold</governor>
+            <dependent idx="14">or</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">gone</governor>
+            <dependent idx="15">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">cash</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">gone</governor>
+            <dependent idx="17">cash</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">gone</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">sold</governor>
+            <dependent idx="19">gone</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">necessary</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">necessary</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">necessary</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">necessary</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">necessary</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">disclose</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">necessary</governor>
+            <dependent idx="7">disclose</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">sold</governor>
+            <dependent idx="9">whom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">sold</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">disclose</governor>
+            <dependent idx="13">sold</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">gone</governor>
+            <dependent idx="15">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">cash</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">gone</governor>
+            <dependent idx="17">cash</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">gone</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="13">sold</governor>
+            <dependent idx="19">gone</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">necessary</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">necessary</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">necessary</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">necessary</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">necessary</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">disclose</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">necessary</governor>
+            <dependent idx="7">disclose</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">sold</governor>
+            <dependent idx="9">whom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">sold</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">sold</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">disclose</governor>
+            <dependent idx="13">sold</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">gone</governor>
+            <dependent idx="15">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">cash</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">gone</governor>
+            <dependent idx="17">cash</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">gone</governor>
+            <dependent idx="18">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">disclose</governor>
+            <dependent idx="19">gone</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="13">sold</governor>
+            <dependent idx="19">gone</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

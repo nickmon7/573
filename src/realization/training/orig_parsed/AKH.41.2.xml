@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Only</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>three</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>them</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>secured</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>enough</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>votes</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>be</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>assured</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>their</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="13">
+            <word>seats</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (QP (RB Only) (CD three))) (PP (IN of) (NP (PRP them)))) (VP (VBD secured) (NP (JJ enough) (NNS votes)) (S (VP (TO to) (VP (VB be) (VP (VBN assured) (PP (IN of) (NP (PRP$ their) (NNS seats)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">secured</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">three</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">secured</governor>
+            <dependent idx="2">three</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">three</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">them</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">votes</governor>
+            <dependent idx="6">enough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">secured</governor>
+            <dependent idx="7">votes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">assured</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">assured</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">secured</governor>
+            <dependent idx="10">assured</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">assured</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">seats</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="13">seats</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">secured</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">three</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">secured</governor>
+            <dependent idx="2">three</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">three</governor>
+            <dependent idx="4">them</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">votes</governor>
+            <dependent idx="6">enough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">secured</governor>
+            <dependent idx="7">votes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">assured</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">assured</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">secured</governor>
+            <dependent idx="10">assured</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">seats</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">assured</governor>
+            <dependent idx="13">seats</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">secured</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">three</governor>
+            <dependent idx="1">Only</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">secured</governor>
+            <dependent idx="2">three</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">three</governor>
+            <dependent idx="4">them</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">votes</governor>
+            <dependent idx="6">enough</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">secured</governor>
+            <dependent idx="7">votes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">assured</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">assured</governor>
+            <dependent idx="9">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">secured</governor>
+            <dependent idx="10">assured</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">seats</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">assured</governor>
+            <dependent idx="13">seats</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

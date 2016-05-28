@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Conservative</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>sources</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>believe</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Government</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>'s</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="7">
+            <word>scheme</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>will</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="9">
+            <word>survive</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>any</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>backbench</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>revolt</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>Commons</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>but</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>run</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="19">
+            <word>into</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>severe</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>problems</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>the</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="24">
+            <word>Lords</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Conservative) (NNS sources)) (VP (VBP believe) (SBAR (S (NP (NP (DT the) (NN Government) (POS 's)) (NN scheme)) (VP (VP (MD will) (VP (VB survive) (NP (DT any) (JJ backbench) (NN revolt)) (PP (IN in) (NP (DT the) (NNPS Commons))))) (, ,) (CC but) (VP (VBP run) (PP (IN into) (NP (NP (JJ severe) (NNS problems)) (PP (IN in) (NP (DT the) (NNPS Lords)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">believe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Conservative</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">believe</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Government</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">scheme</governor>
+            <dependent idx="5">Government</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="5">Government</governor>
+            <dependent idx="6">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">survive</governor>
+            <dependent idx="7">scheme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">survive</governor>
+            <dependent idx="8">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">believe</governor>
+            <dependent idx="9">survive</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">revolt</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">revolt</governor>
+            <dependent idx="11">backbench</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">survive</governor>
+            <dependent idx="12">revolt</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">survive</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Commons</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="15">Commons</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">survive</governor>
+            <dependent idx="17">but</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">survive</governor>
+            <dependent idx="18">run</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">run</governor>
+            <dependent idx="19">into</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">problems</governor>
+            <dependent idx="20">severe</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">into</governor>
+            <dependent idx="21">problems</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">problems</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Lords</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">in</governor>
+            <dependent idx="24">Lords</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">believe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Conservative</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">believe</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Government</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">scheme</governor>
+            <dependent idx="5">Government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">survive</governor>
+            <dependent idx="7">scheme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">survive</governor>
+            <dependent idx="8">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">believe</governor>
+            <dependent idx="9">survive</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">revolt</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">revolt</governor>
+            <dependent idx="11">backbench</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">survive</governor>
+            <dependent idx="12">revolt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Commons</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">survive</governor>
+            <dependent idx="15">Commons</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="9">survive</governor>
+            <dependent idx="18">run</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">problems</governor>
+            <dependent idx="20">severe</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="18">run</governor>
+            <dependent idx="21">problems</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Lords</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">problems</governor>
+            <dependent idx="24">Lords</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">believe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Conservative</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">believe</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Government</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">scheme</governor>
+            <dependent idx="5">Government</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">survive</governor>
+            <dependent idx="7">scheme</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">run</governor>
+            <dependent idx="7">scheme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">survive</governor>
+            <dependent idx="8">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">believe</governor>
+            <dependent idx="9">survive</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">revolt</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">revolt</governor>
+            <dependent idx="11">backbench</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">survive</governor>
+            <dependent idx="12">revolt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Commons</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">survive</governor>
+            <dependent idx="15">Commons</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">believe</governor>
+            <dependent idx="18">run</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="9">survive</governor>
+            <dependent idx="18">run</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">problems</governor>
+            <dependent idx="20">severe</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="18">run</governor>
+            <dependent idx="21">problems</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Lords</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">problems</governor>
+            <dependent idx="24">Lords</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

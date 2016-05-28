@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>once</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>arranged</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>unofficially</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>take</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>part</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>raid</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>from</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>his</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="13">
+            <word>station</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>at</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>Hemswell</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>Lincolnshire</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>a</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>Hampden</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>No</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>61</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="24">
+            <word>Squadron</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (ADVP (RB once)) (VP (VBD arranged) (ADVP (RB unofficially)) (S (VP (TO to) (VP (VB take) (NP (NP (NN part)) (PP (IN in) (NP (DT a) (NN raid)))) (PP (IN from) (NP (PRP$ his) (NN station))) (PP (IN at) (NP (NP (NNP Hemswell)) (PP (IN in) (NP (NAC (NNP Lincolnshire) (PP (IN in) (NP (NP (DT a) (NNP Hampden)) (PP (IN of) (NP (DT No) (CD 61)))))) (NNP Squadron))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arranged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arranged</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="2">once</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="4">unofficially</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arranged</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">take</governor>
+            <dependent idx="7">part</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">part</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">raid</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="10">raid</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">take</governor>
+            <dependent idx="11">from</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">station</governor>
+            <dependent idx="12">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">from</governor>
+            <dependent idx="13">station</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">take</governor>
+            <dependent idx="14">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">at</governor>
+            <dependent idx="15">Hemswell</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">Hemswell</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">Squadron</governor>
+            <dependent idx="17">Lincolnshire</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">Lincolnshire</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="20">Hampden</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">61</governor>
+            <dependent idx="22">No</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">of</governor>
+            <dependent idx="23">61</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="24">Squadron</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arranged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arranged</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="2">once</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="4">unofficially</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arranged</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">take</governor>
+            <dependent idx="7">part</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">raid</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">part</governor>
+            <dependent idx="10">raid</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">station</governor>
+            <dependent idx="12">his</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="6">take</governor>
+            <dependent idx="13">station</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">take</governor>
+            <dependent idx="15">Hemswell</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">Squadron</governor>
+            <dependent idx="17">Lincolnshire</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">Lincolnshire</governor>
+            <dependent idx="20">Hampden</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">61</governor>
+            <dependent idx="22">No</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="23">61</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Hemswell</governor>
+            <dependent idx="24">Squadron</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arranged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arranged</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="2">once</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arranged</governor>
+            <dependent idx="4">unofficially</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">take</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arranged</governor>
+            <dependent idx="6">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">take</governor>
+            <dependent idx="7">part</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">raid</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">part</governor>
+            <dependent idx="10">raid</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">station</governor>
+            <dependent idx="12">his</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="6">take</governor>
+            <dependent idx="13">station</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">take</governor>
+            <dependent idx="15">Hemswell</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">Squadron</governor>
+            <dependent idx="17">Lincolnshire</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">Lincolnshire</governor>
+            <dependent idx="20">Hampden</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">61</governor>
+            <dependent idx="22">No</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">Hampden</governor>
+            <dependent idx="23">61</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Hemswell</governor>
+            <dependent idx="24">Squadron</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Calfa</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>went</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>outline</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>an</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>economic</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>programme</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>which</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="11">
+            <word>would</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="12">
+            <word>be</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>operational</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>until</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>free</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>elections</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>can</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="18">
+            <word>be</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>held</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Calfa)) (VP (VBD went) (PRT (RP on)) (S (VP (TO to) (VP (VB outline) (NP (NP (DT an) (JJ economic) (NN programme)) (SBAR (WHNP (WDT which)) (S (VP (MD would) (VP (VB be) (ADJP (JJ operational)) (SBAR (IN until) (S (NP (JJ free) (NNS elections)) (VP (MD can) (VP (VB be) (VP (VBN held))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">went</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">went</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">went</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">outline</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">went</governor>
+            <dependent idx="6">outline</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">programme</governor>
+            <dependent idx="7">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">programme</governor>
+            <dependent idx="8">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">outline</governor>
+            <dependent idx="9">programme</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">operational</governor>
+            <dependent idx="10">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">operational</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">operational</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">programme</governor>
+            <dependent idx="13">operational</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">held</governor>
+            <dependent idx="14">until</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">elections</governor>
+            <dependent idx="15">free</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">held</governor>
+            <dependent idx="16">elections</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">held</governor>
+            <dependent idx="17">can</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">held</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">operational</governor>
+            <dependent idx="19">held</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">went</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">went</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">went</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">outline</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">went</governor>
+            <dependent idx="6">outline</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">programme</governor>
+            <dependent idx="7">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">programme</governor>
+            <dependent idx="8">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">outline</governor>
+            <dependent idx="9">programme</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">operational</governor>
+            <dependent idx="10">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">operational</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">operational</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">programme</governor>
+            <dependent idx="13">operational</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">held</governor>
+            <dependent idx="14">until</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">elections</governor>
+            <dependent idx="15">free</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">held</governor>
+            <dependent idx="16">elections</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">held</governor>
+            <dependent idx="17">can</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">held</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">operational</governor>
+            <dependent idx="19">held</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">went</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">went</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">went</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">outline</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">went</governor>
+            <dependent idx="6">outline</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">programme</governor>
+            <dependent idx="7">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">programme</governor>
+            <dependent idx="8">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">outline</governor>
+            <dependent idx="9">programme</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">operational</governor>
+            <dependent idx="10">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">operational</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">operational</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="9">programme</governor>
+            <dependent idx="13">operational</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">held</governor>
+            <dependent idx="14">until</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">elections</governor>
+            <dependent idx="15">free</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">held</governor>
+            <dependent idx="16">elections</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">held</governor>
+            <dependent idx="17">can</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">held</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">operational</governor>
+            <dependent idx="19">held</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>team</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>visited</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>only</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>10</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN team)) (VP (VBD visited) (NP (QP (RB only) (CD 10)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">visited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">visited</governor>
+            <dependent idx="2">team</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">10</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">visited</governor>
+            <dependent idx="5">10</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">visited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">visited</governor>
+            <dependent idx="2">team</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">10</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">visited</governor>
+            <dependent idx="5">10</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">visited</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">visited</governor>
+            <dependent idx="2">team</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="5">10</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">visited</governor>
+            <dependent idx="5">10</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

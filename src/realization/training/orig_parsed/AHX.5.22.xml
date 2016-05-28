@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mrs</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Allan</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>used</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>her</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="5">
+            <word>own</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>funds</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>hire</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>local</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>divers</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>submersible</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>camera</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>crew</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>at</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>cost</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>#</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="21">
+            <word>500</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>per</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>day</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mrs) (NNP Allan)) (VP (VBD used) (NP (PRP$ her) (JJ own) (NNS funds)) (S (VP (TO to) (VP (VB hire) (NP (NP (JJ local) (NNS divers)) (CC and) (NP (DT a) (JJ submersible) (NN camera) (NN crew))) (PP (IN at) (NP (NP (DT a) (NN cost)) (PP (IN of) (NP (NP (# #) (CD 500)) (PP (IN per) (NP (NN day))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">hire</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">used</governor>
+            <dependent idx="8">hire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">divers</governor>
+            <dependent idx="9">local</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">hire</governor>
+            <dependent idx="10">divers</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">divers</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">crew</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">crew</governor>
+            <dependent idx="13">submersible</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">crew</governor>
+            <dependent idx="14">camera</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">divers</governor>
+            <dependent idx="15">crew</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">hire</governor>
+            <dependent idx="16">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">cost</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">at</governor>
+            <dependent idx="18">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">cost</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">500</governor>
+            <dependent idx="20">#</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="21">500</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">500</governor>
+            <dependent idx="22">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">per</governor>
+            <dependent idx="23">day</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">hire</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">used</governor>
+            <dependent idx="8">hire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">divers</governor>
+            <dependent idx="9">local</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">hire</governor>
+            <dependent idx="10">divers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">crew</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">crew</governor>
+            <dependent idx="13">submersible</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">crew</governor>
+            <dependent idx="14">camera</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">divers</governor>
+            <dependent idx="15">crew</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">cost</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="8">hire</governor>
+            <dependent idx="18">cost</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">500</governor>
+            <dependent idx="20">#</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">cost</governor>
+            <dependent idx="21">500</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="21">500</governor>
+            <dependent idx="23">day</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">used</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">used</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">funds</governor>
+            <dependent idx="4">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">funds</governor>
+            <dependent idx="5">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">used</governor>
+            <dependent idx="6">funds</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">hire</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">used</governor>
+            <dependent idx="8">hire</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">divers</governor>
+            <dependent idx="9">local</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">hire</governor>
+            <dependent idx="10">divers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">crew</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">crew</governor>
+            <dependent idx="13">submersible</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">crew</governor>
+            <dependent idx="14">camera</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">hire</governor>
+            <dependent idx="15">crew</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">divers</governor>
+            <dependent idx="15">crew</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">cost</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="8">hire</governor>
+            <dependent idx="18">cost</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">500</governor>
+            <dependent idx="20">#</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">cost</governor>
+            <dependent idx="21">500</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="21">500</governor>
+            <dependent idx="23">day</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

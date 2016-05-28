@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>For</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>example</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>they</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>will</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="6">
+            <word>be</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>prevented</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>from</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>spending</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="10">
+            <word>public</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>money</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>on</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>campaigns</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>stop</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="16">
+            <word>them</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN For) (NP (NN example))) (, ,) (NP (PRP they)) (VP (MD will) (VP (VB be) (VP (VBN prevented) (PP (IN from) (S (VP (VBG spending) (NP (JJ public) (NN money)) (PP (IN on) (NP (NNS campaigns))) (S (VP (TO to) (VP (VB stop) (NP (PRP them))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">prevented</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">prevented</governor>
+            <dependent idx="1">For</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">For</governor>
+            <dependent idx="2">example</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="4">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">prevented</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">prevented</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="8">from</governor>
+            <dependent idx="9">spending</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">money</governor>
+            <dependent idx="10">public</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">spending</governor>
+            <dependent idx="11">money</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">spending</governor>
+            <dependent idx="12">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">on</governor>
+            <dependent idx="13">campaigns</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stop</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">spending</governor>
+            <dependent idx="15">stop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">stop</governor>
+            <dependent idx="16">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">prevented</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">prevented</governor>
+            <dependent idx="2">example</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="4">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">prevented</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="7">prevented</governor>
+            <dependent idx="9">spending</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">money</governor>
+            <dependent idx="10">public</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">spending</governor>
+            <dependent idx="11">money</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">spending</governor>
+            <dependent idx="13">campaigns</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stop</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">spending</governor>
+            <dependent idx="15">stop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">stop</governor>
+            <dependent idx="16">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">prevented</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">prevented</governor>
+            <dependent idx="2">example</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="4">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">prevented</governor>
+            <dependent idx="5">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">prevented</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="7">prevented</governor>
+            <dependent idx="9">spending</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">money</governor>
+            <dependent idx="10">public</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">spending</governor>
+            <dependent idx="11">money</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">spending</governor>
+            <dependent idx="13">campaigns</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stop</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">spending</governor>
+            <dependent idx="15">stop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">stop</governor>
+            <dependent idx="16">them</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

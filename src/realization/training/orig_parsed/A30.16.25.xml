@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>If</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>Mr</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Meacher</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>not</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>man</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>bang</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>heads</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>union</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>leaders</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>together</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>then</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>surely</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="19">
+            <word>Mr</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>Kinnock</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>is</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN If) (S (NP (NNP Mr) (NNP Meacher)) (VP (VBZ is) (ADVP (RB not) (NP (DT the) (NN man)) (PP (TO to) (NP (NN bang)))) (NP (NP (DT the) (NNS heads)) (PP (IN of) (NP (NN union) (NNS leaders)))) (ADVP (RB together)) (, ,) (FRAG (RB then) (ADVP (RB surely)))))) (NP (NNP Mr) (NNP Kinnock)) (VP (VBZ is)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">heads</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Meacher</governor>
+            <dependent idx="2">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heads</governor>
+            <dependent idx="3">Meacher</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">heads</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">heads</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">not</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">not</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="9">bang</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">heads</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">is</governor>
+            <dependent idx="11">heads</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">heads</governor>
+            <dependent idx="12">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">leaders</governor>
+            <dependent idx="13">union</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">of</governor>
+            <dependent idx="14">leaders</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">heads</governor>
+            <dependent idx="15">together</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heads</governor>
+            <dependent idx="17">then</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">then</governor>
+            <dependent idx="18">surely</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Kinnock</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">is</governor>
+            <dependent idx="20">Kinnock</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">heads</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Meacher</governor>
+            <dependent idx="2">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heads</governor>
+            <dependent idx="3">Meacher</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">heads</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">heads</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">not</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">not</governor>
+            <dependent idx="9">bang</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">heads</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">is</governor>
+            <dependent idx="11">heads</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">leaders</governor>
+            <dependent idx="13">union</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">heads</governor>
+            <dependent idx="14">leaders</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">heads</governor>
+            <dependent idx="15">together</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heads</governor>
+            <dependent idx="17">then</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">then</governor>
+            <dependent idx="18">surely</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Kinnock</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">is</governor>
+            <dependent idx="20">Kinnock</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">heads</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Meacher</governor>
+            <dependent idx="2">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heads</governor>
+            <dependent idx="3">Meacher</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">heads</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">heads</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">not</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">not</governor>
+            <dependent idx="9">bang</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">heads</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="21">is</governor>
+            <dependent idx="11">heads</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">leaders</governor>
+            <dependent idx="13">union</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">heads</governor>
+            <dependent idx="14">leaders</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">heads</governor>
+            <dependent idx="15">together</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heads</governor>
+            <dependent idx="17">then</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">then</governor>
+            <dependent idx="18">surely</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Kinnock</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">is</governor>
+            <dependent idx="20">Kinnock</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Another</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>bomb</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>blast</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>was</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>reported</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>on</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>railway</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>line</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>outside</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Cape</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Town</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT Another) (NN bomb) (NN blast)) (VP (VBD was) (VP (VBN reported) (PP (IN on) (NP (NP (DT a) (NN railway) (NN line)) (PP (IN outside) (NP (NNP Cape) (NNP Town))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">reported</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">blast</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">blast</governor>
+            <dependent idx="2">bomb</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="3">blast</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">reported</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">line</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">line</governor>
+            <dependent idx="8">railway</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">on</governor>
+            <dependent idx="9">line</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">line</governor>
+            <dependent idx="10">outside</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Town</governor>
+            <dependent idx="11">Cape</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">outside</governor>
+            <dependent idx="12">Town</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">reported</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">blast</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">blast</governor>
+            <dependent idx="2">bomb</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="3">blast</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">line</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">line</governor>
+            <dependent idx="8">railway</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="5">reported</governor>
+            <dependent idx="9">line</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Town</governor>
+            <dependent idx="11">Cape</dependent>
+          </dep>
+          <dep type="prep_outside">
+            <governor idx="9">line</governor>
+            <dependent idx="12">Town</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">reported</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">blast</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">blast</governor>
+            <dependent idx="2">bomb</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="3">blast</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">reported</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">line</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">line</governor>
+            <dependent idx="8">railway</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="5">reported</governor>
+            <dependent idx="9">line</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Town</governor>
+            <dependent idx="11">Cape</dependent>
+          </dep>
+          <dep type="prep_outside">
+            <governor idx="9">line</governor>
+            <dependent idx="12">Town</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

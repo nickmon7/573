@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>it</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>concerning</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="6">
+            <word>''</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (PRP it)) (VP (VBZ is) (VP (VBG concerning))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">concerning</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">concerning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">concerning</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">concerning</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">concerning</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">concerning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">concerning</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">concerning</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">concerning</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">concerning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">concerning</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">concerning</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Poor</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>breeding</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>wet</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>cold</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>springs</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>;</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="9">
+            <word>clear-felling</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Scots</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>pine</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>forests</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>;</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>proliferation</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>of</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>dense</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>sitka</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>spruce</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>plantations</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>;</word>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="23">
+            <word>and</word>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="24">
+            <word>over-shooting</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>have</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="26">
+            <word>all</word>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="27">
+            <word>been</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="28">
+            <word>suggested</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="29">
+            <word>as</word>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>199</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="30">
+            <word>contributing</word>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="31">
+            <word>to</word>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="32">
+            <word>the</word>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="33">
+            <word>capercaillie</word>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>232</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="34">
+            <word>'s</word>
+            <CharacterOffsetBegin>233</CharacterOffsetBegin>
+            <CharacterOffsetEnd>235</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="35">
+            <word>retreat</word>
+            <CharacterOffsetBegin>236</CharacterOffsetBegin>
+            <CharacterOffsetEnd>243</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="36">
+            <word>.</word>
+            <CharacterOffsetBegin>244</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Poor)) (VP (VBG breeding) (PP (IN in) (NP (NP (JJ wet) (, ,) (JJ cold) (NNS springs)) (: ;) (NP (NP (NN clear-felling)) (PP (IN of) (NP (NNP Scots) (NN pine) (NNS forests)))) (: ;) (NP (NP (DT the) (NN proliferation)) (PP (IN of) (NP (JJ dense) (NN sitka) (NN spruce) (NNS plantations)))) (: ;) (CC and) (NP (NN over-shooting)))))) (VP (VBP have) (RB all) (VP (VBN been) (VP (VBN suggested) (PP (IN as) (S (VP (VBG contributing) (PP (TO to) (NP (NP (DT the) (NN capercaillie) (POS 's)) (NN retreat))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="28">suggested</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="1">Poor</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Poor</governor>
+            <dependent idx="2">breeding</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">breeding</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="4">wet</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="6">cold</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">in</governor>
+            <dependent idx="7">springs</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">springs</governor>
+            <dependent idx="9">clear-felling</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">clear-felling</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="11">Scots</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="12">pine</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="13">forests</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">springs</governor>
+            <dependent idx="16">proliferation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">plantations</governor>
+            <dependent idx="18">dense</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="19">sitka</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="20">spruce</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">of</governor>
+            <dependent idx="21">plantations</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">springs</governor>
+            <dependent idx="23">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">springs</governor>
+            <dependent idx="24">over-shooting</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">suggested</governor>
+            <dependent idx="25">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="28">suggested</governor>
+            <dependent idx="26">all</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="27">been</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="28">suggested</governor>
+            <dependent idx="29">as</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="29">as</governor>
+            <dependent idx="30">contributing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="30">contributing</governor>
+            <dependent idx="31">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">capercaillie</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">retreat</governor>
+            <dependent idx="33">capercaillie</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="33">capercaillie</governor>
+            <dependent idx="34">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">to</governor>
+            <dependent idx="35">retreat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="28">suggested</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="1">Poor</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Poor</governor>
+            <dependent idx="2">breeding</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="4">wet</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="6">cold</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">breeding</governor>
+            <dependent idx="7">springs</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="9">clear-felling</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="11">Scots</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="12">pine</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">clear-felling</governor>
+            <dependent idx="13">forests</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="16">proliferation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">plantations</governor>
+            <dependent idx="18">dense</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="19">sitka</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="20">spruce</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="21">plantations</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="24">over-shooting</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">suggested</governor>
+            <dependent idx="25">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="28">suggested</governor>
+            <dependent idx="26">all</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="27">been</dependent>
+          </dep>
+          <dep type="prepc_as">
+            <governor idx="28">suggested</governor>
+            <dependent idx="30">contributing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">capercaillie</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">retreat</governor>
+            <dependent idx="33">capercaillie</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="30">contributing</governor>
+            <dependent idx="35">retreat</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="28">suggested</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="1">Poor</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Poor</governor>
+            <dependent idx="2">breeding</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="4">wet</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">springs</governor>
+            <dependent idx="6">cold</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">breeding</governor>
+            <dependent idx="7">springs</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">breeding</governor>
+            <dependent idx="9">clear-felling</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="9">clear-felling</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="11">Scots</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">forests</governor>
+            <dependent idx="12">pine</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">clear-felling</governor>
+            <dependent idx="13">forests</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">breeding</governor>
+            <dependent idx="16">proliferation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="16">proliferation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">plantations</governor>
+            <dependent idx="18">dense</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="19">sitka</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">plantations</governor>
+            <dependent idx="20">spruce</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">proliferation</governor>
+            <dependent idx="21">plantations</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">breeding</governor>
+            <dependent idx="24">over-shooting</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">springs</governor>
+            <dependent idx="24">over-shooting</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">suggested</governor>
+            <dependent idx="25">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="28">suggested</governor>
+            <dependent idx="26">all</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="28">suggested</governor>
+            <dependent idx="27">been</dependent>
+          </dep>
+          <dep type="prepc_as">
+            <governor idx="28">suggested</governor>
+            <dependent idx="30">contributing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">capercaillie</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">retreat</governor>
+            <dependent idx="33">capercaillie</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="30">contributing</governor>
+            <dependent idx="35">retreat</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

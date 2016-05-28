@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Experts</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>cite</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>Romania</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>as</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>possible</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>future</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>instance</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>where</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="10">
+            <word>human</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>rights</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>violations</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>could</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="14">
+            <word>lead</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>a</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>call</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>for</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>action</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>outside</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>national</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>boundaries</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Experts)) (VP (VBP cite) (NP (NP (NNP Romania)) (PP (IN as) (NP (NP (DT a) (JJ possible) (JJ future) (NN instance)) (SBAR (WHADVP (WRB where)) (S (NP (JJ human) (NNS rights) (NNS violations)) (VP (MD could) (VP (VB lead) (PP (TO to) (NP (NP (DT a) (NN call)) (PP (IN for) (NP (NN action))))) (PP (IN from) (NP (JJ outside) (JJ national) (NNS boundaries))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">cite</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">cite</governor>
+            <dependent idx="1">Experts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">cite</governor>
+            <dependent idx="3">Romania</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">Romania</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">instance</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="6">possible</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="7">future</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">as</governor>
+            <dependent idx="8">instance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">lead</governor>
+            <dependent idx="9">where</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">violations</governor>
+            <dependent idx="10">human</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">violations</governor>
+            <dependent idx="11">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">lead</governor>
+            <dependent idx="12">violations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">lead</governor>
+            <dependent idx="13">could</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">instance</governor>
+            <dependent idx="14">lead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">lead</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">call</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">to</governor>
+            <dependent idx="17">call</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">call</governor>
+            <dependent idx="18">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">for</governor>
+            <dependent idx="19">action</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">lead</governor>
+            <dependent idx="20">from</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="21">outside</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="22">national</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">from</governor>
+            <dependent idx="23">boundaries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">cite</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">cite</governor>
+            <dependent idx="1">Experts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">cite</governor>
+            <dependent idx="3">Romania</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">instance</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="6">possible</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="7">future</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="3">Romania</governor>
+            <dependent idx="8">instance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">lead</governor>
+            <dependent idx="9">where</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">violations</governor>
+            <dependent idx="10">human</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">violations</governor>
+            <dependent idx="11">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">lead</governor>
+            <dependent idx="12">violations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">lead</governor>
+            <dependent idx="13">could</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">instance</governor>
+            <dependent idx="14">lead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">call</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">lead</governor>
+            <dependent idx="17">call</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="17">call</governor>
+            <dependent idx="19">action</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="21">outside</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="22">national</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="14">lead</governor>
+            <dependent idx="23">boundaries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">cite</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">cite</governor>
+            <dependent idx="1">Experts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">cite</governor>
+            <dependent idx="3">Romania</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">instance</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="6">possible</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">instance</governor>
+            <dependent idx="7">future</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="3">Romania</governor>
+            <dependent idx="8">instance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">lead</governor>
+            <dependent idx="9">where</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">violations</governor>
+            <dependent idx="10">human</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">violations</governor>
+            <dependent idx="11">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">lead</governor>
+            <dependent idx="12">violations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">lead</governor>
+            <dependent idx="13">could</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">instance</governor>
+            <dependent idx="14">lead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">call</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">lead</governor>
+            <dependent idx="17">call</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="17">call</governor>
+            <dependent idx="19">action</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="21">outside</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">boundaries</governor>
+            <dependent idx="22">national</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="14">lead</governor>
+            <dependent idx="23">boundaries</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

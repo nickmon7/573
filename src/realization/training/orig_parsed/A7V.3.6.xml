@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Economists</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>believe</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>boost</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>labour</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>force</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>may</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>be</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>worth</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>an</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>additional</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>1</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>per</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>cent</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>year</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>early</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>1990s</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Economists)) (VP (VBP believe) (SBAR (IN that) (S (NP (NP (DT the) (NN boost)) (PP (TO to) (NP (DT the) (NN labour) (NN force)))) (VP (MD may) (VP (VB be) (ADJP (IN worth) (NP (NP (QP (DT an) (JJ additional) (CD 1))) (PP (IN per) (NP (NP (NN cent)) (NP (DT a) (NN year)))))) (PP (IN in) (NP (DT the) (JJ early) (NNS 1990s)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believe</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believe</governor>
+            <dependent idx="1">Economists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">worth</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">boost</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">worth</governor>
+            <dependent idx="5">boost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">boost</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">force</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">force</governor>
+            <dependent idx="8">labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">to</governor>
+            <dependent idx="9">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">worth</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">worth</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believe</governor>
+            <dependent idx="12">worth</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="13">an</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="14">additional</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">worth</governor>
+            <dependent idx="15">1</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">1</governor>
+            <dependent idx="16">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">per</governor>
+            <dependent idx="17">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">year</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">cent</governor>
+            <dependent idx="19">year</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">worth</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">1990s</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">1990s</governor>
+            <dependent idx="22">early</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="23">1990s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believe</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believe</governor>
+            <dependent idx="1">Economists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">worth</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">boost</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">worth</governor>
+            <dependent idx="5">boost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">force</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">force</governor>
+            <dependent idx="8">labour</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">boost</governor>
+            <dependent idx="9">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">worth</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">worth</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believe</governor>
+            <dependent idx="12">worth</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="13">an</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="14">additional</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">worth</governor>
+            <dependent idx="15">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="15">1</governor>
+            <dependent idx="17">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">year</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">cent</governor>
+            <dependent idx="19">year</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">1990s</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">1990s</governor>
+            <dependent idx="22">early</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">worth</governor>
+            <dependent idx="23">1990s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believe</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believe</governor>
+            <dependent idx="1">Economists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">worth</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">boost</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">worth</governor>
+            <dependent idx="5">boost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">force</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">force</governor>
+            <dependent idx="8">labour</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">boost</governor>
+            <dependent idx="9">force</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">worth</governor>
+            <dependent idx="10">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">worth</governor>
+            <dependent idx="11">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believe</governor>
+            <dependent idx="12">worth</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="13">an</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">1</governor>
+            <dependent idx="14">additional</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="12">worth</governor>
+            <dependent idx="15">1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="15">1</governor>
+            <dependent idx="17">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">year</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">cent</governor>
+            <dependent idx="19">year</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">1990s</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">1990s</governor>
+            <dependent idx="22">early</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">worth</governor>
+            <dependent idx="23">1990s</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

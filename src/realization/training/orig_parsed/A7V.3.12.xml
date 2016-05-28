@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Yesterday</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Bonn</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>government</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>announced</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>DM8billion</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="10">
+            <word>#</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="11">
+            <word>2.7</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>billion</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="14">
+            <word>package</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>for</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>housing</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>construction</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>for</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>East</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>German</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>refugees</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="23">
+            <word>whose</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>WP$</POS>
+          </token>
+          <token id="24">
+            <word>number</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>has</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="26">
+            <word>reached</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="27">
+            <word>190,000</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="28">
+            <word>.</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP-TMP (NN Yesterday)) (, ,) (NP (DT the) (NNP Bonn) (NN government)) (VP (VBD announced) (NP (NP (DT a) (NNP DM8billion) (PRN (-LRB- -LRB-) (NP (QP (# #) (CD 2.7) (CD billion))) (-RRB- -RRB-)) (NN package)) (PP (IN for) (NP (NN housing) (NN construction)))) (PP (IN for) (NP (NP (ADJP (NNP East) (NNP German)) (NNS refugees)) (, ,) (SBAR (WHNP (WP$ whose) (NN number)) (S (VP (VBZ has) (VP (VBN reached) (NP (CD 190,000))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">announced</governor>
+            <dependent idx="1">Yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">government</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">government</governor>
+            <dependent idx="4">Bonn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">government</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">package</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">package</governor>
+            <dependent idx="8">DM8billion</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="10">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="11">2.7</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">package</governor>
+            <dependent idx="12">billion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="14">package</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">package</governor>
+            <dependent idx="15">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">construction</governor>
+            <dependent idx="16">housing</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">for</governor>
+            <dependent idx="17">construction</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">announced</governor>
+            <dependent idx="18">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="19">East</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">East</governor>
+            <dependent idx="20">German</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">for</governor>
+            <dependent idx="21">refugees</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">number</governor>
+            <dependent idx="23">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="26">reached</governor>
+            <dependent idx="24">number</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="26">reached</governor>
+            <dependent idx="25">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="26">reached</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="26">reached</governor>
+            <dependent idx="27">190,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">announced</governor>
+            <dependent idx="1">Yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">government</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">government</governor>
+            <dependent idx="4">Bonn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">government</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">package</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">package</governor>
+            <dependent idx="8">DM8billion</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="10">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="11">2.7</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">package</governor>
+            <dependent idx="12">billion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="14">package</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">construction</governor>
+            <dependent idx="16">housing</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="14">package</governor>
+            <dependent idx="17">construction</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="19">East</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">East</governor>
+            <dependent idx="20">German</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">announced</governor>
+            <dependent idx="21">refugees</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">number</governor>
+            <dependent idx="23">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="26">reached</governor>
+            <dependent idx="24">number</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="26">reached</governor>
+            <dependent idx="25">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="26">reached</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="26">reached</governor>
+            <dependent idx="27">190,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">announced</governor>
+            <dependent idx="1">Yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">government</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">government</governor>
+            <dependent idx="4">Bonn</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">government</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">package</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">package</governor>
+            <dependent idx="8">DM8billion</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="10">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="12">billion</governor>
+            <dependent idx="11">2.7</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">package</governor>
+            <dependent idx="12">billion</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="14">package</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">construction</governor>
+            <dependent idx="16">housing</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="14">package</governor>
+            <dependent idx="17">construction</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="19">East</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">East</governor>
+            <dependent idx="20">German</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">announced</governor>
+            <dependent idx="21">refugees</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">number</governor>
+            <dependent idx="23">whose</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="26">reached</governor>
+            <dependent idx="24">number</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="26">reached</governor>
+            <dependent idx="25">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="21">refugees</governor>
+            <dependent idx="26">reached</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="26">reached</governor>
+            <dependent idx="27">190,000</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

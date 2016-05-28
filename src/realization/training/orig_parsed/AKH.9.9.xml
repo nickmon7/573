@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>an</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>elaborate</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>example</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Edwardian</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>commercial</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>architecture</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>designed</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>by</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>T</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>H</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Smith</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>W</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>Wimble</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>and</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>completed</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="21">
+            <word>in</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>1903</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ is) (NP (NP (DT an) (JJ elaborate) (NN example)) (PP (IN of) (NP (NP (JJ Edwardian) (JJ commercial) (NN architecture)) (, ,) (VP (VP (VBN designed) (PP (IN by) (NP (NP (NNP T) (NNP H) (NNP Smith)) (CC and) (NP (NNP W) (NNP Wimble))))) (CC and) (VP (VBN completed) (PP (IN in) (NP (CD 1903))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">example</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">example</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">example</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">example</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">example</governor>
+            <dependent idx="4">elaborate</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">example</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="7">Edwardian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="8">commercial</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="9">architecture</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">architecture</governor>
+            <dependent idx="11">designed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">designed</governor>
+            <dependent idx="12">by</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="13">T</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="14">H</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">by</governor>
+            <dependent idx="15">Smith</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">Smith</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Wimble</governor>
+            <dependent idx="17">W</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">Smith</governor>
+            <dependent idx="18">Wimble</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">designed</governor>
+            <dependent idx="19">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">designed</governor>
+            <dependent idx="20">completed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">completed</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">in</governor>
+            <dependent idx="22">1903</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">example</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">example</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">example</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">example</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">example</governor>
+            <dependent idx="4">elaborate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="7">Edwardian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="8">commercial</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">example</governor>
+            <dependent idx="9">architecture</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">architecture</governor>
+            <dependent idx="11">designed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="13">T</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="14">H</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="11">designed</governor>
+            <dependent idx="15">Smith</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Wimble</governor>
+            <dependent idx="17">W</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Smith</governor>
+            <dependent idx="18">Wimble</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">designed</governor>
+            <dependent idx="20">completed</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">completed</governor>
+            <dependent idx="22">1903</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">example</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">example</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">example</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">example</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">example</governor>
+            <dependent idx="4">elaborate</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="7">Edwardian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">architecture</governor>
+            <dependent idx="8">commercial</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">example</governor>
+            <dependent idx="9">architecture</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">architecture</governor>
+            <dependent idx="11">designed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="13">T</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Smith</governor>
+            <dependent idx="14">H</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="11">designed</governor>
+            <dependent idx="15">Smith</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Wimble</governor>
+            <dependent idx="17">W</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="11">designed</governor>
+            <dependent idx="18">Wimble</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Smith</governor>
+            <dependent idx="18">Wimble</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">architecture</governor>
+            <dependent idx="20">completed</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">designed</governor>
+            <dependent idx="20">completed</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">completed</governor>
+            <dependent idx="22">1903</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

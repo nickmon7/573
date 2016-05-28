@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>Constraints</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>on</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>recruiting</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>are</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="6">
+            <word>constraints</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>safety</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>have</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>be</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>removed</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (NP (NNP Constraints)) (PP (IN on) (NP (NN recruiting)))) (VP (VP (VBP are) (NP (NP (NNS constraints)) (PP (IN on) (NP (NN safety))))) (CC and) (VP (VBP have) (S (VP (TO to) (VP (VB be) (VP (VBN removed))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">constraints</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">constraints</governor>
+            <dependent idx="2">Constraints</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Constraints</governor>
+            <dependent idx="3">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">on</governor>
+            <dependent idx="4">recruiting</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">constraints</governor>
+            <dependent idx="5">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">constraints</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="8">safety</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">constraints</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">constraints</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">removed</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">removed</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">have</governor>
+            <dependent idx="13">removed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">constraints</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">constraints</governor>
+            <dependent idx="2">Constraints</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="2">Constraints</governor>
+            <dependent idx="4">recruiting</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">constraints</governor>
+            <dependent idx="5">are</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">constraints</governor>
+            <dependent idx="8">safety</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">constraints</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">removed</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">removed</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">have</governor>
+            <dependent idx="13">removed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">constraints</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">constraints</governor>
+            <dependent idx="2">Constraints</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">have</governor>
+            <dependent idx="2">Constraints</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="2">Constraints</governor>
+            <dependent idx="4">recruiting</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">constraints</governor>
+            <dependent idx="5">are</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">constraints</governor>
+            <dependent idx="8">safety</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">constraints</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">removed</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">removed</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">have</governor>
+            <dependent idx="13">removed</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>report</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>also</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>criticises</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>rail</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>unions</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>``</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="10">
+            <word>entrenched</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>resistance</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>change</word>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>''</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN report)) (ADVP (RB also)) (VP (VBZ criticises) (NP (NP (DT the) (NN rail) (NNS unions)) (PP (IN for) (`` ``) (NP (NP (JJ entrenched) (NN resistance)) (PP (TO to) (NP (NN change)))) ('' '')))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">criticises</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">report</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">criticises</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">unions</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">unions</governor>
+            <dependent idx="6">rail</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="7">unions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">unions</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">resistance</governor>
+            <dependent idx="10">entrenched</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">for</governor>
+            <dependent idx="11">resistance</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">resistance</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">to</governor>
+            <dependent idx="13">change</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">criticises</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">report</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">criticises</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">unions</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">unions</governor>
+            <dependent idx="6">rail</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="7">unions</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">resistance</governor>
+            <dependent idx="10">entrenched</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">unions</governor>
+            <dependent idx="11">resistance</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">resistance</governor>
+            <dependent idx="13">change</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">criticises</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">report</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="2">report</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">criticises</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">unions</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">unions</governor>
+            <dependent idx="6">rail</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">criticises</governor>
+            <dependent idx="7">unions</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">resistance</governor>
+            <dependent idx="10">entrenched</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">unions</governor>
+            <dependent idx="11">resistance</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">resistance</governor>
+            <dependent idx="13">change</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

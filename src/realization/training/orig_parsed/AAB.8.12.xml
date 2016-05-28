@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>also</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>shows</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>shortcomings</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>international</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>law</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>not</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>providing</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>mechanism</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>for</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>dealing</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="16">
+            <word>with</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>such</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>situations</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (ADVP (RB also)) (VP (VBZ shows) (NP (NP (DT the) (NNS shortcomings)) (PP (IN of) (NP (JJ international) (NN law)))) (PP (IN in) (S (RB not) (VP (VBG providing) (NP (DT a) (NN mechanism)) (PP (IN for) (S (VP (VBG dealing) (PP (IN with) (NP (JJ such) (NNS situations)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">shows</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">shows</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">shows</governor>
+            <dependent idx="5">shortcomings</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">law</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">law</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">shows</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">providing</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="9">in</governor>
+            <dependent idx="11">providing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">mechanism</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">providing</governor>
+            <dependent idx="13">mechanism</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">providing</governor>
+            <dependent idx="14">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="14">for</governor>
+            <dependent idx="15">dealing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">dealing</governor>
+            <dependent idx="16">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">situations</governor>
+            <dependent idx="17">such</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">with</governor>
+            <dependent idx="18">situations</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">shows</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">shows</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">shows</governor>
+            <dependent idx="5">shortcomings</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">law</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="8">law</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">providing</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="3">shows</governor>
+            <dependent idx="11">providing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">mechanism</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">providing</governor>
+            <dependent idx="13">mechanism</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="11">providing</governor>
+            <dependent idx="15">dealing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">situations</governor>
+            <dependent idx="17">such</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="15">dealing</governor>
+            <dependent idx="18">situations</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">shows</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">shows</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">shows</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">shows</governor>
+            <dependent idx="5">shortcomings</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">law</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">shortcomings</governor>
+            <dependent idx="8">law</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">providing</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="prepc_in">
+            <governor idx="3">shows</governor>
+            <dependent idx="11">providing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">mechanism</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">providing</governor>
+            <dependent idx="13">mechanism</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="11">providing</governor>
+            <dependent idx="15">dealing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">situations</governor>
+            <dependent idx="17">such</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="15">dealing</governor>
+            <dependent idx="18">situations</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Most</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="2">
+            <word>Of</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>Setsuko</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="5">
+            <word>paintings</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>were</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>sold</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>by</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Friday</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>lunchtime</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>--</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>show</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>at</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>Lefevre</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>Gallery</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>only</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="20">
+            <word>opened</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>on</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>Thursday</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (JJS Most)) (PP (IN Of) (NP (NP (NNP Setsuko) (POS 's)) (NNS paintings)))) (VP (VBD were) (VP (VBN sold) (PP (IN by) (NP (NNP Friday) (NN lunchtime)))))) (: --) (CC and) (S (NP (NP (DT the) (NN show)) (PP (IN at) (NP (DT the) (NNP Lefevre) (NNP Gallery)))) (ADVP (RB only)) (VP (VBD opened) (PP (IN on) (NP (NNP Thursday))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Most</governor>
+            <dependent idx="2">Of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">paintings</governor>
+            <dependent idx="3">Setsuko</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="3">Setsuko</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">Of</governor>
+            <dependent idx="5">paintings</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">sold</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">lunchtime</governor>
+            <dependent idx="9">Friday</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">by</governor>
+            <dependent idx="10">lunchtime</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">sold</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">show</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">opened</governor>
+            <dependent idx="14">show</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">show</governor>
+            <dependent idx="15">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="17">Lefevre</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">at</governor>
+            <dependent idx="18">Gallery</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">opened</governor>
+            <dependent idx="19">only</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">sold</governor>
+            <dependent idx="20">opened</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">opened</governor>
+            <dependent idx="21">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">on</governor>
+            <dependent idx="22">Thursday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">paintings</governor>
+            <dependent idx="3">Setsuko</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Most</governor>
+            <dependent idx="5">paintings</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">lunchtime</governor>
+            <dependent idx="9">Friday</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">sold</governor>
+            <dependent idx="10">lunchtime</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">show</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">opened</governor>
+            <dependent idx="14">show</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="17">Lefevre</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="14">show</governor>
+            <dependent idx="18">Gallery</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">opened</governor>
+            <dependent idx="19">only</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">sold</governor>
+            <dependent idx="20">opened</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="20">opened</governor>
+            <dependent idx="22">Thursday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">sold</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">paintings</governor>
+            <dependent idx="3">Setsuko</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Most</governor>
+            <dependent idx="5">paintings</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">sold</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">lunchtime</governor>
+            <dependent idx="9">Friday</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">sold</governor>
+            <dependent idx="10">lunchtime</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">show</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">opened</governor>
+            <dependent idx="14">show</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Gallery</governor>
+            <dependent idx="17">Lefevre</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="14">show</governor>
+            <dependent idx="18">Gallery</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">opened</governor>
+            <dependent idx="19">only</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">sold</governor>
+            <dependent idx="20">opened</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="20">opened</governor>
+            <dependent idx="22">Thursday</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>Nec</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>report</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>this</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>issue</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>sham</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (NP (DT The) (NNP Nec) (NN report)) (PP (IN on) (NP (DT this) (NN issue)))) (VP (VBZ is) (NP (DT a) (NN sham))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">sham</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">report</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">report</governor>
+            <dependent idx="3">Nec</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">sham</governor>
+            <dependent idx="4">report</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">report</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">on</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">sham</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">sham</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">sham</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">report</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">report</governor>
+            <dependent idx="3">Nec</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">sham</governor>
+            <dependent idx="4">report</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">report</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">sham</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">sham</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">sham</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">report</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">report</governor>
+            <dependent idx="3">Nec</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">sham</governor>
+            <dependent idx="4">report</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">report</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">sham</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">sham</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

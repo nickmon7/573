@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Their</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>heavy</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>menacing</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>bodies</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>roughly</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>finished</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>coloured</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>with</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>acid</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>cost</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>#</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="15">
+            <word>50,000</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (PRP$ Their) (NN heavy)) (, ,) (NP (JJ menacing) (NNS bodies)) (, ,)) (ADVP (RB roughly)) (VP (VP (VBD finished)) (CC and) (VP (VBN coloured) (PP (IN with) (NP (NP (JJ acid) (NN cost)) (ADJP (# #) (CD 50,000)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">finished</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">heavy</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">finished</governor>
+            <dependent idx="2">heavy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">menacing</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">heavy</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">finished</governor>
+            <dependent idx="7">roughly</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">finished</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">finished</governor>
+            <dependent idx="10">coloured</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">coloured</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="12">acid</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">with</governor>
+            <dependent idx="13">cost</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">50,000</governor>
+            <dependent idx="14">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="15">50,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">finished</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">heavy</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">finished</governor>
+            <dependent idx="2">heavy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">menacing</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">heavy</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">finished</governor>
+            <dependent idx="7">roughly</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">finished</governor>
+            <dependent idx="10">coloured</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="12">acid</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">coloured</governor>
+            <dependent idx="13">cost</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">50,000</governor>
+            <dependent idx="14">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="15">50,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">finished</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">heavy</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">finished</governor>
+            <dependent idx="2">heavy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">coloured</governor>
+            <dependent idx="2">heavy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">bodies</governor>
+            <dependent idx="4">menacing</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">heavy</governor>
+            <dependent idx="5">bodies</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">finished</governor>
+            <dependent idx="7">roughly</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">finished</governor>
+            <dependent idx="10">coloured</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="12">acid</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">coloured</governor>
+            <dependent idx="13">cost</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">50,000</governor>
+            <dependent idx="14">#</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">cost</governor>
+            <dependent idx="15">50,000</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

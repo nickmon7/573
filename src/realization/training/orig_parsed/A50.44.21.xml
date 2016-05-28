@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>We</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>want</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>industry</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>cut</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>down</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="8">
+            <word>on</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>its</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>own</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>waste</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>make</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>better</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="15">
+            <word>use</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>of</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>other</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>people</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>'s</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP We)) (VP (VBP want) (NP (NN industry)) (S (VP (TO to) (VP (VP (VB cut) (PRT (RP down)) (PP (IN on) (NP (PRP$ its) (JJ own) (NN waste)))) (CC and) (VP (VB make) (NP (NP (JJR better) (NN use)) (PP (IN of) (NP (JJ other) (NP (NNS people) (POS 's)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">want</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">want</governor>
+            <dependent idx="2">We</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">want</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">cut</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">want</governor>
+            <dependent idx="6">cut</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="6">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">cut</governor>
+            <dependent idx="8">on</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">waste</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">waste</governor>
+            <dependent idx="10">own</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">on</governor>
+            <dependent idx="11">waste</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">cut</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">cut</governor>
+            <dependent idx="13">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">use</governor>
+            <dependent idx="14">better</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">make</governor>
+            <dependent idx="15">use</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">use</governor>
+            <dependent idx="16">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">other</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">of</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="18">people</governor>
+            <dependent idx="19">'s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">want</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">want</governor>
+            <dependent idx="2">We</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">want</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">cut</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">want</governor>
+            <dependent idx="6">cut</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="6">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">waste</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">waste</governor>
+            <dependent idx="10">own</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">cut</governor>
+            <dependent idx="11">waste</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">cut</governor>
+            <dependent idx="13">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">use</governor>
+            <dependent idx="14">better</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">make</governor>
+            <dependent idx="15">use</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">other</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">use</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="18">people</governor>
+            <dependent idx="19">'s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">want</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">want</governor>
+            <dependent idx="2">We</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">want</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">cut</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">want</governor>
+            <dependent idx="6">cut</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="6">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">waste</governor>
+            <dependent idx="9">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">waste</governor>
+            <dependent idx="10">own</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">cut</governor>
+            <dependent idx="11">waste</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">want</governor>
+            <dependent idx="13">make</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">cut</governor>
+            <dependent idx="13">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">use</governor>
+            <dependent idx="14">better</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">make</governor>
+            <dependent idx="15">use</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">other</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">use</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="18">people</governor>
+            <dependent idx="19">'s</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

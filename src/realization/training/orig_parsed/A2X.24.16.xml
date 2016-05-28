@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Comparisons</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>made</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>with</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>Reagan</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>administration</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>'s</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="9">
+            <word>more</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>RBR</POS>
+          </token>
+          <token id="10">
+            <word>robust</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>attitude</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>during</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>Grenada</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>invasion</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>Libya</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>bombing</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>raid</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>1984</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>and</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="23">
+            <word>1986</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Comparisons)) (VP (VBD were) (VP (VBN made) (PP (IN with) (NP (NP (NP (DT the) (NNP Reagan) (NN administration) (POS 's)) (ADJP (RBR more) (JJ robust)) (NN attitude)) (PP (IN during) (NP (DT the) (NX (NX (NNP Grenada) (NNP invasion)) (CC and) (NX (JJ Libya) (JJ bombing) (NN raid))))))) (PP (IN in) (NP (CD 1984) (CC and) (CD 1986))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Comparisons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">made</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">made</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">administration</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">administration</governor>
+            <dependent idx="6">Reagan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">attitude</governor>
+            <dependent idx="7">administration</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="7">administration</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">robust</governor>
+            <dependent idx="9">more</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">attitude</governor>
+            <dependent idx="10">robust</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">with</governor>
+            <dependent idx="11">attitude</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">attitude</governor>
+            <dependent idx="12">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">invasion</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">invasion</governor>
+            <dependent idx="14">Grenada</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">during</governor>
+            <dependent idx="15">invasion</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">invasion</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="17">Libya</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="18">bombing</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">invasion</governor>
+            <dependent idx="19">raid</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">made</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="21">1984</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">1984</governor>
+            <dependent idx="22">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="21">1984</governor>
+            <dependent idx="23">1986</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Comparisons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">made</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">administration</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">administration</governor>
+            <dependent idx="6">Reagan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">attitude</governor>
+            <dependent idx="7">administration</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">robust</governor>
+            <dependent idx="9">more</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">attitude</governor>
+            <dependent idx="10">robust</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">made</governor>
+            <dependent idx="11">attitude</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">invasion</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">invasion</governor>
+            <dependent idx="14">Grenada</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="11">attitude</governor>
+            <dependent idx="15">invasion</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="17">Libya</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="18">bombing</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">invasion</governor>
+            <dependent idx="19">raid</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">made</governor>
+            <dependent idx="21">1984</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">1984</governor>
+            <dependent idx="23">1986</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Comparisons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">made</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">administration</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">administration</governor>
+            <dependent idx="6">Reagan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">attitude</governor>
+            <dependent idx="7">administration</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">robust</governor>
+            <dependent idx="9">more</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">attitude</governor>
+            <dependent idx="10">robust</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">made</governor>
+            <dependent idx="11">attitude</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">invasion</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">invasion</governor>
+            <dependent idx="14">Grenada</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="11">attitude</governor>
+            <dependent idx="15">invasion</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="17">Libya</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">raid</governor>
+            <dependent idx="18">bombing</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="11">attitude</governor>
+            <dependent idx="19">raid</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">invasion</governor>
+            <dependent idx="19">raid</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">made</governor>
+            <dependent idx="21">1984</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">made</governor>
+            <dependent idx="23">1986</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">1984</governor>
+            <dependent idx="23">1986</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

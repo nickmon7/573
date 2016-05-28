@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>instead</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>simply</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>using</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>what</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="7">
+            <word>looked</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>good</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>he</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>enlisted</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>help</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>Ross</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>'</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="17">
+            <word>wife</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>prima</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>ballerina</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>Nora</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Kaye</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (PP (RB instead) (IN of) (S (VP (ADVP (RB simply)) (VBG using) (SBAR (WHNP (WP what)) (S (VP (VBD looked) (ADJP (JJ good)))))))) (, ,) (NP (PRP he)) (VP (VBD enlisted) (NP (NP (DT the) (NN help)) (PP (IN of) (NP (NP (NP (NNP Ross) (POS ')) (NN wife)) (, ,) (NP (NN prima) (NN ballerina) (NNP Nora) (NNP Kaye)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">enlisted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">of</governor>
+            <dependent idx="2">instead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">using</governor>
+            <dependent idx="4">simply</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="3">of</governor>
+            <dependent idx="5">using</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">looked</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">using</governor>
+            <dependent idx="7">looked</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="7">looked</governor>
+            <dependent idx="8">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">help</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="13">help</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">help</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">wife</governor>
+            <dependent idx="15">Ross</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="17">wife</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="19">prima</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="20">ballerina</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="21">Nora</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">wife</governor>
+            <dependent idx="22">Kaye</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">enlisted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">using</governor>
+            <dependent idx="4">simply</dependent>
+          </dep>
+          <dep type="prepc_instead_of">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="5">using</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">looked</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">using</governor>
+            <dependent idx="7">looked</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="7">looked</governor>
+            <dependent idx="8">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">help</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="13">help</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">wife</governor>
+            <dependent idx="15">Ross</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">help</governor>
+            <dependent idx="17">wife</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="19">prima</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="20">ballerina</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="21">Nora</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">wife</governor>
+            <dependent idx="22">Kaye</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">enlisted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">using</governor>
+            <dependent idx="4">simply</dependent>
+          </dep>
+          <dep type="prepc_instead_of">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="5">using</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">looked</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">using</governor>
+            <dependent idx="7">looked</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="7">looked</governor>
+            <dependent idx="8">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">help</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">enlisted</governor>
+            <dependent idx="13">help</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">wife</governor>
+            <dependent idx="15">Ross</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">help</governor>
+            <dependent idx="17">wife</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="19">prima</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="20">ballerina</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Kaye</governor>
+            <dependent idx="21">Nora</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">wife</governor>
+            <dependent idx="22">Kaye</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

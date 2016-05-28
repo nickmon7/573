@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>two-year</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>deal</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>amounted</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>9.5</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>per</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>cent</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>for</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>first</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>year</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>inflation</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>plus</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>2.5</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="17">
+            <word>per</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>cent</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>for</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>second</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (JJ two-year) (NN deal)) (VP (VBD amounted) (PP (TO to) (NP (NP (CD 9.5)) (PP (IN per) (NP (NN cent))))) (PP (IN for) (NP (NP (DT the) (JJ first) (NN year) (CC and) (NN inflation)) (PP (CC plus) (NP (NP (CD 2.5)) (PP (IN per) (NP (NP (NN cent)) (PP (IN for) (NP (DT the) (NN second)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">amounted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">deal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">deal</governor>
+            <dependent idx="2">two-year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">amounted</governor>
+            <dependent idx="3">deal</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">amounted</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">to</governor>
+            <dependent idx="6">9.5</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">9.5</governor>
+            <dependent idx="7">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">per</governor>
+            <dependent idx="8">cent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">amounted</governor>
+            <dependent idx="9">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">year</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">year</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">for</governor>
+            <dependent idx="12">year</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">year</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">year</governor>
+            <dependent idx="14">inflation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">year</governor>
+            <dependent idx="15">plus</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">plus</governor>
+            <dependent idx="16">2.5</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">2.5</governor>
+            <dependent idx="17">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">per</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">cent</governor>
+            <dependent idx="19">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">second</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">for</governor>
+            <dependent idx="21">second</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">amounted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">deal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">deal</governor>
+            <dependent idx="2">two-year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">amounted</governor>
+            <dependent idx="3">deal</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="4">amounted</governor>
+            <dependent idx="6">9.5</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">9.5</governor>
+            <dependent idx="8">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">year</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">year</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">amounted</governor>
+            <dependent idx="12">year</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">year</governor>
+            <dependent idx="14">inflation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">year</governor>
+            <dependent idx="15">plus</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">plus</governor>
+            <dependent idx="16">2.5</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="16">2.5</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">second</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">cent</governor>
+            <dependent idx="21">second</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">amounted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">deal</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">deal</governor>
+            <dependent idx="2">two-year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">amounted</governor>
+            <dependent idx="3">deal</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="4">amounted</governor>
+            <dependent idx="6">9.5</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="6">9.5</governor>
+            <dependent idx="8">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">year</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">year</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">amounted</governor>
+            <dependent idx="12">year</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">amounted</governor>
+            <dependent idx="14">inflation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">year</governor>
+            <dependent idx="14">inflation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">year</governor>
+            <dependent idx="15">plus</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">plus</governor>
+            <dependent idx="16">2.5</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="16">2.5</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">second</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">cent</governor>
+            <dependent idx="21">second</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

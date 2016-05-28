@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Was</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>last</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>rally</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>last</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>speech</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>last</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>chance</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>for</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>Tory</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>faithful</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>to</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="19">
+            <word>enjoy</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>John</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Major</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>planetarium</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>experience</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT This)) (VP (VBD Was) (NP (NP (DT the) (JJ last) (NN rally)) (, ,) (NP (DT the) (JJ last) (NN speech)) (CC and) (NP (DT the) (JJ last) (NN chance))) (PP (IN for) (NP (DT the) (NNP Tory) (NN faithful))) (S (VP (TO to) (VP (VB enjoy) (NP (DT the) (NNP John) (NNP Major) (NN planetarium) (NN experience)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rally</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">rally</governor>
+            <dependent idx="2">Was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">rally</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">rally</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">speech</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">speech</governor>
+            <dependent idx="8">last</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">rally</governor>
+            <dependent idx="9">speech</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">rally</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">chance</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">chance</governor>
+            <dependent idx="12">last</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">rally</governor>
+            <dependent idx="13">chance</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">rally</governor>
+            <dependent idx="14">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">faithful</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">faithful</governor>
+            <dependent idx="16">Tory</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">for</governor>
+            <dependent idx="17">faithful</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">rally</governor>
+            <dependent idx="19">enjoy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">experience</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="21">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="22">Major</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="23">planetarium</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="24">experience</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rally</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">rally</governor>
+            <dependent idx="2">Was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">rally</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">rally</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">speech</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">speech</governor>
+            <dependent idx="8">last</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">rally</governor>
+            <dependent idx="9">speech</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">chance</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">chance</governor>
+            <dependent idx="12">last</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">rally</governor>
+            <dependent idx="13">chance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">faithful</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">faithful</governor>
+            <dependent idx="16">Tory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">rally</governor>
+            <dependent idx="17">faithful</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">rally</governor>
+            <dependent idx="19">enjoy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">experience</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="21">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="22">Major</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="23">planetarium</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="24">experience</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rally</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rally</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">rally</governor>
+            <dependent idx="2">Was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">rally</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">rally</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">speech</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">speech</governor>
+            <dependent idx="8">last</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">rally</governor>
+            <dependent idx="9">speech</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">chance</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">chance</governor>
+            <dependent idx="12">last</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">rally</governor>
+            <dependent idx="13">chance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">faithful</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">faithful</governor>
+            <dependent idx="16">Tory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">rally</governor>
+            <dependent idx="17">faithful</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">rally</governor>
+            <dependent idx="19">enjoy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">experience</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="21">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="22">Major</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">experience</governor>
+            <dependent idx="23">planetarium</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">enjoy</governor>
+            <dependent idx="24">experience</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

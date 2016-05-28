@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>opposed</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>every</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>attempt</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>improve</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>relations</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>with</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>West</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="14">
+            <word>liberalise</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>economy</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>as</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>betrayal</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>of</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>legacy</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>of</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>Khomeini</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBP have) (VP (VBN opposed) (NP (DT every) (NN attempt) (S (VP (VP (TO to) (VP (VB improve) (NP (NNS relations)) (PP (IN with) (NP (DT the) (NNP West))))) (CC and) (VP (TO to) (VP (VB liberalise) (NP (DT the) (NN economy)) (PP (IN as) (NP (NP (DT a) (NN betrayal)) (PP (IN of) (NP (NP (DT the) (NN legacy)) (PP (IN of) (NP (NNP Khomeini)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">opposed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">opposed</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">attempt</governor>
+            <dependent idx="4">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="5">attempt</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">improve</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">attempt</governor>
+            <dependent idx="7">improve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">improve</governor>
+            <dependent idx="8">relations</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">improve</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">West</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">with</governor>
+            <dependent idx="11">West</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">improve</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">improve</governor>
+            <dependent idx="14">liberalise</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">economy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="16">economy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="17">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">as</governor>
+            <dependent idx="19">betrayal</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">legacy</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">of</governor>
+            <dependent idx="22">legacy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">legacy</governor>
+            <dependent idx="23">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">of</governor>
+            <dependent idx="24">Khomeini</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">opposed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">opposed</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">attempt</governor>
+            <dependent idx="4">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="5">attempt</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">improve</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">attempt</governor>
+            <dependent idx="7">improve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">improve</governor>
+            <dependent idx="8">relations</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">West</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="7">improve</governor>
+            <dependent idx="11">West</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">improve</governor>
+            <dependent idx="14">liberalise</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">economy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="16">economy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="19">betrayal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">legacy</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="22">legacy</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="22">legacy</governor>
+            <dependent idx="24">Khomeini</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">opposed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">opposed</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">attempt</governor>
+            <dependent idx="4">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">opposed</governor>
+            <dependent idx="5">attempt</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">improve</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">attempt</governor>
+            <dependent idx="7">improve</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">improve</governor>
+            <dependent idx="8">relations</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">West</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="7">improve</governor>
+            <dependent idx="11">West</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="5">attempt</governor>
+            <dependent idx="14">liberalise</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">improve</governor>
+            <dependent idx="14">liberalise</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">economy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="16">economy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="14">liberalise</governor>
+            <dependent idx="19">betrayal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">legacy</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">betrayal</governor>
+            <dependent idx="22">legacy</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="22">legacy</governor>
+            <dependent idx="24">Khomeini</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

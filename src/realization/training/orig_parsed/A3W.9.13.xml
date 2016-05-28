@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>leaflet</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>given</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="5">
+            <word>Labour</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>activists</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>mentions</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="8">
+            <word>none</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>these</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>things</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>concentrating</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>on</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>how</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="16">
+            <word>many</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>ordinary</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>people</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>go</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="21">
+            <word>arts</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>events</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN leaflet)) (PP (VBN given) (PP (TO to) (NP (NNP Labour) (NNS activists))))) (VP (VBZ mentions) (NP (NP (NN none)) (PP (IN of) (NP (DT these) (NNS things)))) (, ,) (S (VP (VBG concentrating) (PP (IN on) (SBAR (WHADJP (WRB how) (JJ many)) (S (NP (JJ ordinary) (NNS people)) (VP (VBP go) (PP (TO to) (NP (NNS arts) (NNS events)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">mentions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="2">leaflet</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="3">given</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="3">given</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">activists</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">to</governor>
+            <dependent idx="6">activists</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="8">none</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">none</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">things</governor>
+            <dependent idx="10">these</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="11">things</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">mentions</governor>
+            <dependent idx="13">concentrating</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">concentrating</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">many</governor>
+            <dependent idx="15">how</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">go</governor>
+            <dependent idx="16">many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">ordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">go</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="14">on</governor>
+            <dependent idx="19">go</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">go</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">events</governor>
+            <dependent idx="21">arts</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">to</governor>
+            <dependent idx="22">events</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">mentions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="2">leaflet</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="3">given</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="3">given</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">activists</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">to</governor>
+            <dependent idx="6">activists</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="8">none</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">things</governor>
+            <dependent idx="10">these</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">none</governor>
+            <dependent idx="11">things</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">mentions</governor>
+            <dependent idx="13">concentrating</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">many</governor>
+            <dependent idx="15">how</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">go</governor>
+            <dependent idx="16">many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">ordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">go</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="prepc_on">
+            <governor idx="13">concentrating</governor>
+            <dependent idx="19">go</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">events</governor>
+            <dependent idx="21">arts</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">go</governor>
+            <dependent idx="22">events</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">mentions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="2">leaflet</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">leaflet</governor>
+            <dependent idx="3">given</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="3">given</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">activists</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">to</governor>
+            <dependent idx="6">activists</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">mentions</governor>
+            <dependent idx="8">none</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">things</governor>
+            <dependent idx="10">these</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">none</governor>
+            <dependent idx="11">things</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">mentions</governor>
+            <dependent idx="13">concentrating</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">many</governor>
+            <dependent idx="15">how</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="19">go</governor>
+            <dependent idx="16">many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">people</governor>
+            <dependent idx="17">ordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">go</governor>
+            <dependent idx="18">people</dependent>
+          </dep>
+          <dep type="prepc_on">
+            <governor idx="13">concentrating</governor>
+            <dependent idx="19">go</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">events</governor>
+            <dependent idx="21">arts</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">go</governor>
+            <dependent idx="22">events</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

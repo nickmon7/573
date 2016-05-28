@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>Nicholas</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="4">
+            <word>grand</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>design</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>collapsed</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>1918</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>when</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="10">
+            <word>his</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="11">
+            <word>Serbian</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>son-in-law</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>Alexander</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>deposed</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>him</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="18">
+            <word>and</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="19">
+            <word>incorporated</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>Montenegro</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>into</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>Yugoslavia</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (NP (NNP Nicholas) (POS 's)) (JJ grand) (NN design)) (VP (VBD collapsed) (PP (IN in) (NP (CD 1918))) (SBAR (WHADVP (WRB when)) (S (NP (NP (PRP$ his) (JJ Serbian) (NN son-in-law)) (, ,) (NP (NNP Alexander)) (, ,)) (VP (VP (VBN deposed) (NP (PRP him))) (CC and) (VP (JJ incorporated) (NP (NNP Montenegro)) (PP (IN into) (NP (NNP Yugoslavia)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">design</governor>
+            <dependent idx="2">Nicholas</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="2">Nicholas</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">design</governor>
+            <dependent idx="4">grand</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">design</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">in</governor>
+            <dependent idx="8">1918</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">deposed</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="11">Serbian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="12">son-in-law</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="14">Alexander</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="16">deposed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">deposed</governor>
+            <dependent idx="18">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="19">incorporated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="20">Montenegro</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="21">into</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">into</governor>
+            <dependent idx="22">Yugoslavia</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">design</governor>
+            <dependent idx="2">Nicholas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">design</governor>
+            <dependent idx="4">grand</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">design</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="8">1918</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">deposed</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="11">Serbian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="12">son-in-law</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="14">Alexander</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="16">deposed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">deposed</governor>
+            <dependent idx="19">incorporated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="20">Montenegro</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="22">Yugoslavia</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">collapsed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">design</governor>
+            <dependent idx="2">Nicholas</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">design</governor>
+            <dependent idx="4">grand</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="5">design</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="8">1918</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">deposed</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="11">Serbian</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="12">son-in-law</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="12">son-in-law</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">son-in-law</governor>
+            <dependent idx="14">Alexander</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="16">deposed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">deposed</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">collapsed</governor>
+            <dependent idx="19">incorporated</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">deposed</governor>
+            <dependent idx="19">incorporated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="20">Montenegro</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="19">incorporated</governor>
+            <dependent idx="22">Yugoslavia</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

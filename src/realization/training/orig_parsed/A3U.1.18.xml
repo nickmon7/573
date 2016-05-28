@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>state</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>population</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>7.6</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>million</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>making</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>it</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>most</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="14">
+            <word>densely</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>populated</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>union</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN state)) (VP (VBZ has) (NP (NP (DT a) (NN population)) (PP (IN of) (NP (NP (QP (CD 7.6) (CD million))) (, ,) (VP (VBG making) (S (NP (PRP it)) (NP (NP (DT the) (ADJP (RBS most) (RB densely) (VBN populated))) (PP (IN in) (NP (DT the) (NN union)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">state</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">state</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">population</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">population</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">population</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">million</governor>
+            <dependent idx="7">7.6</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">million</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">million</governor>
+            <dependent idx="10">making</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">populated</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">populated</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="13">most</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="14">densely</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">making</governor>
+            <dependent idx="15">populated</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">populated</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">union</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="18">union</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">state</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">state</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">population</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">population</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">million</governor>
+            <dependent idx="7">7.6</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">population</governor>
+            <dependent idx="8">million</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">million</governor>
+            <dependent idx="10">making</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">populated</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">populated</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="13">most</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="14">densely</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">making</governor>
+            <dependent idx="15">populated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">union</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">populated</governor>
+            <dependent idx="18">union</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">state</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">has</governor>
+            <dependent idx="2">state</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">population</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">has</governor>
+            <dependent idx="5">population</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="8">million</governor>
+            <dependent idx="7">7.6</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">population</governor>
+            <dependent idx="8">million</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">million</governor>
+            <dependent idx="10">making</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">populated</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">populated</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="13">most</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">populated</governor>
+            <dependent idx="14">densely</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">making</governor>
+            <dependent idx="15">populated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">union</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">populated</governor>
+            <dependent idx="18">union</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Realizing</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="2">
+            <word>it</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>nestled</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>among</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>studios</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>-</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="8">
+            <word>Republic</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>RKO</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>Columbia</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>-</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>catered</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>show</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>business</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>community</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (S (VP (VBG Realizing) (NP (PRP it)))) (VP (VBD was) (VP (VBN nestled) (PP (IN among) (NP (NP (NNS studios)) (: -) (NP (NNP Republic) (, ,) (NNP RKO) (, ,) (NNP Columbia))))))) (: -) (S (NP (PRP he)) (VP (VBD catered) (PP (TO to) (NP (DT the) (NN show) (NN business) (NN community))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">nestled</dependent>
+          </dep>
+          <dep type="csubjpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="1">Realizing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Realizing</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">nestled</governor>
+            <dependent idx="5">among</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">among</governor>
+            <dependent idx="6">studios</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="8">Republic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="10">RKO</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">studios</governor>
+            <dependent idx="12">Columbia</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">catered</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">nestled</governor>
+            <dependent idx="15">catered</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">catered</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">community</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="18">show</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="19">business</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">to</governor>
+            <dependent idx="20">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">nestled</dependent>
+          </dep>
+          <dep type="csubjpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="1">Realizing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Realizing</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="4">nestled</governor>
+            <dependent idx="6">studios</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="8">Republic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="10">RKO</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">studios</governor>
+            <dependent idx="12">Columbia</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">catered</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">nestled</governor>
+            <dependent idx="15">catered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">community</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="18">show</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="19">business</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">catered</governor>
+            <dependent idx="20">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">nestled</dependent>
+          </dep>
+          <dep type="csubjpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="1">Realizing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Realizing</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">nestled</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="4">nestled</governor>
+            <dependent idx="6">studios</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="8">Republic</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Columbia</governor>
+            <dependent idx="10">RKO</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="6">studios</governor>
+            <dependent idx="12">Columbia</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">catered</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">nestled</governor>
+            <dependent idx="15">catered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">community</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="18">show</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">community</governor>
+            <dependent idx="19">business</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">catered</governor>
+            <dependent idx="20">community</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

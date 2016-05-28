@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Britain</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Us</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>ignored</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>conference</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Britain)) (CC and) (NP (DT the) (NN Us))) (VP (VBD ignored) (NP (DT the) (NN conference))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">ignored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="1">Britain</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Britain</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Us</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Britain</governor>
+            <dependent idx="4">Us</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">conference</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="7">conference</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">ignored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="1">Britain</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Us</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Britain</governor>
+            <dependent idx="4">Us</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">conference</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="7">conference</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">ignored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="1">Britain</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Us</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Britain</governor>
+            <dependent idx="4">Us</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="4">Us</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">conference</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">ignored</governor>
+            <dependent idx="7">conference</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

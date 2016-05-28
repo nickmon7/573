@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>followed</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>private</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>hearing</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>before</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Mr</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>Justice</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Konrad</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Schiemann</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>London</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT This)) (VP (VBD followed) (NP (DT a) (JJ private) (NN hearing)) (PP (IN before) (NP (NNP Mr) (NNP Justice) (NNP Konrad) (NNP Schiemann))) (PP (IN in) (NP (NNP London)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">followed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">followed</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">hearing</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hearing</governor>
+            <dependent idx="4">private</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">followed</governor>
+            <dependent idx="5">hearing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">followed</governor>
+            <dependent idx="6">before</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="7">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="8">Justice</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="9">Konrad</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">before</governor>
+            <dependent idx="10">Schiemann</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">followed</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="12">London</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">followed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">followed</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">hearing</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hearing</governor>
+            <dependent idx="4">private</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">followed</governor>
+            <dependent idx="5">hearing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="7">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="8">Justice</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="9">Konrad</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="2">followed</governor>
+            <dependent idx="10">Schiemann</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">followed</governor>
+            <dependent idx="12">London</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">followed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">followed</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">hearing</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">hearing</governor>
+            <dependent idx="4">private</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">followed</governor>
+            <dependent idx="5">hearing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="7">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="8">Justice</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Schiemann</governor>
+            <dependent idx="9">Konrad</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="2">followed</governor>
+            <dependent idx="10">Schiemann</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">followed</governor>
+            <dependent idx="12">London</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Distributed</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Los</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Times-Washington</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Post</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>News</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Service</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (VP (VBN Distributed) (PP (IN by) (NP (DT the) (NNP Los) (NNP Angeles) (NNP Times-Washington) (NNP Post) (NNP News) (NNP Service))))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Distributed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Distributed</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Service</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="4">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="5">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="6">Times-Washington</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="7">Post</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">by</governor>
+            <dependent idx="9">Service</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Distributed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Service</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="4">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="5">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="6">Times-Washington</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="7">Post</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="1">Distributed</governor>
+            <dependent idx="9">Service</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">Distributed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Service</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="4">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="5">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="6">Times-Washington</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="7">Post</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Service</governor>
+            <dependent idx="8">News</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="1">Distributed</governor>
+            <dependent idx="9">Service</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

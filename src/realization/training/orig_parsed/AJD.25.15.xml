@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>And</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>whenever</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="4">
+            <word>Liberal</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Democrats</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="6">
+            <word>are</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>up</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>we</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="12">
+            <word>sweep</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>ahead</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>in</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>South-West</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (CC And) (SBAR (WHADVP (WRB whenever)) (S (NP (NNP Liberal) (NNPS Democrats)) (VP (VBP are) (PP (IN on) (NP (DT the) (RB up)))))) (, ,) (NP (PRP we)) (VP (VBD sweep) (ADVP (RB ahead)) (PP (IN in) (NP (DT the) (NN South-West)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">sweep</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">sweep</governor>
+            <dependent idx="2">And</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">are</governor>
+            <dependent idx="3">whenever</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="4">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">sweep</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">are</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">up</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sweep</governor>
+            <dependent idx="11">we</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">sweep</governor>
+            <dependent idx="13">ahead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">sweep</governor>
+            <dependent idx="14">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">South-West</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">in</governor>
+            <dependent idx="16">South-West</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">sweep</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">sweep</governor>
+            <dependent idx="2">And</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">are</governor>
+            <dependent idx="3">whenever</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="4">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">sweep</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">are</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">up</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sweep</governor>
+            <dependent idx="11">we</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">sweep</governor>
+            <dependent idx="13">ahead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">South-West</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">sweep</governor>
+            <dependent idx="16">South-West</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">sweep</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">sweep</governor>
+            <dependent idx="2">And</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">are</governor>
+            <dependent idx="3">whenever</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Democrats</governor>
+            <dependent idx="4">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">Democrats</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">sweep</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">are</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">up</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sweep</governor>
+            <dependent idx="11">we</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">sweep</governor>
+            <dependent idx="13">ahead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">South-West</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">sweep</governor>
+            <dependent idx="16">South-West</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>Many</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>things</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>which</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="7">
+            <word>bring</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="8">
+            <word>joy</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="10">
+            <word>our</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="11">
+            <word>hearts</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>countryside</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>have</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="16">
+            <word>been</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>destroyed</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="20">
+            <word>said</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>Sir</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>David</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (`` ``) (S (NP (NP (JJ Many)) (PP (IN of) (NP (NP (DT the) (NNS things)) (SBAR (WHNP (WDT which)) (S (VP (VBP bring) (NP (NN joy)) (PP (TO to) (NP (NP (PRP$ our) (NNS hearts)) (PP (IN in) (NP (DT the) (NN countryside))))))))))) (VP (VBP have) (VP (VBN been) (VP (VBN destroyed))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Sir) (NNP David)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="2">Many</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Many</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">things</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">things</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">bring</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">things</governor>
+            <dependent idx="7">bring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">bring</governor>
+            <dependent idx="8">joy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">bring</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">hearts</governor>
+            <dependent idx="10">our</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">to</governor>
+            <dependent idx="11">hearts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">hearts</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="17">destroyed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">David</governor>
+            <dependent idx="21">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">David</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="2">Many</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">things</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Many</governor>
+            <dependent idx="5">things</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">bring</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">things</governor>
+            <dependent idx="7">bring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">bring</governor>
+            <dependent idx="8">joy</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">hearts</governor>
+            <dependent idx="10">our</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">bring</governor>
+            <dependent idx="11">hearts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">hearts</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="17">destroyed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">David</governor>
+            <dependent idx="21">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">David</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="2">Many</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">things</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Many</governor>
+            <dependent idx="5">things</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">bring</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">things</governor>
+            <dependent idx="7">bring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">bring</governor>
+            <dependent idx="8">joy</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">hearts</governor>
+            <dependent idx="10">our</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">bring</governor>
+            <dependent idx="11">hearts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">hearts</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">destroyed</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="17">destroyed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">David</governor>
+            <dependent idx="21">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">David</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

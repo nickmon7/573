@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>died</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>out</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>eighteenth</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>century</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>as</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>result</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>deforestation</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>hunting</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBD died) (PRT (RP out)) (PP (IN in) (NP (DT the) (JJ eighteenth) (NN century))) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (NN deforestation) (CC and) (NN hunting)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="2">died</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">died</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">century</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">century</governor>
+            <dependent idx="6">eighteenth</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="7">century</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">died</governor>
+            <dependent idx="8">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">result</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">as</governor>
+            <dependent idx="10">result</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">result</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="12">deforestation</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">deforestation</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">deforestation</governor>
+            <dependent idx="14">hunting</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="2">died</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">century</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">century</governor>
+            <dependent idx="6">eighteenth</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">died</governor>
+            <dependent idx="7">century</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">result</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">died</governor>
+            <dependent idx="10">result</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">result</governor>
+            <dependent idx="12">deforestation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">deforestation</governor>
+            <dependent idx="14">hunting</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="2">died</governor>
+            <dependent idx="3">out</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">century</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">century</governor>
+            <dependent idx="6">eighteenth</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">died</governor>
+            <dependent idx="7">century</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">result</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">died</governor>
+            <dependent idx="10">result</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">result</governor>
+            <dependent idx="12">deforestation</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">result</governor>
+            <dependent idx="14">hunting</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">deforestation</governor>
+            <dependent idx="14">hunting</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

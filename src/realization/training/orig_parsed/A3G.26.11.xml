@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Assisted</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="2">
+            <word>by</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Rspb</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>commission</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>circulated</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>questionnaires</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>among</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>its</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="12">
+            <word>rangers</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Highland</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>Grampian</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>regions</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Assisted) (PP (IN by) (NP (DT the) (NNP Rspb))))) (, ,) (NP (DT the) (NN commission)) (VP (VBD circulated) (NP (NNS questionnaires)) (PP (IN among) (NP (PRP$ its) (NNS rangers))) (PP (IN in) (NP (NP (NNP Highland) (CC and) (NNP Grampian)) (NNS regions)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">circulated</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">circulated</governor>
+            <dependent idx="1">Assisted</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Assisted</governor>
+            <dependent idx="2">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Rspb</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">by</governor>
+            <dependent idx="4">Rspb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">commission</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="7">commission</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="9">questionnaires</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">circulated</governor>
+            <dependent idx="10">among</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">rangers</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">among</governor>
+            <dependent idx="12">rangers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">circulated</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">regions</governor>
+            <dependent idx="14">Highland</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">Highland</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">Highland</governor>
+            <dependent idx="16">Grampian</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="17">regions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">circulated</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">circulated</governor>
+            <dependent idx="1">Assisted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Rspb</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="1">Assisted</governor>
+            <dependent idx="4">Rspb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">commission</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="7">commission</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="9">questionnaires</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">rangers</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="8">circulated</governor>
+            <dependent idx="12">rangers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">regions</governor>
+            <dependent idx="14">Highland</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">Highland</governor>
+            <dependent idx="16">Grampian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">circulated</governor>
+            <dependent idx="17">regions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">circulated</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">circulated</governor>
+            <dependent idx="1">Assisted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Rspb</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="1">Assisted</governor>
+            <dependent idx="4">Rspb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">commission</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="7">commission</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">circulated</governor>
+            <dependent idx="9">questionnaires</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">rangers</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="8">circulated</governor>
+            <dependent idx="12">rangers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">regions</governor>
+            <dependent idx="14">Highland</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">Highland</governor>
+            <dependent idx="16">Grampian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">regions</governor>
+            <dependent idx="16">Grampian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">circulated</governor>
+            <dependent idx="17">regions</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

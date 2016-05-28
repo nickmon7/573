@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>1941</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>graduate</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>Kent</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>School</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Connecticut</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>entered</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>University</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>of</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>Georgia</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>when</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="19">
+            <word>he</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>was</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>14</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD was) (NP (NP (DT a) (CD 1941) (NN graduate)) (PP (IN of) (NP (DT the) (NNP Kent) (NNP School))) (PP (IN in) (NP (NNP Connecticut))) (, ,) (VP (VBN entered) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Georgia)))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD was) (NP (CD 14)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">graduate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">graduate</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">graduate</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">graduate</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">graduate</governor>
+            <dependent idx="4">1941</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">graduate</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">School</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">Kent</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">graduate</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="11">Connecticut</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">graduate</governor>
+            <dependent idx="13">entered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">University</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">entered</governor>
+            <dependent idx="15">University</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">University</governor>
+            <dependent idx="16">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">of</governor>
+            <dependent idx="17">Georgia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">14</governor>
+            <dependent idx="18">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">14</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">14</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">entered</governor>
+            <dependent idx="21">14</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">graduate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">graduate</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">graduate</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">graduate</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">graduate</governor>
+            <dependent idx="4">1941</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">School</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">Kent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">graduate</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">graduate</governor>
+            <dependent idx="11">Connecticut</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">graduate</governor>
+            <dependent idx="13">entered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">University</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">entered</governor>
+            <dependent idx="15">University</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">University</governor>
+            <dependent idx="17">Georgia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">14</governor>
+            <dependent idx="18">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">14</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">14</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">entered</governor>
+            <dependent idx="21">14</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">graduate</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">graduate</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">graduate</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">graduate</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">graduate</governor>
+            <dependent idx="4">1941</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">School</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">Kent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">graduate</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">graduate</governor>
+            <dependent idx="11">Connecticut</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">graduate</governor>
+            <dependent idx="13">entered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">University</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">entered</governor>
+            <dependent idx="15">University</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">University</governor>
+            <dependent idx="17">Georgia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="21">14</governor>
+            <dependent idx="18">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">14</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">14</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">entered</governor>
+            <dependent idx="21">14</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

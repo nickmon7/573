@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>powerful</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>balance</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>these</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>figure</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>compositions</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>highlighted</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>when</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="11">
+            <word>they</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="12">
+            <word>are</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="13">
+            <word>transposed</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>into</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>tubes</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>sheets</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>metal</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ powerful) (NN balance)) (PP (IN of) (NP (DT these) (NN figure) (NNS compositions)))) (VP (VBZ is) (VP (VBN highlighted) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP are) (VP (VBN transposed) (PP (IN into) (NP (NP (NNS tubes) (CC and) (NNS sheets)) (PP (IN of) (NP (NN metal))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">highlighted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">balance</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">balance</governor>
+            <dependent idx="2">powerful</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="3">balance</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">balance</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">compositions</governor>
+            <dependent idx="5">these</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">compositions</governor>
+            <dependent idx="6">figure</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="7">compositions</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">transposed</governor>
+            <dependent idx="10">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="11">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="12">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="13">transposed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">transposed</governor>
+            <dependent idx="14">into</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">into</governor>
+            <dependent idx="15">tubes</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">tubes</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">tubes</governor>
+            <dependent idx="17">sheets</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">tubes</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="19">metal</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">highlighted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">balance</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">balance</governor>
+            <dependent idx="2">powerful</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="3">balance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">compositions</governor>
+            <dependent idx="5">these</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">compositions</governor>
+            <dependent idx="6">figure</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">balance</governor>
+            <dependent idx="7">compositions</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">transposed</governor>
+            <dependent idx="10">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="11">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="12">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="13">transposed</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="13">transposed</governor>
+            <dependent idx="15">tubes</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">tubes</governor>
+            <dependent idx="17">sheets</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">tubes</governor>
+            <dependent idx="19">metal</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">highlighted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">balance</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">balance</governor>
+            <dependent idx="2">powerful</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="3">balance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">compositions</governor>
+            <dependent idx="5">these</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">compositions</governor>
+            <dependent idx="6">figure</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">balance</governor>
+            <dependent idx="7">compositions</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">transposed</governor>
+            <dependent idx="10">when</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="11">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">transposed</governor>
+            <dependent idx="12">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">highlighted</governor>
+            <dependent idx="13">transposed</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="13">transposed</governor>
+            <dependent idx="15">tubes</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="13">transposed</governor>
+            <dependent idx="17">sheets</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">tubes</governor>
+            <dependent idx="17">sheets</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">tubes</governor>
+            <dependent idx="19">metal</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

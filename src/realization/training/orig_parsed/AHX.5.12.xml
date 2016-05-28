@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>It</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>been</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>building</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>up</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>this</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP It)) (VP (VBZ 's) (VP (VBN been) (VP (VBG building) (PRT (RP up)) (PP (TO to) (NP (DT this)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">building</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">building</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">building</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">building</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">building</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">to</governor>
+            <dependent idx="8">this</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">building</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">building</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">building</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">building</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">building</governor>
+            <dependent idx="8">this</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">building</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">building</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">building</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">building</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">building</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">building</governor>
+            <dependent idx="8">this</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

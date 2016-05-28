@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mastroianni</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>much</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>loved</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>around</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>world</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>roles</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>opposite</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>Italian</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>actress</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>Sophia</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Loren</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>11</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="18">
+            <word>movies</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mastroianni)) (VP (VBD was) (ADVP (RB much)) (VP (VBN loved) (PP (IN around) (NP (NP (DT the) (NN world)) (PP (IN in) (NP (PRP$ his) (NNS roles))))) (PP (IN opposite) (NP (NP (JJ Italian) (NN actress) (NNP Sophia) (NNP Loren)) (PP (IN in) (NP (CD 11) (NNS movies))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">loved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">loved</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">loved</governor>
+            <dependent idx="5">around</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">world</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">around</governor>
+            <dependent idx="7">world</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">world</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">roles</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="10">roles</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">loved</governor>
+            <dependent idx="11">opposite</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Loren</governor>
+            <dependent idx="12">Italian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="13">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="14">Sophia</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">opposite</governor>
+            <dependent idx="15">Loren</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">Loren</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">movies</governor>
+            <dependent idx="17">11</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="18">movies</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">loved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">loved</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">world</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_around">
+            <governor idx="4">loved</governor>
+            <dependent idx="7">world</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">roles</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">world</governor>
+            <dependent idx="10">roles</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Loren</governor>
+            <dependent idx="12">Italian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="13">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="14">Sophia</dependent>
+          </dep>
+          <dep type="prep_opposite">
+            <governor idx="4">loved</governor>
+            <dependent idx="15">Loren</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">movies</governor>
+            <dependent idx="17">11</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Loren</governor>
+            <dependent idx="18">movies</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">loved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">loved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">loved</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">world</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_around">
+            <governor idx="4">loved</governor>
+            <dependent idx="7">world</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">roles</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">world</governor>
+            <dependent idx="10">roles</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Loren</governor>
+            <dependent idx="12">Italian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="13">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Loren</governor>
+            <dependent idx="14">Sophia</dependent>
+          </dep>
+          <dep type="prep_opposite">
+            <governor idx="4">loved</governor>
+            <dependent idx="15">Loren</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">movies</governor>
+            <dependent idx="17">11</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Loren</governor>
+            <dependent idx="18">movies</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

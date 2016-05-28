@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>For</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>all</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>PDT</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>observers</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>are</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="7">
+            <word>unanimous</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Swapo</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>will</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>emerge</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>with</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>clear</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>majority</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN For) (NP (PDT all) (DT that))) (, ,) (NP (NNS observers)) (VP (VBP are) (ADJP (JJ unanimous) (SBAR (IN that) (S (NP (NNP Swapo)) (VP (MD will) (VP (VB emerge) (PP (IN with) (NP (DT a) (JJ clear) (NN majority))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">unanimous</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="1">For</dependent>
+          </dep>
+          <dep type="predet">
+            <governor idx="3">that</governor>
+            <dependent idx="2">all</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">For</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="5">observers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">emerge</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">emerge</governor>
+            <dependent idx="9">Swapo</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">emerge</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">majority</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">majority</governor>
+            <dependent idx="14">clear</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">with</governor>
+            <dependent idx="15">majority</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">unanimous</dependent>
+          </dep>
+          <dep type="predet">
+            <governor idx="3">that</governor>
+            <dependent idx="2">all</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="5">observers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">emerge</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">emerge</governor>
+            <dependent idx="9">Swapo</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">majority</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">majority</governor>
+            <dependent idx="14">clear</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">emerge</governor>
+            <dependent idx="15">majority</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">unanimous</dependent>
+          </dep>
+          <dep type="predet">
+            <governor idx="3">that</governor>
+            <dependent idx="2">all</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="5">observers</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">emerge</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">emerge</governor>
+            <dependent idx="9">Swapo</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">will</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">unanimous</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">majority</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">majority</governor>
+            <dependent idx="14">clear</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">emerge</governor>
+            <dependent idx="15">majority</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

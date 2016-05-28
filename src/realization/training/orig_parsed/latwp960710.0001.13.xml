@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>At</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>crucial</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>moment</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>Belli</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>let</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="8">
+            <word>slip</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>contents</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>package</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>carried</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN At) (NP (DT a) (JJ crucial) (NN moment))) (, ,) (NP (NNP Belli)) (VP (VBP let) (VP (VB slip) (NP (NP (DT the) (NNS contents)) (PP (IN of) (NP (NP (DT a) (NN package)) (SBAR (S (NP (PRP he)) (VP (VBD carried))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">let</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">let</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">crucial</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">At</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">let</governor>
+            <dependent idx="6">Belli</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">let</governor>
+            <dependent idx="8">slip</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">contents</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">slip</governor>
+            <dependent idx="10">contents</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">contents</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">package</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="13">package</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">carried</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="13">package</governor>
+            <dependent idx="15">carried</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">let</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">crucial</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="7">let</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">let</governor>
+            <dependent idx="6">Belli</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">let</governor>
+            <dependent idx="8">slip</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">contents</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">slip</governor>
+            <dependent idx="10">contents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">package</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">contents</governor>
+            <dependent idx="13">package</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">carried</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="13">package</governor>
+            <dependent idx="15">carried</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">let</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">crucial</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="7">let</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">let</governor>
+            <dependent idx="6">Belli</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">let</governor>
+            <dependent idx="8">slip</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">contents</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">slip</governor>
+            <dependent idx="10">contents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">package</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">contents</governor>
+            <dependent idx="13">package</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">carried</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="13">package</governor>
+            <dependent idx="15">carried</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

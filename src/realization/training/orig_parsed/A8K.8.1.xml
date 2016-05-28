@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>reached</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>safety</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>seconds</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>before</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>cafe</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>was</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>engulfed</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>flames</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBD reached) (NP (NN safety) (NNS seconds)) (SBAR (IN before) (S (NP (DT the) (NN cafe)) (VP (VBD was) (VP (VBN engulfed) (PP (IN in) (NP (NNS flames)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">reached</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">reached</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">seconds</governor>
+            <dependent idx="3">safety</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">reached</governor>
+            <dependent idx="4">seconds</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="5">before</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cafe</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="7">cafe</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">reached</governor>
+            <dependent idx="9">engulfed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="11">flames</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">reached</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">reached</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">seconds</governor>
+            <dependent idx="3">safety</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">reached</governor>
+            <dependent idx="4">seconds</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="5">before</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cafe</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="7">cafe</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">reached</governor>
+            <dependent idx="9">engulfed</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="11">flames</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">reached</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">reached</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">seconds</governor>
+            <dependent idx="3">safety</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">reached</governor>
+            <dependent idx="4">seconds</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="5">before</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">cafe</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="7">cafe</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="8">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">reached</governor>
+            <dependent idx="9">engulfed</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">engulfed</governor>
+            <dependent idx="11">flames</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

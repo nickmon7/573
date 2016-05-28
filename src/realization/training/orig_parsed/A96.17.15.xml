@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>then</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>accepted</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>this</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>he</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>told</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>me</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>was</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>going</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>pay</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>me</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>other</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>#</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="18">
+            <word>2,500</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>Turkey</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>in</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>Turkish</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>money</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP He)) (ADVP (RB then)) (VP (VBD accepted) (NP (DT this)))) (CC and) (S (NP (PRP he)) (VP (VBD told) (NP (PRP me)) (SBAR (S (NP (PRP he)) (VP (VBD was) (VP (VBG going) (S (VP (TO to) (VP (VB pay) (NP (PRP me)) (NP (NP (DT the) (JJ other) (QP (# #) (CD 2,500))) (PP (IN in) (NP (NNP Turkey)))) (PP (IN in) (NP (JJ Turkish) (NN money)))))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">accepted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">accepted</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">accepted</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">told</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="7">told</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">told</governor>
+            <dependent idx="8">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">going</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">going</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">told</governor>
+            <dependent idx="11">going</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">pay</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">going</governor>
+            <dependent idx="13">pay</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="14">me</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">2,500</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">2,500</governor>
+            <dependent idx="16">other</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="18">2,500</governor>
+            <dependent idx="17">#</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="18">2,500</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">2,500</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="20">Turkey</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">pay</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">money</governor>
+            <dependent idx="22">Turkish</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">in</governor>
+            <dependent idx="23">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">accepted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">accepted</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">told</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">accepted</governor>
+            <dependent idx="7">told</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">told</governor>
+            <dependent idx="8">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">going</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">going</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">told</governor>
+            <dependent idx="11">going</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">pay</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">going</governor>
+            <dependent idx="13">pay</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="14">me</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">2,500</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">2,500</governor>
+            <dependent idx="16">other</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="18">2,500</governor>
+            <dependent idx="17">#</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="18">2,500</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">2,500</governor>
+            <dependent idx="20">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">money</governor>
+            <dependent idx="22">Turkish</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">pay</governor>
+            <dependent idx="23">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">accepted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">accepted</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">accepted</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">told</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">accepted</governor>
+            <dependent idx="7">told</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">told</governor>
+            <dependent idx="8">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">going</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">going</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">told</governor>
+            <dependent idx="11">going</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">pay</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">going</governor>
+            <dependent idx="13">pay</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="14">me</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">2,500</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">2,500</governor>
+            <dependent idx="16">other</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="18">2,500</governor>
+            <dependent idx="17">#</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">pay</governor>
+            <dependent idx="18">2,500</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">2,500</governor>
+            <dependent idx="20">Turkey</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">money</governor>
+            <dependent idx="22">Turkish</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">pay</governor>
+            <dependent idx="23">money</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>he</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>never</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>received</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>extra</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>money</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (PRP he)) (ADVP (RB never)) (VP (VBD received) (NP (DT the) (JJ extra) (NN money)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">received</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">received</governor>
+            <dependent idx="4">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">money</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">money</governor>
+            <dependent idx="7">extra</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">received</governor>
+            <dependent idx="8">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">received</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">received</governor>
+            <dependent idx="4">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">money</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">money</governor>
+            <dependent idx="7">extra</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">received</governor>
+            <dependent idx="8">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">received</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">received</governor>
+            <dependent idx="4">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">money</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">money</governor>
+            <dependent idx="7">extra</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">received</governor>
+            <dependent idx="8">money</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

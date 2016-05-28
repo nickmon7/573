@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Sociologists</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>agree</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>``</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="5">
+            <word>economic</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>integration</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>''</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>refugees</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>poses</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>minor</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>problem</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>compared</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>with</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>``</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="19">
+            <word>social</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>aspect</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>''</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Sociologists)) (VP (VBP agree) (SBAR (IN that) (S (NP (NP (`` ``) (JJ economic) (NN integration) ('' '')) (PP (IN of) (NP (DT the) (NNS refugees)))) (VP (VBZ poses) (NP (DT a) (JJ minor) (NN problem)) (PP (VBN compared) (PP (IN with) (NP (DT the) (`` ``) (JJ social) (NN aspect) ('' '')))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">agree</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">agree</governor>
+            <dependent idx="1">Sociologists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">poses</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">integration</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">poses</governor>
+            <dependent idx="6">integration</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">integration</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">refugees</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="10">refugees</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">agree</governor>
+            <dependent idx="11">poses</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">problem</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">problem</governor>
+            <dependent idx="13">minor</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">poses</governor>
+            <dependent idx="14">problem</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">poses</governor>
+            <dependent idx="15">compared</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="15">compared</governor>
+            <dependent idx="16">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">aspect</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">aspect</governor>
+            <dependent idx="19">social</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">with</governor>
+            <dependent idx="20">aspect</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">agree</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">agree</governor>
+            <dependent idx="1">Sociologists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">poses</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">integration</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">poses</governor>
+            <dependent idx="6">integration</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">refugees</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">integration</governor>
+            <dependent idx="10">refugees</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">agree</governor>
+            <dependent idx="11">poses</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">problem</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">problem</governor>
+            <dependent idx="13">minor</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">poses</governor>
+            <dependent idx="14">problem</dependent>
+          </dep>
+          <dep type="prepc_compared_with">
+            <governor idx="11">poses</governor>
+            <dependent idx="16">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">aspect</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">aspect</governor>
+            <dependent idx="19">social</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">poses</governor>
+            <dependent idx="20">aspect</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">agree</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">agree</governor>
+            <dependent idx="1">Sociologists</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">poses</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">integration</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">poses</governor>
+            <dependent idx="6">integration</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">refugees</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">integration</governor>
+            <dependent idx="10">refugees</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">agree</governor>
+            <dependent idx="11">poses</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">problem</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">problem</governor>
+            <dependent idx="13">minor</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">poses</governor>
+            <dependent idx="14">problem</dependent>
+          </dep>
+          <dep type="prepc_compared_with">
+            <governor idx="11">poses</governor>
+            <dependent idx="16">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">aspect</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">aspect</governor>
+            <dependent idx="19">social</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">poses</governor>
+            <dependent idx="20">aspect</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>apparently</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>had</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>pneumonia</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>when</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="6">
+            <word>he</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>died</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>according</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>publicist</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>with</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>his</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="15">
+            <word>Los</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>law</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>office</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (ADVP (RB apparently)) (VP (VBD had) (NP (NP (NN pneumonia)) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD died))))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (DT a) (NN publicist)) (PP (IN with) (NP (PRP$ his) (NNP Los) (NNP Angeles) (NN law) (NN office))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">had</governor>
+            <dependent idx="2">apparently</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="4">pneumonia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">died</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">died</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">pneumonia</governor>
+            <dependent idx="7">died</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">had</governor>
+            <dependent idx="9">according</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="9">according</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">publicist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">to</governor>
+            <dependent idx="12">publicist</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">publicist</governor>
+            <dependent idx="13">with</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">office</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="17">law</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">with</governor>
+            <dependent idx="18">office</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">had</governor>
+            <dependent idx="2">apparently</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="4">pneumonia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">died</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">died</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">pneumonia</governor>
+            <dependent idx="7">died</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="3">had</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">publicist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">had</governor>
+            <dependent idx="12">publicist</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">office</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="17">law</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">publicist</governor>
+            <dependent idx="18">office</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">had</governor>
+            <dependent idx="2">apparently</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="4">pneumonia</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">died</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">died</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">pneumonia</governor>
+            <dependent idx="7">died</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="3">had</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">publicist</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">had</governor>
+            <dependent idx="12">publicist</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">office</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">office</governor>
+            <dependent idx="17">law</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="12">publicist</governor>
+            <dependent idx="18">office</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

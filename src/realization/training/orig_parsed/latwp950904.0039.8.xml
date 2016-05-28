@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>enjoy</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>spotlight</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>as</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>most</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="8">
+            <word>humans</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>do</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>''</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="12">
+            <word>he</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="13">
+            <word>explained</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>``</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="16">
+            <word>but</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>it</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="18">
+            <word>'s</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="19">
+            <word>not</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="20">
+            <word>my</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="21">
+            <word>whole</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>raison</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>d'etre</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP enjoy) (NP (DT the) (NN spotlight)) (SBAR (IN as) (S (NP (JJS most) (NNS humans)) (VP (VBP do)))))) (PRN (, ,) ('' '') (S (NP (PRP he)) (VP (VBD explained))) (, ,)) (`` ``) (CC but) (S (NP (PRP it)) (VP (VBZ 's) (RB not) (NP (PRP$ my) (JJ whole) (NN raison) (NN d'etre)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">enjoy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">spotlight</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="5">spotlight</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">do</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">humans</governor>
+            <dependent idx="7">most</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">do</governor>
+            <dependent idx="8">humans</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="9">do</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">explained</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="13">explained</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="16">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="18">'s</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="19">not</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="20">my</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="21">whole</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="22">raison</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="23">d'etre</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">enjoy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">spotlight</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="5">spotlight</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">do</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">humans</governor>
+            <dependent idx="7">most</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">do</governor>
+            <dependent idx="8">humans</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="9">do</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">explained</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="13">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="18">'s</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="19">not</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="20">my</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="21">whole</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="22">raison</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="23">d'etre</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">enjoy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">spotlight</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="5">spotlight</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">do</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">humans</governor>
+            <dependent idx="7">most</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">do</governor>
+            <dependent idx="8">humans</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="9">do</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">explained</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="13">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="18">'s</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="19">not</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="20">my</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="21">whole</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">d'etre</governor>
+            <dependent idx="22">raison</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">enjoy</governor>
+            <dependent idx="23">d'etre</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

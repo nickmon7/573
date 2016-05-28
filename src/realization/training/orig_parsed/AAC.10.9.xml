@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>electricians</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>are</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>holding</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>postal</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>ballot</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>with</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>results</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>announced</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>after</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>Christmas</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNS electricians)) (VP (VBP are) (VP (VBG holding) (NP (DT a) (JJ postal) (NN ballot)) (PP (IN with) (NP (NP (DT the) (NNS results)) (VP (VBN announced) (PP (IN after) (NP (NNP Christmas)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">holding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">electricians</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">holding</governor>
+            <dependent idx="2">electricians</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">holding</governor>
+            <dependent idx="3">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ballot</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ballot</governor>
+            <dependent idx="6">postal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">holding</governor>
+            <dependent idx="7">ballot</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">holding</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">results</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">with</governor>
+            <dependent idx="10">results</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">results</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">announced</governor>
+            <dependent idx="12">after</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">after</governor>
+            <dependent idx="13">Christmas</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">holding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">electricians</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">holding</governor>
+            <dependent idx="2">electricians</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">holding</governor>
+            <dependent idx="3">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ballot</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ballot</governor>
+            <dependent idx="6">postal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">holding</governor>
+            <dependent idx="7">ballot</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">results</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="4">holding</governor>
+            <dependent idx="10">results</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">results</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">Christmas</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">holding</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">electricians</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">holding</governor>
+            <dependent idx="2">electricians</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">holding</governor>
+            <dependent idx="3">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">ballot</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">ballot</governor>
+            <dependent idx="6">postal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">holding</governor>
+            <dependent idx="7">ballot</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">results</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="4">holding</governor>
+            <dependent idx="10">results</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">results</governor>
+            <dependent idx="11">announced</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="11">announced</governor>
+            <dependent idx="13">Christmas</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

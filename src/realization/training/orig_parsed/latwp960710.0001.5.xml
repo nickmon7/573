@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Such</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>touches</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>as</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>scarlet-lined</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>suits</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>embellished</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>his</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>image</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (JJ Such) (NNS touches)) (PP (IN as) (NP (JJ scarlet-lined) (NNS suits)))) (VP (VBD embellished) (NP (PRP$ his) (NN image))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">embellished</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">touches</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="2">touches</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">touches</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">suits</governor>
+            <dependent idx="4">scarlet-lined</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">as</governor>
+            <dependent idx="5">suits</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">image</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="8">image</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">embellished</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">touches</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="2">touches</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">suits</governor>
+            <dependent idx="4">scarlet-lined</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">touches</governor>
+            <dependent idx="5">suits</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">image</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="8">image</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">embellished</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">touches</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="2">touches</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">suits</governor>
+            <dependent idx="4">scarlet-lined</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">touches</governor>
+            <dependent idx="5">suits</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">image</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">embellished</governor>
+            <dependent idx="8">image</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

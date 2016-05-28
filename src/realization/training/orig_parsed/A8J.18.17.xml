@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Poachers</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>shot</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>dead</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Poachers)) (VP (VBD shot) (ADJP (JJ dead))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">Poachers</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="2">shot</governor>
+            <dependent idx="3">dead</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">Poachers</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="2">shot</governor>
+            <dependent idx="3">dead</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">shot</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">shot</governor>
+            <dependent idx="1">Poachers</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="2">shot</governor>
+            <dependent idx="3">dead</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

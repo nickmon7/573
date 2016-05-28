@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>daughter</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>rear</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>admiral</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>J.D.</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>McKinney</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>she</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="12">
+            <word>grew</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>up</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="14">
+            <word>in</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>Asia</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>California</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>while</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>he</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>served</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>in</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>Pacific</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (DT The) (NN daughter)) (PP (IN of) (NP (NP (DT a) (JJ rear) (NN admiral)) (, ,) (NP (NNP J.D.) (NNP McKinney)))))) (, ,) (NP (PRP she)) (VP (VBD grew) (PRT (RP up)) (PP (IN in) (NP (NNP Asia) (CC and) (NNP California))) (SBAR (IN while) (S (NP (PRP he)) (VP (VBD served) (PP (IN in) (NP (DT the) (NNP Pacific))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">grew</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">daughter</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">grew</governor>
+            <dependent idx="2">daughter</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">daughter</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">admiral</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">admiral</governor>
+            <dependent idx="5">rear</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="6">admiral</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">McKinney</governor>
+            <dependent idx="8">J.D.</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">admiral</governor>
+            <dependent idx="9">McKinney</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">grew</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="12">grew</governor>
+            <dependent idx="13">up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">grew</governor>
+            <dependent idx="14">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">in</governor>
+            <dependent idx="15">Asia</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">Asia</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">Asia</governor>
+            <dependent idx="17">California</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">served</governor>
+            <dependent idx="18">while</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">served</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">grew</governor>
+            <dependent idx="20">served</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">served</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Pacific</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">in</governor>
+            <dependent idx="23">Pacific</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">grew</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">daughter</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">grew</governor>
+            <dependent idx="2">daughter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">admiral</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">admiral</governor>
+            <dependent idx="5">rear</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">daughter</governor>
+            <dependent idx="6">admiral</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">McKinney</governor>
+            <dependent idx="8">J.D.</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">admiral</governor>
+            <dependent idx="9">McKinney</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">grew</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="12">grew</governor>
+            <dependent idx="13">up</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">grew</governor>
+            <dependent idx="15">Asia</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Asia</governor>
+            <dependent idx="17">California</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">served</governor>
+            <dependent idx="18">while</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">served</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">grew</governor>
+            <dependent idx="20">served</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Pacific</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">served</governor>
+            <dependent idx="23">Pacific</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">grew</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">daughter</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="12">grew</governor>
+            <dependent idx="2">daughter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">admiral</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">admiral</governor>
+            <dependent idx="5">rear</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">daughter</governor>
+            <dependent idx="6">admiral</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">McKinney</governor>
+            <dependent idx="8">J.D.</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">admiral</governor>
+            <dependent idx="9">McKinney</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">grew</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="12">grew</governor>
+            <dependent idx="13">up</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">grew</governor>
+            <dependent idx="15">Asia</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">grew</governor>
+            <dependent idx="17">California</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Asia</governor>
+            <dependent idx="17">California</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">served</governor>
+            <dependent idx="18">while</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">served</governor>
+            <dependent idx="19">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">grew</governor>
+            <dependent idx="20">served</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">Pacific</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="20">served</governor>
+            <dependent idx="23">Pacific</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

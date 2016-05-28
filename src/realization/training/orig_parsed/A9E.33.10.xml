@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>he</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>added</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>that</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>patience</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>had</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>limits</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>might</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>wait</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>few</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>days</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>or</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>two</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="17">
+            <word>weeks</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (S (NP (PRP he)) (VP (VBD added) (SBAR (IN that) (S (NP (NN patience)) (VP (VBD had) (NP (NNS limits))))))) (CC and) (S (NP (PRP he)) (VP (MD might) (VP (VB wait) (NP (NP (DT a) (JJ few) (NNS days)) (CC or) (NP (CD two) (NNS weeks)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">added</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">added</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">added</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">had</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">had</governor>
+            <dependent idx="5">patience</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">added</governor>
+            <dependent idx="6">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">had</governor>
+            <dependent idx="7">limits</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">added</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">wait</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">wait</governor>
+            <dependent idx="10">might</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">added</governor>
+            <dependent idx="11">wait</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">days</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">days</governor>
+            <dependent idx="13">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">wait</governor>
+            <dependent idx="14">days</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">days</governor>
+            <dependent idx="15">or</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">weeks</governor>
+            <dependent idx="16">two</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">days</governor>
+            <dependent idx="17">weeks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">added</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">had</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">had</governor>
+            <dependent idx="5">patience</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">added</governor>
+            <dependent idx="6">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">had</governor>
+            <dependent idx="7">limits</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">wait</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">wait</governor>
+            <dependent idx="10">might</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">added</governor>
+            <dependent idx="11">wait</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">days</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">days</governor>
+            <dependent idx="13">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">wait</governor>
+            <dependent idx="14">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">weeks</governor>
+            <dependent idx="16">two</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="14">days</governor>
+            <dependent idx="17">weeks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">added</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">had</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">had</governor>
+            <dependent idx="5">patience</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">added</governor>
+            <dependent idx="6">had</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">had</governor>
+            <dependent idx="7">limits</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">wait</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">wait</governor>
+            <dependent idx="10">might</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">added</governor>
+            <dependent idx="11">wait</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">days</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">days</governor>
+            <dependent idx="13">few</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">wait</governor>
+            <dependent idx="14">days</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">weeks</governor>
+            <dependent idx="16">two</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">wait</governor>
+            <dependent idx="17">weeks</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="14">days</governor>
+            <dependent idx="17">weeks</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

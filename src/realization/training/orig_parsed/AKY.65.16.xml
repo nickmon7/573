@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Here</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>he</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>increasingly</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>concerned</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>with</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>chemistry</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>brain</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>which</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>believed</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>held</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>key</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>treatment</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>of</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>mental</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>illness</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Here)) (NP (PRP he)) (VP (VBD was) (ADJP (RB increasingly) (JJ concerned) (PP (IN with) (NP (NP (DT the) (NN chemistry)) (PP (IN of) (NP (NP (DT the) (NN brain)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP he)) (VP (VBD believed) (SBAR (S (VP (VBD held) (NP (DT the) (NN key)) (PP (TO to) (NP (NP (DT the) (NN treatment)) (PP (IN of) (NP (JJ mental) (NN illness))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">concerned</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">concerned</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">concerned</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="4">increasingly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">concerned</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">with</governor>
+            <dependent idx="8">chemistry</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">brain</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="11">brain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">believed</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">believed</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">brain</governor>
+            <dependent idx="15">believed</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">believed</governor>
+            <dependent idx="16">held</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">key</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">held</governor>
+            <dependent idx="18">key</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">held</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">treatment</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">to</governor>
+            <dependent idx="21">treatment</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">treatment</governor>
+            <dependent idx="22">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">illness</governor>
+            <dependent idx="23">mental</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">of</governor>
+            <dependent idx="24">illness</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">concerned</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">concerned</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">concerned</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="4">increasingly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="5">concerned</governor>
+            <dependent idx="8">chemistry</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">brain</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="11">brain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">believed</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">believed</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">brain</governor>
+            <dependent idx="15">believed</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">believed</governor>
+            <dependent idx="16">held</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">key</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">held</governor>
+            <dependent idx="18">key</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">treatment</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="16">held</governor>
+            <dependent idx="21">treatment</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">illness</governor>
+            <dependent idx="23">mental</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">treatment</governor>
+            <dependent idx="24">illness</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">concerned</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">concerned</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">concerned</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">concerned</governor>
+            <dependent idx="4">increasingly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="5">concerned</governor>
+            <dependent idx="8">chemistry</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">brain</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">chemistry</governor>
+            <dependent idx="11">brain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">believed</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">believed</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">brain</governor>
+            <dependent idx="15">believed</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="15">believed</governor>
+            <dependent idx="16">held</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">key</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">held</governor>
+            <dependent idx="18">key</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">treatment</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="16">held</governor>
+            <dependent idx="21">treatment</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">illness</governor>
+            <dependent idx="23">mental</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">treatment</governor>
+            <dependent idx="24">illness</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

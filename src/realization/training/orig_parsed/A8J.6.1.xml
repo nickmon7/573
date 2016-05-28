@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>new</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>body</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>--</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>be</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>set</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>up</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="9">
+            <word>by</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>12</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>countries</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>European</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Community</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>six</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="20">
+            <word>countries</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>European</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>Free</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>Trade</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="26">
+            <word>Association</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="27">
+            <word>--</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="28">
+            <word>would</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="29">
+            <word>be</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="30">
+            <word>open</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="31">
+            <word>to</word>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="32">
+            <word>east</word>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="33">
+            <word>European</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="34">
+            <word>states</word>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="35">
+            <word>who</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="36">
+            <word>opt</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="37">
+            <word>for</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="38">
+            <word>democracy</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="39">
+            <word>.</word>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ new) (NN body)) (PRN (: --) (S (VP (TO to) (VP (VB be) (VP (VBN set) (PRT (RP up)) (PP (IN by) (NP (NP (NP (DT the) (CD 12) (NNS countries)) (PP (IN of) (NP (DT the) (NNP European) (NNP Community)))) (CC and) (NP (NP (DT the) (CD six) (NNS countries)) (PP (IN of) (NP (DT the) (NNP European) (NNP Free) (NNP Trade) (NNP Association)))))))))) (: --))) (VP (MD would) (VP (VB be) (ADJP (JJ open) (PP (TO to) (NP (NP (JJ east) (JJ European) (NNS states)) (SBAR (WHNP (WP who)) (S (VP (VBP opt) (PP (IN for) (NP (NN democracy))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="30">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">body</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">body</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="30">open</governor>
+            <dependent idx="3">body</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">set</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">set</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">body</governor>
+            <dependent idx="7">set</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">set</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">set</governor>
+            <dependent idx="9">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">countries</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">countries</governor>
+            <dependent idx="11">12</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">by</governor>
+            <dependent idx="12">countries</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">countries</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Community</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Community</governor>
+            <dependent idx="15">European</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="16">Community</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">countries</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">countries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">countries</governor>
+            <dependent idx="19">six</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">countries</governor>
+            <dependent idx="20">countries</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">countries</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Association</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="23">European</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="24">Free</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="25">Trade</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">of</governor>
+            <dependent idx="26">Association</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="30">open</governor>
+            <dependent idx="28">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="30">open</governor>
+            <dependent idx="29">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="30">open</governor>
+            <dependent idx="31">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="32">east</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="33">European</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">to</governor>
+            <dependent idx="34">states</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">opt</governor>
+            <dependent idx="35">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="34">states</governor>
+            <dependent idx="36">opt</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="36">opt</governor>
+            <dependent idx="37">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="37">for</governor>
+            <dependent idx="38">democracy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="30">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">body</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">body</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="30">open</governor>
+            <dependent idx="3">body</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">set</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">set</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">body</governor>
+            <dependent idx="7">set</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">set</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">countries</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">countries</governor>
+            <dependent idx="11">12</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">set</governor>
+            <dependent idx="12">countries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Community</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Community</governor>
+            <dependent idx="15">European</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">countries</governor>
+            <dependent idx="16">Community</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">countries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">countries</governor>
+            <dependent idx="19">six</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">countries</governor>
+            <dependent idx="20">countries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Association</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="23">European</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="24">Free</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="25">Trade</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">countries</governor>
+            <dependent idx="26">Association</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="30">open</governor>
+            <dependent idx="28">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="30">open</governor>
+            <dependent idx="29">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="32">east</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="33">European</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="30">open</governor>
+            <dependent idx="34">states</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">opt</governor>
+            <dependent idx="35">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="34">states</governor>
+            <dependent idx="36">opt</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="36">opt</governor>
+            <dependent idx="38">democracy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="30">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">body</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">body</governor>
+            <dependent idx="2">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="30">open</governor>
+            <dependent idx="3">body</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">set</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">set</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">body</governor>
+            <dependent idx="7">set</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">set</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">countries</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">countries</governor>
+            <dependent idx="11">12</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">set</governor>
+            <dependent idx="12">countries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Community</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Community</governor>
+            <dependent idx="15">European</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">countries</governor>
+            <dependent idx="16">Community</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">countries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="20">countries</governor>
+            <dependent idx="19">six</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">set</governor>
+            <dependent idx="20">countries</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">countries</governor>
+            <dependent idx="20">countries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">Association</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="23">European</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="24">Free</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">Association</governor>
+            <dependent idx="25">Trade</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">countries</governor>
+            <dependent idx="26">Association</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="30">open</governor>
+            <dependent idx="28">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="30">open</governor>
+            <dependent idx="29">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="32">east</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="34">states</governor>
+            <dependent idx="33">European</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="30">open</governor>
+            <dependent idx="34">states</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="36">opt</governor>
+            <dependent idx="35">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="34">states</governor>
+            <dependent idx="36">opt</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="36">opt</governor>
+            <dependent idx="38">democracy</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

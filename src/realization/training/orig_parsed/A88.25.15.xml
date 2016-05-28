@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>However</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>they</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>do</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>not</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>expect</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>any</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>radical</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>revision</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>emerge</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>run-up</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>legislation</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB However)) (, ,) (NP (PRP they)) (VP (VBP do) (RB not) (VP (VB expect) (NP (DT any) (JJ radical) (NN revision)) (S (VP (TO to) (VP (VB emerge) (PP (IN in) (NP (DT the) (NN run-up))) (PP (TO to) (NP (NN legislation)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">expect</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">expect</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">expect</governor>
+            <dependent idx="3">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">expect</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">expect</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">revision</governor>
+            <dependent idx="7">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">revision</governor>
+            <dependent idx="8">radical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">expect</governor>
+            <dependent idx="9">revision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">expect</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">emerge</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">run-up</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="14">run-up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">emerge</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">to</governor>
+            <dependent idx="16">legislation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">expect</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">expect</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">expect</governor>
+            <dependent idx="3">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">expect</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">expect</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">revision</governor>
+            <dependent idx="7">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">revision</governor>
+            <dependent idx="8">radical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">expect</governor>
+            <dependent idx="9">revision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">expect</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">run-up</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">emerge</governor>
+            <dependent idx="14">run-up</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">emerge</governor>
+            <dependent idx="16">legislation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">expect</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">expect</governor>
+            <dependent idx="1">However</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">expect</governor>
+            <dependent idx="3">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">expect</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">expect</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">revision</governor>
+            <dependent idx="7">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">revision</governor>
+            <dependent idx="8">radical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">expect</governor>
+            <dependent idx="9">revision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">emerge</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">expect</governor>
+            <dependent idx="11">emerge</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">run-up</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">emerge</governor>
+            <dependent idx="14">run-up</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">emerge</governor>
+            <dependent idx="16">legislation</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

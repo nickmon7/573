@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>impresses</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>itself</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>upon</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>you</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>subliminally</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ impresses) (NP (PRP itself)) (PP (IN upon) (NP (PRP you))) (ADVP (RB subliminally))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">impresses</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">impresses</governor>
+            <dependent idx="4">upon</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">upon</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">impresses</governor>
+            <dependent idx="6">subliminally</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">impresses</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="prep_upon">
+            <governor idx="2">impresses</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">impresses</governor>
+            <dependent idx="6">subliminally</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">impresses</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">impresses</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="prep_upon">
+            <governor idx="2">impresses</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">impresses</governor>
+            <dependent idx="6">subliminally</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

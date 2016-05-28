@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Anti-pollution</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>vessels</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>were</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>last</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>night</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>tackling</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>mile-long</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>oil</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>slick</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>after</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>80,000-ton</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>Texaco</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Westminster</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>tug</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>collided</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>at</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>Milford</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Haven</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Anti-pollution) (NNS vessels)) (VP (VBD were) (VP (NP-TMP (JJ last) (NN night)) (S (VP (VBG tackling) (NP (DT a) (JJ mile-long) (NN oil) (NN slick)) (PP (IN after) (NP (NP (DT the) (JJ 80,000-ton) (NNP Texaco) (NNP Westminster)) (CC and) (NP (NP (DT a) (NN tug)) (VP (VBN collided) (PP (IN at) (NP (NNP Milford) (NNP Haven))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">vessels</governor>
+            <dependent idx="1">Anti-pollution</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">vessels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">tackling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">slick</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">slick</governor>
+            <dependent idx="8">mile-long</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">slick</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tackling</governor>
+            <dependent idx="10">slick</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">tackling</governor>
+            <dependent idx="11">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="13">80,000-ton</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="14">Texaco</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">after</governor>
+            <dependent idx="15">Westminster</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">tug</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="18">tug</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">tug</governor>
+            <dependent idx="19">collided</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">collided</governor>
+            <dependent idx="20">at</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Haven</governor>
+            <dependent idx="21">Milford</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">at</governor>
+            <dependent idx="22">Haven</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">vessels</governor>
+            <dependent idx="1">Anti-pollution</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">vessels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">tackling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">slick</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">slick</governor>
+            <dependent idx="8">mile-long</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">slick</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tackling</governor>
+            <dependent idx="10">slick</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="13">80,000-ton</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="14">Texaco</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="6">tackling</governor>
+            <dependent idx="15">Westminster</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">tug</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="18">tug</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">tug</governor>
+            <dependent idx="19">collided</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Haven</governor>
+            <dependent idx="21">Milford</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="19">collided</governor>
+            <dependent idx="22">Haven</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">vessels</governor>
+            <dependent idx="1">Anti-pollution</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">vessels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">tackling</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">slick</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">slick</governor>
+            <dependent idx="8">mile-long</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">slick</governor>
+            <dependent idx="9">oil</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tackling</governor>
+            <dependent idx="10">slick</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="13">80,000-ton</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="14">Texaco</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="6">tackling</governor>
+            <dependent idx="15">Westminster</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">tug</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="6">tackling</governor>
+            <dependent idx="18">tug</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="15">Westminster</governor>
+            <dependent idx="18">tug</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">tug</governor>
+            <dependent idx="19">collided</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Haven</governor>
+            <dependent idx="21">Milford</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="19">collided</governor>
+            <dependent idx="22">Haven</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

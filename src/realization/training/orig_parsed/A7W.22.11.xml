@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>Mrs</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Thatcher</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>retorted</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>:</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="6">
+            <word>``</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="7">
+            <word>A</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>party</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>that</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="10">
+            <word>ca</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>n't</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>even</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>decide</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>its</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="15">
+            <word>name</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>is</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="17">
+            <word>hardly</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>a</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>position</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="22">
+            <word>criticise</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>anyone</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (NNP Mrs) (NNP Thatcher)) (VP (VBD retorted) (: :) (`` ``) (S (NP (NP (DT A) (NN party)) (SBAR (WHNP (WDT that)) (S (VP (MD ca) (RB n't) (ADVP (RB even)) (VP (VB decide) (SBAR (S (NP (PRP$ its) (NN name)) (VP (VBZ is) (ADVP (RB hardly)) (PP (IN in) (NP (DT a) (NN position))))))))))) (VP (TO to) (VP (VB criticise) (NP (NN anyone)))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retorted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">retorted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Thatcher</governor>
+            <dependent idx="2">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retorted</governor>
+            <dependent idx="3">Thatcher</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">party</governor>
+            <dependent idx="7">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="8">party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">decide</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">decide</governor>
+            <dependent idx="10">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">decide</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">decide</governor>
+            <dependent idx="12">even</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">party</governor>
+            <dependent idx="13">decide</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">name</governor>
+            <dependent idx="14">its</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="15">name</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">decide</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">is</governor>
+            <dependent idx="17">hardly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">is</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">position</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="20">position</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">criticise</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">retorted</governor>
+            <dependent idx="22">criticise</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="23">anyone</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retorted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">retorted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Thatcher</governor>
+            <dependent idx="2">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retorted</governor>
+            <dependent idx="3">Thatcher</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">party</governor>
+            <dependent idx="7">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="8">party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">decide</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">decide</governor>
+            <dependent idx="10">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">decide</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">decide</governor>
+            <dependent idx="12">even</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">party</governor>
+            <dependent idx="13">decide</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">name</governor>
+            <dependent idx="14">its</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="15">name</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">decide</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">is</governor>
+            <dependent idx="17">hardly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">position</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">is</governor>
+            <dependent idx="20">position</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">criticise</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">retorted</governor>
+            <dependent idx="22">criticise</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="23">anyone</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retorted</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">retorted</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Thatcher</governor>
+            <dependent idx="2">Mrs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retorted</governor>
+            <dependent idx="3">Thatcher</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">party</governor>
+            <dependent idx="7">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="8">party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">decide</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">decide</governor>
+            <dependent idx="10">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">decide</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">decide</governor>
+            <dependent idx="12">even</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="8">party</governor>
+            <dependent idx="13">decide</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">name</governor>
+            <dependent idx="14">its</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="15">name</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">decide</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">is</governor>
+            <dependent idx="17">hardly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">position</governor>
+            <dependent idx="19">a</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">is</governor>
+            <dependent idx="20">position</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">criticise</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">retorted</governor>
+            <dependent idx="22">criticise</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">criticise</governor>
+            <dependent idx="23">anyone</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Prime</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Minister</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>again</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>denied</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>there</word>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="9">
+            <word>had</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>been</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>any</word>
+            <CharacterOffsetBegin>176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>direct</word>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>British</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>assistance</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>208</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>212</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>Khmer</word>
+            <CharacterOffsetBegin>213</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>Rouge</word>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>224</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>Cambodia</word>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Prime) (NNP Minister)) (VP (VBZ has) (ADVP (RB again)) (VP (VBN denied) (SBAR (IN that) (S (NP (EX there)) (VP (VBD had) (VP (VBN been) (NP (NP (DT any) (JJ direct) (JJ British) (NN assistance)) (PP (TO to) (NP (DT the) (NNP Khmer) (NNP Rouge)))) (PP (IN in) (NP (NNP Cambodia))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Minister</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">denied</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">denied</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">denied</governor>
+            <dependent idx="5">again</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">assistance</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="14">assistance</governor>
+            <dependent idx="8">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">assistance</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">assistance</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">assistance</governor>
+            <dependent idx="11">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="12">direct</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="13">British</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">denied</governor>
+            <dependent idx="14">assistance</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">assistance</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="17">Khmer</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">to</governor>
+            <dependent idx="18">Rouge</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">assistance</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="20">Cambodia</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Minister</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">denied</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">denied</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">denied</governor>
+            <dependent idx="5">again</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">assistance</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="14">assistance</governor>
+            <dependent idx="8">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">assistance</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">assistance</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">assistance</governor>
+            <dependent idx="11">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="12">direct</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="13">British</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">denied</governor>
+            <dependent idx="14">assistance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="17">Khmer</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">assistance</governor>
+            <dependent idx="18">Rouge</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">assistance</governor>
+            <dependent idx="20">Cambodia</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Minister</governor>
+            <dependent idx="2">Prime</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">denied</governor>
+            <dependent idx="3">Minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">denied</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">denied</governor>
+            <dependent idx="5">again</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">assistance</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="14">assistance</governor>
+            <dependent idx="8">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">assistance</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">assistance</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">assistance</governor>
+            <dependent idx="11">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="12">direct</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">assistance</governor>
+            <dependent idx="13">British</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">denied</governor>
+            <dependent idx="14">assistance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Rouge</governor>
+            <dependent idx="17">Khmer</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">assistance</governor>
+            <dependent idx="18">Rouge</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">assistance</governor>
+            <dependent idx="20">Cambodia</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

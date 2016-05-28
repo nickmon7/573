@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>represented</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>British</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>Labour</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Movement</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>its</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>best</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD represented) (NP (DT the) (JJ British) (NNP Labour) (NNP Movement)) (PP (IN at) (NP (PRP$ its) (JJS best)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">represented</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">represented</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Movement</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Movement</governor>
+            <dependent idx="4">British</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Movement</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">represented</governor>
+            <dependent idx="6">Movement</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">represented</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">at</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">represented</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">represented</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Movement</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Movement</governor>
+            <dependent idx="4">British</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Movement</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">represented</governor>
+            <dependent idx="6">Movement</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2">represented</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">represented</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">represented</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Movement</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">Movement</governor>
+            <dependent idx="4">British</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Movement</governor>
+            <dependent idx="5">Labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">represented</governor>
+            <dependent idx="6">Movement</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2">represented</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

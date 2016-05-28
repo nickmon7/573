@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Lord</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Mackay</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>treated</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>claims</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>eligibility</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>has</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>substantially</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>fallen</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>as</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>speculative</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Lord) (NNP Mackay)) (VP (VBZ has) (VP (VBN treated) (NP (NNS claims)) (SBAR (IN that) (S (NP (NN eligibility)) (VP (VBZ has) (ADVP (RB substantially)) (VP (VBN fallen) (S (ADJP (RB as) (JJ speculative))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">treated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Mackay</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">treated</governor>
+            <dependent idx="2">Mackay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">treated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">treated</governor>
+            <dependent idx="5">claims</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">fallen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">fallen</governor>
+            <dependent idx="7">eligibility</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">fallen</governor>
+            <dependent idx="8">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">fallen</governor>
+            <dependent idx="9">substantially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">treated</governor>
+            <dependent idx="10">fallen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">speculative</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="10">fallen</governor>
+            <dependent idx="12">speculative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">treated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Mackay</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">treated</governor>
+            <dependent idx="2">Mackay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">treated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">treated</governor>
+            <dependent idx="5">claims</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">fallen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">fallen</governor>
+            <dependent idx="7">eligibility</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">fallen</governor>
+            <dependent idx="8">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">fallen</governor>
+            <dependent idx="9">substantially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">treated</governor>
+            <dependent idx="10">fallen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">speculative</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="10">fallen</governor>
+            <dependent idx="12">speculative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">treated</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Mackay</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">treated</governor>
+            <dependent idx="2">Mackay</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">treated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">treated</governor>
+            <dependent idx="5">claims</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">fallen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">fallen</governor>
+            <dependent idx="7">eligibility</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">fallen</governor>
+            <dependent idx="8">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">fallen</governor>
+            <dependent idx="9">substantially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">treated</governor>
+            <dependent idx="10">fallen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">speculative</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="10">fallen</governor>
+            <dependent idx="12">speculative</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

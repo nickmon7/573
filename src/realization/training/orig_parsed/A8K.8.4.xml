@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Judgment</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>reserved</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Judgment)) (VP (VBD was) (VP (VBN reserved))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reserved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="1">Judgment</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reserved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="1">Judgment</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reserved</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="1">Judgment</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">reserved</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

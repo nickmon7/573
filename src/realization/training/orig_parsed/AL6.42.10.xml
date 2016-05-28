@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Rumours</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>been</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>circulating</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>experts</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>are</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="8">
+            <word>bitterly</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>divided</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>over</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="11">
+            <word>what</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>do</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Rumours)) (VP (VBP have) (VP (VBN been) (VP (VBG circulating) (SBAR (IN that) (S (NP (NNS experts)) (VP (VBP are) (ADJP (RB bitterly) (VBN divided) (PRT (RP over)) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (VB do)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">circulating</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">circulating</governor>
+            <dependent idx="1">Rumours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">divided</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="6">experts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="7">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">divided</governor>
+            <dependent idx="8">bitterly</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">circulating</governor>
+            <dependent idx="9">divided</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">divided</governor>
+            <dependent idx="10">over</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">do</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">do</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">divided</governor>
+            <dependent idx="13">do</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">circulating</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">circulating</governor>
+            <dependent idx="1">Rumours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">divided</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="6">experts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="7">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">divided</governor>
+            <dependent idx="8">bitterly</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">circulating</governor>
+            <dependent idx="9">divided</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">divided</governor>
+            <dependent idx="10">over</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">do</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">do</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">divided</governor>
+            <dependent idx="13">do</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">circulating</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">circulating</governor>
+            <dependent idx="1">Rumours</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">circulating</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">divided</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="6">experts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">divided</governor>
+            <dependent idx="7">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">divided</governor>
+            <dependent idx="8">bitterly</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">circulating</governor>
+            <dependent idx="9">divided</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="9">divided</governor>
+            <dependent idx="10">over</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">do</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">do</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">divided</governor>
+            <dependent idx="13">do</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

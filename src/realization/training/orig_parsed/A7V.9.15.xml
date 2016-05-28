@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>dangers</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>confusion</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>illiterate</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>voters</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>compounded</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>by</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>two</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>factors</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NNS dangers)) (PP (IN of) (NP (NP (NN confusion)) (PP (IN for) (NP (JJ illiterate) (NNS voters)))))) (VP (VBZ is) (VP (VBN compounded) (PP (IN by) (NP (CD two) (NNS factors))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">compounded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dangers</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="2">dangers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">dangers</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">confusion</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">confusion</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">voters</governor>
+            <dependent idx="6">illiterate</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="7">voters</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">compounded</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">factors</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">by</governor>
+            <dependent idx="12">factors</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">compounded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dangers</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="2">dangers</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">dangers</governor>
+            <dependent idx="4">confusion</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">voters</governor>
+            <dependent idx="6">illiterate</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">confusion</governor>
+            <dependent idx="7">voters</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">factors</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="9">compounded</governor>
+            <dependent idx="12">factors</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">compounded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dangers</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="2">dangers</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">dangers</governor>
+            <dependent idx="4">confusion</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">voters</governor>
+            <dependent idx="6">illiterate</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="4">confusion</governor>
+            <dependent idx="7">voters</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="9">compounded</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">factors</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="9">compounded</governor>
+            <dependent idx="12">factors</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

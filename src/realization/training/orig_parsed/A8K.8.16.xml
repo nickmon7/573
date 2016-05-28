@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>group</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>charities</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>launched</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>Winter</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Warmth</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Line</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>telephone</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>advice</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>service</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>for</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>pensioners</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT A) (NN group)) (PP (IN of) (NP (NNS charities)))) (NP-TMP (NN yesterday)) (VP (VBD launched) (NP (NP (DT the) (NNP Winter) (NNP Warmth) (NNP Line) (NN telephone) (NN advice) (NN service)) (PP (IN for) (NP (NNS pensioners))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">group</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="2">group</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">group</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">charities</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="8">Winter</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="9">Warmth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="10">Line</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="11">telephone</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="12">advice</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">service</governor>
+            <dependent idx="14">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">for</governor>
+            <dependent idx="15">pensioners</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">group</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="2">group</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">group</governor>
+            <dependent idx="4">charities</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="8">Winter</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="9">Warmth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="10">Line</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="11">telephone</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="12">advice</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">service</governor>
+            <dependent idx="15">pensioners</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">group</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="2">group</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">group</governor>
+            <dependent idx="4">charities</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="8">Winter</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="9">Warmth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="10">Line</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="11">telephone</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">service</governor>
+            <dependent idx="12">advice</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">service</governor>
+            <dependent idx="15">pensioners</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

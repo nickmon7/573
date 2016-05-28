@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>returned</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="4">
+            <word>Hopkins</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>where</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="6">
+            <word>he</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>was</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>associate</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>professor</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>gynecology</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>obstetrics</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>until</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>retiring</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>1982</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD returned) (PP (TO to) (NP (NNP Hopkins))) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (VP (VBD was) (NP (NP (JJ associate) (NN professor)) (PP (IN of) (NP (NN gynecology) (CC and) (NNS obstetrics)))) (PP (IN until) (S (VP (VBG retiring) (PP (IN in) (NP (CD 1982)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">returned</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">to</governor>
+            <dependent idx="4">Hopkins</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">professor</governor>
+            <dependent idx="5">where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">professor</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">professor</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">professor</governor>
+            <dependent idx="8">associate</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">professor</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">professor</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="11">gynecology</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">gynecology</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">gynecology</governor>
+            <dependent idx="13">obstetrics</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">professor</governor>
+            <dependent idx="14">until</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="14">until</governor>
+            <dependent idx="15">retiring</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">retiring</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="17">1982</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">returned</governor>
+            <dependent idx="4">Hopkins</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">professor</governor>
+            <dependent idx="5">where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">professor</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">professor</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">professor</governor>
+            <dependent idx="8">associate</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">professor</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">professor</governor>
+            <dependent idx="11">gynecology</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">gynecology</governor>
+            <dependent idx="13">obstetrics</dependent>
+          </dep>
+          <dep type="prepc_until">
+            <governor idx="9">professor</governor>
+            <dependent idx="15">retiring</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">retiring</governor>
+            <dependent idx="17">1982</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">returned</governor>
+            <dependent idx="4">Hopkins</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">professor</governor>
+            <dependent idx="5">where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">professor</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">professor</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">professor</governor>
+            <dependent idx="8">associate</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">professor</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">professor</governor>
+            <dependent idx="11">gynecology</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">professor</governor>
+            <dependent idx="13">obstetrics</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">gynecology</governor>
+            <dependent idx="13">obstetrics</dependent>
+          </dep>
+          <dep type="prepc_until">
+            <governor idx="9">professor</governor>
+            <dependent idx="15">retiring</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">retiring</governor>
+            <dependent idx="17">1982</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

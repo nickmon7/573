@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Lord</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Aldington</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>asked</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>why</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>Yugoslavs</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="8">
+            <word>had</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>not</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>been</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>told</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>their</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="13">
+            <word>destination</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>before</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>repatriation</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Lord) (NNP Aldington)) (VP (VBD was) (VP (VBN asked) (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NNPS Yugoslavs)) (VP (VBD had) (RB not) (VP (VBN been) (VP (VBN told) (NP (PRP$ their) (NN destination)) (PP (IN before) (NP (NN repatriation)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Aldington</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Aldington</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">told</governor>
+            <dependent idx="5">why</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Yugoslavs</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">told</governor>
+            <dependent idx="7">Yugoslavs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">told</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">told</governor>
+            <dependent idx="9">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">told</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">asked</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">destination</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="13">destination</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">told</governor>
+            <dependent idx="14">before</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">before</governor>
+            <dependent idx="15">repatriation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Aldington</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Aldington</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">told</governor>
+            <dependent idx="5">why</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Yugoslavs</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">told</governor>
+            <dependent idx="7">Yugoslavs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">told</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">told</governor>
+            <dependent idx="9">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">told</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">asked</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">destination</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="13">destination</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="11">told</governor>
+            <dependent idx="15">repatriation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Aldington</governor>
+            <dependent idx="1">Lord</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Aldington</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">told</governor>
+            <dependent idx="5">why</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Yugoslavs</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">told</governor>
+            <dependent idx="7">Yugoslavs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">told</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">told</governor>
+            <dependent idx="9">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">told</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">asked</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">destination</governor>
+            <dependent idx="12">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="13">destination</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="11">told</governor>
+            <dependent idx="15">repatriation</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

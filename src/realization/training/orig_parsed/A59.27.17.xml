@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>he</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>had</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>only</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>offered</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>use</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>truncheon</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>as</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>sex</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>aid</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>but</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>desisted</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>when</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="18">
+            <word>she</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="19">
+            <word>shook</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="20">
+            <word>her</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="21">
+            <word>head</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD had) (ADVP (RB only)) (VP (VP (VBN offered) (S (VP (TO to) (VP (VB use) (NP (DT the) (NN truncheon)) (PP (IN as) (NP (DT a) (NN sex) (NN aid))))))) (CC but) (VP (VBN desisted) (SBAR (WHADVP (WRB when)) (S (NP (PRP she)) (VP (VBD shook) (NP (PRP$ her) (NN head))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">use</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">offered</governor>
+            <dependent idx="8">use</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">truncheon</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">use</governor>
+            <dependent idx="10">truncheon</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">use</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">aid</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">aid</governor>
+            <dependent idx="13">sex</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">as</governor>
+            <dependent idx="14">aid</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">offered</governor>
+            <dependent idx="15">but</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">offered</governor>
+            <dependent idx="16">desisted</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">shook</governor>
+            <dependent idx="17">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">shook</governor>
+            <dependent idx="18">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">desisted</governor>
+            <dependent idx="19">shook</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">head</governor>
+            <dependent idx="20">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">shook</governor>
+            <dependent idx="21">head</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">use</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">offered</governor>
+            <dependent idx="8">use</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">truncheon</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">use</governor>
+            <dependent idx="10">truncheon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">aid</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">aid</governor>
+            <dependent idx="13">sex</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="8">use</governor>
+            <dependent idx="14">aid</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="6">offered</governor>
+            <dependent idx="16">desisted</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">shook</governor>
+            <dependent idx="17">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">shook</governor>
+            <dependent idx="18">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">desisted</governor>
+            <dependent idx="19">shook</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">head</governor>
+            <dependent idx="20">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">shook</governor>
+            <dependent idx="21">head</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">desisted</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">use</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">offered</governor>
+            <dependent idx="8">use</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">truncheon</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">use</governor>
+            <dependent idx="10">truncheon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">aid</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">aid</governor>
+            <dependent idx="13">sex</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="8">use</governor>
+            <dependent idx="14">aid</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="16">desisted</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="6">offered</governor>
+            <dependent idx="16">desisted</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">shook</governor>
+            <dependent idx="17">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">shook</governor>
+            <dependent idx="18">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">desisted</governor>
+            <dependent idx="19">shook</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">head</governor>
+            <dependent idx="20">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">shook</governor>
+            <dependent idx="21">head</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

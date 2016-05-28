@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Harari</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>left</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>Mossad</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>1978</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="8">
+            <word>shortly</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>afterwards</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>became</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>private</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>businessman</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Harari)) (VP (VP (VBD left) (NP (NP (NNP Mossad)) (PP (IN in) (NP (CD 1978))))) (, ,) (CC and) (VP (ADVP (RB shortly)) (ADVP (RB afterwards)) (VBD became) (NP (DT a) (JJ private) (NN businessman)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">left</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">left</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">left</governor>
+            <dependent idx="3">Mossad</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">Mossad</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">1978</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">left</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="8">shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="9">afterwards</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">businessman</governor>
+            <dependent idx="10">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">businessman</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="12">private</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">left</governor>
+            <dependent idx="13">businessman</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">left</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">left</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">left</governor>
+            <dependent idx="3">Mossad</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">Mossad</governor>
+            <dependent idx="5">1978</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="8">shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="9">afterwards</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">businessman</governor>
+            <dependent idx="10">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">businessman</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="12">private</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">left</governor>
+            <dependent idx="13">businessman</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">left</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">left</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">left</governor>
+            <dependent idx="3">Mossad</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">Mossad</governor>
+            <dependent idx="5">1978</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="8">shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="9">afterwards</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">businessman</governor>
+            <dependent idx="10">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">businessman</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">businessman</governor>
+            <dependent idx="12">private</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">left</governor>
+            <dependent idx="13">businessman</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

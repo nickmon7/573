@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>had</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>this</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>feeling</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>everybody</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>thought</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>I</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="9">
+            <word>was</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>dead</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>''</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="13">
+            <word>McClure</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>said</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>in</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>a</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>1988</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="18">
+            <word>interview</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBD had) (NP (NP (DT this) (NN feeling) (NN everybody)) (SBAR (S (VP (VBD thought) (SBAR (S (NP (PRP I)) (VP (VBD was) (ADJP (JJ dead))))))))))) (, ,) ('' '') (NP (NNP McClure)) (VP (VBD said) (PP (IN in) (NP (DT a) (CD 1988) (NN interview)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">everybody</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">everybody</governor>
+            <dependent idx="5">feeling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="6">everybody</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">everybody</governor>
+            <dependent idx="7">thought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dead</governor>
+            <dependent idx="8">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dead</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">thought</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">McClure</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">said</governor>
+            <dependent idx="15">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">interview</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">interview</governor>
+            <dependent idx="17">1988</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">in</governor>
+            <dependent idx="18">interview</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">everybody</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">everybody</governor>
+            <dependent idx="5">feeling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="6">everybody</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">everybody</governor>
+            <dependent idx="7">thought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dead</governor>
+            <dependent idx="8">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dead</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">thought</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">McClure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">interview</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">interview</governor>
+            <dependent idx="17">1988</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">said</governor>
+            <dependent idx="18">interview</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">had</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">everybody</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">everybody</governor>
+            <dependent idx="5">feeling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">had</governor>
+            <dependent idx="6">everybody</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">everybody</governor>
+            <dependent idx="7">thought</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dead</governor>
+            <dependent idx="8">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">dead</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="7">thought</governor>
+            <dependent idx="10">dead</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">McClure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">interview</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">interview</governor>
+            <dependent idx="17">1988</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">said</governor>
+            <dependent idx="18">interview</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

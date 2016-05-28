@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>involved</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>thinning</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="5">
+            <word>trees</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>opening</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>up</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="9">
+            <word>glades</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>around</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>mature</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>Scots</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>pines</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>planting</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="16">
+            <word>juniper</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>blackberries</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT This)) (VP (VBZ has) (VP (VBN involved) (S (VP (VP (VBG thinning) (NP (NNS trees))) (, ,) (VP (VBG opening) (PRT (RP up)) (NP (NP (NNS glades)) (PP (IN around) (NP (JJ mature) (NNP Scots) (NNS pines))))) (CC and) (VP (VBG planting) (NP (NN juniper) (CC and) (NNS blackberries))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">involved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">involved</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">involved</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">involved</governor>
+            <dependent idx="4">thinning</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">thinning</governor>
+            <dependent idx="5">trees</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">thinning</governor>
+            <dependent idx="7">opening</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">opening</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">opening</governor>
+            <dependent idx="9">glades</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">glades</governor>
+            <dependent idx="10">around</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pines</governor>
+            <dependent idx="11">mature</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">pines</governor>
+            <dependent idx="12">Scots</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">around</governor>
+            <dependent idx="13">pines</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">thinning</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">thinning</governor>
+            <dependent idx="15">planting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">planting</governor>
+            <dependent idx="16">juniper</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">juniper</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">juniper</governor>
+            <dependent idx="18">blackberries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">involved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">involved</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">involved</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">involved</governor>
+            <dependent idx="4">thinning</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">thinning</governor>
+            <dependent idx="5">trees</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">thinning</governor>
+            <dependent idx="7">opening</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">opening</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">opening</governor>
+            <dependent idx="9">glades</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pines</governor>
+            <dependent idx="11">mature</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">pines</governor>
+            <dependent idx="12">Scots</dependent>
+          </dep>
+          <dep type="prep_around">
+            <governor idx="9">glades</governor>
+            <dependent idx="13">pines</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">thinning</governor>
+            <dependent idx="15">planting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">planting</governor>
+            <dependent idx="16">juniper</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">juniper</governor>
+            <dependent idx="18">blackberries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">involved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">involved</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">involved</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">involved</governor>
+            <dependent idx="4">thinning</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">thinning</governor>
+            <dependent idx="5">trees</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">involved</governor>
+            <dependent idx="7">opening</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">thinning</governor>
+            <dependent idx="7">opening</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">opening</governor>
+            <dependent idx="8">up</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">opening</governor>
+            <dependent idx="9">glades</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">pines</governor>
+            <dependent idx="11">mature</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">pines</governor>
+            <dependent idx="12">Scots</dependent>
+          </dep>
+          <dep type="prep_around">
+            <governor idx="9">glades</governor>
+            <dependent idx="13">pines</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">involved</governor>
+            <dependent idx="15">planting</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">thinning</governor>
+            <dependent idx="15">planting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">planting</governor>
+            <dependent idx="16">juniper</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">planting</governor>
+            <dependent idx="18">blackberries</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">juniper</governor>
+            <dependent idx="18">blackberries</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

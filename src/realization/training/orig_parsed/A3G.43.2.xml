@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>most</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="4">
+            <word>important</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>aspect</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>project</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>has</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="10">
+            <word>been</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>excavation</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>domestic</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>buildings</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>built</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>between</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>fifteenth</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="21">
+            <word>nineteenth</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>centuries</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (NP (DT the) (ADJP (RBS most) (JJ important)) (NN aspect)) (PP (IN of) (NP (DT the) (NN project)))) (VP (VBZ has) (VP (VBN been) (NP (NP (DT the) (NN excavation)) (PP (IN of) (NP (NP (JJ domestic) (NNS buildings)) (VP (VBN built) (PP (IN between) (NP (DT the) (NP (NN fifteenth) (CC and) (NN nineteenth)) (NNS centuries))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">excavation</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">excavation</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">aspect</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">important</governor>
+            <dependent idx="3">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">aspect</governor>
+            <dependent idx="4">important</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">excavation</governor>
+            <dependent idx="5">aspect</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">aspect</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">project</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">project</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">excavation</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">excavation</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">excavation</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">excavation</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="14">domestic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="15">buildings</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="16">built</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">built</governor>
+            <dependent idx="17">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">centuries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">centuries</governor>
+            <dependent idx="19">fifteenth</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="19">fifteenth</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="19">fifteenth</governor>
+            <dependent idx="21">nineteenth</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">between</governor>
+            <dependent idx="22">centuries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">excavation</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">excavation</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">aspect</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">important</governor>
+            <dependent idx="3">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">aspect</governor>
+            <dependent idx="4">important</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">excavation</governor>
+            <dependent idx="5">aspect</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">project</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">aspect</governor>
+            <dependent idx="8">project</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">excavation</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">excavation</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">excavation</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="14">domestic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">excavation</governor>
+            <dependent idx="15">buildings</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="16">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">centuries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">centuries</governor>
+            <dependent idx="19">fifteenth</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="19">fifteenth</governor>
+            <dependent idx="21">nineteenth</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="16">built</governor>
+            <dependent idx="22">centuries</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">excavation</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">excavation</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">aspect</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">important</governor>
+            <dependent idx="3">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">aspect</governor>
+            <dependent idx="4">important</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">excavation</governor>
+            <dependent idx="5">aspect</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">project</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">aspect</governor>
+            <dependent idx="8">project</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">excavation</governor>
+            <dependent idx="9">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">excavation</governor>
+            <dependent idx="10">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">excavation</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="14">domestic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">excavation</governor>
+            <dependent idx="15">buildings</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="15">buildings</governor>
+            <dependent idx="16">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">centuries</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">centuries</governor>
+            <dependent idx="19">fifteenth</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="19">fifteenth</governor>
+            <dependent idx="21">nineteenth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">centuries</governor>
+            <dependent idx="21">nineteenth</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="16">built</governor>
+            <dependent idx="22">centuries</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

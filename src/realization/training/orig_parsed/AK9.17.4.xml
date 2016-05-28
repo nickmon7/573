@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>investigation</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>penetrated</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>every</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>level</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>society</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>on</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>island</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>involves</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="14">
+            <word>allegations</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>corruption</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>among</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>government</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>ministers</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN investigation)) (VP (VP (VBZ has) (VP (VBN penetrated) (NP (NP (DT every) (NN level)) (PP (IN of) (NP (NN society)))) (PP (IN on) (NP (DT the) (NN island))))) (CC and) (VP (VBZ involves) (NP (NP (NNS allegations)) (PP (IN of) (NP (NN corruption)))) (PP (IN among) (NP (NN government) (NNS ministers))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">penetrated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">investigation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="2">investigation</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">level</governor>
+            <dependent idx="5">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="6">level</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">level</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="8">society</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">on</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="13">involves</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">involves</governor>
+            <dependent idx="14">allegations</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">allegations</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">of</governor>
+            <dependent idx="16">corruption</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">involves</governor>
+            <dependent idx="17">among</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">ministers</governor>
+            <dependent idx="18">government</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">among</governor>
+            <dependent idx="19">ministers</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">penetrated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">investigation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="2">investigation</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">level</governor>
+            <dependent idx="5">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="6">level</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">level</governor>
+            <dependent idx="8">society</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="13">involves</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">involves</governor>
+            <dependent idx="14">allegations</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">allegations</governor>
+            <dependent idx="16">corruption</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">ministers</governor>
+            <dependent idx="18">government</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="13">involves</governor>
+            <dependent idx="19">ministers</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">penetrated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">investigation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="2">investigation</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">involves</governor>
+            <dependent idx="2">investigation</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">level</governor>
+            <dependent idx="5">every</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="6">level</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">level</governor>
+            <dependent idx="8">society</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">penetrated</governor>
+            <dependent idx="13">involves</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">involves</governor>
+            <dependent idx="14">allegations</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">allegations</governor>
+            <dependent idx="16">corruption</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">ministers</governor>
+            <dependent idx="18">government</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="13">involves</governor>
+            <dependent idx="19">ministers</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

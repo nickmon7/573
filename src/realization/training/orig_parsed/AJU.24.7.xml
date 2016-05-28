@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>a</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>month</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>ago</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>she</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>returned</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>Britain</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>taking</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>children</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>with</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>her</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP-TMP (DT a) (NN month) (RB ago)) (, ,) (NP (PRP she)) (VP (VBD returned) (PP (TO to) (NP (NNP Britain))) (, ,) (S (VP (VBG taking) (NP (DT the) (NNS children)) (PP (IN with) (NP (PRP her)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">returned</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">returned</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">month</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="7">returned</governor>
+            <dependent idx="3">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">month</governor>
+            <dependent idx="4">ago</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">returned</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">returned</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">returned</governor>
+            <dependent idx="11">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">children</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">taking</governor>
+            <dependent idx="13">children</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">taking</governor>
+            <dependent idx="14">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">with</governor>
+            <dependent idx="15">her</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">returned</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">returned</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">month</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="7">returned</governor>
+            <dependent idx="3">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">month</governor>
+            <dependent idx="4">ago</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">returned</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">returned</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">returned</governor>
+            <dependent idx="11">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">children</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">taking</governor>
+            <dependent idx="13">children</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">taking</governor>
+            <dependent idx="15">her</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">returned</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">returned</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">month</governor>
+            <dependent idx="2">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="7">returned</governor>
+            <dependent idx="3">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">month</governor>
+            <dependent idx="4">ago</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">returned</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">returned</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">returned</governor>
+            <dependent idx="11">taking</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">children</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">taking</governor>
+            <dependent idx="13">children</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="11">taking</governor>
+            <dependent idx="15">her</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

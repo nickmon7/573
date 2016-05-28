@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>returned</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>only</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>briefly</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>1920</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>marry</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>his</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="11">
+            <word>childhood</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>friend</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>Tomio</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD returned) (ADVP (JJ only) (NN briefly)) (PP (IN in) (NP (CD 1920))) (, ,) (S (VP (TO to) (VP (VB marry) (NP (NP (PRP$ his) (NN childhood) (NN friend)) (, ,) (NP (NNP Tomio))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">returned</governor>
+            <dependent idx="3">only</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">only</governor>
+            <dependent idx="4">briefly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">returned</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">in</governor>
+            <dependent idx="6">1920</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">marry</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">marry</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">friend</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">friend</governor>
+            <dependent idx="11">childhood</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">marry</governor>
+            <dependent idx="12">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">friend</governor>
+            <dependent idx="14">Tomio</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">returned</governor>
+            <dependent idx="3">only</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">only</governor>
+            <dependent idx="4">briefly</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">returned</governor>
+            <dependent idx="6">1920</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">marry</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">marry</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">friend</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">friend</governor>
+            <dependent idx="11">childhood</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">marry</governor>
+            <dependent idx="12">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">friend</governor>
+            <dependent idx="14">Tomio</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">returned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">returned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">returned</governor>
+            <dependent idx="3">only</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="3">only</governor>
+            <dependent idx="4">briefly</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">returned</governor>
+            <dependent idx="6">1920</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">marry</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">returned</governor>
+            <dependent idx="9">marry</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">friend</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">friend</governor>
+            <dependent idx="11">childhood</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">marry</governor>
+            <dependent idx="12">friend</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">friend</governor>
+            <dependent idx="14">Tomio</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

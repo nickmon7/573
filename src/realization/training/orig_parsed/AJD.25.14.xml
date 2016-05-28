@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>For</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>even</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>darkest</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>days</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>two-party</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>Tory</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>Labour</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>domination</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>flame</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>of</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>hope</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>burns</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="19">
+            <word>brightly</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="20">
+            <word>here</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="22">
+            <word>''</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="23">
+            <word>he</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="24">
+            <word>said</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (PP (IN For) (NP (ADJP (RB even) (PP (IN in) (NP (NP (DT the) (JJ darkest) (NNS days)) (PP (IN of) (NP (JJ two-party) (NNP Tory) (CC and) (NNP Labour)))))) (NN domination))) (, ,) (NP (NP (DT the) (NN flame)) (PP (IN of) (NP (NN hope)))) (VP (VBZ burns) (ADVP (RB brightly)) (ADVP (RB here)))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">said</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">burns</governor>
+            <dependent idx="1">For</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">domination</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">even</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">days</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">days</governor>
+            <dependent idx="5">darkest</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">in</governor>
+            <dependent idx="6">days</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">days</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Tory</governor>
+            <dependent idx="8">two-party</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">Tory</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">Tory</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Tory</governor>
+            <dependent idx="11">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">For</governor>
+            <dependent idx="12">domination</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flame</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">burns</governor>
+            <dependent idx="15">flame</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">flame</governor>
+            <dependent idx="16">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">of</governor>
+            <dependent idx="17">hope</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">said</governor>
+            <dependent idx="18">burns</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="19">brightly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="20">here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">said</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">said</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">domination</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">days</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">days</governor>
+            <dependent idx="5">darkest</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">even</governor>
+            <dependent idx="6">days</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Tory</governor>
+            <dependent idx="8">two-party</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">days</governor>
+            <dependent idx="9">Tory</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Tory</governor>
+            <dependent idx="11">Labour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">burns</governor>
+            <dependent idx="12">domination</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flame</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">burns</governor>
+            <dependent idx="15">flame</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">flame</governor>
+            <dependent idx="17">hope</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">said</governor>
+            <dependent idx="18">burns</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="19">brightly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="20">here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">said</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">said</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">domination</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">days</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">days</governor>
+            <dependent idx="5">darkest</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">even</governor>
+            <dependent idx="6">days</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">Tory</governor>
+            <dependent idx="8">two-party</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">days</governor>
+            <dependent idx="9">Tory</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">days</governor>
+            <dependent idx="11">Labour</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Tory</governor>
+            <dependent idx="11">Labour</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="18">burns</governor>
+            <dependent idx="12">domination</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">flame</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">burns</governor>
+            <dependent idx="15">flame</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">flame</governor>
+            <dependent idx="17">hope</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">said</governor>
+            <dependent idx="18">burns</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="19">brightly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">burns</governor>
+            <dependent idx="20">here</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">said</governor>
+            <dependent idx="23">he</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

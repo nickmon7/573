@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>reaction</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Pentagon</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>spokesman</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>remark</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>was</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>first</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>an</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>incredulous</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>``</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="15">
+            <word>What</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="16">
+            <word>?</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="17">
+            <word>''</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN reaction)) (PP (IN of) (NP (NP (DT a) (NNP Pentagon) (NN spokesman)) (PP (TO to) (NP (DT the) (NN remark)))))) (VP (VBD was) (ADVP (RB first)) (NP (NP (DT an) (NNS incredulous)) (`` ``) (NP (WP What)))) (. ?) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">incredulous</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">reaction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="2">reaction</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">reaction</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="5">Pentagon</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="6">spokesman</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">remark</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">to</governor>
+            <dependent idx="9">remark</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="15">What</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">incredulous</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">reaction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="2">reaction</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="5">Pentagon</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">reaction</governor>
+            <dependent idx="6">spokesman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">remark</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="9">remark</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="15">What</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">incredulous</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">reaction</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="2">reaction</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="5">Pentagon</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">reaction</governor>
+            <dependent idx="6">spokesman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">remark</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="6">spokesman</governor>
+            <dependent idx="9">remark</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="11">first</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">incredulous</governor>
+            <dependent idx="15">What</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>then</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>laughter</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (ADVP (RB then)) (NP (NN laughter)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">laughter</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">laughter</governor>
+            <dependent idx="1">then</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">laughter</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">laughter</governor>
+            <dependent idx="1">then</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">laughter</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">laughter</governor>
+            <dependent idx="1">then</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

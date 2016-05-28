@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>also</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>leaves</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>open</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>possibility</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>extending</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>these</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>measures</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (ADVP (RB also)) (VP (VBZ leaves) (VP (VB open) (NP (NP (DT the) (NN possibility)) (PP (IN of) (S (VP (VBG extending) (NP (DT these) (NNS measures)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">leaves</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">leaves</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">leaves</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">leaves</governor>
+            <dependent idx="4">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">possibility</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">open</governor>
+            <dependent idx="6">possibility</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">possibility</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="7">of</governor>
+            <dependent idx="8">extending</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">measures</governor>
+            <dependent idx="9">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">extending</governor>
+            <dependent idx="10">measures</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">leaves</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">leaves</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">leaves</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">leaves</governor>
+            <dependent idx="4">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">possibility</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">open</governor>
+            <dependent idx="6">possibility</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="6">possibility</governor>
+            <dependent idx="8">extending</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">measures</governor>
+            <dependent idx="9">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">extending</governor>
+            <dependent idx="10">measures</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">leaves</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">leaves</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">leaves</governor>
+            <dependent idx="2">also</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">leaves</governor>
+            <dependent idx="4">open</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">possibility</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">open</governor>
+            <dependent idx="6">possibility</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="6">possibility</governor>
+            <dependent idx="8">extending</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">measures</governor>
+            <dependent idx="9">these</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">extending</governor>
+            <dependent idx="10">measures</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

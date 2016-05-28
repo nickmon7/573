@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Adamec</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>had</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>asked</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>Forum</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>its</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>proposals</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>concerning</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>new</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>government</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Adamec)) (VP (VBD had) (VP (VBN asked) (NP (NP (DT the) (NNP Forum)) (PP (IN for) (NP (NP (PRP$ its) (NNS proposals)) (PP (VBG concerning) (NP (DT the) (JJ new) (NN government)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Adamec</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Forum</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">asked</governor>
+            <dependent idx="6">Forum</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">Forum</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">proposals</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">for</governor>
+            <dependent idx="9">proposals</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">proposals</governor>
+            <dependent idx="10">concerning</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">government</governor>
+            <dependent idx="12">new</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">concerning</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Adamec</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Forum</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">asked</governor>
+            <dependent idx="6">Forum</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">proposals</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">Forum</governor>
+            <dependent idx="9">proposals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">government</governor>
+            <dependent idx="12">new</dependent>
+          </dep>
+          <dep type="prep_concerning">
+            <governor idx="9">proposals</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">asked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Adamec</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">asked</governor>
+            <dependent idx="2">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">asked</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Forum</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">asked</governor>
+            <dependent idx="6">Forum</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">proposals</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">Forum</governor>
+            <dependent idx="9">proposals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">government</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">government</governor>
+            <dependent idx="12">new</dependent>
+          </dep>
+          <dep type="prep_concerning">
+            <governor idx="9">proposals</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

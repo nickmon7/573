@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>master</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>at</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>buying</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>land</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>along</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>development</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>path</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>selling</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>it</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>at</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>last</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>possible</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>-</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="21">
+            <word>most</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="22">
+            <word>profitable</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>-</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="24">
+            <word>moment</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD was) (NP (NP (DT a) (NN master)) (PP (IN at) (S (VP (VP (VBG buying) (NP (NP (NN land)) (PP (IN along) (NP (NP (NN development) (POS 's)) (NN path))))) (CC and) (VP (VBG selling) (NP (PRP it)) (PP (IN at) (NP (DT the) (JJ last) (ADJP (ADJP (JJ possible)) (: -) (CC and) (ADJP (RBS most) (JJ profitable)) (: -)) (NN moment))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">master</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">master</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">master</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">master</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">master</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="5">at</governor>
+            <dependent idx="6">buying</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">buying</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">land</governor>
+            <dependent idx="8">along</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">path</governor>
+            <dependent idx="9">development</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="9">development</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">along</governor>
+            <dependent idx="11">path</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">buying</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">buying</governor>
+            <dependent idx="13">selling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">selling</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">selling</governor>
+            <dependent idx="15">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">moment</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="17">last</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="18">possible</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="18">possible</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">profitable</governor>
+            <dependent idx="21">most</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="18">possible</governor>
+            <dependent idx="22">profitable</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">at</governor>
+            <dependent idx="24">moment</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">master</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">master</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">master</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">master</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="prepc_at">
+            <governor idx="4">master</governor>
+            <dependent idx="6">buying</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">buying</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">path</governor>
+            <dependent idx="9">development</dependent>
+          </dep>
+          <dep type="prep_along">
+            <governor idx="7">land</governor>
+            <dependent idx="11">path</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">buying</governor>
+            <dependent idx="13">selling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">selling</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">moment</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="17">last</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="18">possible</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">profitable</governor>
+            <dependent idx="21">most</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="18">possible</governor>
+            <dependent idx="22">profitable</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">selling</governor>
+            <dependent idx="24">moment</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">master</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">master</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">master</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">master</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="prepc_at">
+            <governor idx="4">master</governor>
+            <dependent idx="6">buying</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">buying</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">path</governor>
+            <dependent idx="9">development</dependent>
+          </dep>
+          <dep type="prep_along">
+            <governor idx="7">land</governor>
+            <dependent idx="11">path</dependent>
+          </dep>
+          <dep type="prepc_at">
+            <governor idx="4">master</governor>
+            <dependent idx="13">selling</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">buying</governor>
+            <dependent idx="13">selling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">selling</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">moment</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="17">last</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="18">possible</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">profitable</governor>
+            <dependent idx="21">most</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="18">possible</governor>
+            <dependent idx="22">profitable</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">moment</governor>
+            <dependent idx="22">profitable</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">selling</governor>
+            <dependent idx="24">moment</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

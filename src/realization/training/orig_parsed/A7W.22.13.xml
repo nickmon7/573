@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Government</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="4">
+            <word>repugnance</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>for</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="7">
+            <word>organisation</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>everything</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>it</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>stands</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="12">
+            <word>for</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>has</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="14">
+            <word>been</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>made</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>absolutely</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="17">
+            <word>clear</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>on</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>repeated</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>occasions</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN Government) (POS 's)) (NN repugnance) (SBAR (WHPP (IN for) (WHNP (WDT that) (NP (NN organisation) (CC and) (NN everything)))) (S (NP (PRP it)) (VP (VBZ stands) (PP (IN for)))))) (VP (VBZ has) (VP (VBN been) (VP (VBN made) (ADJP (RB absolutely) (JJ clear)) (PP (IN on) (NP (VBN repeated) (NNS occasions)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">made</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Government</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="2">Government</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="2">Government</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">made</governor>
+            <dependent idx="4">repugnance</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">stands</governor>
+            <dependent idx="5">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">organisation</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">for</governor>
+            <dependent idx="7">organisation</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">organisation</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">organisation</governor>
+            <dependent idx="9">everything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">stands</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="11">stands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">stands</governor>
+            <dependent idx="12">for</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">made</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">made</governor>
+            <dependent idx="14">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">clear</governor>
+            <dependent idx="16">absolutely</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="15">made</governor>
+            <dependent idx="17">clear</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">made</governor>
+            <dependent idx="18">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">occasions</governor>
+            <dependent idx="19">repeated</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">on</governor>
+            <dependent idx="20">occasions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">made</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Government</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="2">Government</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">made</governor>
+            <dependent idx="4">repugnance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">organisation</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="11">stands</governor>
+            <dependent idx="7">organisation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">organisation</governor>
+            <dependent idx="9">everything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">stands</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="11">stands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">stands</governor>
+            <dependent idx="12">for</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">made</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">made</governor>
+            <dependent idx="14">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">clear</governor>
+            <dependent idx="16">absolutely</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="15">made</governor>
+            <dependent idx="17">clear</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">occasions</governor>
+            <dependent idx="19">repeated</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="15">made</governor>
+            <dependent idx="20">occasions</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">made</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Government</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="2">Government</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">made</governor>
+            <dependent idx="4">repugnance</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">organisation</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="11">stands</governor>
+            <dependent idx="7">organisation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">organisation</governor>
+            <dependent idx="9">everything</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="11">stands</governor>
+            <dependent idx="9">everything</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">stands</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">repugnance</governor>
+            <dependent idx="11">stands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">stands</governor>
+            <dependent idx="12">for</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">made</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">made</governor>
+            <dependent idx="14">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">clear</governor>
+            <dependent idx="16">absolutely</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="15">made</governor>
+            <dependent idx="17">clear</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">occasions</governor>
+            <dependent idx="19">repeated</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="15">made</governor>
+            <dependent idx="20">occasions</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

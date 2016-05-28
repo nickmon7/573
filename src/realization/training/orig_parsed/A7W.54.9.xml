@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Most</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>800</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>named</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>commission</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>were</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>wanted</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>by</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>Yugoslavia</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>Fo</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>secretly</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>acknowledged</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>that</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>it</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="21">
+            <word>had</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="22">
+            <word>an</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>excellent</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>case</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (JJS Most)) (PP (IN of) (NP (DT the) (CD 800))) (VP (VBN named) (PP (IN by) (NP (DT the) (NN commission))))) (VP (VBD were) (VP (VBN wanted) (PP (IN by) (NP (NNP Yugoslavia)))))) (, ,) (CC and) (S (NP (DT the) (NNP Fo)) (ADVP (RB secretly)) (VP (VBD acknowledged) (SBAR (IN that) (S (NP (PRP it)) (VP (VBD had) (NP (DT an) (JJ excellent) (NN case))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">wanted</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Most</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">800</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="4">800</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Most</governor>
+            <dependent idx="5">named</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">named</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">commission</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="8">commission</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">wanted</governor>
+            <dependent idx="11">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">by</governor>
+            <dependent idx="12">Yugoslavia</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">wanted</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Fo</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="16">Fo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="17">secretly</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">wanted</governor>
+            <dependent idx="18">acknowledged</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">had</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">had</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="21">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">case</governor>
+            <dependent idx="22">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">case</governor>
+            <dependent idx="23">excellent</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">had</governor>
+            <dependent idx="24">case</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">wanted</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">800</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Most</governor>
+            <dependent idx="4">800</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Most</governor>
+            <dependent idx="5">named</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">commission</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">named</governor>
+            <dependent idx="8">commission</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="10">wanted</governor>
+            <dependent idx="12">Yugoslavia</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Fo</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="16">Fo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="17">secretly</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">wanted</governor>
+            <dependent idx="18">acknowledged</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">had</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">had</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="21">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">case</governor>
+            <dependent idx="22">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">case</governor>
+            <dependent idx="23">excellent</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">had</governor>
+            <dependent idx="24">case</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">wanted</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="1">Most</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">800</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Most</governor>
+            <dependent idx="4">800</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Most</governor>
+            <dependent idx="5">named</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">commission</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">named</governor>
+            <dependent idx="8">commission</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">wanted</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="10">wanted</governor>
+            <dependent idx="12">Yugoslavia</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">Fo</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="16">Fo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="17">secretly</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">wanted</governor>
+            <dependent idx="18">acknowledged</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="21">had</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">had</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">acknowledged</governor>
+            <dependent idx="21">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">case</governor>
+            <dependent idx="22">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">case</governor>
+            <dependent idx="23">excellent</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">had</governor>
+            <dependent idx="24">case</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

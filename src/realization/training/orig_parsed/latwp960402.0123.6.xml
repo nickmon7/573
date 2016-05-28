@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Gilbert</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>died</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>about</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>10</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>p.m.</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>Burns</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>died</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>about</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>2:30</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="11">
+            <word>a.m.</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>Louw</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>said</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (S (NP (NNP Gilbert)) (VP (VBD died) (NP (QP (RB about) (CD 10))) (NP-TMP (NN p.m.)))) (CC and) (S (NP (NNP Burns)) (VP (VBD died) (PP (IN about) (NP (CD 2:30) (RB a.m.)))))) (, ,) (NP (NNP Louw)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="4">10</governor>
+            <dependent idx="3">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">died</governor>
+            <dependent idx="4">10</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="5">p.m.</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">died</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">Burns</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">died</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">died</governor>
+            <dependent idx="9">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">about</governor>
+            <dependent idx="10">2:30</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">2:30</governor>
+            <dependent idx="11">a.m.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">Louw</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="4">10</governor>
+            <dependent idx="3">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">died</governor>
+            <dependent idx="4">10</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="5">p.m.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">Burns</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">died</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="8">died</governor>
+            <dependent idx="10">2:30</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">2:30</governor>
+            <dependent idx="11">a.m.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">Louw</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="4">10</governor>
+            <dependent idx="3">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">died</governor>
+            <dependent idx="4">10</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="5">p.m.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">Burns</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">died</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">said</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="8">died</governor>
+            <dependent idx="10">2:30</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">2:30</governor>
+            <dependent idx="11">a.m.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">said</governor>
+            <dependent idx="13">Louw</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

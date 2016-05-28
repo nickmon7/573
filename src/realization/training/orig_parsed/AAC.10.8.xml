@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Staff</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>voted</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>20,343</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>favour</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>action</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>with</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>4,727</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="11">
+            <word>against</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Staff)) (VP (VBD voted) (NP (CD 20,343)) (PP (IN in) (NP (NP (NN favour)) (PP (IN of) (NP (NN action))))) (, ,) (PP (IN with) (NP (CD 4,727))) (PP (IN against))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">voted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">voted</governor>
+            <dependent idx="1">Staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">voted</governor>
+            <dependent idx="3">20,343</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">voted</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">favour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">favour</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="7">action</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">voted</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">with</governor>
+            <dependent idx="10">4,727</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">voted</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">voted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">voted</governor>
+            <dependent idx="1">Staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">voted</governor>
+            <dependent idx="3">20,343</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">voted</governor>
+            <dependent idx="5">favour</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">favour</governor>
+            <dependent idx="7">action</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">voted</governor>
+            <dependent idx="10">4,727</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">voted</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">voted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">voted</governor>
+            <dependent idx="1">Staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">voted</governor>
+            <dependent idx="3">20,343</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">voted</governor>
+            <dependent idx="5">favour</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">favour</governor>
+            <dependent idx="7">action</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">voted</governor>
+            <dependent idx="10">4,727</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">voted</governor>
+            <dependent idx="11">against</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

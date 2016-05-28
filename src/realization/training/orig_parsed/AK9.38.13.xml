@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>primary</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>schools</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>there</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="6">
+            <word>will</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="7">
+            <word>be</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>renewed</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>emphasis</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>on</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>``</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="13">
+            <word>three</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>Rs</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>''</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="17">
+            <word>particularly</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>National</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>Curriculum</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>at</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>seven</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (JJ primary) (NNS schools))) (, ,) (NP (EX there)) (VP (MD will) (VP (VB be) (NP (NP (VBN renewed) (NN emphasis)) (PP (IN on) (NP (DT the) (`` ``) (ADJP (CD three)) (NN Rs)))) (, ,) ('' '') (ADVP (RB particularly)) (PP (IN in) (NP (NP (NNP National) (NNP Curriculum)) (PP (IN at) (NP (CD seven))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">emphasis</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">schools</governor>
+            <dependent idx="2">primary</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="3">schools</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="8">renewed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="10">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Rs</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Rs</governor>
+            <dependent idx="13">three</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">on</governor>
+            <dependent idx="14">Rs</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="17">particularly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="19">National</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="20">Curriculum</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="21">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">at</governor>
+            <dependent idx="22">seven</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">emphasis</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">schools</governor>
+            <dependent idx="2">primary</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="3">schools</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="8">renewed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Rs</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Rs</governor>
+            <dependent idx="13">three</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="14">Rs</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="17">particularly</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="19">National</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="20">Curriculum</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="22">seven</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">emphasis</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">schools</governor>
+            <dependent idx="2">primary</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="3">schools</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="5">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="8">renewed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Rs</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Rs</governor>
+            <dependent idx="13">three</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="14">Rs</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="17">particularly</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="19">National</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">emphasis</governor>
+            <dependent idx="20">Curriculum</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="20">Curriculum</governor>
+            <dependent idx="22">seven</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

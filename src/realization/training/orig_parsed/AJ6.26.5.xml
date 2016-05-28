@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>Rivers</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>like</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Wharfe</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Yorkshire</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>Darent</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>Kent</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>Burn</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>in</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>Norfolk</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>are</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="19">
+            <word>drying</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="20">
+            <word>up</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (NP (NNP Rivers)) (PP (IN like) (NP (NP (NP (DT the) (NN Wharfe)) (PP (IN in) (NP (NNP Yorkshire)))) (, ,) (NP (NP (DT the) (NN Darent)) (PP (IN in) (NP (NNP Kent)))) (, ,) (NP (NP (DT the) (NNP Burn)) (PP (IN in) (NP (NNP Norfolk))))))) (VP (VBP are) (VP (VBG drying) (PRT (RP up)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">drying</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">drying</governor>
+            <dependent idx="2">Rivers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Rivers</governor>
+            <dependent idx="3">like</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">like</governor>
+            <dependent idx="5">Wharfe</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">in</governor>
+            <dependent idx="7">Yorkshire</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Darent</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="10">Darent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">Darent</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="12">Kent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Burn</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="15">Burn</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">Burn</governor>
+            <dependent idx="16">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">in</governor>
+            <dependent idx="17">Norfolk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">drying</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">drying</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">drying</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">drying</governor>
+            <dependent idx="2">Rivers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="2">Rivers</governor>
+            <dependent idx="5">Wharfe</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="7">Yorkshire</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Darent</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="10">Darent</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">Darent</governor>
+            <dependent idx="12">Kent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Burn</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="15">Burn</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Burn</governor>
+            <dependent idx="17">Norfolk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">drying</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">drying</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">drying</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">drying</governor>
+            <dependent idx="2">Rivers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="2">Rivers</governor>
+            <dependent idx="5">Wharfe</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="7">Yorkshire</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Darent</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="10">Darent</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">Darent</governor>
+            <dependent idx="12">Kent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">Burn</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Wharfe</governor>
+            <dependent idx="15">Burn</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="15">Burn</governor>
+            <dependent idx="17">Norfolk</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">drying</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">drying</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Where</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="2">
+            <word>there</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="3">
+            <word>were</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>once</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>kingfishers</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>bullrushes</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>reeds</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>there</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="13">
+            <word>now</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>dry</word>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>parched</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>land</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>191</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (WHADVP (WRB Where)) (S (NP (EX there)) (VP (VBD were) (ADVP (RB once)) (NP (NNS kingfishers) (, ,) (NNS bullrushes) (CC and) (NNS reeds))))) (, ,) (NP (EX there)) (VP (VBZ is) (ADVP (RB now)) (NP (ADJP (JJ dry) (, ,) (VBN parched)) (NN land))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">were</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">is</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="4">once</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">were</governor>
+            <dependent idx="5">kingfishers</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="7">bullrushes</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="9">reeds</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="12">is</governor>
+            <dependent idx="11">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">is</governor>
+            <dependent idx="13">now</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">parched</governor>
+            <dependent idx="14">dry</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">land</governor>
+            <dependent idx="16">parched</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">is</governor>
+            <dependent idx="17">land</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">were</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">is</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="4">once</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">were</governor>
+            <dependent idx="5">kingfishers</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="7">bullrushes</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="9">reeds</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="12">is</governor>
+            <dependent idx="11">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">is</governor>
+            <dependent idx="13">now</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">parched</governor>
+            <dependent idx="14">dry</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">land</governor>
+            <dependent idx="16">parched</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">is</governor>
+            <dependent idx="17">land</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">were</governor>
+            <dependent idx="2">there</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="12">is</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">were</governor>
+            <dependent idx="4">once</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">were</governor>
+            <dependent idx="5">kingfishers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">were</governor>
+            <dependent idx="7">bullrushes</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="7">bullrushes</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">were</governor>
+            <dependent idx="9">reeds</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">kingfishers</governor>
+            <dependent idx="9">reeds</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="12">is</governor>
+            <dependent idx="11">there</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">is</governor>
+            <dependent idx="13">now</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">parched</governor>
+            <dependent idx="14">dry</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">land</governor>
+            <dependent idx="16">parched</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">is</governor>
+            <dependent idx="17">land</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>192</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>source</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Kennet</word>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>one</word>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>225</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Britain</word>
+            <CharacterOffsetBegin>226</CharacterOffsetBegin>
+            <CharacterOffsetEnd>233</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>234</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>best</word>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>241</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="12">
+            <word>trout</word>
+            <CharacterOffsetBegin>242</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>streams</word>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>was</word>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>261</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>now</word>
+            <CharacterOffsetBegin>262</CharacterOffsetBegin>
+            <CharacterOffsetEnd>265</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="17">
+            <word>a</word>
+            <CharacterOffsetBegin>266</CharacterOffsetBegin>
+            <CharacterOffsetEnd>267</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>sewage</word>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>274</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>farm</word>
+            <CharacterOffsetBegin>275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>279</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>outfall</word>
+            <CharacterOffsetBegin>280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>287</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>because</word>
+            <CharacterOffsetBegin>288</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>springs</word>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>303</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>had</word>
+            <CharacterOffsetBegin>304</CharacterOffsetBegin>
+            <CharacterOffsetEnd>307</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="24">
+            <word>dried</word>
+            <CharacterOffsetBegin>308</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="25">
+            <word>up</word>
+            <CharacterOffsetBegin>314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>316</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <CharacterOffsetBegin>316</CharacterOffsetBegin>
+            <CharacterOffsetEnd>317</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (DT The) (NN source)) (PP (IN of) (NP (DT the) (NNP Kennet)))) (, ,) (NP (NP (CD one)) (PP (IN of) (NP (NP (NNP Britain) (POS 's)) (JJS best) (NNS trout) (NNS streams)))) (, ,)) (VP (VBD was) (ADVP (RB now)) (NP (DT a) (NN sewage) (NN farm) (NN outfall)) (SBAR (IN because) (S (NP (NNS springs)) (VP (VBD had) (VP (VBN dried) (PRT (RP up))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">outfall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">outfall</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">source</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Kennet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">Kennet</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">one</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">streams</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="9">Britain</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">streams</governor>
+            <dependent idx="11">best</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">streams</governor>
+            <dependent idx="12">trout</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="13">streams</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="20">outfall</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">outfall</governor>
+            <dependent idx="16">now</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outfall</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="18">sewage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="19">farm</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">dried</governor>
+            <dependent idx="21">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">dried</governor>
+            <dependent idx="22">springs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">dried</governor>
+            <dependent idx="23">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">outfall</governor>
+            <dependent idx="24">dried</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="24">dried</governor>
+            <dependent idx="25">up</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">outfall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">outfall</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Kennet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">source</governor>
+            <dependent idx="5">Kennet</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">streams</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">streams</governor>
+            <dependent idx="11">best</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">streams</governor>
+            <dependent idx="12">trout</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">one</governor>
+            <dependent idx="13">streams</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="20">outfall</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">outfall</governor>
+            <dependent idx="16">now</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outfall</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="18">sewage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="19">farm</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">dried</governor>
+            <dependent idx="21">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">dried</governor>
+            <dependent idx="22">springs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">dried</governor>
+            <dependent idx="23">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">outfall</governor>
+            <dependent idx="24">dried</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="24">dried</governor>
+            <dependent idx="25">up</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">outfall</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">outfall</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Kennet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">source</governor>
+            <dependent idx="5">Kennet</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">streams</governor>
+            <dependent idx="9">Britain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">streams</governor>
+            <dependent idx="11">best</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">streams</governor>
+            <dependent idx="12">trout</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">one</governor>
+            <dependent idx="13">streams</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="20">outfall</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="20">outfall</governor>
+            <dependent idx="16">now</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">outfall</governor>
+            <dependent idx="17">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="18">sewage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">outfall</governor>
+            <dependent idx="19">farm</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="24">dried</governor>
+            <dependent idx="21">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="24">dried</governor>
+            <dependent idx="22">springs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">dried</governor>
+            <dependent idx="23">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">outfall</governor>
+            <dependent idx="24">dried</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="24">dried</governor>
+            <dependent idx="25">up</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>318</CharacterOffsetBegin>
+            <CharacterOffsetEnd>321</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>source</word>
+            <CharacterOffsetBegin>322</CharacterOffsetBegin>
+            <CharacterOffsetEnd>328</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>329</CharacterOffsetBegin>
+            <CharacterOffsetEnd>331</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>332</CharacterOffsetBegin>
+            <CharacterOffsetEnd>335</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Wylye</word>
+            <CharacterOffsetBegin>336</CharacterOffsetBegin>
+            <CharacterOffsetEnd>341</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>343</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <CharacterOffsetBegin>344</CharacterOffsetBegin>
+            <CharacterOffsetEnd>345</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>famous</word>
+            <CharacterOffsetBegin>346</CharacterOffsetBegin>
+            <CharacterOffsetEnd>352</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>Wiltshire</word>
+            <CharacterOffsetBegin>353</CharacterOffsetBegin>
+            <CharacterOffsetEnd>362</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>trout</word>
+            <CharacterOffsetBegin>363</CharacterOffsetBegin>
+            <CharacterOffsetEnd>368</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>stream</word>
+            <CharacterOffsetBegin>369</CharacterOffsetBegin>
+            <CharacterOffsetEnd>375</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>376</CharacterOffsetBegin>
+            <CharacterOffsetEnd>377</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <CharacterOffsetBegin>378</CharacterOffsetBegin>
+            <CharacterOffsetEnd>381</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>382</CharacterOffsetBegin>
+            <CharacterOffsetEnd>383</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>million</word>
+            <CharacterOffsetBegin>384</CharacterOffsetBegin>
+            <CharacterOffsetEnd>391</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>gallons</word>
+            <CharacterOffsetBegin>392</CharacterOffsetBegin>
+            <CharacterOffsetEnd>399</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>of</word>
+            <CharacterOffsetBegin>400</CharacterOffsetBegin>
+            <CharacterOffsetEnd>402</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>water</word>
+            <CharacterOffsetBegin>403</CharacterOffsetBegin>
+            <CharacterOffsetEnd>408</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>pumped</word>
+            <CharacterOffsetBegin>409</CharacterOffsetBegin>
+            <CharacterOffsetEnd>415</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <CharacterOffsetBegin>416</CharacterOffsetBegin>
+            <CharacterOffsetEnd>420</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>a</word>
+            <CharacterOffsetBegin>421</CharacterOffsetBegin>
+            <CharacterOffsetEnd>422</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>nearby</word>
+            <CharacterOffsetBegin>423</CharacterOffsetBegin>
+            <CharacterOffsetEnd>429</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="23">
+            <word>borehole</word>
+            <CharacterOffsetBegin>430</CharacterOffsetBegin>
+            <CharacterOffsetEnd>438</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>439</CharacterOffsetBegin>
+            <CharacterOffsetEnd>440</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (DT The) (NN source)) (PP (IN of) (NP (DT the) (NNP Wylye)))) (, ,) (NP (DT a) (JJ famous) (NNP Wiltshire) (NNP trout) (NN stream)) (, ,)) (VP (VBD was) (NP (NP (QP (DT a) (CD million)) (NNS gallons)) (PP (IN of) (NP (NP (NN water)) (VP (VBN pumped) (PP (IN from) (NP (DT a) (JJ nearby) (NN borehole)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">gallons</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gallons</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">source</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wylye</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">Wylye</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stream</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">stream</governor>
+            <dependent idx="8">famous</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="9">Wiltshire</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="10">trout</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="11">stream</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">gallons</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">million</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">gallons</governor>
+            <dependent idx="15">million</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">gallons</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">of</governor>
+            <dependent idx="18">water</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">water</governor>
+            <dependent idx="19">pumped</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">pumped</governor>
+            <dependent idx="20">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">borehole</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">borehole</governor>
+            <dependent idx="22">nearby</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">from</governor>
+            <dependent idx="23">borehole</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">gallons</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gallons</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wylye</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">source</governor>
+            <dependent idx="5">Wylye</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stream</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">stream</governor>
+            <dependent idx="8">famous</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="9">Wiltshire</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="10">trout</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="11">stream</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">gallons</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">million</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">gallons</governor>
+            <dependent idx="15">million</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">gallons</governor>
+            <dependent idx="18">water</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">water</governor>
+            <dependent idx="19">pumped</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">borehole</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">borehole</governor>
+            <dependent idx="22">nearby</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">pumped</governor>
+            <dependent idx="23">borehole</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">gallons</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">source</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gallons</governor>
+            <dependent idx="2">source</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Wylye</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">source</governor>
+            <dependent idx="5">Wylye</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">stream</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">stream</governor>
+            <dependent idx="8">famous</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="9">Wiltshire</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">stream</governor>
+            <dependent idx="10">trout</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">source</governor>
+            <dependent idx="11">stream</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">gallons</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">million</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">gallons</governor>
+            <dependent idx="15">million</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">gallons</governor>
+            <dependent idx="18">water</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="18">water</governor>
+            <dependent idx="19">pumped</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">borehole</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">borehole</governor>
+            <dependent idx="22">nearby</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">pumped</governor>
+            <dependent idx="23">borehole</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>series</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>highly</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>praised</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>its</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>90-minute</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>format</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>serious</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>stories</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>fine</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>guest</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>stars</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN series)) (VP (VBD was) (ADJP (RB highly) (JJ praised)) (PP (IN for) (NP (NP (PRP$ its) (JJ 90-minute) (NN format)) (, ,) (NP (JJ serious) (NNS stories)) (CC and) (NP (JJ fine) (NN guest) (NNS stars))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">praised</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">series</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">praised</governor>
+            <dependent idx="2">series</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">praised</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">praised</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">praised</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">format</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">format</governor>
+            <dependent idx="8">90-minute</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">for</governor>
+            <dependent idx="9">format</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">stories</governor>
+            <dependent idx="11">serious</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">format</governor>
+            <dependent idx="12">stories</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">format</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">stars</governor>
+            <dependent idx="14">fine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">stars</governor>
+            <dependent idx="15">guest</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">format</governor>
+            <dependent idx="16">stars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">praised</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">series</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">praised</governor>
+            <dependent idx="2">series</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">praised</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">praised</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">format</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">format</governor>
+            <dependent idx="8">90-minute</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">praised</governor>
+            <dependent idx="9">format</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">stories</governor>
+            <dependent idx="11">serious</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">format</governor>
+            <dependent idx="12">stories</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">stars</governor>
+            <dependent idx="14">fine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">stars</governor>
+            <dependent idx="15">guest</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">format</governor>
+            <dependent idx="16">stars</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">praised</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">series</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">praised</governor>
+            <dependent idx="2">series</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">praised</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">praised</governor>
+            <dependent idx="4">highly</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">format</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">format</governor>
+            <dependent idx="8">90-minute</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">praised</governor>
+            <dependent idx="9">format</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">stories</governor>
+            <dependent idx="11">serious</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">praised</governor>
+            <dependent idx="12">stories</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">format</governor>
+            <dependent idx="12">stories</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">stars</governor>
+            <dependent idx="14">fine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">stars</governor>
+            <dependent idx="15">guest</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">praised</governor>
+            <dependent idx="16">stars</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">format</governor>
+            <dependent idx="16">stars</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

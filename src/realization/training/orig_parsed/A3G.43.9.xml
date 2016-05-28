@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>had</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>its</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>own</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>brickworks</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>cloth</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>mill</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>farms</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>largely</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>self-sufficient</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VP (VBD had) (NP (NP (PRP$ its) (JJ own) (NNS brickworks)) (, ,) (NP (NN cloth) (NN mill)) (CC and) (NP (NNS farms)))) (, ,) (CC and) (VP (VBD was) (ADJP (RB largely) (JJ self-sufficient)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="4">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">brickworks</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mill</governor>
+            <dependent idx="7">cloth</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="8">mill</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="10">farms</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">had</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="14">largely</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">had</governor>
+            <dependent idx="15">self-sufficient</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="4">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">brickworks</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mill</governor>
+            <dependent idx="7">cloth</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="8">mill</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="10">farms</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="14">largely</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">had</governor>
+            <dependent idx="15">self-sufficient</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">had</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="4">own</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="5">brickworks</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">mill</governor>
+            <dependent idx="7">cloth</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="8">mill</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="8">mill</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">had</governor>
+            <dependent idx="10">farms</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brickworks</governor>
+            <dependent idx="10">farms</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">self-sufficient</governor>
+            <dependent idx="14">largely</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">had</governor>
+            <dependent idx="15">self-sufficient</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

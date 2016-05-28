@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Sentencing</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Constable</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Peter</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Anderson</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>41</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>Mr</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Justice</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Jowitt</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>told</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>him</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="13">
+            <word>he</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>had</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>done</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>``</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="17">
+            <word>great</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>damage</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>trust</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>police</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>''</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Sentencing) (NNP Constable) (NNP Peter) (NNP Anderson)) (, ,) (NP (NP (CD 41)) (, ,) (NP (NNP Mr) (NNP Justice) (NNP Jowitt)))) (VP (VBD told) (NP (PRP him)) (SBAR (S (NP (PRP he)) (VP (VBD had) (VP (VBN done) (`` ``) (NP (NP (JJ great) (NN damage)) (PP (TO to) (NP (NP (DT the) (NN trust)) (PP (IN in) (NP (NN police)))))) ('' '')))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="1">Sentencing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="2">Constable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="3">Peter</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">told</governor>
+            <dependent idx="4">Anderson</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="6">41</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="8">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="9">Justice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">41</governor>
+            <dependent idx="10">Jowitt</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">done</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">done</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">told</governor>
+            <dependent idx="15">done</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">damage</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">done</governor>
+            <dependent idx="18">damage</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">damage</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">trust</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">to</governor>
+            <dependent idx="21">trust</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">trust</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">in</governor>
+            <dependent idx="23">police</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="1">Sentencing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="2">Constable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="3">Peter</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">told</governor>
+            <dependent idx="4">Anderson</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="6">41</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="8">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="9">Justice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">41</governor>
+            <dependent idx="10">Jowitt</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">done</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">done</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">told</governor>
+            <dependent idx="15">done</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">damage</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">done</governor>
+            <dependent idx="18">damage</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">trust</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">damage</governor>
+            <dependent idx="21">trust</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">trust</governor>
+            <dependent idx="23">police</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">told</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="1">Sentencing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="2">Constable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="3">Peter</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">told</governor>
+            <dependent idx="4">Anderson</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">Anderson</governor>
+            <dependent idx="6">41</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="8">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Jowitt</governor>
+            <dependent idx="9">Justice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">41</governor>
+            <dependent idx="10">Jowitt</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">told</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">done</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">done</governor>
+            <dependent idx="14">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">told</governor>
+            <dependent idx="15">done</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">damage</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">done</governor>
+            <dependent idx="18">damage</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">trust</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">damage</governor>
+            <dependent idx="21">trust</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">trust</governor>
+            <dependent idx="23">police</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Balthus</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>who</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>81</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>married</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>Setsuko</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>now</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>47</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>1967</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Balthus)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (NP (CD 81))))) (, ,)) (VP (VBD married) (NP (NP (NP (NNP Setsuko)) (, ,) (ADVP (RB now) (NP (CD 47))) (, ,)) (PP (IN in) (NP (CD 1967))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">married</governor>
+            <dependent idx="1">Balthus</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">81</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">81</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Balthus</governor>
+            <dependent idx="5">81</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">married</governor>
+            <dependent idx="8">Setsuko</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="10">now</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">now</governor>
+            <dependent idx="11">47</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="14">1967</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">married</governor>
+            <dependent idx="1">Balthus</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">81</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">81</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Balthus</governor>
+            <dependent idx="5">81</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">married</governor>
+            <dependent idx="8">Setsuko</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="10">now</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">now</governor>
+            <dependent idx="11">47</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="14">1967</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">married</governor>
+            <dependent idx="1">Balthus</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">81</governor>
+            <dependent idx="3">who</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">81</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="1">Balthus</governor>
+            <dependent idx="5">81</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">married</governor>
+            <dependent idx="8">Setsuko</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="10">now</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">now</governor>
+            <dependent idx="11">47</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">Setsuko</governor>
+            <dependent idx="14">1967</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

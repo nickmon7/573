@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>are</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>priced</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>between</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>$</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>$</POS>
+          </token>
+          <token id="6">
+            <word>150,000</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="8">
+            <word>Manet</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>$</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>$</POS>
+          </token>
+          <token id="12">
+            <word>180,000</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="14">
+            <word>Rembrandt</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBP are) (VP (VBN priced) (PP (IN between) (NP (NP ($ $) (CD 150,000)) (PRN (-LRB- -LRB-) (NP (NNP Manet)) (-RRB- -RRB-)) (CC and) (NP ($ $) (CD 180,000)) (PRN (-LRB- -LRB-) (NP (NNP Rembrandt)) (-RRB- -RRB-)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">priced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">priced</governor>
+            <dependent idx="4">between</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">between</governor>
+            <dependent idx="5">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">$</governor>
+            <dependent idx="6">150,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="8">Manet</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">$</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">$</governor>
+            <dependent idx="11">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">$</governor>
+            <dependent idx="12">180,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="14">Rembrandt</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">priced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="3">priced</governor>
+            <dependent idx="5">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">$</governor>
+            <dependent idx="6">150,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="8">Manet</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">$</governor>
+            <dependent idx="11">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">$</governor>
+            <dependent idx="12">180,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="14">Rembrandt</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">priced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">priced</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="3">priced</governor>
+            <dependent idx="5">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">$</governor>
+            <dependent idx="6">150,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="8">Manet</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="3">priced</governor>
+            <dependent idx="11">$</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">$</governor>
+            <dependent idx="11">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="11">$</governor>
+            <dependent idx="12">180,000</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">$</governor>
+            <dependent idx="14">Rembrandt</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

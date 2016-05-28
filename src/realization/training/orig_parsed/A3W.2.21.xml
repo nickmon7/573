@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Where</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="2">
+            <word>he</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>abstract</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>geometric</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>she</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="9">
+            <word>is</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="10">
+            <word>figurative</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>expressionist</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (WHADVP (WRB Where)) (S (NP (PRP he)) (VP (VBZ is) (NP (NN abstract) (CC and) (JJ geometric))))) (, ,) (NP (PRP she)) (VP (VBZ is) (ADJP (JJ figurative) (CC and) (JJ expressionist))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">figurative</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">abstract</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">abstract</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">abstract</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">figurative</governor>
+            <dependent idx="4">abstract</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">abstract</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">abstract</governor>
+            <dependent idx="6">geometric</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">figurative</governor>
+            <dependent idx="8">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">figurative</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">figurative</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">figurative</governor>
+            <dependent idx="12">expressionist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">figurative</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">abstract</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">abstract</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">abstract</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">figurative</governor>
+            <dependent idx="4">abstract</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">abstract</governor>
+            <dependent idx="6">geometric</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">figurative</governor>
+            <dependent idx="8">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">figurative</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">figurative</governor>
+            <dependent idx="12">expressionist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">figurative</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">abstract</governor>
+            <dependent idx="1">Where</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">abstract</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">geometric</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">abstract</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">figurative</governor>
+            <dependent idx="4">abstract</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">abstract</governor>
+            <dependent idx="6">geometric</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">figurative</governor>
+            <dependent idx="6">geometric</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">figurative</governor>
+            <dependent idx="8">she</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">expressionist</governor>
+            <dependent idx="8">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">figurative</governor>
+            <dependent idx="9">is</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">figurative</governor>
+            <dependent idx="12">expressionist</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>West</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>German</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>economists</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>optimistic</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>about</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>country</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>'s</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="10">
+            <word>ability</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>absorb</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>hundreds</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>thousands</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>of</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>refugees</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>from</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>Eastern</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>Europe</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>this</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>year</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (ADJP (NNP West) (NNP German)) (NNS economists)) (VP (VBP are) (ADJP (JJ optimistic) (PP (IN about) (NP (NP (DT the) (NN country) (POS 's)) (NN ability) (S (VP (TO to) (VP (VB absorb) (NP (NP (DT the) (NNS hundreds)) (PP (IN of) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS refugees)))))) (PP (IN from) (NP (NP (NNP Eastern) (NNP Europe)) (NP (DT this) (NN year))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">optimistic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">economists</governor>
+            <dependent idx="1">West</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">West</governor>
+            <dependent idx="2">German</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="3">economists</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="6">about</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">country</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">ability</governor>
+            <dependent idx="8">country</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="8">country</governor>
+            <dependent idx="9">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">about</governor>
+            <dependent idx="10">ability</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">absorb</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">ability</governor>
+            <dependent idx="12">absorb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">absorb</governor>
+            <dependent idx="14">hundreds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">of</governor>
+            <dependent idx="16">thousands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">thousands</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">of</governor>
+            <dependent idx="18">refugees</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">absorb</governor>
+            <dependent idx="19">from</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Europe</governor>
+            <dependent idx="20">Eastern</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">from</governor>
+            <dependent idx="21">Europe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">year</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">Europe</governor>
+            <dependent idx="23">year</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">optimistic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">economists</governor>
+            <dependent idx="1">West</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">West</governor>
+            <dependent idx="2">German</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="3">economists</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">country</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">ability</governor>
+            <dependent idx="8">country</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="10">ability</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">absorb</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">ability</governor>
+            <dependent idx="12">absorb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">absorb</governor>
+            <dependent idx="14">hundreds</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="16">thousands</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">thousands</governor>
+            <dependent idx="18">refugees</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Europe</governor>
+            <dependent idx="20">Eastern</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="12">absorb</governor>
+            <dependent idx="21">Europe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">year</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">Europe</governor>
+            <dependent idx="23">year</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">optimistic</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">economists</governor>
+            <dependent idx="1">West</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="1">West</governor>
+            <dependent idx="2">German</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="3">economists</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">country</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">ability</governor>
+            <dependent idx="8">country</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="5">optimistic</governor>
+            <dependent idx="10">ability</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">absorb</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">ability</governor>
+            <dependent idx="12">absorb</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">absorb</governor>
+            <dependent idx="14">hundreds</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">hundreds</governor>
+            <dependent idx="16">thousands</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">thousands</governor>
+            <dependent idx="18">refugees</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Europe</governor>
+            <dependent idx="20">Eastern</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="12">absorb</governor>
+            <dependent idx="21">Europe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">year</governor>
+            <dependent idx="22">this</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">Europe</governor>
+            <dependent idx="23">year</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Diplomatic</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>sources</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>said</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>Syria</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>had</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>increased</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>its</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>troops</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>Lebanon</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>from</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>about</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>30,000</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>45,000</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>since</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>Mr</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>Hrawi</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>'s</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="20">
+            <word>election</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Diplomatic) (NNS sources)) (VP (VBD said) (SBAR (S (NP (NNP Syria)) (VP (VBD had) (VP (VBN increased) (NP (PRP$ its) (NNS troops)) (PP (IN in) (NP (NNP Lebanon))) (PP (IN from) (NP (QP (RB about) (CD 30,000) (TO to) (CD 45,000)))) (PP (IN since) (NP (NP (NNP Mr) (NNP Hrawi) (POS 's)) (NN election)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Diplomatic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">increased</governor>
+            <dependent idx="4">Syria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">increased</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">increased</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">troops</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">increased</governor>
+            <dependent idx="8">troops</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">increased</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">in</governor>
+            <dependent idx="10">Lebanon</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">increased</governor>
+            <dependent idx="11">from</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">45,000</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">45,000</governor>
+            <dependent idx="13">30,000</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">45,000</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">from</governor>
+            <dependent idx="15">45,000</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">increased</governor>
+            <dependent idx="16">since</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Hrawi</governor>
+            <dependent idx="17">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">election</governor>
+            <dependent idx="18">Hrawi</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="18">Hrawi</governor>
+            <dependent idx="19">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">since</governor>
+            <dependent idx="20">election</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Diplomatic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">increased</governor>
+            <dependent idx="4">Syria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">increased</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">increased</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">troops</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">increased</governor>
+            <dependent idx="8">troops</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">increased</governor>
+            <dependent idx="10">Lebanon</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">45,000</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">45,000</governor>
+            <dependent idx="13">30,000</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">45,000</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="6">increased</governor>
+            <dependent idx="15">45,000</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Hrawi</governor>
+            <dependent idx="17">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">election</governor>
+            <dependent idx="18">Hrawi</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="6">increased</governor>
+            <dependent idx="20">election</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">sources</governor>
+            <dependent idx="1">Diplomatic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">sources</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">increased</governor>
+            <dependent idx="4">Syria</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">increased</governor>
+            <dependent idx="5">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">increased</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">troops</governor>
+            <dependent idx="7">its</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">increased</governor>
+            <dependent idx="8">troops</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">increased</governor>
+            <dependent idx="10">Lebanon</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="15">45,000</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="15">45,000</governor>
+            <dependent idx="13">30,000</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">45,000</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="6">increased</governor>
+            <dependent idx="15">45,000</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">Hrawi</governor>
+            <dependent idx="17">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="20">election</governor>
+            <dependent idx="18">Hrawi</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="6">increased</governor>
+            <dependent idx="20">election</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

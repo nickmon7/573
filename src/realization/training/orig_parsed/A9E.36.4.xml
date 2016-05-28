@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Somalia</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>denied</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>claim</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>rebels</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>they</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>have</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="11">
+            <word>captured</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>Hargeisa</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>war-torn</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>provincial</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>capital</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>north</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Somalia)) (VP (VBZ has) (VP (VBN denied) (NP (DT a) (NN claim)) (PP (IN by) (NP (NNS rebels))) (SBAR (IN that) (S (NP (PRP they)) (VP (VBP have) (VP (VBN captured) (NP (NP (NNP Hargeisa)) (, ,) (NP (NP (DT a) (JJ war-torn) (JJ provincial) (NN capital)) (PP (IN in) (NP (DT the) (NN north))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">denied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">denied</governor>
+            <dependent idx="1">Somalia</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">denied</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">claim</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">denied</governor>
+            <dependent idx="5">claim</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">denied</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="7">rebels</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">captured</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">captured</governor>
+            <dependent idx="9">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">captured</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">denied</governor>
+            <dependent idx="11">captured</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">captured</governor>
+            <dependent idx="12">Hargeisa</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">capital</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="15">war-torn</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="16">provincial</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Hargeisa</governor>
+            <dependent idx="17">capital</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">capital</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">north</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="20">north</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">denied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">denied</governor>
+            <dependent idx="1">Somalia</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">denied</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">claim</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">denied</governor>
+            <dependent idx="5">claim</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="3">denied</governor>
+            <dependent idx="7">rebels</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">captured</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">captured</governor>
+            <dependent idx="9">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">captured</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">denied</governor>
+            <dependent idx="11">captured</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">captured</governor>
+            <dependent idx="12">Hargeisa</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">capital</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="15">war-torn</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="16">provincial</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Hargeisa</governor>
+            <dependent idx="17">capital</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">north</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">capital</governor>
+            <dependent idx="20">north</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">denied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">denied</governor>
+            <dependent idx="1">Somalia</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">denied</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">claim</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">denied</governor>
+            <dependent idx="5">claim</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="3">denied</governor>
+            <dependent idx="7">rebels</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">captured</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">captured</governor>
+            <dependent idx="9">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">captured</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">denied</governor>
+            <dependent idx="11">captured</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">captured</governor>
+            <dependent idx="12">Hargeisa</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">capital</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="15">war-torn</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">capital</governor>
+            <dependent idx="16">provincial</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">Hargeisa</governor>
+            <dependent idx="17">capital</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">north</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">capital</governor>
+            <dependent idx="20">north</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

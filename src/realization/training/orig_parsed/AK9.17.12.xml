@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>this</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>requirement</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>could</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="5">
+            <word>be</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>circumvented</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>with</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>documents</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>showing</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="10">
+            <word>that</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>shares</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>that</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>value</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>had</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>been</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>issued</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (DT this) (NN requirement)) (VP (MD could) (VP (VB be) (VP (VBN circumvented) (PP (IN with) (NP (NP (NNS documents)) (VP (VBG showing) (SBAR (IN that) (S (NP (NP (NNS shares)) (PP (TO to) (NP (DT that) (NN value)))) (VP (VBD had) (VP (VBN been) (VP (VBN issued)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">circumvented</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">requirement</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="3">requirement</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="4">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">with</governor>
+            <dependent idx="8">documents</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">documents</governor>
+            <dependent idx="9">showing</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">issued</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="11">shares</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">shares</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">value</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">to</governor>
+            <dependent idx="14">value</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">issued</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">showing</governor>
+            <dependent idx="17">issued</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">circumvented</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">requirement</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="3">requirement</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="4">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="8">documents</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">documents</governor>
+            <dependent idx="9">showing</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">issued</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="11">shares</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">value</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">shares</governor>
+            <dependent idx="14">value</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">issued</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">showing</governor>
+            <dependent idx="17">issued</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">circumvented</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">requirement</governor>
+            <dependent idx="2">this</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="3">requirement</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="4">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="6">circumvented</governor>
+            <dependent idx="8">documents</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">documents</governor>
+            <dependent idx="9">showing</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">issued</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="11">shares</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">value</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="11">shares</governor>
+            <dependent idx="14">value</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">issued</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">issued</governor>
+            <dependent idx="16">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">showing</governor>
+            <dependent idx="17">issued</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

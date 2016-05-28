@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>One</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="2">
+            <word>dark</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="4">
+            <word>stormy</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>night</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>accompanied</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>by</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>wife</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>Sally</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="13">
+            <word>whom</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>had</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>married</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>after</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>admiring</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="19">
+            <word>her</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="20">
+            <word>motor</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>transport</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>repairs</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>a</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="25">
+            <word>Hemswell</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="26">
+            <word>hangar</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="27">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="28">
+            <word>,</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="29">
+            <word>he</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="30">
+            <word>was</word>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="31">
+            <word>wondering</word>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="32">
+            <word>whether</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="33">
+            <word>to</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="34">
+            <word>lower</word>
+            <CharacterOffsetBegin>176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="35">
+            <word>the</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="36">
+            <word>balloons</word>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="37">
+            <word>,</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="38">
+            <word>when</word>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="39">
+            <word>lightning</word>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="40">
+            <word>struck</word>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>218</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="41">
+            <word>and</word>
+            <CharacterOffsetBegin>219</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="42">
+            <word>solved</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>229</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="43">
+            <word>the</word>
+            <CharacterOffsetBegin>230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>233</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="44">
+            <word>problem</word>
+            <CharacterOffsetBegin>234</CharacterOffsetBegin>
+            <CharacterOffsetEnd>241</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="45">
+            <word>.</word>
+            <CharacterOffsetBegin>242</CharacterOffsetBegin>
+            <CharacterOffsetEnd>243</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD One) (ADJP (JJ dark) (CC and) (JJ stormy)) (NN night)) (, ,) (VP (VBN accompanied) (PP (IN by) (NP (NP (PRP$ his) (NN wife) (NNP Sally)) (PRN (-LRB- -LRB-) (SBAR (WHNP (WP whom)) (S (NP (PRP he)) (VP (VBD had) (VP (VBN married) (PP (IN after) (S (VP (VBG admiring) (NP (PRP$ her) (NN motor) (NN transport) (NNS repairs)) (PP (IN in) (NP (DT a) (NNP Hemswell) (NN hangar)))))))))) (-RRB- -RRB-))))) (, ,)) (NP (PRP he)) (VP (VBD was) (VP (VBG wondering) (SBAR (IN whether) (S (VP (TO to) (VP (VB lower) (NP (NP (DT the) (NNS balloons)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NN lightning)) (VP (VP (VBD struck)) (CC and) (VP (VBD solved) (NP (DT the) (NN problem))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">wondering</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">night</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="2">dark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">dark</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">dark</governor>
+            <dependent idx="4">stormy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">night</governor>
+            <dependent idx="7">accompanied</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">accompanied</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Sally</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Sally</governor>
+            <dependent idx="10">wife</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">by</governor>
+            <dependent idx="11">Sally</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">married</governor>
+            <dependent idx="13">whom</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">married</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">married</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Sally</governor>
+            <dependent idx="16">married</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">married</governor>
+            <dependent idx="17">after</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="17">after</governor>
+            <dependent idx="18">admiring</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">repairs</governor>
+            <dependent idx="19">her</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="20">motor</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="21">transport</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">admiring</governor>
+            <dependent idx="22">repairs</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">admiring</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">hangar</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">hangar</governor>
+            <dependent idx="25">Hemswell</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">in</governor>
+            <dependent idx="26">hangar</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="29">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">wondering</governor>
+            <dependent idx="30">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="34">lower</governor>
+            <dependent idx="32">whether</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">lower</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="31">wondering</governor>
+            <dependent idx="34">lower</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">balloons</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="34">lower</governor>
+            <dependent idx="36">balloons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="40">struck</governor>
+            <dependent idx="38">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">struck</governor>
+            <dependent idx="39">lightning</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="36">balloons</governor>
+            <dependent idx="40">struck</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="40">struck</governor>
+            <dependent idx="41">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="40">struck</governor>
+            <dependent idx="42">solved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="44">problem</governor>
+            <dependent idx="43">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">solved</governor>
+            <dependent idx="44">problem</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">wondering</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">night</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="2">dark</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">dark</governor>
+            <dependent idx="4">stormy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">night</governor>
+            <dependent idx="7">accompanied</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Sally</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Sally</governor>
+            <dependent idx="10">wife</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">accompanied</governor>
+            <dependent idx="11">Sally</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">married</governor>
+            <dependent idx="13">whom</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">married</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">married</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Sally</governor>
+            <dependent idx="16">married</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="16">married</governor>
+            <dependent idx="18">admiring</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">repairs</governor>
+            <dependent idx="19">her</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="20">motor</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="21">transport</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">admiring</governor>
+            <dependent idx="22">repairs</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">hangar</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">hangar</governor>
+            <dependent idx="25">Hemswell</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">admiring</governor>
+            <dependent idx="26">hangar</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="29">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">wondering</governor>
+            <dependent idx="30">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="34">lower</governor>
+            <dependent idx="32">whether</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">lower</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="31">wondering</governor>
+            <dependent idx="34">lower</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">balloons</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="34">lower</governor>
+            <dependent idx="36">balloons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="40">struck</governor>
+            <dependent idx="38">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">struck</governor>
+            <dependent idx="39">lightning</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="36">balloons</governor>
+            <dependent idx="40">struck</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="40">struck</governor>
+            <dependent idx="42">solved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="44">problem</governor>
+            <dependent idx="43">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">solved</governor>
+            <dependent idx="44">problem</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">wondering</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">night</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="2">dark</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">dark</governor>
+            <dependent idx="4">stormy</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">stormy</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">night</governor>
+            <dependent idx="7">accompanied</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">Sally</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Sally</governor>
+            <dependent idx="10">wife</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="7">accompanied</governor>
+            <dependent idx="11">Sally</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">married</governor>
+            <dependent idx="13">whom</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">married</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">married</governor>
+            <dependent idx="15">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Sally</governor>
+            <dependent idx="16">married</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="16">married</governor>
+            <dependent idx="18">admiring</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">repairs</governor>
+            <dependent idx="19">her</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="20">motor</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">repairs</governor>
+            <dependent idx="21">transport</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">admiring</governor>
+            <dependent idx="22">repairs</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">hangar</governor>
+            <dependent idx="24">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="26">hangar</governor>
+            <dependent idx="25">Hemswell</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">admiring</governor>
+            <dependent idx="26">hangar</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">wondering</governor>
+            <dependent idx="29">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">wondering</governor>
+            <dependent idx="30">was</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="34">lower</governor>
+            <dependent idx="32">whether</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">lower</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="31">wondering</governor>
+            <dependent idx="34">lower</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">balloons</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="34">lower</governor>
+            <dependent idx="36">balloons</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="40">struck</governor>
+            <dependent idx="38">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">struck</governor>
+            <dependent idx="39">lightning</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="42">solved</governor>
+            <dependent idx="39">lightning</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="36">balloons</governor>
+            <dependent idx="40">struck</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="36">balloons</governor>
+            <dependent idx="42">solved</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="40">struck</governor>
+            <dependent idx="42">solved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="44">problem</governor>
+            <dependent idx="43">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">solved</governor>
+            <dependent idx="44">problem</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

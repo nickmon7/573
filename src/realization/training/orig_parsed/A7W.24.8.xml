@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Steve</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Elsworth</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>Greenpeace</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>air</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>pollution</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>campaigner</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>said</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>:</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="12">
+            <word>``</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="13">
+            <word>Britain</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>'s</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="15">
+            <word>contribution</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>at</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>Dutch</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>conference</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>was</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="22">
+            <word>undermine</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>efforts</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>to</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="25">
+            <word>set</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="26">
+            <word>any</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="27">
+            <word>date</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="28">
+            <word>or</word>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="29">
+            <word>make</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="30">
+            <word>any</word>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="31">
+            <word>real</word>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="32">
+            <word>targets</word>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="33">
+            <word>to</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="34">
+            <word>deal</word>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="35">
+            <word>with</word>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="36">
+            <word>global</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="37">
+            <word>warming</word>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Mr) (NNP Steve) (NNP Elsworth)) (, ,) (NP (NNP Greenpeace) (NN air) (NN pollution) (NN campaigner)) (, ,)) (VP (VBD said) (: :) (`` ``) (S (NP (NP (NP (NNP Britain) (POS 's)) (NN contribution)) (PP (IN at) (NP (DT the) (JJ Dutch) (NN conference)))) (VP (VBD was) (S (VP (TO to) (VP (VB undermine) (S (NP (NNS efforts)) (VP (TO to) (VP (VP (VB set) (NP (DT any) (NN date))) (CC or) (VP (VB make) (S (NP (DT any) (JJ real) (NNS targets)) (VP (TO to) (VP (VB deal) (PP (IN with) (NP (JJ global) (NN warming)))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="2">Steve</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">said</governor>
+            <dependent idx="3">Elsworth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="5">Greenpeace</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="6">air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="7">pollution</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="8">campaigner</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">contribution</governor>
+            <dependent idx="13">Britain</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="13">Britain</governor>
+            <dependent idx="14">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">was</governor>
+            <dependent idx="15">contribution</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">contribution</governor>
+            <dependent idx="16">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">conference</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">conference</governor>
+            <dependent idx="18">Dutch</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">at</governor>
+            <dependent idx="19">conference</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">said</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">undermine</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">was</governor>
+            <dependent idx="22">undermine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="25">set</governor>
+            <dependent idx="23">efforts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="25">set</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="22">undermine</governor>
+            <dependent idx="25">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">date</governor>
+            <dependent idx="26">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">set</governor>
+            <dependent idx="27">date</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="25">set</governor>
+            <dependent idx="28">or</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="25">set</governor>
+            <dependent idx="29">make</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">targets</governor>
+            <dependent idx="30">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">targets</governor>
+            <dependent idx="31">real</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="34">deal</governor>
+            <dependent idx="32">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">deal</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="29">make</governor>
+            <dependent idx="34">deal</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="34">deal</governor>
+            <dependent idx="35">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">warming</governor>
+            <dependent idx="36">global</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="35">with</governor>
+            <dependent idx="37">warming</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="2">Steve</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">said</governor>
+            <dependent idx="3">Elsworth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="5">Greenpeace</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="6">air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="7">pollution</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="8">campaigner</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">contribution</governor>
+            <dependent idx="13">Britain</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">was</governor>
+            <dependent idx="15">contribution</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">conference</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">conference</governor>
+            <dependent idx="18">Dutch</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="15">contribution</governor>
+            <dependent idx="19">conference</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">said</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">undermine</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">was</governor>
+            <dependent idx="22">undermine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="25">set</governor>
+            <dependent idx="23">efforts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="25">set</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="22">undermine</governor>
+            <dependent idx="25">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">date</governor>
+            <dependent idx="26">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">set</governor>
+            <dependent idx="27">date</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="25">set</governor>
+            <dependent idx="29">make</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">targets</governor>
+            <dependent idx="30">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">targets</governor>
+            <dependent idx="31">real</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="34">deal</governor>
+            <dependent idx="32">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">deal</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="29">make</governor>
+            <dependent idx="34">deal</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">warming</governor>
+            <dependent idx="36">global</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="34">deal</governor>
+            <dependent idx="37">warming</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="2">Steve</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">said</governor>
+            <dependent idx="3">Elsworth</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="5">Greenpeace</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="6">air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">campaigner</governor>
+            <dependent idx="7">pollution</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Elsworth</governor>
+            <dependent idx="8">campaigner</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">contribution</governor>
+            <dependent idx="13">Britain</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">was</governor>
+            <dependent idx="15">contribution</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">conference</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">conference</governor>
+            <dependent idx="18">Dutch</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="15">contribution</governor>
+            <dependent idx="19">conference</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">said</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">undermine</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">was</governor>
+            <dependent idx="22">undermine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="25">set</governor>
+            <dependent idx="23">efforts</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="29">make</governor>
+            <dependent idx="23">efforts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="25">set</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="22">undermine</governor>
+            <dependent idx="25">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">date</governor>
+            <dependent idx="26">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">set</governor>
+            <dependent idx="27">date</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="22">undermine</governor>
+            <dependent idx="29">make</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="25">set</governor>
+            <dependent idx="29">make</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">targets</governor>
+            <dependent idx="30">any</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">targets</governor>
+            <dependent idx="31">real</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="34">deal</governor>
+            <dependent idx="32">targets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="34">deal</governor>
+            <dependent idx="33">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="29">make</governor>
+            <dependent idx="34">deal</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">warming</governor>
+            <dependent idx="36">global</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="34">deal</governor>
+            <dependent idx="37">warming</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

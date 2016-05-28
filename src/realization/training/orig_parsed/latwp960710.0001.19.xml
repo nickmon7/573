@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>verdict</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>was</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>guilty</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="8">
+            <word>Belli</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>waxed</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>indignant</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>calling</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="13">
+            <word>it</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>``</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="16">
+            <word>victory</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>for</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>bigotry</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="20">
+            <word>''</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (CC But) (NP (DT the) (NN verdict)) (VP (VBD was) (ADJP (JJ guilty)))) (, ,) (CC and) (S (NP (NNP Belli)) (VP (VBN waxed) (S (ADJP (JJ indignant))) (, ,) (S (VP (VBG calling) (NP (PRP it)) (NP (NP (DT a) (`` ``) (NN victory)) (PP (IN for) (NP (NN bigotry)))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">guilty</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">guilty</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">verdict</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">guilty</governor>
+            <dependent idx="3">verdict</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">guilty</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">guilty</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">waxed</governor>
+            <dependent idx="8">Belli</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">guilty</governor>
+            <dependent idx="9">waxed</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="10">indignant</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="12">calling</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victory</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="16">victory</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">victory</governor>
+            <dependent idx="17">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">for</governor>
+            <dependent idx="18">bigotry</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">guilty</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">verdict</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">guilty</governor>
+            <dependent idx="3">verdict</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">guilty</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">waxed</governor>
+            <dependent idx="8">Belli</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">guilty</governor>
+            <dependent idx="9">waxed</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="10">indignant</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="12">calling</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victory</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="16">victory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="16">victory</governor>
+            <dependent idx="18">bigotry</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">guilty</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">verdict</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">guilty</governor>
+            <dependent idx="3">verdict</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">guilty</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">waxed</governor>
+            <dependent idx="8">Belli</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">guilty</governor>
+            <dependent idx="9">waxed</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="10">indignant</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">waxed</governor>
+            <dependent idx="12">calling</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">victory</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">calling</governor>
+            <dependent idx="16">victory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="16">victory</governor>
+            <dependent idx="18">bigotry</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Belli</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>born</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>July</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>29</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>1907</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>Sonora</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>Calif.</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>he</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="16">
+            <word>determined</word>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>on</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>legal</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>career</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>from</word>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>childhood</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Belli)) (VP (VBD was) (VP (VBN born) (NP-TMP (NNP July) (CD 29) (, ,) (CD 1907) (, ,)) (PP (IN in) (NP (NNP Sonora) (, ,) (NNP Calif.)))))) (, ,) (CC and) (S (NP (PRP he)) (VP (VBD determined) (PP (IN on) (NP (DT a) (JJ legal) (NN career))) (PP (IN from) (NP (NN childhood))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">born</governor>
+            <dependent idx="4">July</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="5">29</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="7">1907</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">born</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Calif.</governor>
+            <dependent idx="10">Sonora</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">in</governor>
+            <dependent idx="12">Calif.</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">born</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">determined</governor>
+            <dependent idx="15">he</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">born</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">determined</governor>
+            <dependent idx="17">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">career</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">career</governor>
+            <dependent idx="19">legal</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">on</governor>
+            <dependent idx="20">career</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">determined</governor>
+            <dependent idx="21">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">from</governor>
+            <dependent idx="22">childhood</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">born</governor>
+            <dependent idx="4">July</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="5">29</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="7">1907</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Calif.</governor>
+            <dependent idx="10">Sonora</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">born</governor>
+            <dependent idx="12">Calif.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">determined</governor>
+            <dependent idx="15">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">born</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">career</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">career</governor>
+            <dependent idx="19">legal</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="16">determined</governor>
+            <dependent idx="20">career</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="16">determined</governor>
+            <dependent idx="22">childhood</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">born</governor>
+            <dependent idx="4">July</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="5">29</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">July</governor>
+            <dependent idx="7">1907</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Calif.</governor>
+            <dependent idx="10">Sonora</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">born</governor>
+            <dependent idx="12">Calif.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">determined</governor>
+            <dependent idx="15">he</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">born</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">career</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">career</governor>
+            <dependent idx="19">legal</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="16">determined</governor>
+            <dependent idx="20">career</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="16">determined</governor>
+            <dependent idx="22">childhood</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

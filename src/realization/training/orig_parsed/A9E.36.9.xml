@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Pisa</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>tower</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>open</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Pisa) (NN tower)) (VP (VBP open)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tower</governor>
+            <dependent idx="1">Pisa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="2">tower</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tower</governor>
+            <dependent idx="1">Pisa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="2">tower</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">tower</governor>
+            <dependent idx="1">Pisa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="2">tower</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

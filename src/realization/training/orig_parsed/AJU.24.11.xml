@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>'m</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>scared</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>what</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="7">
+            <word>may</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="8">
+            <word>happen</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>when</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>children</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>go</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="13">
+            <word>back</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBP 'm) (ADJP (VBN scared) (PP (IN of) (SBAR (WHNP (WP what)) (S (VP (MD may) (VP (VB happen) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNS children)) (VP (VBP go) (ADVP (RB back)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">scared</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="3">'m</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">scared</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">happen</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">happen</governor>
+            <dependent idx="7">may</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="5">of</governor>
+            <dependent idx="8">happen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">children</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">go</governor>
+            <dependent idx="11">children</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">happen</governor>
+            <dependent idx="12">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">scared</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="3">'m</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">happen</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">happen</governor>
+            <dependent idx="7">may</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="4">scared</governor>
+            <dependent idx="8">happen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">children</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">go</governor>
+            <dependent idx="11">children</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">happen</governor>
+            <dependent idx="12">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">scared</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">scared</governor>
+            <dependent idx="3">'m</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">happen</governor>
+            <dependent idx="6">what</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">happen</governor>
+            <dependent idx="7">may</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="4">scared</governor>
+            <dependent idx="8">happen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="9">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">children</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">go</governor>
+            <dependent idx="11">children</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">happen</governor>
+            <dependent idx="12">go</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">go</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

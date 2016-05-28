@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>retired</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>1971</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>after</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>two</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>years</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>as</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>Senior</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>Air</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Staff</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>Officer</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>at</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>Maintenance</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Command</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD retired) (PP (IN in) (NP (CD 1971))) (, ,) (PP (IN after) (NP (NP (CD two) (NNS years)) (PP (IN as) (NP (NP (NNP Senior) (NNP Air) (NNP Staff) (NNP Officer)) (PP (IN at) (NP (NNP Maintenance) (NNP Command)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">retired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">retired</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">in</governor>
+            <dependent idx="4">1971</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">retired</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">years</governor>
+            <dependent idx="7">two</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">after</governor>
+            <dependent idx="8">years</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">years</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="10">Senior</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="11">Air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="12">Staff</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">as</governor>
+            <dependent idx="13">Officer</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">Officer</governor>
+            <dependent idx="14">at</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Command</governor>
+            <dependent idx="15">Maintenance</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">at</governor>
+            <dependent idx="16">Command</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">retired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">retired</governor>
+            <dependent idx="4">1971</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">years</governor>
+            <dependent idx="7">two</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="2">retired</governor>
+            <dependent idx="8">years</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="10">Senior</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="11">Air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="12">Staff</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="8">years</governor>
+            <dependent idx="13">Officer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Command</governor>
+            <dependent idx="15">Maintenance</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">Officer</governor>
+            <dependent idx="16">Command</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">retired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">retired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">retired</governor>
+            <dependent idx="4">1971</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">years</governor>
+            <dependent idx="7">two</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="2">retired</governor>
+            <dependent idx="8">years</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="10">Senior</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="11">Air</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Officer</governor>
+            <dependent idx="12">Staff</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="8">years</governor>
+            <dependent idx="13">Officer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Command</governor>
+            <dependent idx="15">Maintenance</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">Officer</governor>
+            <dependent idx="16">Command</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

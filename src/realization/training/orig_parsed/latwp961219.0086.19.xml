@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mastroianni</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>had</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>made</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>his</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="5">
+            <word>film</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>debut</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>with</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>bit</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>part</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>``</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="13">
+            <word>I</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>Miserabili</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>''</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="17">
+            <word>an</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>Italian</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>version</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>of</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>``</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="22">
+            <word>Les</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>Miserables</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mastroianni)) (VP (VBD had) (VP (VBN made) (NP (PRP$ his) (NN film) (NN debut)) (PP (IN with) (NP (NP (DT a) (NN bit) (NN part)) (PP (IN in) (NP (`` ``) (NP (NNP I) (NNP Miserabili)) (, ,) ('' '') (NP (NP (DT an) (JJ Italian) (NN version)) (PP (IN of) (`` ``) (NP (NNP Les) (NNPS Miserables)))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">made</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">debut</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">debut</governor>
+            <dependent idx="5">film</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">made</governor>
+            <dependent idx="6">debut</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">made</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">part</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">part</governor>
+            <dependent idx="9">bit</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">with</governor>
+            <dependent idx="10">part</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">part</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="13">I</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="14">Miserabili</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">version</governor>
+            <dependent idx="17">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">version</governor>
+            <dependent idx="18">Italian</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="19">version</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">version</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Miserables</governor>
+            <dependent idx="22">Les</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">of</governor>
+            <dependent idx="23">Miserables</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">made</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">debut</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">debut</governor>
+            <dependent idx="5">film</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">made</governor>
+            <dependent idx="6">debut</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">part</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">part</governor>
+            <dependent idx="9">bit</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">made</governor>
+            <dependent idx="10">part</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="13">I</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">part</governor>
+            <dependent idx="14">Miserabili</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">version</governor>
+            <dependent idx="17">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">version</governor>
+            <dependent idx="18">Italian</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="19">version</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Miserables</governor>
+            <dependent idx="22">Les</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">version</governor>
+            <dependent idx="23">Miserables</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">made</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">made</governor>
+            <dependent idx="1">Mastroianni</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">made</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">debut</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">debut</governor>
+            <dependent idx="5">film</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">made</governor>
+            <dependent idx="6">debut</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">part</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">part</governor>
+            <dependent idx="9">bit</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">made</governor>
+            <dependent idx="10">part</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="13">I</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">part</governor>
+            <dependent idx="14">Miserabili</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">version</governor>
+            <dependent idx="17">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">version</governor>
+            <dependent idx="18">Italian</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="14">Miserabili</governor>
+            <dependent idx="19">version</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Miserables</governor>
+            <dependent idx="22">Les</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">version</governor>
+            <dependent idx="23">Miserables</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>his</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="3">
+            <word>break</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>occurred</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>when</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>scout</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>came</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="10">
+            <word>see</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="11">
+            <word>Masina</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="13">
+            <word>playing</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>opposite</word>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>Mastroianni</word>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>210</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>play</word>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>``</word>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="21">
+            <word>Angelica</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>''</word>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="23">
+            <word>in</word>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>1948</word>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>244</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (PRP$ his) (NN break)) (VP (VBD occurred) (SBAR (WHADVP (WRB when)) (S (NP (DT a) (NN scout)) (VP (VBD came) (S (VP (TO to) (VP (VB see) (NP (NP (NNP Masina)) (PRN (-LRB- -LRB-) (VP (VBG playing) (PP (IN opposite) (NP (NNP Mastroianni)))) (-RRB- -RRB-)) (PP (IN in) (NP (DT the) (NN play) (`` ``) (NNP Angelica) ('' '')))) (PP (IN in) (NP (CD 1948)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">occurred</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">occurred</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">break</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">occurred</governor>
+            <dependent idx="3">break</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">came</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">scout</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">came</governor>
+            <dependent idx="7">scout</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">occurred</governor>
+            <dependent idx="8">came</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">came</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">see</governor>
+            <dependent idx="11">Masina</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Masina</governor>
+            <dependent idx="13">playing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">playing</governor>
+            <dependent idx="14">opposite</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">opposite</governor>
+            <dependent idx="15">Mastroianni</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">Masina</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="19">play</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">in</governor>
+            <dependent idx="21">Angelica</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">see</governor>
+            <dependent idx="23">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">in</governor>
+            <dependent idx="24">1948</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">occurred</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">occurred</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">break</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">occurred</governor>
+            <dependent idx="3">break</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">came</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">scout</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">came</governor>
+            <dependent idx="7">scout</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">occurred</governor>
+            <dependent idx="8">came</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">came</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">see</governor>
+            <dependent idx="11">Masina</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Masina</governor>
+            <dependent idx="13">playing</dependent>
+          </dep>
+          <dep type="prep_opposite">
+            <governor idx="13">playing</governor>
+            <dependent idx="15">Mastroianni</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="19">play</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">Masina</governor>
+            <dependent idx="21">Angelica</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">see</governor>
+            <dependent idx="24">1948</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">occurred</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">occurred</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">break</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">occurred</governor>
+            <dependent idx="3">break</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">came</governor>
+            <dependent idx="5">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">scout</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">came</governor>
+            <dependent idx="7">scout</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">occurred</governor>
+            <dependent idx="8">came</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">came</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">see</governor>
+            <dependent idx="11">Masina</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">Masina</governor>
+            <dependent idx="13">playing</dependent>
+          </dep>
+          <dep type="prep_opposite">
+            <governor idx="13">playing</governor>
+            <dependent idx="15">Mastroianni</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Angelica</governor>
+            <dependent idx="19">play</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">Masina</governor>
+            <dependent idx="21">Angelica</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">see</governor>
+            <dependent idx="24">1948</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

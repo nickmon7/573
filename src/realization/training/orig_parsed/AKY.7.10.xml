@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>turned</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>back</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="5">
+            <word>tried</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>land</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>at</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Malta</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>but</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>was</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>refused</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>permission</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VP (VBD turned) (ADVP (RB back))) (CC and) (VP (VBD tried) (S (VP (TO to) (VP (VB land) (PP (IN at) (NP (NNP Malta))))))) (, ,) (CC but) (VP (VBD was) (VP (VBN refused) (NP (NN permission))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">turned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">turned</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">turned</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">turned</governor>
+            <dependent idx="5">tried</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">land</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">tried</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">land</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">at</governor>
+            <dependent idx="9">Malta</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">turned</governor>
+            <dependent idx="11">but</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">refused</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">turned</governor>
+            <dependent idx="13">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">refused</governor>
+            <dependent idx="14">permission</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">turned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">turned</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">turned</governor>
+            <dependent idx="5">tried</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">land</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">tried</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="7">land</governor>
+            <dependent idx="9">Malta</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">refused</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="2">turned</governor>
+            <dependent idx="13">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">refused</governor>
+            <dependent idx="14">permission</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">turned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">tried</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">refused</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">turned</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">turned</governor>
+            <dependent idx="5">tried</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">land</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">tried</governor>
+            <dependent idx="7">land</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="7">land</governor>
+            <dependent idx="9">Malta</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">refused</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="2">turned</governor>
+            <dependent idx="13">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">refused</governor>
+            <dependent idx="14">permission</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

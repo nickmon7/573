@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Of</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>18</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>million</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>tonnes</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>household</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>waste</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>produced</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>annually</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>only</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>2.7</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>m</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>tonnes</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>is</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="17">
+            <word>treated</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="18">
+            <word>or</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="19">
+            <word>re-used</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Of) (NP (NP (DT the) (QP (CD 18) (CD million)) (NNS tonnes)) (PP (IN of) (NP (NP (NN household) (NN waste)) (VP (VBN produced) (ADVP (RB annually))))))) (, ,) (NP (QP (RB only) (CD 2.7)) (NN m) (NNS tonnes)) (VP (VBZ is) (VP (VBN treated) (CC or) (VBN re-used))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">treated</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">treated</governor>
+            <dependent idx="1">Of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">million</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="4">million</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Of</governor>
+            <dependent idx="5">tonnes</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">waste</governor>
+            <dependent idx="7">household</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">waste</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">waste</governor>
+            <dependent idx="9">produced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">produced</governor>
+            <dependent idx="10">annually</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="13">2.7</governor>
+            <dependent idx="12">only</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="13">2.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="14">m</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="15">tonnes</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="17">treated</governor>
+            <dependent idx="18">or</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="17">treated</governor>
+            <dependent idx="19">re-used</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">treated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">million</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="4">million</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">treated</governor>
+            <dependent idx="5">tonnes</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">waste</governor>
+            <dependent idx="7">household</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="8">waste</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">waste</governor>
+            <dependent idx="9">produced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">produced</governor>
+            <dependent idx="10">annually</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="13">2.7</governor>
+            <dependent idx="12">only</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="13">2.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="14">m</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="15">tonnes</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="17">treated</governor>
+            <dependent idx="19">re-used</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">treated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">million</governor>
+            <dependent idx="3">18</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="4">million</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">treated</governor>
+            <dependent idx="5">tonnes</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">waste</governor>
+            <dependent idx="7">household</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">tonnes</governor>
+            <dependent idx="8">waste</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">waste</governor>
+            <dependent idx="9">produced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">produced</governor>
+            <dependent idx="10">annually</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="13">2.7</governor>
+            <dependent idx="12">only</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="13">2.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">tonnes</governor>
+            <dependent idx="14">m</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="15">tonnes</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">re-used</governor>
+            <dependent idx="15">tonnes</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="17">treated</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="17">treated</governor>
+            <dependent idx="19">re-used</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

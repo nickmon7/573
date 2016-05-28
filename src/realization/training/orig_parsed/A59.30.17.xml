@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>added</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>she</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>never</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>saw</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>suspected</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>occupants</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>house</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD added) (SBAR (IN that) (S (NP (PRP she)) (ADVP (RB never)) (VP (VBD saw) (NP (NP (DT the) (VBN suspected) (NNS occupants)) (PP (IN of) (NP (DT the) (NN house)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">saw</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">saw</governor>
+            <dependent idx="4">she</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">saw</governor>
+            <dependent idx="5">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">added</governor>
+            <dependent idx="6">saw</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">occupants</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">occupants</governor>
+            <dependent idx="8">suspected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">saw</governor>
+            <dependent idx="9">occupants</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">occupants</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">house</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="12">house</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">saw</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">saw</governor>
+            <dependent idx="4">she</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">saw</governor>
+            <dependent idx="5">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">added</governor>
+            <dependent idx="6">saw</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">occupants</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">occupants</governor>
+            <dependent idx="8">suspected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">saw</governor>
+            <dependent idx="9">occupants</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">house</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">occupants</governor>
+            <dependent idx="12">house</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">saw</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">saw</governor>
+            <dependent idx="4">she</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">saw</governor>
+            <dependent idx="5">never</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">added</governor>
+            <dependent idx="6">saw</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">occupants</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">occupants</governor>
+            <dependent idx="8">suspected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">saw</governor>
+            <dependent idx="9">occupants</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">house</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">occupants</governor>
+            <dependent idx="12">house</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

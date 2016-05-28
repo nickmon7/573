@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>An</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>``</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="3">
+            <word>extraordinary</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>''</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="5">
+            <word>Congress</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>elect</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>new</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>Party</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>leadership</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>opens</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Prague</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>today</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT An) (`` ``) (JJ extraordinary) ('' '') (NNP Congress)) (SBAR (S (VP (TO to) (VP (VB elect) (NP (DT a) (JJ new) (NNP Party) (NN leadership))))))) (VP (VBZ opens) (PP (IN in) (NP (NNP Prague))) (NP-TMP (NN today))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">opens</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Congress</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="3">extraordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">opens</governor>
+            <dependent idx="5">Congress</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">elect</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="7">elect</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">leadership</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">leadership</governor>
+            <dependent idx="9">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">leadership</governor>
+            <dependent idx="10">Party</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">elect</governor>
+            <dependent idx="11">leadership</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">opens</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="14">Prague</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">opens</governor>
+            <dependent idx="15">today</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">opens</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Congress</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="3">extraordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">opens</governor>
+            <dependent idx="5">Congress</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">elect</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="7">elect</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">leadership</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">leadership</governor>
+            <dependent idx="9">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">leadership</governor>
+            <dependent idx="10">Party</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">elect</governor>
+            <dependent idx="11">leadership</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">opens</governor>
+            <dependent idx="14">Prague</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">opens</governor>
+            <dependent idx="15">today</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">opens</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Congress</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="3">extraordinary</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">opens</governor>
+            <dependent idx="5">Congress</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">elect</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Congress</governor>
+            <dependent idx="7">elect</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">leadership</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">leadership</governor>
+            <dependent idx="9">new</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">leadership</governor>
+            <dependent idx="10">Party</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">elect</governor>
+            <dependent idx="11">leadership</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">opens</governor>
+            <dependent idx="14">Prague</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="12">opens</governor>
+            <dependent idx="15">today</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

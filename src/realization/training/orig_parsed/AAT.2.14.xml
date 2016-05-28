@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>not</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>surprisingly</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>Mr</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Luchinsky</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>flatly</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>rejected</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>any</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>suggestion</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>changing</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>Moldavia</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>'s</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="16">
+            <word>frontiers</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>--</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="18">
+            <word>an</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>allusion</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="21">
+            <word>unity</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>with</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>Romania</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (, ,) (ADVP (RB not) (RB surprisingly)) (, ,) (NP (NNP Mr) (NNP Luchinsky)) (ADVP (RB flatly)) (VP (VBD rejected) (NP (NP (NP (DT any) (NN suggestion)) (PP (IN of) (S (VP (VBG changing) (NP (NP (NNP Moldavia) (POS 's)) (NNS frontiers)))))) (: --) (NP (NP (DT an) (NN allusion)) (PP (TO to) (NP (NP (NN unity)) (PP (IN with) (NP (NNP Romania)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">rejected</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">rejected</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">surprisingly</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="4">surprisingly</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Luchinsky</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="7">Luchinsky</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="8">flatly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="11">suggestion</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="12">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="12">of</governor>
+            <dependent idx="13">changing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">frontiers</governor>
+            <dependent idx="14">Moldavia</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="14">Moldavia</governor>
+            <dependent idx="15">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">changing</governor>
+            <dependent idx="16">frontiers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">allusion</governor>
+            <dependent idx="18">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="19">allusion</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">allusion</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">to</governor>
+            <dependent idx="21">unity</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">unity</governor>
+            <dependent idx="22">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">with</governor>
+            <dependent idx="23">Romania</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">rejected</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">rejected</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">surprisingly</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="4">surprisingly</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Luchinsky</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="7">Luchinsky</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="8">flatly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="11">suggestion</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="13">changing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">frontiers</governor>
+            <dependent idx="14">Moldavia</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">changing</governor>
+            <dependent idx="16">frontiers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">allusion</governor>
+            <dependent idx="18">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="19">allusion</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">allusion</governor>
+            <dependent idx="21">unity</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">unity</governor>
+            <dependent idx="23">Romania</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">rejected</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">rejected</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">surprisingly</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="4">surprisingly</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Luchinsky</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="7">Luchinsky</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">rejected</governor>
+            <dependent idx="8">flatly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="10">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">rejected</governor>
+            <dependent idx="11">suggestion</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="13">changing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">frontiers</governor>
+            <dependent idx="14">Moldavia</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">changing</governor>
+            <dependent idx="16">frontiers</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">allusion</governor>
+            <dependent idx="18">an</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">suggestion</governor>
+            <dependent idx="19">allusion</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">allusion</governor>
+            <dependent idx="21">unity</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="21">unity</governor>
+            <dependent idx="23">Romania</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

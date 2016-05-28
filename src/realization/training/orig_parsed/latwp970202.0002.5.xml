@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>Jimmy</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>took</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>risks</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>presenting</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>performing</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>arts</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>before</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Los</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>had</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>true</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>cultural</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>profile</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (NNP Jimmy)) (VP (VBD took) (NP (NNS risks)) (PP (IN on) (S (VP (VBG presenting) (NP (DT the) (VBG performing) (NNS arts))))) (SBAR (IN before) (S (NP (NNP Los) (NNP Angeles)) (VP (VBD had) (NP (DT a) (ADJP (JJ true) (JJ cultural)) (NN profile)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">Jimmy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">risks</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">took</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="5">on</governor>
+            <dependent idx="6">presenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arts</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">arts</governor>
+            <dependent idx="8">performing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">presenting</governor>
+            <dependent idx="9">arts</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">had</governor>
+            <dependent idx="10">before</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Angeles</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">had</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">took</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">profile</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">cultural</governor>
+            <dependent idx="15">true</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">profile</governor>
+            <dependent idx="16">cultural</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">had</governor>
+            <dependent idx="17">profile</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">Jimmy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">risks</dependent>
+          </dep>
+          <dep type="prepc_on">
+            <governor idx="3">took</governor>
+            <dependent idx="6">presenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arts</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">arts</governor>
+            <dependent idx="8">performing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">presenting</governor>
+            <dependent idx="9">arts</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">had</governor>
+            <dependent idx="10">before</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Angeles</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">had</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">took</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">profile</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">cultural</governor>
+            <dependent idx="15">true</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">profile</governor>
+            <dependent idx="16">cultural</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">had</governor>
+            <dependent idx="17">profile</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">Jimmy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">risks</dependent>
+          </dep>
+          <dep type="prepc_on">
+            <governor idx="3">took</governor>
+            <dependent idx="6">presenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arts</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">arts</governor>
+            <dependent idx="8">performing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">presenting</governor>
+            <dependent idx="9">arts</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">had</governor>
+            <dependent idx="10">before</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Angeles</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">had</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">took</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">profile</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">cultural</governor>
+            <dependent idx="15">true</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">profile</governor>
+            <dependent idx="16">cultural</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">had</governor>
+            <dependent idx="17">profile</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

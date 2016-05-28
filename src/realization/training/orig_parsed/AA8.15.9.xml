@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>We</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>worked</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>for</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>wider</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Europe</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>international</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>peace</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>development</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>disarmament</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP We)) (VP (VBD worked) (PP (IN for) (NP (NP (DT a) (NNP wider) (NNP Europe)) (, ,) (NP (JJ international) (NN peace)) (, ,) (NP (NN development)) (CC and) (NP (NN disarmament))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">worked</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">worked</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">worked</governor>
+            <dependent idx="3">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Europe</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Europe</governor>
+            <dependent idx="5">wider</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">for</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">peace</governor>
+            <dependent idx="8">international</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">Europe</governor>
+            <dependent idx="9">peace</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">Europe</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">Europe</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">Europe</governor>
+            <dependent idx="13">disarmament</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">worked</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">worked</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Europe</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Europe</governor>
+            <dependent idx="5">wider</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="2">worked</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">peace</governor>
+            <dependent idx="8">international</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="9">peace</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="13">disarmament</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">worked</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">worked</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Europe</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Europe</governor>
+            <dependent idx="5">wider</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="2">worked</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">peace</governor>
+            <dependent idx="8">international</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="2">worked</governor>
+            <dependent idx="9">peace</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="9">peace</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="2">worked</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="2">worked</governor>
+            <dependent idx="13">disarmament</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Europe</governor>
+            <dependent idx="13">disarmament</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

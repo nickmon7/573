@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>thornier</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>aspects</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>continue</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>intrigue</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>international</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>legal</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>experts</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN thornier) (NNS aspects)) (VP (VBP continue) (S (VP (TO to) (VP (VB intrigue) (NP (JJ international) (JJ legal) (NNS experts)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">continue</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">aspects</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">aspects</governor>
+            <dependent idx="2">thornier</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">continue</governor>
+            <dependent idx="3">aspects</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">continue</governor>
+            <dependent idx="6">intrigue</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="9">experts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">continue</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">aspects</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">aspects</governor>
+            <dependent idx="2">thornier</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">continue</governor>
+            <dependent idx="3">aspects</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">continue</governor>
+            <dependent idx="6">intrigue</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="9">experts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">continue</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">aspects</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">aspects</governor>
+            <dependent idx="2">thornier</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">continue</governor>
+            <dependent idx="3">aspects</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">continue</governor>
+            <dependent idx="6">intrigue</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="7">international</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">experts</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">intrigue</governor>
+            <dependent idx="9">experts</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

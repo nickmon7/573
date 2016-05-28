@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Bma</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>last</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>night</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>examining</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>this</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>provision</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="10">
+            <word>see</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="11">
+            <word>what</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>if</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>any</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>effect</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>it</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="18">
+            <word>could</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="19">
+            <word>have</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="20">
+            <word>on</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>GPs</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>'</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="23">
+            <word>prescribing</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Bma)) (VP (VBD was) (VP (NP-TMP (JJ last) (NN night)) (S (VP (VBG examining) (NP (DT this) (NN provision) (S (VP (TO to) (VP (VB see) (SBAR (WHNP (WHNP (WDT what) (PRN (, ,) (SBAR (IN if) (FRAG (DT any))) (, ,)) (NN effect)) (NP (PRP it))) (S (VP (MD could) (VP (VB have) (PP (IN on) (NP (NP (NNP GPs) (POS ')) (NN prescribing))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bma</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">Bma</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">examining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">provision</governor>
+            <dependent idx="7">this</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">examining</governor>
+            <dependent idx="8">provision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">provision</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">effect</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">any</governor>
+            <dependent idx="13">if</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="14">any</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="16">effect</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">see</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">have</governor>
+            <dependent idx="20">on</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">prescribing</governor>
+            <dependent idx="21">GPs</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">on</governor>
+            <dependent idx="23">prescribing</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bma</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">Bma</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">examining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">provision</governor>
+            <dependent idx="7">this</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">examining</governor>
+            <dependent idx="8">provision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">provision</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">effect</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">any</governor>
+            <dependent idx="13">if</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="14">any</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="16">effect</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">see</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">prescribing</governor>
+            <dependent idx="21">GPs</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="19">have</governor>
+            <dependent idx="23">prescribing</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">night</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Bma</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">night</governor>
+            <dependent idx="2">Bma</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">night</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">night</governor>
+            <dependent idx="4">last</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">night</governor>
+            <dependent idx="6">examining</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">provision</governor>
+            <dependent idx="7">this</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">examining</governor>
+            <dependent idx="8">provision</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">see</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">provision</governor>
+            <dependent idx="10">see</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">effect</governor>
+            <dependent idx="11">what</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">any</governor>
+            <dependent idx="13">if</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="14">any</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">have</governor>
+            <dependent idx="16">effect</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="16">effect</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">have</governor>
+            <dependent idx="18">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">see</governor>
+            <dependent idx="19">have</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="23">prescribing</governor>
+            <dependent idx="21">GPs</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="19">have</governor>
+            <dependent idx="23">prescribing</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

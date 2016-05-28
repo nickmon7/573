@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Claimants</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="2">
+            <word>under</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>scheme</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>receive</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="6">
+            <word>advice</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>or</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="8">
+            <word>representation</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>free</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>or</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>subject</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>contribution</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>linked</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="17">
+            <word>disposable</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>income</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNPS Claimants)) (PP (IN under) (NP (DT the) (NN scheme)))) (VP (VBP receive) (NP (NP (NN advice) (CC or) (NN representation)) (ADJP (JJ free) (CC or) (JJ subject))) (PP (TO to) (NP (NP (DT a) (NN contribution)) (VP (VBN linked) (PP (TO to) (NP (JJ disposable) (NN income))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">receive</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">receive</governor>
+            <dependent idx="1">Claimants</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Claimants</governor>
+            <dependent idx="2">under</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">scheme</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">under</governor>
+            <dependent idx="4">scheme</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">receive</governor>
+            <dependent idx="6">advice</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">advice</governor>
+            <dependent idx="7">or</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">advice</governor>
+            <dependent idx="8">representation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">advice</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">free</governor>
+            <dependent idx="10">or</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">free</governor>
+            <dependent idx="11">subject</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">receive</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">contribution</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">to</governor>
+            <dependent idx="14">contribution</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">contribution</governor>
+            <dependent idx="15">linked</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">linked</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">income</governor>
+            <dependent idx="17">disposable</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">to</governor>
+            <dependent idx="18">income</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">receive</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">receive</governor>
+            <dependent idx="1">Claimants</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">scheme</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="1">Claimants</governor>
+            <dependent idx="4">scheme</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">receive</governor>
+            <dependent idx="6">advice</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="6">advice</governor>
+            <dependent idx="8">representation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">advice</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="9">free</governor>
+            <dependent idx="11">subject</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">contribution</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">receive</governor>
+            <dependent idx="14">contribution</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">contribution</governor>
+            <dependent idx="15">linked</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">income</governor>
+            <dependent idx="17">disposable</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">linked</governor>
+            <dependent idx="18">income</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">receive</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">receive</governor>
+            <dependent idx="1">Claimants</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">scheme</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="1">Claimants</governor>
+            <dependent idx="4">scheme</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">receive</governor>
+            <dependent idx="6">advice</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">receive</governor>
+            <dependent idx="8">representation</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="6">advice</governor>
+            <dependent idx="8">representation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">advice</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">advice</governor>
+            <dependent idx="11">subject</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="9">free</governor>
+            <dependent idx="11">subject</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">contribution</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">receive</governor>
+            <dependent idx="14">contribution</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">contribution</governor>
+            <dependent idx="15">linked</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">income</governor>
+            <dependent idx="17">disposable</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">linked</governor>
+            <dependent idx="18">income</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

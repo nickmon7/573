@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Mossad</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>squads</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>were</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>set</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>up</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="7">
+            <word>after</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>massacre</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>11</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>Israeli</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>athletes</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>at</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>Munich</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>Olympic</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>games</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>September</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="22">
+            <word>1972</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Mossad) (NNS squads)) (VP (VBD were) (VP (VBN set) (PRT (RP up)) (PP (IN after) (NP (NP (DT the) (NN massacre)) (PP (IN of) (NP (NP (CD 11) (JJ Israeli) (NNS athletes)) (PP (IN at) (NP (DT the) (NNP Munich) (NNP Olympic) (NNS games))))))) (PP (IN in) (NP (NP (NNP September)) (, ,) (NP (CD 1972)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">squads</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">squads</governor>
+            <dependent idx="2">Mossad</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">set</governor>
+            <dependent idx="3">squads</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">set</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">set</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">set</governor>
+            <dependent idx="7">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">massacre</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">after</governor>
+            <dependent idx="9">massacre</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">massacre</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">athletes</governor>
+            <dependent idx="11">11</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">athletes</governor>
+            <dependent idx="12">Israeli</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="13">athletes</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">athletes</governor>
+            <dependent idx="14">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">games</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="16">Munich</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="17">Olympic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">at</governor>
+            <dependent idx="18">games</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">set</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="20">September</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">September</governor>
+            <dependent idx="22">1972</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">squads</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">squads</governor>
+            <dependent idx="2">Mossad</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">set</governor>
+            <dependent idx="3">squads</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">set</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">set</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">massacre</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="5">set</governor>
+            <dependent idx="9">massacre</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">athletes</governor>
+            <dependent idx="11">11</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">athletes</governor>
+            <dependent idx="12">Israeli</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">massacre</governor>
+            <dependent idx="13">athletes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">games</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="16">Munich</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="17">Olympic</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">athletes</governor>
+            <dependent idx="18">games</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">set</governor>
+            <dependent idx="20">September</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">September</governor>
+            <dependent idx="22">1972</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">set</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">squads</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">squads</governor>
+            <dependent idx="2">Mossad</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">set</governor>
+            <dependent idx="3">squads</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">set</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">set</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">massacre</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="5">set</governor>
+            <dependent idx="9">massacre</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">athletes</governor>
+            <dependent idx="11">11</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">athletes</governor>
+            <dependent idx="12">Israeli</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">massacre</governor>
+            <dependent idx="13">athletes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">games</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="16">Munich</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">games</governor>
+            <dependent idx="17">Olympic</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="13">athletes</governor>
+            <dependent idx="18">games</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">set</governor>
+            <dependent idx="20">September</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">September</governor>
+            <dependent idx="22">1972</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>have</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>come</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>restore</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>Lebanon</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>'s</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="9">
+            <word>unity</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>extend</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>sovereignty</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>government</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>over</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>Lebanese</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>territory</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBP have) (VP (VBN come) (S (VP (TO to) (VP (VP (VB restore) (NP (NP (NNP Lebanon) (POS 's)) (NN unity))) (CC and) (VP (VB extend) (NP (NP (DT the) (NN sovereignty)) (PP (IN of) (NP (NP (DT the) (NN government)) (PP (IN over) (NP (JJ Lebanese) (NN territory)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">come</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">come</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">come</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">restore</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">come</governor>
+            <dependent idx="6">restore</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">unity</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="7">Lebanon</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">restore</governor>
+            <dependent idx="9">unity</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">restore</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">restore</governor>
+            <dependent idx="11">extend</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">extend</governor>
+            <dependent idx="13">sovereignty</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">government</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">government</governor>
+            <dependent idx="17">over</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">territory</governor>
+            <dependent idx="18">Lebanese</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">over</governor>
+            <dependent idx="19">territory</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">come</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">come</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">come</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">restore</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">come</governor>
+            <dependent idx="6">restore</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">unity</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">restore</governor>
+            <dependent idx="9">unity</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">restore</governor>
+            <dependent idx="11">extend</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">extend</governor>
+            <dependent idx="13">sovereignty</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">government</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">territory</governor>
+            <dependent idx="18">Lebanese</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="16">government</governor>
+            <dependent idx="19">territory</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">come</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">come</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">come</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">restore</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">come</governor>
+            <dependent idx="6">restore</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">unity</governor>
+            <dependent idx="7">Lebanon</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">restore</governor>
+            <dependent idx="9">unity</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">come</governor>
+            <dependent idx="11">extend</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">restore</governor>
+            <dependent idx="11">extend</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">extend</governor>
+            <dependent idx="13">sovereignty</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">government</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">sovereignty</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">territory</governor>
+            <dependent idx="18">Lebanese</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="16">government</governor>
+            <dependent idx="19">territory</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

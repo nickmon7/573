@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>issue</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>certificates</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>deposits</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>often</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>based</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>on</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>fictitious</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>assets</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>such</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>as</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>bogus</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>gold</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>mines</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBP issue) (NP (NP (NNS certificates)) (PP (IN of) (NP (NP (NNS deposits)) (, ,) (VP (ADVP (RB often)) (VBN based) (PP (IN on) (NP (NP (JJ fictitious) (NNS assets)) (PP (JJ such) (IN as) (NP (JJ bogus) (NN gold) (NNS mines)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">issue</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">issue</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">issue</governor>
+            <dependent idx="3">certificates</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">certificates</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="5">deposits</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">based</governor>
+            <dependent idx="7">often</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">deposits</governor>
+            <dependent idx="8">based</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">based</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">assets</governor>
+            <dependent idx="10">fictitious</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">on</governor>
+            <dependent idx="11">assets</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="13">as</governor>
+            <dependent idx="12">such</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">assets</governor>
+            <dependent idx="13">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">mines</governor>
+            <dependent idx="14">bogus</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">mines</governor>
+            <dependent idx="15">gold</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">as</governor>
+            <dependent idx="16">mines</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">issue</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">issue</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">issue</governor>
+            <dependent idx="3">certificates</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">certificates</governor>
+            <dependent idx="5">deposits</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">based</governor>
+            <dependent idx="7">often</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">deposits</governor>
+            <dependent idx="8">based</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">assets</governor>
+            <dependent idx="10">fictitious</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="8">based</governor>
+            <dependent idx="11">assets</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">mines</governor>
+            <dependent idx="14">bogus</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">mines</governor>
+            <dependent idx="15">gold</dependent>
+          </dep>
+          <dep type="prep_such_as">
+            <governor idx="11">assets</governor>
+            <dependent idx="16">mines</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">issue</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">issue</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">issue</governor>
+            <dependent idx="3">certificates</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">certificates</governor>
+            <dependent idx="5">deposits</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">based</governor>
+            <dependent idx="7">often</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">deposits</governor>
+            <dependent idx="8">based</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">assets</governor>
+            <dependent idx="10">fictitious</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="8">based</governor>
+            <dependent idx="11">assets</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">mines</governor>
+            <dependent idx="14">bogus</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">mines</governor>
+            <dependent idx="15">gold</dependent>
+          </dep>
+          <dep type="prep_such_as">
+            <governor idx="11">assets</governor>
+            <dependent idx="16">mines</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

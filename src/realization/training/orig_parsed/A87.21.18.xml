@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>they</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>took</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>people</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>Angola</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="8">
+            <word>Zambia</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>murdered</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>they</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>raped</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>them</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (S (NP (PRP they)) (VP (VBD took) (NP (NNS people)) (PP (IN in) (NP (NNP Angola) (CC and) (NNP Zambia))))) (CC and) (S (S (NP (PRP they)) (VP (VBN murdered))) (CC and) (S (NP (PRP they)) (VP (VBD raped) (NP (PRP them))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">took</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">took</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">in</governor>
+            <dependent idx="6">Angola</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">Angola</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">Angola</governor>
+            <dependent idx="8">Zambia</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">took</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">murdered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">took</governor>
+            <dependent idx="11">murdered</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">murdered</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">raped</governor>
+            <dependent idx="13">they</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">murdered</governor>
+            <dependent idx="14">raped</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">raped</governor>
+            <dependent idx="15">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">took</governor>
+            <dependent idx="6">Angola</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Angola</governor>
+            <dependent idx="8">Zambia</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">murdered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">took</governor>
+            <dependent idx="11">murdered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">raped</governor>
+            <dependent idx="13">they</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">murdered</governor>
+            <dependent idx="14">raped</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">raped</governor>
+            <dependent idx="15">them</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">took</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">took</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">took</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">took</governor>
+            <dependent idx="6">Angola</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">took</governor>
+            <dependent idx="8">Zambia</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">Angola</governor>
+            <dependent idx="8">Zambia</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">murdered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">took</governor>
+            <dependent idx="11">murdered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">raped</governor>
+            <dependent idx="13">they</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">took</governor>
+            <dependent idx="14">raped</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">murdered</governor>
+            <dependent idx="14">raped</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">raped</governor>
+            <dependent idx="15">them</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

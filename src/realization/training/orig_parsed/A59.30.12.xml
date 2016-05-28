@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>could</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="3">
+            <word>provide</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>clue</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>as</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>bombers</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>'</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>whereabouts</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>between</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>16</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>September</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>bombing</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>which</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="20">
+            <word>killed</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>10</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>bandsmen</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT This)) (VP (MD could) (VP (VB provide) (NP (DT a) (NN clue)) (ADVP (RB as) (PP (TO to) (NP (NP (NP (DT the) (NNS bombers) (POS ')) (NN whereabouts)) (PP (IN between) (NP (NP (CD 16) (NNP September)) (CC and) (NP (DT the) (NN bombing)))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD killed) (NP (CD 10) (NN bandsmen)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">provide</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">provide</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">provide</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">clue</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">provide</governor>
+            <dependent idx="5">clue</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">provide</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">as</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">bombers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="9">bombers</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">to</governor>
+            <dependent idx="11">whereabouts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="12">between</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">September</governor>
+            <dependent idx="13">16</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">between</governor>
+            <dependent idx="14">September</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">September</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">September</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">killed</governor>
+            <dependent idx="19">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="20">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="22">bandsmen</governor>
+            <dependent idx="21">10</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">killed</governor>
+            <dependent idx="22">bandsmen</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">provide</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">provide</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">provide</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">clue</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">provide</governor>
+            <dependent idx="5">clue</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">bombers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="9">bombers</dependent>
+          </dep>
+          <dep type="prep_as_to">
+            <governor idx="3">provide</governor>
+            <dependent idx="11">whereabouts</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">September</governor>
+            <dependent idx="13">16</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="14">September</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">September</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">killed</governor>
+            <dependent idx="19">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="20">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="22">bandsmen</governor>
+            <dependent idx="21">10</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">killed</governor>
+            <dependent idx="22">bandsmen</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">provide</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">provide</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">provide</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">clue</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">provide</governor>
+            <dependent idx="5">clue</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">bombers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="9">bombers</dependent>
+          </dep>
+          <dep type="prep_as_to">
+            <governor idx="3">provide</governor>
+            <dependent idx="11">whereabouts</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">September</governor>
+            <dependent idx="13">16</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="14">September</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bombing</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">September</governor>
+            <dependent idx="17">bombing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">killed</governor>
+            <dependent idx="19">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="11">whereabouts</governor>
+            <dependent idx="20">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="22">bandsmen</governor>
+            <dependent idx="21">10</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">killed</governor>
+            <dependent idx="22">bandsmen</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

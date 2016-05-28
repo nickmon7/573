@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>HOLLYWOOD</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>-</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="3">
+            <word>Leon</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Schwab</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>who</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="7">
+            <word>helped</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>make</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>family</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>'s</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="12">
+            <word>fabled</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>drug</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>store</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>on</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>Sunset</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>Boulevard</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>haven</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>for</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>movie</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>stars</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>and</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="24">
+            <word>the</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="25">
+            <word>preferred</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="26">
+            <word>site</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="27">
+            <word>of</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="28">
+            <word>an</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="29">
+            <word>apocryphal</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="30">
+            <word>anecdote</word>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="31">
+            <word>about</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="32">
+            <word>the</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="33">
+            <word>discovery</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="34">
+            <word>of</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="35">
+            <word>actress</word>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="36">
+            <word>Lana</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="37">
+            <word>Turner</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="38">
+            <word>,</word>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="39">
+            <word>has</word>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="40">
+            <word>died</word>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="41">
+            <word>.</word>
+            <CharacterOffsetBegin>221</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NNP HOLLYWOOD)) (: -) (S (NP (NP (NNP Leon) (NNP Schwab)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD helped) (VP (VB make) (NP (NP (PRP$ his) (NN family) (POS 's)) (JJ fabled) (NN drug) (NN store)) (PP (IN on) (NP (NP (NP (NNP Sunset) (NNP Boulevard)) (NP (NP (DT a) (NN haven)) (PP (IN for) (NP (NN movie) (NNS stars))))) (CC and) (NP (NP (DT the) (VBN preferred) (NN site)) (PP (IN of) (NP (DT an) (JJ apocryphal) (NN anecdote))) (PP (IN about) (NP (DT the) (NN discovery))) (PP (IN of) (NP (NN actress) (NNP Lana) (NNP Turner)))))))))) (, ,)) (VP (VBZ has) (VP (VBN died)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">HOLLYWOOD</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">died</governor>
+            <dependent idx="4">Schwab</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">helped</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="7">helped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">helped</governor>
+            <dependent idx="8">make</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">family</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">store</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="10">family</governor>
+            <dependent idx="11">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">store</governor>
+            <dependent idx="12">fabled</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">store</governor>
+            <dependent idx="13">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">make</governor>
+            <dependent idx="14">store</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">make</governor>
+            <dependent idx="15">on</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="16">Sunset</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">on</governor>
+            <dependent idx="17">Boulevard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">haven</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="19">haven</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">haven</governor>
+            <dependent idx="20">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">stars</governor>
+            <dependent idx="21">movie</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">for</governor>
+            <dependent idx="22">stars</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="23">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">site</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">site</governor>
+            <dependent idx="25">preferred</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="26">site</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">site</governor>
+            <dependent idx="27">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="28">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="29">apocryphal</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="27">of</governor>
+            <dependent idx="30">anecdote</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">site</governor>
+            <dependent idx="31">about</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">discovery</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">about</governor>
+            <dependent idx="33">discovery</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="26">site</governor>
+            <dependent idx="34">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="35">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="36">Lana</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="34">of</governor>
+            <dependent idx="37">Turner</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="40">died</governor>
+            <dependent idx="39">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">HOLLYWOOD</governor>
+            <dependent idx="40">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">HOLLYWOOD</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">died</governor>
+            <dependent idx="4">Schwab</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">helped</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="7">helped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">helped</governor>
+            <dependent idx="8">make</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">family</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">store</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">store</governor>
+            <dependent idx="12">fabled</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">store</governor>
+            <dependent idx="13">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">make</governor>
+            <dependent idx="14">store</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="16">Sunset</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="8">make</governor>
+            <dependent idx="17">Boulevard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">haven</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="19">haven</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">stars</governor>
+            <dependent idx="21">movie</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">haven</governor>
+            <dependent idx="22">stars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">site</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">site</governor>
+            <dependent idx="25">preferred</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="26">site</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="28">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="29">apocryphal</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">site</governor>
+            <dependent idx="30">anecdote</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">discovery</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="26">site</governor>
+            <dependent idx="33">discovery</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="35">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="36">Lana</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">site</governor>
+            <dependent idx="37">Turner</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="40">died</governor>
+            <dependent idx="39">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">HOLLYWOOD</governor>
+            <dependent idx="40">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="1">HOLLYWOOD</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="40">died</governor>
+            <dependent idx="4">Schwab</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">helped</governor>
+            <dependent idx="6">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">Schwab</governor>
+            <dependent idx="7">helped</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">helped</governor>
+            <dependent idx="8">make</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">family</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">store</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">store</governor>
+            <dependent idx="12">fabled</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">store</governor>
+            <dependent idx="13">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">make</governor>
+            <dependent idx="14">store</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="16">Sunset</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="8">make</governor>
+            <dependent idx="17">Boulevard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">haven</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="19">haven</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">stars</governor>
+            <dependent idx="21">movie</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">haven</governor>
+            <dependent idx="22">stars</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">site</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="26">site</governor>
+            <dependent idx="25">preferred</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="8">make</governor>
+            <dependent idx="26">site</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="17">Boulevard</governor>
+            <dependent idx="26">site</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="28">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="30">anecdote</governor>
+            <dependent idx="29">apocryphal</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">site</governor>
+            <dependent idx="30">anecdote</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="33">discovery</governor>
+            <dependent idx="32">the</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="26">site</governor>
+            <dependent idx="33">discovery</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="35">actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Turner</governor>
+            <dependent idx="36">Lana</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="26">site</governor>
+            <dependent idx="37">Turner</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="40">died</governor>
+            <dependent idx="39">has</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">HOLLYWOOD</governor>
+            <dependent idx="40">died</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

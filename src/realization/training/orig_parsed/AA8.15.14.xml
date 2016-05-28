@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>We</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>much</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="5">
+            <word>bless</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>indeed</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>warmly</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>remember</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>him</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP We)) (VP (VBP have) (ADVP (RB much)) (S (VP (TO to) (VP (VP (VB bless)) (CC and) (ADVP (RB indeed)) (VP (ADVP (RB warmly)) (VB remember) (NP (PRP him)) (PP (IN for))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">have</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">bless</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="5">bless</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">bless</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bless</governor>
+            <dependent idx="7">indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">remember</governor>
+            <dependent idx="8">warmly</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">bless</governor>
+            <dependent idx="9">remember</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remember</governor>
+            <dependent idx="10">him</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">remember</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">have</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">bless</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="5">bless</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bless</governor>
+            <dependent idx="7">indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">remember</governor>
+            <dependent idx="8">warmly</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">bless</governor>
+            <dependent idx="9">remember</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remember</governor>
+            <dependent idx="10">him</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">remember</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">have</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">bless</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="5">bless</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bless</governor>
+            <dependent idx="7">indeed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">remember</governor>
+            <dependent idx="8">warmly</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="9">remember</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">bless</governor>
+            <dependent idx="9">remember</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remember</governor>
+            <dependent idx="10">him</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">remember</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Because</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>am</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>very</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>poor</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>man</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>you</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="9">
+            <word>made</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>me</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>accept</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>figure</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>like</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>six</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>million</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="17">
+            <word>lire</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="19">
+            <word>#</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="20">
+            <word>2,500</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="21">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN Because) (S (NP (PRP I)) (VP (VBP am) (NP (DT a) (ADJP (RB very) (JJ poor)) (NN man))))) (NP (PRP you)) (VP (VBD made) (SBAR (S (NP (PRP me)) (VP (VBP accept) (NP (NP (DT a) (NN figure)) (PP (IN like) (NP (NP (QP (CD six) (CD million)) (NNS lire)) (PRN (-LRB- -LRB-) (NP (QP (# #) (CD 2,500))) (-RRB- -RRB-))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">made</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">man</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">man</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">man</governor>
+            <dependent idx="3">am</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">poor</governor>
+            <dependent idx="5">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">man</governor>
+            <dependent idx="6">poor</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">made</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">made</governor>
+            <dependent idx="8">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">accept</governor>
+            <dependent idx="10">me</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">made</governor>
+            <dependent idx="11">accept</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">figure</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">accept</governor>
+            <dependent idx="13">figure</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">figure</governor>
+            <dependent idx="14">like</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">six</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">lire</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">like</governor>
+            <dependent idx="17">lire</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="20">2,500</governor>
+            <dependent idx="19">#</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">lire</governor>
+            <dependent idx="20">2,500</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">made</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">man</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">man</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">man</governor>
+            <dependent idx="3">am</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">poor</governor>
+            <dependent idx="5">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">man</governor>
+            <dependent idx="6">poor</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">made</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">made</governor>
+            <dependent idx="8">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">accept</governor>
+            <dependent idx="10">me</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">made</governor>
+            <dependent idx="11">accept</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">figure</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">accept</governor>
+            <dependent idx="13">figure</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">six</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">lire</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="13">figure</governor>
+            <dependent idx="17">lire</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="20">2,500</governor>
+            <dependent idx="19">#</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">lire</governor>
+            <dependent idx="20">2,500</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">made</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">man</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">man</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">man</governor>
+            <dependent idx="3">am</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">man</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">poor</governor>
+            <dependent idx="5">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">man</governor>
+            <dependent idx="6">poor</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">made</governor>
+            <dependent idx="7">man</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">made</governor>
+            <dependent idx="8">you</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">accept</governor>
+            <dependent idx="10">me</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">made</governor>
+            <dependent idx="11">accept</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">figure</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">accept</governor>
+            <dependent idx="13">figure</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">six</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="17">lire</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="13">figure</governor>
+            <dependent idx="17">lire</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="20">2,500</governor>
+            <dependent idx="19">#</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="17">lire</governor>
+            <dependent idx="20">2,500</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

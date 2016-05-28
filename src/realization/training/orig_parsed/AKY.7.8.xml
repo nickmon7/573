@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Egypt</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>closed</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>its</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>airspace</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>two</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>Libyan</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>aircraft</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>were</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>forced</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>turn</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>back</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Egypt)) (VP (VBD closed) (SBAR (S (NP (NP (PRP$ its) (NN airspace)) (CC and) (NP (CD two) (JJ Libyan) (NN aircraft))) (VP (VBD were) (VP (VBN forced) (S (VP (TO to) (VP (VB turn) (ADVP (RB back)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">closed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">closed</governor>
+            <dependent idx="1">Egypt</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">airspace</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="4">airspace</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">airspace</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="6">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">airspace</governor>
+            <dependent idx="8">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">closed</governor>
+            <dependent idx="10">forced</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">turn</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">forced</governor>
+            <dependent idx="12">turn</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">turn</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">closed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">closed</governor>
+            <dependent idx="1">Egypt</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">airspace</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="4">airspace</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="6">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">airspace</governor>
+            <dependent idx="8">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">closed</governor>
+            <dependent idx="10">forced</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">turn</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">forced</governor>
+            <dependent idx="12">turn</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">turn</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">closed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">closed</governor>
+            <dependent idx="1">Egypt</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">airspace</governor>
+            <dependent idx="3">its</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="4">airspace</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="6">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">aircraft</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">airspace</governor>
+            <dependent idx="8">aircraft</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="8">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">forced</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">closed</governor>
+            <dependent idx="10">forced</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">turn</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">forced</governor>
+            <dependent idx="12">turn</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">turn</governor>
+            <dependent idx="13">back</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

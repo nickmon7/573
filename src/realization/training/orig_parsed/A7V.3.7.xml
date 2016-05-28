@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Such</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>optimistic</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>forecasts</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>described</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>as</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>``</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="8">
+            <word>dangerous</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>''</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="10">
+            <word>by</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>Federal</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>Labour</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>Office</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Such) (JJ optimistic) (NNS forecasts)) (VP (VBP are) (VP (VBN described) (PP (IN as) (`` ``) (ADJP (JJ dangerous)) ('' '')) (PP (IN by) (NP (DT the) (NNP Federal) (NNP Labour) (NNP Office))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">described</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="2">optimistic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">described</governor>
+            <dependent idx="3">forecasts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">described</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">described</governor>
+            <dependent idx="6">as</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">as</governor>
+            <dependent idx="8">dangerous</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">described</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Office</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="13">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">by</governor>
+            <dependent idx="14">Office</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">described</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="2">optimistic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">described</governor>
+            <dependent idx="3">forecasts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">described</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="5">described</governor>
+            <dependent idx="8">dangerous</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Office</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="13">Labour</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">described</governor>
+            <dependent idx="14">Office</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">described</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="1">Such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">forecasts</governor>
+            <dependent idx="2">optimistic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">described</governor>
+            <dependent idx="3">forecasts</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">described</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="5">described</governor>
+            <dependent idx="8">dangerous</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Office</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="12">Federal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Office</governor>
+            <dependent idx="13">Labour</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">described</governor>
+            <dependent idx="14">Office</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

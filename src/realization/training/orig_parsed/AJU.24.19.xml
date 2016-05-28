@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>Usaf</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>do</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>not</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>tolerate</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>domestic</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>violence</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (DT The) (NNP Usaf)) (VP (VBP do) (RB not) (VP (VB tolerate) (NP (JJ domestic) (NN violence)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">tolerate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Usaf</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="3">Usaf</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">violence</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="8">violence</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">tolerate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Usaf</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="3">Usaf</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">violence</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="8">violence</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">tolerate</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Usaf</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="3">Usaf</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="4">do</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="5">not</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">violence</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">tolerate</governor>
+            <dependent idx="8">violence</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

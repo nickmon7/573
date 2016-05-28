@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>thrust</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Bush</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>justification</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>Us</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>action</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>was</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>very</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>real</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>danger</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>Us</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>personnel</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN thrust)) (PP (IN of) (NP (NP (DT the) (NNP Bush) (NN justification)) (PP (IN for) (NP (JJ Us) (NN action)))))) (VP (VBD was) (NP (DT the) (ADJP (RB very) (JJ real)) (NN danger)) (PP (TO to) (NP (JJ Us) (NNS personnel)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">danger</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">thrust</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">danger</governor>
+            <dependent idx="2">thrust</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">thrust</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">justification</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">justification</governor>
+            <dependent idx="5">Bush</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="6">justification</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">justification</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">action</governor>
+            <dependent idx="8">Us</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">for</governor>
+            <dependent idx="9">action</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">danger</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">danger</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">real</governor>
+            <dependent idx="12">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">danger</governor>
+            <dependent idx="13">real</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">danger</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">personnel</governor>
+            <dependent idx="16">Us</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">to</governor>
+            <dependent idx="17">personnel</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">danger</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">thrust</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">danger</governor>
+            <dependent idx="2">thrust</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">justification</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">justification</governor>
+            <dependent idx="5">Bush</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">thrust</governor>
+            <dependent idx="6">justification</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">action</governor>
+            <dependent idx="8">Us</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">justification</governor>
+            <dependent idx="9">action</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">danger</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">danger</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">real</governor>
+            <dependent idx="12">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">danger</governor>
+            <dependent idx="13">real</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">personnel</governor>
+            <dependent idx="16">Us</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">danger</governor>
+            <dependent idx="17">personnel</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">danger</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">thrust</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">danger</governor>
+            <dependent idx="2">thrust</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">justification</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">justification</governor>
+            <dependent idx="5">Bush</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">thrust</governor>
+            <dependent idx="6">justification</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">action</governor>
+            <dependent idx="8">Us</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">justification</governor>
+            <dependent idx="9">action</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">danger</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">danger</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">real</governor>
+            <dependent idx="12">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">danger</governor>
+            <dependent idx="13">real</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">personnel</governor>
+            <dependent idx="16">Us</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="14">danger</governor>
+            <dependent idx="17">personnel</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

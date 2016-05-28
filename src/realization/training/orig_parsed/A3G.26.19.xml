@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Since</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>then</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>there</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>been</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>long</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>decline</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Since) (NP (RB then))) (NP (EX there)) (VP (VBZ has) (VP (VBN been) (NP (DT a) (JJ long) (NN decline)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">decline</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">decline</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Since</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">decline</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">decline</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">decline</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">decline</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">decline</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">decline</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">decline</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Since</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">decline</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">decline</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">decline</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">decline</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">decline</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">decline</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">decline</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Since</governor>
+            <dependent idx="2">then</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">decline</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">decline</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">decline</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">decline</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">decline</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>reselection</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>result</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>will</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="5">
+            <word>be</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>announced</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>December</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>8</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN reselection) (NN result)) (VP (MD will) (VP (VB be) (VP (VBN announced) (PP (IN on) (NP (NNP December) (CD 8)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">result</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">result</governor>
+            <dependent idx="2">reselection</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="3">result</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">announced</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="8">December</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">December</governor>
+            <dependent idx="9">8</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">result</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">result</governor>
+            <dependent idx="2">reselection</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="3">result</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">announced</governor>
+            <dependent idx="8">December</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">December</governor>
+            <dependent idx="9">8</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">result</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">result</governor>
+            <dependent idx="2">reselection</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="3">result</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">announced</governor>
+            <dependent idx="8">December</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="8">December</governor>
+            <dependent idx="9">8</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

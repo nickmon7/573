@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Firstly</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Swapo-Democrat</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>emblem</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>is</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="7">
+            <word>placed</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>just</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>above</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>Swapo</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>emblem</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>on</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>ballot</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>paper</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>meaning</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="19">
+            <word>that</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>it</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="21">
+            <word>will</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="22">
+            <word>be</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>seen</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="24">
+            <word>first</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Firstly)) (, ,) (NP (DT the) (JJ Swapo-Democrat) (NN emblem)) (VP (VBZ is) (VP (VBN placed) (ADVP (RB just)) (PP (IN above) (NP (DT the) (NNP Swapo) (NN emblem))) (PP (IN on) (NP (DT the) (NN ballot) (NN paper))) (, ,) (S (VP (VBG meaning) (SBAR (IN that) (S (NP (PRP it)) (VP (MD will) (VP (VB be) (VP (VBN seen) (ADVP (RB first))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="1">Firstly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">emblem</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">emblem</governor>
+            <dependent idx="4">Swapo-Democrat</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="5">emblem</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">just</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">placed</governor>
+            <dependent idx="9">above</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">emblem</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">emblem</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">above</governor>
+            <dependent idx="12">emblem</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">placed</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">paper</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">paper</governor>
+            <dependent idx="15">ballot</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">on</governor>
+            <dependent idx="16">paper</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">placed</governor>
+            <dependent idx="18">meaning</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">seen</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">seen</governor>
+            <dependent idx="21">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="22">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">meaning</governor>
+            <dependent idx="23">seen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">seen</governor>
+            <dependent idx="24">first</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="1">Firstly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">emblem</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">emblem</governor>
+            <dependent idx="4">Swapo-Democrat</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="5">emblem</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">just</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">emblem</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">emblem</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="prep_above">
+            <governor idx="7">placed</governor>
+            <dependent idx="12">emblem</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">paper</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">paper</governor>
+            <dependent idx="15">ballot</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="7">placed</governor>
+            <dependent idx="16">paper</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">placed</governor>
+            <dependent idx="18">meaning</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">seen</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">seen</governor>
+            <dependent idx="21">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="22">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">meaning</governor>
+            <dependent idx="23">seen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">seen</governor>
+            <dependent idx="24">first</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">placed</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="1">Firstly</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">emblem</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">emblem</governor>
+            <dependent idx="4">Swapo-Democrat</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="5">emblem</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">placed</governor>
+            <dependent idx="6">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">placed</governor>
+            <dependent idx="8">just</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">emblem</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">emblem</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="prep_above">
+            <governor idx="7">placed</governor>
+            <dependent idx="12">emblem</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">paper</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">paper</governor>
+            <dependent idx="15">ballot</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="7">placed</governor>
+            <dependent idx="16">paper</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">placed</governor>
+            <dependent idx="18">meaning</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">seen</governor>
+            <dependent idx="19">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="20">it</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="23">seen</governor>
+            <dependent idx="21">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">seen</governor>
+            <dependent idx="22">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">meaning</governor>
+            <dependent idx="23">seen</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="23">seen</governor>
+            <dependent idx="24">first</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

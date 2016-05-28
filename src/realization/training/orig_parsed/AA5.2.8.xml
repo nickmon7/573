@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>We</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="4">
+            <word>offer</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>local</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>authorities</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>some</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>way</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>restricting</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>growth</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>second</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>homes</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>''</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="19">
+            <word>said</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="20">
+            <word>Mr</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>Soley</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (S (NP (PRP We)) (VP (VBP have) (S (VP (TO to) (VP (VB offer) (NP (DT the) (JJ local) (NNS authorities)) (NP (NP (DT some) (NN way)) (PP (IN of) (S (VP (VBG restricting) (NP (NP (DT the) (NN growth)) (PP (IN of) (NP (JJ second) (NNS homes))))))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Mr) (NNP Soley)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="19">said</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">offer</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="4">offer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">authorities</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">authorities</governor>
+            <dependent idx="6">local</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="7">authorities</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">way</governor>
+            <dependent idx="8">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="9">way</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">way</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="10">of</governor>
+            <dependent idx="11">restricting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">growth</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">restricting</governor>
+            <dependent idx="13">growth</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">growth</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">homes</governor>
+            <dependent idx="15">second</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="16">homes</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Soley</governor>
+            <dependent idx="20">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">said</governor>
+            <dependent idx="21">Soley</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="19">said</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">offer</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="4">offer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">authorities</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">authorities</governor>
+            <dependent idx="6">local</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="7">authorities</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">way</governor>
+            <dependent idx="8">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="9">way</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="9">way</governor>
+            <dependent idx="11">restricting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">growth</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">restricting</governor>
+            <dependent idx="13">growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">homes</governor>
+            <dependent idx="15">second</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">growth</governor>
+            <dependent idx="16">homes</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Soley</governor>
+            <dependent idx="20">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">said</governor>
+            <dependent idx="21">Soley</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="19">said</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">offer</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">have</governor>
+            <dependent idx="4">offer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">authorities</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">authorities</governor>
+            <dependent idx="6">local</dependent>
+          </dep>
+          <dep type="iobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="7">authorities</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">way</governor>
+            <dependent idx="8">some</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">offer</governor>
+            <dependent idx="9">way</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="9">way</governor>
+            <dependent idx="11">restricting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">growth</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">restricting</governor>
+            <dependent idx="13">growth</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">homes</governor>
+            <dependent idx="15">second</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">growth</governor>
+            <dependent idx="16">homes</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Soley</governor>
+            <dependent idx="20">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">said</governor>
+            <dependent idx="21">Soley</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

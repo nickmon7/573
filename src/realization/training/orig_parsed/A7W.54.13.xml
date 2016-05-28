@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>One</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>those</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>most</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="5">
+            <word>wanted</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Yugoslavia</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>but</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>allowed</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>go</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>unpunished</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>was</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>General</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Mario</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Roatta</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (CD One)) (PP (IN of) (NP (NP (DT those) (JJS most)) (VP (VP (VBN wanted) (PP (IN by) (NP (NNP Yugoslavia)))) (CC but) (VP (VBN allowed) (S (VP (TO to) (VP (VB go) (ADJP (JJ unpunished)))))))))) (VP (VBD was) (NP (NNP General) (NNP Mario) (NNP Roatta))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">Roatta</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">One</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">most</governor>
+            <dependent idx="3">those</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">most</governor>
+            <dependent idx="5">wanted</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">wanted</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="7">Yugoslavia</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">wanted</governor>
+            <dependent idx="8">but</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">wanted</governor>
+            <dependent idx="9">allowed</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">allowed</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="11">go</governor>
+            <dependent idx="12">unpunished</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="15">Mario</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">Roatta</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">most</governor>
+            <dependent idx="3">those</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">One</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">most</governor>
+            <dependent idx="5">wanted</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="5">wanted</governor>
+            <dependent idx="7">Yugoslavia</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="5">wanted</governor>
+            <dependent idx="9">allowed</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">allowed</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="11">go</governor>
+            <dependent idx="12">unpunished</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="15">Mario</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">Roatta</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="1">One</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">most</governor>
+            <dependent idx="3">those</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">One</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">most</governor>
+            <dependent idx="5">wanted</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="5">wanted</governor>
+            <dependent idx="7">Yugoslavia</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">most</governor>
+            <dependent idx="9">allowed</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="5">wanted</governor>
+            <dependent idx="9">allowed</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">allowed</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="11">go</governor>
+            <dependent idx="12">unpunished</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="13">was</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Roatta</governor>
+            <dependent idx="15">Mario</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

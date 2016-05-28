@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Unconfirmed</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>reports</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>say</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>he</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>could</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="6">
+            <word>become</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>Speaker</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>position</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>some</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>honour</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>but</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>no</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>great</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>responsibility</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Unconfirmed) (NNS reports)) (VP (VBP say) (SBAR (S (NP (PRP he)) (VP (MD could) (VP (VB become) (NP (NP (NNP Speaker)) (, ,) (NP (NP (DT a) (NN position)) (PP (IN of) (NP (NP (DT some) (NN honour)) (PP (CC but) (NP (DT no) (JJ great) (NN responsibility)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">say</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">reports</governor>
+            <dependent idx="1">Unconfirmed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">say</governor>
+            <dependent idx="2">reports</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="5">could</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="6">become</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">say</governor>
+            <dependent idx="7">Speaker</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">position</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="10">position</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">position</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">honour</governor>
+            <dependent idx="12">some</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="13">honour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">honour</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="15">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="16">great</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">but</governor>
+            <dependent idx="17">responsibility</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">say</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">reports</governor>
+            <dependent idx="1">Unconfirmed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">say</governor>
+            <dependent idx="2">reports</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="5">could</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="6">become</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">say</governor>
+            <dependent idx="7">Speaker</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">position</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="10">position</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">honour</governor>
+            <dependent idx="12">some</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">position</governor>
+            <dependent idx="13">honour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">honour</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="15">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="16">great</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">but</governor>
+            <dependent idx="17">responsibility</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">say</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">reports</governor>
+            <dependent idx="1">Unconfirmed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">say</governor>
+            <dependent idx="2">reports</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="5">could</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="6">become</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">say</governor>
+            <dependent idx="7">Speaker</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">position</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="7">Speaker</governor>
+            <dependent idx="10">position</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">honour</governor>
+            <dependent idx="12">some</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">position</governor>
+            <dependent idx="13">honour</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">honour</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="15">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">responsibility</governor>
+            <dependent idx="16">great</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">but</governor>
+            <dependent idx="17">responsibility</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

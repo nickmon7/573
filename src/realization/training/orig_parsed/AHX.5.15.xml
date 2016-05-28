@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Nothing</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>heard</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>from</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>him</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>after</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>he</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>faxed</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>message</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>home</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>giving</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="13">
+            <word>arrangements</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>for</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>his</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="16">
+            <word>mother</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>meet</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>him</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="21">
+            <word>celebrate</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="22">
+            <word>her</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="23">
+            <word>40th</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>birthday</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NN Nothing)) (VP (VBD was) (VP (VBN heard) (PP (IN from) (NP (PRP him))) (SBAR (IN after) (S (NP (PRP he)) (VP (VBD faxed) (NP (DT a) (NN message) (NN home)) (S (VP (VBG giving) (NP (NP (NNS arrangements)) (PP (IN for) (NP (PRP$ his) (NN mother) (S (VP (TO to) (VP (VB meet) (S (NP (PRP him)) (VP (TO to) (VP (VB celebrate) (NP (PRP$ her) (JJ 40th) (NN birthday)))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heard</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="1">Nothing</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">heard</governor>
+            <dependent idx="4">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">from</governor>
+            <dependent idx="5">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">faxed</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">heard</governor>
+            <dependent idx="8">faxed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">home</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">home</governor>
+            <dependent idx="10">message</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="11">home</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">faxed</governor>
+            <dependent idx="12">giving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">giving</governor>
+            <dependent idx="13">arrangements</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">arrangements</governor>
+            <dependent idx="14">for</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">mother</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">for</governor>
+            <dependent idx="16">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">meet</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">mother</governor>
+            <dependent idx="18">meet</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="18">meet</governor>
+            <dependent idx="21">celebrate</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">birthday</governor>
+            <dependent idx="22">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">birthday</governor>
+            <dependent idx="23">40th</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="24">birthday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heard</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="1">Nothing</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="3">heard</governor>
+            <dependent idx="5">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">faxed</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">heard</governor>
+            <dependent idx="8">faxed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">home</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">home</governor>
+            <dependent idx="10">message</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="11">home</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">faxed</governor>
+            <dependent idx="12">giving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">giving</governor>
+            <dependent idx="13">arrangements</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">mother</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">arrangements</governor>
+            <dependent idx="16">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">meet</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">mother</governor>
+            <dependent idx="18">meet</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="18">meet</governor>
+            <dependent idx="21">celebrate</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">birthday</governor>
+            <dependent idx="22">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">birthday</governor>
+            <dependent idx="23">40th</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="24">birthday</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">heard</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="1">Nothing</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">heard</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="3">heard</governor>
+            <dependent idx="5">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">faxed</governor>
+            <dependent idx="6">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">heard</governor>
+            <dependent idx="8">faxed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">home</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">home</governor>
+            <dependent idx="10">message</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">faxed</governor>
+            <dependent idx="11">home</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">faxed</governor>
+            <dependent idx="12">giving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">giving</governor>
+            <dependent idx="13">arrangements</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">mother</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="13">arrangements</governor>
+            <dependent idx="16">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">meet</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">mother</governor>
+            <dependent idx="18">meet</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="18">meet</governor>
+            <dependent idx="21">celebrate</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="24">birthday</governor>
+            <dependent idx="22">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">birthday</governor>
+            <dependent idx="23">40th</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">celebrate</governor>
+            <dependent idx="24">birthday</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

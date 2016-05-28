@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Expectations</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>that</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>hospitals</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>would</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="5">
+            <word>be</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>able</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>work</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>up</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="10">
+            <word>detailed</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>costings</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>had</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>been</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>revised</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Expectations)) (SBAR (IN that) (S (NP (NNS hospitals)) (VP (MD would) (VP (VB be) (ADJP (JJ able) (S (VP (TO to) (VP (VB work) (PRT (RP up)) (NP (JJ detailed) (NNS costings))))))))))) (VP (VBD had) (VP (VBN been) (VP (VBN revised)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">revised</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="1">Expectations</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">able</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">able</governor>
+            <dependent idx="3">hospitals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">able</governor>
+            <dependent idx="4">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">able</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Expectations</governor>
+            <dependent idx="6">able</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">work</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">able</governor>
+            <dependent idx="8">work</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">work</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">costings</governor>
+            <dependent idx="10">detailed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">work</governor>
+            <dependent idx="11">costings</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">revised</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">revised</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="1">Expectations</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">able</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">able</governor>
+            <dependent idx="3">hospitals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">able</governor>
+            <dependent idx="4">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">able</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Expectations</governor>
+            <dependent idx="6">able</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">work</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">able</governor>
+            <dependent idx="8">work</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">work</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">costings</governor>
+            <dependent idx="10">detailed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">work</governor>
+            <dependent idx="11">costings</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">revised</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">revised</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="1">Expectations</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">able</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">able</governor>
+            <dependent idx="3">hospitals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">able</governor>
+            <dependent idx="4">would</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">able</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Expectations</governor>
+            <dependent idx="6">able</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">work</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">able</governor>
+            <dependent idx="8">work</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">work</governor>
+            <dependent idx="9">up</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">costings</governor>
+            <dependent idx="10">detailed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">work</governor>
+            <dependent idx="11">costings</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">revised</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">revised</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

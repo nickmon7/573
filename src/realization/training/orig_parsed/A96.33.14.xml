@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>addition</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>opposition</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>demanded</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>foreign</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>ministry</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>five</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>other</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>cabinet</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>posts</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NN addition))) (, ,) (NP (DT the) (NN opposition)) (VP (VBD demanded) (NP (NP (DT the) (JJ foreign) (NN ministry)) (CC and) (NP (CD five) (JJ other) (NN cabinet) (NNS posts)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">demanded</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">demanded</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="2">addition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">opposition</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="5">opposition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">ministry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">ministry</governor>
+            <dependent idx="8">foreign</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="9">ministry</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">ministry</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">posts</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">posts</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">posts</governor>
+            <dependent idx="13">cabinet</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">ministry</governor>
+            <dependent idx="14">posts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">demanded</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">demanded</governor>
+            <dependent idx="2">addition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">opposition</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="5">opposition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">ministry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">ministry</governor>
+            <dependent idx="8">foreign</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="9">ministry</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">posts</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">posts</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">posts</governor>
+            <dependent idx="13">cabinet</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">ministry</governor>
+            <dependent idx="14">posts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">demanded</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">demanded</governor>
+            <dependent idx="2">addition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">opposition</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="5">opposition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">ministry</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">ministry</governor>
+            <dependent idx="8">foreign</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="9">ministry</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">posts</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">posts</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">posts</governor>
+            <dependent idx="13">cabinet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">demanded</governor>
+            <dependent idx="14">posts</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">ministry</governor>
+            <dependent idx="14">posts</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

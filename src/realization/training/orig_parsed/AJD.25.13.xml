@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>Long</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>before</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>most</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="6">
+            <word>recent</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>dramatic</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>rise</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>Liberal</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Democrats</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>Cornwall</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>was</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>bedrock</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>liberalism</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="21">
+            <word>democracy</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (PP (ADVP (RB Long)) (IN before) (NP (NP (DT the) (RBS most) (JJ recent) (JJ dramatic) (NN rise)) (PP (IN of) (NP (DT the) (NNP Liberal) (NNPS Democrats))))) (, ,) (NP (NNP Cornwall)) (VP (VBD was) (NP (NP (DT the) (NN bedrock)) (PP (IN of) (NP (NN liberalism) (CC and) (NN democracy))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">bedrock</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">before</governor>
+            <dependent idx="2">Long</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="3">before</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">rise</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">rise</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="6">recent</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="7">dramatic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">before</governor>
+            <dependent idx="8">rise</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">rise</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="11">Liberal</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="12">Democrats</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="14">Cornwall</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="19">liberalism</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="19">liberalism</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="19">liberalism</governor>
+            <dependent idx="21">democracy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">bedrock</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="2">Long</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">rise</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">rise</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="6">recent</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="7">dramatic</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="8">rise</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="11">Liberal</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">rise</governor>
+            <dependent idx="12">Democrats</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="14">Cornwall</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="19">liberalism</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="19">liberalism</governor>
+            <dependent idx="21">democracy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">bedrock</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="2">Long</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">rise</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">rise</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="6">recent</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">rise</governor>
+            <dependent idx="7">dramatic</dependent>
+          </dep>
+          <dep type="prep_before">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="8">rise</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Democrats</governor>
+            <dependent idx="11">Liberal</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">rise</governor>
+            <dependent idx="12">Democrats</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="14">Cornwall</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="15">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="19">liberalism</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">bedrock</governor>
+            <dependent idx="21">democracy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="19">liberalism</governor>
+            <dependent idx="21">democracy</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

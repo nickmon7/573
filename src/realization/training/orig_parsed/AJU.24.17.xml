@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>There</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>another</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>side</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>him</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>which</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="9">
+            <word>I</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>did</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>n't</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>see</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>at</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>first</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (EX There)) (VP (VBD was) (NP (NP (DT another) (NN side)) (PP (TO to) (NP (PRP him))) (SBAR (WHNP (WDT which)) (S (NP (PRP I)) (VP (VBD did) (RB n't) (VP (VB see) (PP (IN at) (NP (JJ first))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">was</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">side</governor>
+            <dependent idx="4">another</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="5">side</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">side</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">to</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">see</governor>
+            <dependent idx="8">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">see</governor>
+            <dependent idx="9">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">see</governor>
+            <dependent idx="10">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">see</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">side</governor>
+            <dependent idx="12">see</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">see</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">at</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">was</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">side</governor>
+            <dependent idx="4">another</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="5">side</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">side</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">see</governor>
+            <dependent idx="8">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">see</governor>
+            <dependent idx="9">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">see</governor>
+            <dependent idx="10">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">see</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">side</governor>
+            <dependent idx="12">see</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">see</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="3">was</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">side</governor>
+            <dependent idx="4">another</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="5">side</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">side</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">see</governor>
+            <dependent idx="8">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">see</governor>
+            <dependent idx="9">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">see</governor>
+            <dependent idx="10">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="12">see</governor>
+            <dependent idx="11">n't</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">side</governor>
+            <dependent idx="12">see</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">see</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

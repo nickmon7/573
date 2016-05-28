@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Born</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="2">
+            <word>May</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>5</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>1907</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>Schwab</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>moved</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="10">
+            <word>Los</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>with</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>his</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="14">
+            <word>family</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Born) (NP-TMP (NNP May) (CD 5) (, ,) (CD 1907)))) (, ,) (NP (NNP Schwab)) (VP (VBD moved) (PP (TO to) (NP (NNP Los) (NNP Angeles))) (PP (IN with) (NP (PRP$ his) (NN family)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">moved</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">moved</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="1">Born</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="3">5</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="5">1907</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">moved</governor>
+            <dependent idx="7">Schwab</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">moved</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Angeles</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">to</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">moved</governor>
+            <dependent idx="12">with</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">family</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">with</governor>
+            <dependent idx="14">family</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">moved</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">moved</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="1">Born</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="3">5</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="5">1907</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">moved</governor>
+            <dependent idx="7">Schwab</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Angeles</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="8">moved</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">family</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="8">moved</governor>
+            <dependent idx="14">family</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">moved</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="8">moved</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="1">Born</governor>
+            <dependent idx="2">May</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="3">5</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">May</governor>
+            <dependent idx="5">1907</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">moved</governor>
+            <dependent idx="7">Schwab</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">Angeles</governor>
+            <dependent idx="10">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="8">moved</governor>
+            <dependent idx="11">Angeles</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">family</governor>
+            <dependent idx="13">his</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="8">moved</governor>
+            <dependent idx="14">family</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

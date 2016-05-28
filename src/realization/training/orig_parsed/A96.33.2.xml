@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Forum</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>reacted</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>furiously</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>Mr</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Adamec</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>'s</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="9">
+            <word>resignation</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>virtually</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>accusing</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="13">
+            <word>him</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>lying</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>public</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Forum)) (VP (VBD reacted) (ADVP (RB furiously)) (PP (TO to) (NP (NP (NNP Mr) (NNP Adamec) (POS 's)) (NN resignation))) (, ,) (S (ADVP (RB virtually)) (VP (VBG accusing) (NP (PRP him)) (PP (IN of) (S (VP (VBG lying) (PP (TO to) (NP (DT the) (NN public))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reacted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">reacted</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">reacted</governor>
+            <dependent idx="4">furiously</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">reacted</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Adamec</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">resignation</governor>
+            <dependent idx="7">Adamec</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="7">Adamec</governor>
+            <dependent idx="8">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">to</governor>
+            <dependent idx="9">resignation</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">accusing</governor>
+            <dependent idx="11">virtually</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">reacted</governor>
+            <dependent idx="12">accusing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">accusing</governor>
+            <dependent idx="13">him</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">accusing</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="14">of</governor>
+            <dependent idx="15">lying</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">lying</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">public</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">to</governor>
+            <dependent idx="18">public</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reacted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">reacted</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">reacted</governor>
+            <dependent idx="4">furiously</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Adamec</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">resignation</governor>
+            <dependent idx="7">Adamec</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="3">reacted</governor>
+            <dependent idx="9">resignation</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">accusing</governor>
+            <dependent idx="11">virtually</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">reacted</governor>
+            <dependent idx="12">accusing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">accusing</governor>
+            <dependent idx="13">him</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="12">accusing</governor>
+            <dependent idx="15">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">public</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">lying</governor>
+            <dependent idx="18">public</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">reacted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">reacted</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">reacted</governor>
+            <dependent idx="4">furiously</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Adamec</governor>
+            <dependent idx="6">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">resignation</governor>
+            <dependent idx="7">Adamec</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="3">reacted</governor>
+            <dependent idx="9">resignation</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">accusing</governor>
+            <dependent idx="11">virtually</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">reacted</governor>
+            <dependent idx="12">accusing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">accusing</governor>
+            <dependent idx="13">him</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="12">accusing</governor>
+            <dependent idx="15">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">public</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">lying</governor>
+            <dependent idx="18">public</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

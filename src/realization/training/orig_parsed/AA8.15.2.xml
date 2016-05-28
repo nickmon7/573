@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>From</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>bottom</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>list</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>nominees</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>climbed</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>top</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN From) (NP (NP (DT the) (NN bottom)) (PP (IN of) (NP (NP (DT the) (NN list)) (PP (IN of) (NP (NNS nominees))))))) (NP (PRP he)) (VP (VBD climbed) (PP (TO to) (NP (DT the) (NN top)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">climbed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">climbed</governor>
+            <dependent idx="1">From</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">bottom</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">From</governor>
+            <dependent idx="3">bottom</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">bottom</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">list</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="6">list</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">list</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="8">nominees</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">climbed</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">climbed</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">top</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">to</governor>
+            <dependent idx="13">top</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">climbed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">bottom</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="10">climbed</governor>
+            <dependent idx="3">bottom</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">list</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">bottom</governor>
+            <dependent idx="6">list</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">list</governor>
+            <dependent idx="8">nominees</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">climbed</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">top</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="10">climbed</governor>
+            <dependent idx="13">top</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">climbed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">bottom</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="10">climbed</governor>
+            <dependent idx="3">bottom</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">list</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">bottom</governor>
+            <dependent idx="6">list</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">list</governor>
+            <dependent idx="8">nominees</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">climbed</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">top</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="10">climbed</governor>
+            <dependent idx="13">top</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

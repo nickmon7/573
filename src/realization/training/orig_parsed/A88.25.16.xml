@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>one</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="3">
+            <word>insider</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>said</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>banks</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>could</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="10">
+            <word>deal</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>scheme</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>mortal</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>blow</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>if</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>they</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="18">
+            <word>continued</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>up</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>price</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (CD one) (NN insider)) (VP (VBD said) (NP-TMP (NN yesterday)) (SBAR (IN that) (S (NP (DT the) (NNS banks)) (VP (MD could) (VP (VB deal) (NP (DT the) (NN scheme)) (SBAR (NP (DT a) (JJ mortal) (NN blow)) (IN if) (S (NP (PRP they)) (VP (VBD continued) (PP (TO to) (NP (RB up) (DT the) (NN price))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">insider</governor>
+            <dependent idx="2">one</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">insider</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">said</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">deal</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">banks</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">deal</governor>
+            <dependent idx="8">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">deal</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="10">deal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scheme</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">deal</governor>
+            <dependent idx="12">scheme</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">blow</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">blow</governor>
+            <dependent idx="14">mortal</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">continued</governor>
+            <dependent idx="15">blow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">continued</governor>
+            <dependent idx="16">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">continued</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">deal</governor>
+            <dependent idx="18">continued</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">continued</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">price</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">price</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">to</governor>
+            <dependent idx="22">price</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">insider</governor>
+            <dependent idx="2">one</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">insider</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">said</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">deal</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">banks</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">deal</governor>
+            <dependent idx="8">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">deal</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="10">deal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scheme</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">deal</governor>
+            <dependent idx="12">scheme</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">blow</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">blow</governor>
+            <dependent idx="14">mortal</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">continued</governor>
+            <dependent idx="15">blow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">continued</governor>
+            <dependent idx="16">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">continued</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">deal</governor>
+            <dependent idx="18">continued</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">price</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">price</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">continued</governor>
+            <dependent idx="22">price</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">said</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">insider</governor>
+            <dependent idx="2">one</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">insider</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">said</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">deal</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">banks</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">deal</governor>
+            <dependent idx="8">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">deal</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="10">deal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">scheme</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">deal</governor>
+            <dependent idx="12">scheme</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">blow</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">blow</governor>
+            <dependent idx="14">mortal</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">continued</governor>
+            <dependent idx="15">blow</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">continued</governor>
+            <dependent idx="16">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">continued</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="10">deal</governor>
+            <dependent idx="18">continued</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="22">price</governor>
+            <dependent idx="20">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">price</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="18">continued</governor>
+            <dependent idx="22">price</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Boys</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="2">
+            <word>Gerald</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Sterling</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>13</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>Conservative</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>candidate</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>had</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>cut</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>short</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>his</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="16">
+            <word>speech</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>because</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>he</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="19">
+            <word>had</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="20">
+            <word>a</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>music</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>lesson</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNPS Boys) (NNP Gerald) (NNP Sterling)) (, ,) (NP (NP (CD 13)) (, ,) (NP (DT the) (JJ Conservative) (NN candidate))) (, ,)) (VP (VBD had) (S (VP (TO to) (VP (VB cut) (ADVP (RB short)) (NP (PRP$ his) (NN speech))))) (SBAR (IN because) (S (NP (PRP he)) (VP (VBD had) (NP (DT a) (NN music) (NN lesson)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="1">Boys</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="2">Gerald</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="3">Sterling</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="5">13</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">candidate</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">candidate</governor>
+            <dependent idx="8">Conservative</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">13</governor>
+            <dependent idx="9">candidate</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cut</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">had</governor>
+            <dependent idx="13">cut</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">cut</governor>
+            <dependent idx="14">short</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">speech</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">cut</governor>
+            <dependent idx="16">speech</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">had</governor>
+            <dependent idx="17">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">had</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">lesson</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">lesson</governor>
+            <dependent idx="21">music</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">had</governor>
+            <dependent idx="22">lesson</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="1">Boys</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="2">Gerald</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="3">Sterling</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="5">13</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">candidate</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">candidate</governor>
+            <dependent idx="8">Conservative</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">13</governor>
+            <dependent idx="9">candidate</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cut</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">had</governor>
+            <dependent idx="13">cut</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">cut</governor>
+            <dependent idx="14">short</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">speech</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">cut</governor>
+            <dependent idx="16">speech</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">had</governor>
+            <dependent idx="17">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">had</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">lesson</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">lesson</governor>
+            <dependent idx="21">music</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">had</governor>
+            <dependent idx="22">lesson</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="1">Boys</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="2">Gerald</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="3">Sterling</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Sterling</governor>
+            <dependent idx="5">13</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">candidate</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">candidate</governor>
+            <dependent idx="8">Conservative</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">13</governor>
+            <dependent idx="9">candidate</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cut</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">had</governor>
+            <dependent idx="13">cut</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">cut</governor>
+            <dependent idx="14">short</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">speech</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">cut</governor>
+            <dependent idx="16">speech</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">had</governor>
+            <dependent idx="17">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">had</governor>
+            <dependent idx="18">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">had</governor>
+            <dependent idx="19">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">lesson</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">lesson</governor>
+            <dependent idx="21">music</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">had</governor>
+            <dependent idx="22">lesson</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

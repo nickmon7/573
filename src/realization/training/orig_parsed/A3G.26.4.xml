@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>I</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>would</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>n't</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>say</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>it</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>was</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>last</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>ditch</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>capercaillie</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (MD would) (RB n't) (VP (VB say) (SBAR (S (NP (PRP it)) (VP (VBD was) (NP (NP (DT the) (JJ last) (NN ditch)) (PP (IN for) (NP (DT the) (NN capercaillie))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">say</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">say</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">say</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">ditch</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">ditch</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">ditch</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">ditch</governor>
+            <dependent idx="9">last</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">say</governor>
+            <dependent idx="10">ditch</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">ditch</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">capercaillie</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">for</governor>
+            <dependent idx="13">capercaillie</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">say</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">say</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">say</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">ditch</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">ditch</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">ditch</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">ditch</governor>
+            <dependent idx="9">last</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">say</governor>
+            <dependent idx="10">ditch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">capercaillie</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">ditch</governor>
+            <dependent idx="13">capercaillie</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">say</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">say</governor>
+            <dependent idx="2">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">say</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">say</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">ditch</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="10">ditch</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">ditch</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">ditch</governor>
+            <dependent idx="9">last</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">say</governor>
+            <dependent idx="10">ditch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">capercaillie</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">ditch</governor>
+            <dependent idx="13">capercaillie</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

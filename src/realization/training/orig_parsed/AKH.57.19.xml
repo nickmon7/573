@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>appointed</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>Obe</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>mentioned</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>despatches</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>1945</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>appointed</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>Cb</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>in</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>1970</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VP (VBN appointed) (NP (NNP Obe))) (CC and) (VP (VP (VBN mentioned) (PP (IN in) (NP (NP (NNS despatches)) (PP (IN in) (NP (CD 1945)))))) (CC and) (VP (VBN appointed) (NP (NP (NNP Cb)) (PP (IN in) (NP (CD 1970)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">appointed</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">appointed</governor>
+            <dependent idx="4">Obe</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">appointed</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">appointed</governor>
+            <dependent idx="6">mentioned</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">in</governor>
+            <dependent idx="8">despatches</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">despatches</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">in</governor>
+            <dependent idx="10">1945</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="12">appointed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">appointed</governor>
+            <dependent idx="13">Cb</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">Cb</governor>
+            <dependent idx="14">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">in</governor>
+            <dependent idx="15">1970</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">appointed</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">appointed</governor>
+            <dependent idx="4">Obe</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">appointed</governor>
+            <dependent idx="6">mentioned</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="8">despatches</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">despatches</governor>
+            <dependent idx="10">1945</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="12">appointed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">appointed</governor>
+            <dependent idx="13">Cb</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">Cb</governor>
+            <dependent idx="15">1970</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">appointed</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">appointed</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">appointed</governor>
+            <dependent idx="4">Obe</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">appointed</governor>
+            <dependent idx="6">mentioned</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="8">despatches</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">despatches</governor>
+            <dependent idx="10">1945</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">appointed</governor>
+            <dependent idx="12">appointed</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">mentioned</governor>
+            <dependent idx="12">appointed</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">appointed</governor>
+            <dependent idx="13">Cb</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">Cb</governor>
+            <dependent idx="15">1970</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

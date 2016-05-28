@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>At</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>this</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>moment</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>he</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>-LSB-</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>Calfa</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>-RSB-</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>does</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="10">
+            <word>not</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>have</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>support</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>Civic</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>Forum</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="20">
+            <word>said</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>Mr</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Dienstbier</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (`` ``) (S (PP (IN At) (NP (DT this) (NN moment))) (NP (PRP he)) (VP (VBD -LSB-) (SBAR (S (NP (NNP Calfa) (NNP -RSB-)) (VP (VBZ does) (RB not) (VP (VB have) (NP (NP (DT the) (NN support)) (PP (IN of) (NP (DT the) (NNP Civic) (NNP Forum)))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Mr) (NNP Dienstbier)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="2">At</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">this</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">At</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="6">-LSB-</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">-RSB-</governor>
+            <dependent idx="7">Calfa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="8">-RSB-</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">have</governor>
+            <dependent idx="9">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">have</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">support</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="13">support</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">support</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Forum</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Forum</governor>
+            <dependent idx="16">Civic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="17">Forum</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Dienstbier</governor>
+            <dependent idx="21">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">Dienstbier</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">this</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="6">-LSB-</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">-RSB-</governor>
+            <dependent idx="7">Calfa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="8">-RSB-</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">have</governor>
+            <dependent idx="9">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">have</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">support</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="13">support</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Forum</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Forum</governor>
+            <dependent idx="16">Civic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">support</governor>
+            <dependent idx="17">Forum</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Dienstbier</governor>
+            <dependent idx="21">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">Dienstbier</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">moment</governor>
+            <dependent idx="3">this</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="4">moment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="6">-LSB-</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">-RSB-</governor>
+            <dependent idx="7">Calfa</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="8">-RSB-</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">have</governor>
+            <dependent idx="9">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">have</governor>
+            <dependent idx="10">not</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">-LSB-</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">support</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="13">support</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Forum</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Forum</governor>
+            <dependent idx="16">Civic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">support</governor>
+            <dependent idx="17">Forum</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Dienstbier</governor>
+            <dependent idx="21">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="22">Dienstbier</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

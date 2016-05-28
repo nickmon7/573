@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Together</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>couple</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>raised</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>three</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>boys</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>three</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>girls</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>here</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Together)) (, ,) (NP (DT the) (NN couple)) (VP (VBD raised) (NP (NP (CD three) (NNS boys)) (CC and) (NP (CD three) (NNS girls))) (ADVP (RB here))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">couple</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raised</governor>
+            <dependent idx="4">couple</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">boys</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">raised</governor>
+            <dependent idx="7">boys</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">boys</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">girls</governor>
+            <dependent idx="9">three</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">boys</governor>
+            <dependent idx="10">girls</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="11">here</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">couple</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raised</governor>
+            <dependent idx="4">couple</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">boys</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">raised</governor>
+            <dependent idx="7">boys</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">girls</governor>
+            <dependent idx="9">three</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">boys</governor>
+            <dependent idx="10">girls</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="11">here</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="1">Together</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">couple</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">raised</governor>
+            <dependent idx="4">couple</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">boys</governor>
+            <dependent idx="6">three</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">raised</governor>
+            <dependent idx="7">boys</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">girls</governor>
+            <dependent idx="9">three</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">raised</governor>
+            <dependent idx="10">girls</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">boys</governor>
+            <dependent idx="10">girls</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">raised</governor>
+            <dependent idx="11">here</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

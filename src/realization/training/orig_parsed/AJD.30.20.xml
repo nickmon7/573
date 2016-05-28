@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Party</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>managers</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>had</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>not</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>taken</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>any</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>chances</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>though</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Party) (NNS managers)) (VP (VBD had) (RB not) (VP (VBN taken) (NP (NP (DT any) (NNS chances)) (, ,) (ADVP (RB though))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taken</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">managers</governor>
+            <dependent idx="1">Party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taken</governor>
+            <dependent idx="2">managers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">taken</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">taken</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">chances</governor>
+            <dependent idx="6">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">taken</governor>
+            <dependent idx="7">chances</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">chances</governor>
+            <dependent idx="9">though</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taken</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">managers</governor>
+            <dependent idx="1">Party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taken</governor>
+            <dependent idx="2">managers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">taken</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">taken</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">chances</governor>
+            <dependent idx="6">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">taken</governor>
+            <dependent idx="7">chances</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">chances</governor>
+            <dependent idx="9">though</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">taken</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">managers</governor>
+            <dependent idx="1">Party</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">taken</governor>
+            <dependent idx="2">managers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">taken</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">taken</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">chances</governor>
+            <dependent idx="6">any</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">taken</governor>
+            <dependent idx="7">chances</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">chances</governor>
+            <dependent idx="9">though</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

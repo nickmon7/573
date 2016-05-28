@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>But</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>irony</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>mould-breaking</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>programme</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>like</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>Python</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>is</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="12">
+            <word>that</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>it</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>is</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>dead-end</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>spoiler</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>for</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>rest</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>of</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>us</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (CC But) (NP (NP (DT the) (NN irony)) (PP (IN of) (NP (NP (DT a) (JJ mould-breaking) (NN programme)) (PP (IN like) (NP (NNP Python)))))) (VP (VBZ is) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ is) (NP (DT a) (NN dead-end))))))) (, ,) (S (NP (NP (DT a) (NN spoiler)) (PP (IN for) (NP (NP (DT the) (NN rest)) (PP (IN of) (NP (PRP us))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">is</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">irony</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">is</governor>
+            <dependent idx="4">irony</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">irony</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">programme</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">programme</governor>
+            <dependent idx="7">mould-breaking</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">of</governor>
+            <dependent idx="8">programme</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">programme</governor>
+            <dependent idx="9">like</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">like</governor>
+            <dependent idx="10">Python</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="12">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="16">dead-end</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="19">spoiler</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="20">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">rest</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">for</governor>
+            <dependent idx="22">rest</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="22">rest</governor>
+            <dependent idx="23">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">of</governor>
+            <dependent idx="24">us</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">is</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">irony</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">is</governor>
+            <dependent idx="4">irony</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">programme</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">programme</governor>
+            <dependent idx="7">mould-breaking</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">irony</governor>
+            <dependent idx="8">programme</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="8">programme</governor>
+            <dependent idx="10">Python</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="12">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="16">dead-end</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="19">spoiler</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">rest</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="22">rest</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="22">rest</governor>
+            <dependent idx="24">us</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">is</governor>
+            <dependent idx="2">But</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">irony</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">is</governor>
+            <dependent idx="4">irony</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">programme</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">programme</governor>
+            <dependent idx="7">mould-breaking</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="4">irony</governor>
+            <dependent idx="8">programme</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="8">programme</governor>
+            <dependent idx="10">Python</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="12">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dead-end</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="16">dead-end</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">is</governor>
+            <dependent idx="19">spoiler</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">rest</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">spoiler</governor>
+            <dependent idx="22">rest</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="22">rest</governor>
+            <dependent idx="24">us</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Because</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>it</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>so</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>bizarre</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>it</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>is</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="8">
+            <word>not</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>possible</word>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>go</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>down</word>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="13">
+            <word>a</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>very</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>new</word>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>route</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>of</word>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>comedy</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>without</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>appearing</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="21">
+            <word>derivative</word>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>226</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>227</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN Because) (S (NP (PRP it)) (VP (VBZ is) (ADJP (RB so) (JJ bizarre))))) (NP (PRP it)) (VP (VBZ is) (RB not) (ADJP (JJ possible) (S (VP (TO to) (VP (VB go) (PRT (RP down)) (NP (NP (DT a) (ADJP (RB very) (JJ new)) (NN route)) (PP (IN of) (NP (NN comedy)))) (PP (IN without) (S (VP (VBG appearing) (NP (NN derivative)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">possible</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">possible</governor>
+            <dependent idx="5">bizarre</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">possible</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">possible</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="9">possible</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">possible</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="11">go</governor>
+            <dependent idx="12">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">route</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">new</governor>
+            <dependent idx="14">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">route</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">go</governor>
+            <dependent idx="16">route</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">route</governor>
+            <dependent idx="17">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">of</governor>
+            <dependent idx="18">comedy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">go</governor>
+            <dependent idx="19">without</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="19">without</governor>
+            <dependent idx="20">appearing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">appearing</governor>
+            <dependent idx="21">derivative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">possible</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">possible</governor>
+            <dependent idx="5">bizarre</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">possible</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">possible</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="9">possible</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">possible</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="11">go</governor>
+            <dependent idx="12">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">route</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">new</governor>
+            <dependent idx="14">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">route</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">go</governor>
+            <dependent idx="16">route</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">route</governor>
+            <dependent idx="18">comedy</dependent>
+          </dep>
+          <dep type="prepc_without">
+            <governor idx="11">go</governor>
+            <dependent idx="20">appearing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">appearing</governor>
+            <dependent idx="21">derivative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">possible</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="1">Because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">bizarre</governor>
+            <dependent idx="4">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="9">possible</governor>
+            <dependent idx="5">bizarre</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">possible</governor>
+            <dependent idx="6">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">possible</governor>
+            <dependent idx="7">is</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="9">possible</governor>
+            <dependent idx="8">not</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">go</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">possible</governor>
+            <dependent idx="11">go</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="11">go</governor>
+            <dependent idx="12">down</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">route</governor>
+            <dependent idx="13">a</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">new</governor>
+            <dependent idx="14">very</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">route</governor>
+            <dependent idx="15">new</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">go</governor>
+            <dependent idx="16">route</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">route</governor>
+            <dependent idx="18">comedy</dependent>
+          </dep>
+          <dep type="prepc_without">
+            <governor idx="11">go</governor>
+            <dependent idx="20">appearing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="20">appearing</governor>
+            <dependent idx="21">derivative</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

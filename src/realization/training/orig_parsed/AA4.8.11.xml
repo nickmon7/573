@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Balloons</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>released</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="5">
+            <word>Czechoslovak</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>flags</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>were</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>waved</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>as</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>passing</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>motorists</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>sounded</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>their</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="14">
+            <word>horns</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>in</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>noisy</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>support</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNS Balloons)) (VP (VBD were) (VP (VBN released)))) (CC and) (S (NP (JJ Czechoslovak) (NNS flags)) (VP (VBD were) (VP (VBD waved) (SBAR (IN as) (S (NP (VBG passing) (NNS motorists)) (VP (VBD sounded) (NP (PRP$ their) (NNS horns)) (PP (IN in) (NP (JJ noisy) (NN support))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">released</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">released</governor>
+            <dependent idx="1">Balloons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">released</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">released</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">flags</governor>
+            <dependent idx="5">Czechoslovak</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="6">flags</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="7">were</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">released</governor>
+            <dependent idx="8">waved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">sounded</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">motorists</governor>
+            <dependent idx="10">passing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="11">motorists</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">waved</governor>
+            <dependent idx="12">sounded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">horns</governor>
+            <dependent idx="13">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="14">horns</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">sounded</governor>
+            <dependent idx="15">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">support</governor>
+            <dependent idx="16">noisy</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">in</governor>
+            <dependent idx="17">support</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">released</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">released</governor>
+            <dependent idx="1">Balloons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">released</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">flags</governor>
+            <dependent idx="5">Czechoslovak</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="6">flags</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="7">were</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">released</governor>
+            <dependent idx="8">waved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">sounded</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">motorists</governor>
+            <dependent idx="10">passing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="11">motorists</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">waved</governor>
+            <dependent idx="12">sounded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">horns</governor>
+            <dependent idx="13">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="14">horns</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">support</governor>
+            <dependent idx="16">noisy</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">sounded</governor>
+            <dependent idx="17">support</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">released</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">released</governor>
+            <dependent idx="1">Balloons</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">released</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">flags</governor>
+            <dependent idx="5">Czechoslovak</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="6">flags</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">waved</governor>
+            <dependent idx="7">were</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">released</governor>
+            <dependent idx="8">waved</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">sounded</governor>
+            <dependent idx="9">as</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">motorists</governor>
+            <dependent idx="10">passing</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="11">motorists</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">waved</governor>
+            <dependent idx="12">sounded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">horns</governor>
+            <dependent idx="13">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sounded</governor>
+            <dependent idx="14">horns</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">support</governor>
+            <dependent idx="16">noisy</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">sounded</governor>
+            <dependent idx="17">support</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

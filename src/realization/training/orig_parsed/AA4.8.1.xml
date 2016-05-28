@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Calfa</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>also</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>said</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>all</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>domestic</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>operations</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>dreaded</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>secret</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>police</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>have</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="15">
+            <word>been</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>halted</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Calfa)) (ADVP (RB also)) (VP (VBD said) (SBAR (IN that) (S (NP (NP (DT all) (JJ domestic) (NNS operations)) (PP (IN of) (NP (DT the) (JJ dreaded) (JJ secret) (NN police)))) (VP (VBP have) (VP (VBN been) (VP (VBN halted))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">said</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">halted</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">operations</governor>
+            <dependent idx="6">all</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">operations</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="8">operations</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">operations</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">police</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="11">dreaded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="12">secret</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="13">police</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">halted</governor>
+            <dependent idx="14">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="15">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="16">halted</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">said</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">halted</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">operations</governor>
+            <dependent idx="6">all</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">operations</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="8">operations</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">police</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="11">dreaded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="12">secret</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">operations</governor>
+            <dependent idx="13">police</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">halted</governor>
+            <dependent idx="14">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="15">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="16">halted</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Calfa</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="2">Calfa</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">said</governor>
+            <dependent idx="3">also</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">halted</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">operations</governor>
+            <dependent idx="6">all</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">operations</governor>
+            <dependent idx="7">domestic</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="8">operations</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">police</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="11">dreaded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">police</governor>
+            <dependent idx="12">secret</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">operations</governor>
+            <dependent idx="13">police</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">halted</governor>
+            <dependent idx="14">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">halted</governor>
+            <dependent idx="15">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="16">halted</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Un</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>team</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>spent</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>three</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>weeks</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>visiting</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>camps</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>September</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Un) (NN team)) (VP (VBD spent) (NP (CD three) (NNS weeks)) (S (VP (VBG visiting) (NP (DT the) (NNS camps)) (PP (IN in) (NP (NNP September)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">spent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">team</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">spent</governor>
+            <dependent idx="3">team</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">weeks</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">spent</governor>
+            <dependent idx="6">weeks</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">spent</governor>
+            <dependent idx="7">visiting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">camps</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">visiting</governor>
+            <dependent idx="9">camps</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">visiting</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="11">September</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">spent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">team</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">spent</governor>
+            <dependent idx="3">team</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">weeks</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">spent</governor>
+            <dependent idx="6">weeks</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">spent</governor>
+            <dependent idx="7">visiting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">camps</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">visiting</governor>
+            <dependent idx="9">camps</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">visiting</governor>
+            <dependent idx="11">September</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">spent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">team</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">team</governor>
+            <dependent idx="2">Un</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">spent</governor>
+            <dependent idx="3">team</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">weeks</governor>
+            <dependent idx="5">three</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="4">spent</governor>
+            <dependent idx="6">weeks</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">spent</governor>
+            <dependent idx="7">visiting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">camps</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">visiting</governor>
+            <dependent idx="9">camps</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">visiting</governor>
+            <dependent idx="11">September</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

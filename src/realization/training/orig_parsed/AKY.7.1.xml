@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Throughout</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>Europe</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>Japan</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>Libyan</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>diplomats</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>were</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>ordered</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>out</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Throughout) (NP (NP (NNP Europe)) (CC and) (PP (IN in) (NP (NNP Japan))))) (, ,) (NP (JJ Libyan) (NNS diplomats)) (VP (VBD were) (VP (VBN ordered) (PRT (RP out)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">ordered</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">ordered</governor>
+            <dependent idx="1">Throughout</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Throughout</governor>
+            <dependent idx="2">Europe</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">Europe</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">Europe</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">Japan</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">diplomats</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="8">diplomats</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="10">ordered</governor>
+            <dependent idx="11">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">ordered</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="10">ordered</governor>
+            <dependent idx="2">Europe</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Europe</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">Japan</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">diplomats</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="8">diplomats</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="10">ordered</governor>
+            <dependent idx="11">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">ordered</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="10">ordered</governor>
+            <dependent idx="2">Europe</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Europe</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="10">ordered</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">Japan</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">diplomats</governor>
+            <dependent idx="7">Libyan</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="8">diplomats</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="10">ordered</governor>
+            <dependent idx="9">were</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="10">ordered</governor>
+            <dependent idx="11">out</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

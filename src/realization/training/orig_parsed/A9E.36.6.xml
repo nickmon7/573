@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Polish</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>jail</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>deaths</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (JJ Polish) (NN jail)) (NP (NNS deaths)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">jail</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">jail</governor>
+            <dependent idx="1">Polish</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">jail</governor>
+            <dependent idx="3">deaths</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">jail</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">jail</governor>
+            <dependent idx="1">Polish</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">jail</governor>
+            <dependent idx="3">deaths</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">jail</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">jail</governor>
+            <dependent idx="1">Polish</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">jail</governor>
+            <dependent idx="3">deaths</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

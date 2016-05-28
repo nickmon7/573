@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Another</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Libyan</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>airliner</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>took</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>off</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="6">
+            <word>from</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Tripoli</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>en</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>route</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>for</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Malta</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>but</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>was</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>refused</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>permission</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>enter</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>Maltese</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>airspace</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT Another) (JJ Libyan) (NN airliner)) (VP (VP (VBD took) (PRT (RP off)) (PP (IN from) (NP (NNP Tripoli))) (ADVP (IN en) (NN route) (PP (IN for) (NP (NNP Malta))))) (, ,) (CC but) (VP (VBD was) (VP (VBN refused) (NP (NN permission)) (S (VP (TO to) (VP (VB enter) (NP (JJ Maltese) (NN airspace)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">took</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">airliner</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">airliner</governor>
+            <dependent idx="2">Libyan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">took</governor>
+            <dependent idx="3">airliner</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">took</governor>
+            <dependent idx="5">off</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">took</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">from</governor>
+            <dependent idx="7">Tripoli</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">took</governor>
+            <dependent idx="8">en</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">en</governor>
+            <dependent idx="9">route</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">en</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">for</governor>
+            <dependent idx="11">Malta</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">took</governor>
+            <dependent idx="13">but</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">refused</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">took</governor>
+            <dependent idx="15">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">refused</governor>
+            <dependent idx="16">permission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">enter</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">refused</governor>
+            <dependent idx="18">enter</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">airspace</governor>
+            <dependent idx="19">Maltese</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">enter</governor>
+            <dependent idx="20">airspace</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">took</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">airliner</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">airliner</governor>
+            <dependent idx="2">Libyan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">took</governor>
+            <dependent idx="3">airliner</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">took</governor>
+            <dependent idx="5">off</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="4">took</governor>
+            <dependent idx="7">Tripoli</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">took</governor>
+            <dependent idx="8">en</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">en</governor>
+            <dependent idx="9">route</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">en</governor>
+            <dependent idx="11">Malta</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">refused</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="4">took</governor>
+            <dependent idx="15">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">refused</governor>
+            <dependent idx="16">permission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">enter</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">refused</governor>
+            <dependent idx="18">enter</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">airspace</governor>
+            <dependent idx="19">Maltese</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">enter</governor>
+            <dependent idx="20">airspace</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">took</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">airliner</governor>
+            <dependent idx="1">Another</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">airliner</governor>
+            <dependent idx="2">Libyan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">took</governor>
+            <dependent idx="3">airliner</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">refused</governor>
+            <dependent idx="3">airliner</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">took</governor>
+            <dependent idx="5">off</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="4">took</governor>
+            <dependent idx="7">Tripoli</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">took</governor>
+            <dependent idx="8">en</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">en</governor>
+            <dependent idx="9">route</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">en</governor>
+            <dependent idx="11">Malta</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">refused</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="4">took</governor>
+            <dependent idx="15">refused</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">refused</governor>
+            <dependent idx="16">permission</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">enter</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">refused</governor>
+            <dependent idx="18">enter</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">airspace</governor>
+            <dependent idx="19">Maltese</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">enter</governor>
+            <dependent idx="20">airspace</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

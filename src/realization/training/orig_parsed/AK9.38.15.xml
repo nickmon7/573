@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Pupils</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>sitting</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="3">
+            <word>GCSEs</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>will</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="5">
+            <word>find</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>more</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>their</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>mark</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>concentrated</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>final</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>exam</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>less</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>course</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>work</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Pupils)) (VP (VBG sitting) (NP (NNS GCSEs)))) (VP (MD will) (VP (VB find) (NP (NP (JJR more)) (PP (IN of) (NP (PRP$ their) (ADJP (ADJP (ADJP (NN mark) (JJ concentrated)) (PP (IN in) (NP (DT a) (JJ final) (NN exam)))) (CC and) (ADJP (JJR less) (PP (IN in) (NP (NN course))))) (NN work)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">find</governor>
+            <dependent idx="1">Pupils</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Pupils</governor>
+            <dependent idx="2">sitting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sitting</governor>
+            <dependent idx="3">GCSEs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">find</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">find</governor>
+            <dependent idx="6">more</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">more</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">work</governor>
+            <dependent idx="8">their</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="9">mark</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">work</governor>
+            <dependent idx="10">concentrated</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">exam</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">exam</governor>
+            <dependent idx="13">final</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="14">exam</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="16">less</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">less</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">in</governor>
+            <dependent idx="18">course</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="19">work</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">find</governor>
+            <dependent idx="1">Pupils</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Pupils</governor>
+            <dependent idx="2">sitting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sitting</governor>
+            <dependent idx="3">GCSEs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">find</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">find</governor>
+            <dependent idx="6">more</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">work</governor>
+            <dependent idx="8">their</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="9">mark</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">work</governor>
+            <dependent idx="10">concentrated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">exam</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">exam</governor>
+            <dependent idx="13">final</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="14">exam</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="16">less</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">less</governor>
+            <dependent idx="18">course</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">more</governor>
+            <dependent idx="19">work</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">find</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">find</governor>
+            <dependent idx="1">Pupils</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="1">Pupils</governor>
+            <dependent idx="2">sitting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">sitting</governor>
+            <dependent idx="3">GCSEs</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">find</governor>
+            <dependent idx="4">will</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">find</governor>
+            <dependent idx="6">more</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">work</governor>
+            <dependent idx="8">their</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="9">mark</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">work</governor>
+            <dependent idx="10">concentrated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">exam</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">exam</governor>
+            <dependent idx="13">final</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="14">exam</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">concentrated</governor>
+            <dependent idx="16">less</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">work</governor>
+            <dependent idx="16">less</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">less</governor>
+            <dependent idx="18">course</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">more</governor>
+            <dependent idx="19">work</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

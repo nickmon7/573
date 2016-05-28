@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>credited</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>with</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>forcing</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>Gen</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Noriega</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>remove</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>portrait</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>Adolf</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>Hitler</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>from</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>wall</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>his</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="20">
+            <word>secret</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>bunker</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="23">
+            <word>training</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="24">
+            <word>the</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="25">
+            <word>dictator</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="26">
+            <word>'s</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="27">
+            <word>personal</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="28">
+            <word>bodyguard</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="29">
+            <word>,</word>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="30">
+            <word>setting</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="31">
+            <word>up</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="32">
+            <word>his</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="33">
+            <word>computer</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="34">
+            <word>networks</word>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>192</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="35">
+            <word>and</word>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="36">
+            <word>complex</word>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="37">
+            <word>personal</word>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>213</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="38">
+            <word>banking</word>
+            <CharacterOffsetBegin>214</CharacterOffsetBegin>
+            <CharacterOffsetEnd>221</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="39">
+            <word>system</word>
+            <CharacterOffsetBegin>222</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="40">
+            <word>,</word>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="41">
+            <word>and</word>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="42">
+            <word>establishing</word>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="43">
+            <word>a</word>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>249</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="44">
+            <word>small</word>
+            <CharacterOffsetBegin>250</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="45">
+            <word>and</word>
+            <CharacterOffsetBegin>256</CharacterOffsetBegin>
+            <CharacterOffsetEnd>259</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="46">
+            <word>private</word>
+            <CharacterOffsetBegin>260</CharacterOffsetBegin>
+            <CharacterOffsetEnd>267</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="47">
+            <word>intelligence</word>
+            <CharacterOffsetBegin>268</CharacterOffsetBegin>
+            <CharacterOffsetEnd>280</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="48">
+            <word>team</word>
+            <CharacterOffsetBegin>281</CharacterOffsetBegin>
+            <CharacterOffsetEnd>285</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="49">
+            <word>to</word>
+            <CharacterOffsetBegin>286</CharacterOffsetBegin>
+            <CharacterOffsetEnd>288</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="50">
+            <word>watch</word>
+            <CharacterOffsetBegin>289</CharacterOffsetBegin>
+            <CharacterOffsetEnd>294</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="51">
+            <word>over</word>
+            <CharacterOffsetBegin>295</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="52">
+            <word>the</word>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>303</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="53">
+            <word>Panamanian</word>
+            <CharacterOffsetBegin>304</CharacterOffsetBegin>
+            <CharacterOffsetEnd>314</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="54">
+            <word>secret</word>
+            <CharacterOffsetBegin>315</CharacterOffsetBegin>
+            <CharacterOffsetEnd>321</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="55">
+            <word>police</word>
+            <CharacterOffsetBegin>322</CharacterOffsetBegin>
+            <CharacterOffsetEnd>328</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="56">
+            <word>and</word>
+            <CharacterOffsetBegin>329</CharacterOffsetBegin>
+            <CharacterOffsetEnd>332</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="57">
+            <word>military</word>
+            <CharacterOffsetBegin>333</CharacterOffsetBegin>
+            <CharacterOffsetEnd>341</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="58">
+            <word>intelligence</word>
+            <CharacterOffsetBegin>342</CharacterOffsetBegin>
+            <CharacterOffsetEnd>354</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="59">
+            <word>.</word>
+            <CharacterOffsetBegin>355</CharacterOffsetBegin>
+            <CharacterOffsetEnd>356</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBZ is) (VP (VBN credited) (PP (IN with) (S (VP (VP (VBG forcing) (S (NP (NNP Gen) (NNP Noriega)) (VP (TO to) (VP (VB remove) (NP (NP (DT a) (NN portrait)) (PP (IN of) (NP (NNP Adolf) (NNP Hitler)))) (PP (IN from) (NP (NP (DT the) (NN wall)) (PP (IN of) (NP (PRP$ his) (JJ secret) (NN bunker))))))))) (, ,) (VP (VBG training) (NP (NP (DT the) (NN dictator) (POS 's)) (JJ personal) (NN bodyguard))) (, ,) (VP (VBG setting) (PRT (RP up)) (NP (NP (PRP$ his) (NN computer) (NNS networks)) (CC and) (NP (JJ complex) (JJ personal) (NN banking) (NN system)))) (, ,) (CC and) (VP (VBG establishing) (NP (DT a) (ADJP (JJ small) (CC and) (JJ private)) (NN intelligence) (NN team) (S (VP (TO to) (VP (VB watch) (PP (IN over) (NP (NP (DT the) (JJ Panamanian) (JJ secret) (NN police)) (CC and) (NP (JJ military) (NN intelligence)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">credited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">credited</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="4">with</governor>
+            <dependent idx="5">forcing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Noriega</governor>
+            <dependent idx="6">Gen</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">remove</governor>
+            <dependent idx="7">Noriega</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">remove</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">forcing</governor>
+            <dependent idx="9">remove</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">portrait</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remove</governor>
+            <dependent idx="11">portrait</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">portrait</governor>
+            <dependent idx="12">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Hitler</governor>
+            <dependent idx="13">Adolf</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">of</governor>
+            <dependent idx="14">Hitler</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">remove</governor>
+            <dependent idx="15">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">wall</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">from</governor>
+            <dependent idx="17">wall</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">wall</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">bunker</governor>
+            <dependent idx="19">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">bunker</governor>
+            <dependent idx="20">secret</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="21">bunker</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">forcing</governor>
+            <dependent idx="23">training</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">dictator</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="25">dictator</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="25">dictator</governor>
+            <dependent idx="26">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="27">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">training</governor>
+            <dependent idx="28">bodyguard</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">forcing</governor>
+            <dependent idx="30">setting</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="30">setting</governor>
+            <dependent idx="31">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="34">networks</governor>
+            <dependent idx="32">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">networks</governor>
+            <dependent idx="33">computer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">setting</governor>
+            <dependent idx="34">networks</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="34">networks</governor>
+            <dependent idx="35">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="36">complex</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="37">personal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="39">system</governor>
+            <dependent idx="38">banking</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="34">networks</governor>
+            <dependent idx="39">system</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">forcing</governor>
+            <dependent idx="41">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">forcing</governor>
+            <dependent idx="42">establishing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">team</governor>
+            <dependent idx="43">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="48">team</governor>
+            <dependent idx="44">small</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="44">small</governor>
+            <dependent idx="45">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="44">small</governor>
+            <dependent idx="46">private</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="48">team</governor>
+            <dependent idx="47">intelligence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">establishing</governor>
+            <dependent idx="48">team</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="50">watch</governor>
+            <dependent idx="49">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="48">team</governor>
+            <dependent idx="50">watch</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="50">watch</governor>
+            <dependent idx="51">over</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="55">police</governor>
+            <dependent idx="52">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="53">Panamanian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="54">secret</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="51">over</governor>
+            <dependent idx="55">police</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="55">police</governor>
+            <dependent idx="56">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="58">intelligence</governor>
+            <dependent idx="57">military</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="55">police</governor>
+            <dependent idx="58">intelligence</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">credited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="3">credited</governor>
+            <dependent idx="5">forcing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Noriega</governor>
+            <dependent idx="6">Gen</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">remove</governor>
+            <dependent idx="7">Noriega</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">remove</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">forcing</governor>
+            <dependent idx="9">remove</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">portrait</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remove</governor>
+            <dependent idx="11">portrait</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Hitler</governor>
+            <dependent idx="13">Adolf</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">portrait</governor>
+            <dependent idx="14">Hitler</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">wall</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="9">remove</governor>
+            <dependent idx="17">wall</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">bunker</governor>
+            <dependent idx="19">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">bunker</governor>
+            <dependent idx="20">secret</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">wall</governor>
+            <dependent idx="21">bunker</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="23">training</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">dictator</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="25">dictator</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="27">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">training</governor>
+            <dependent idx="28">bodyguard</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="30">setting</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="30">setting</governor>
+            <dependent idx="31">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="34">networks</governor>
+            <dependent idx="32">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">networks</governor>
+            <dependent idx="33">computer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">setting</governor>
+            <dependent idx="34">networks</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="36">complex</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="37">personal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="39">system</governor>
+            <dependent idx="38">banking</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="34">networks</governor>
+            <dependent idx="39">system</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="42">establishing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">team</governor>
+            <dependent idx="43">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="48">team</governor>
+            <dependent idx="44">small</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="44">small</governor>
+            <dependent idx="46">private</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="48">team</governor>
+            <dependent idx="47">intelligence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">establishing</governor>
+            <dependent idx="48">team</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="50">watch</governor>
+            <dependent idx="49">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="48">team</governor>
+            <dependent idx="50">watch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="55">police</governor>
+            <dependent idx="52">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="53">Panamanian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="54">secret</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="50">watch</governor>
+            <dependent idx="55">police</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="58">intelligence</governor>
+            <dependent idx="57">military</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="55">police</governor>
+            <dependent idx="58">intelligence</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">credited</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">credited</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="3">credited</governor>
+            <dependent idx="5">forcing</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Noriega</governor>
+            <dependent idx="6">Gen</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">remove</governor>
+            <dependent idx="7">Noriega</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">remove</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">forcing</governor>
+            <dependent idx="9">remove</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">portrait</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">remove</governor>
+            <dependent idx="11">portrait</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Hitler</governor>
+            <dependent idx="13">Adolf</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">portrait</governor>
+            <dependent idx="14">Hitler</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">wall</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="9">remove</governor>
+            <dependent idx="17">wall</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">bunker</governor>
+            <dependent idx="19">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">bunker</governor>
+            <dependent idx="20">secret</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">wall</governor>
+            <dependent idx="21">bunker</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="3">credited</governor>
+            <dependent idx="23">training</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="23">training</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">dictator</governor>
+            <dependent idx="24">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="25">dictator</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">bodyguard</governor>
+            <dependent idx="27">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="23">training</governor>
+            <dependent idx="28">bodyguard</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="3">credited</governor>
+            <dependent idx="30">setting</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="30">setting</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="30">setting</governor>
+            <dependent idx="31">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="34">networks</governor>
+            <dependent idx="32">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">networks</governor>
+            <dependent idx="33">computer</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">setting</governor>
+            <dependent idx="34">networks</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="36">complex</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="39">system</governor>
+            <dependent idx="37">personal</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="39">system</governor>
+            <dependent idx="38">banking</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="30">setting</governor>
+            <dependent idx="39">system</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="34">networks</governor>
+            <dependent idx="39">system</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="3">credited</governor>
+            <dependent idx="42">establishing</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">forcing</governor>
+            <dependent idx="42">establishing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="48">team</governor>
+            <dependent idx="43">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="48">team</governor>
+            <dependent idx="44">small</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="44">small</governor>
+            <dependent idx="46">private</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="48">team</governor>
+            <dependent idx="46">private</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="48">team</governor>
+            <dependent idx="47">intelligence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="42">establishing</governor>
+            <dependent idx="48">team</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="50">watch</governor>
+            <dependent idx="49">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="48">team</governor>
+            <dependent idx="50">watch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="55">police</governor>
+            <dependent idx="52">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="53">Panamanian</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="55">police</governor>
+            <dependent idx="54">secret</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="50">watch</governor>
+            <dependent idx="55">police</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="58">intelligence</governor>
+            <dependent idx="57">military</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="50">watch</governor>
+            <dependent idx="58">intelligence</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="55">police</governor>
+            <dependent idx="58">intelligence</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Two</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="2">
+            <word>people</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>knocked</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>him</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>out</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="6">
+            <word>but</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>he</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>died</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (CD Two) (NNS people)) (VP (VBD knocked) (NP (PRP him)) (PRT (RP out)))) (CC but) (S (NP (PRP he)) (VP (VBD died))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">knocked</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">people</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="2">people</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="4">him</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">knocked</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">knocked</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">knocked</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">people</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="2">people</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="4">him</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">knocked</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">knocked</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">knocked</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="2">people</governor>
+            <dependent idx="1">Two</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="2">people</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">knocked</governor>
+            <dependent idx="4">him</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="3">knocked</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">died</governor>
+            <dependent idx="7">he</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="3">knocked</governor>
+            <dependent idx="8">died</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

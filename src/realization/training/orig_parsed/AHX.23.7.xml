@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>Liberal</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Democrats</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="5">
+            <word>have</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="6">
+            <word>changed</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>their</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>policies</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>eight</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>times</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>seven</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>years</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="16">
+            <word>he</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>said</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (DT The) (NNP Liberal) (NNPS Democrats)) (VP (VBP have) (VP (VBN changed) (NP (PRP$ their) (NNS policies)) (PP (NP (CD eight) (NNS times)) (IN in) (NP (CD seven) (NNS years)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="3">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">changed</governor>
+            <dependent idx="4">Democrats</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">changed</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">said</governor>
+            <dependent idx="6">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">policies</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">changed</governor>
+            <dependent idx="8">policies</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">times</governor>
+            <dependent idx="9">eight</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">in</governor>
+            <dependent idx="10">times</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">changed</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">years</governor>
+            <dependent idx="12">seven</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="13">years</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">said</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="3">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">changed</governor>
+            <dependent idx="4">Democrats</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">changed</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">said</governor>
+            <dependent idx="6">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">policies</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">changed</governor>
+            <dependent idx="8">policies</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">times</governor>
+            <dependent idx="9">eight</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="6">changed</governor>
+            <dependent idx="10">times</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">years</governor>
+            <dependent idx="12">seven</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">changed</governor>
+            <dependent idx="13">years</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">said</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Democrats</governor>
+            <dependent idx="3">Liberal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">changed</governor>
+            <dependent idx="4">Democrats</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">changed</governor>
+            <dependent idx="5">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">said</governor>
+            <dependent idx="6">changed</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">policies</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">changed</governor>
+            <dependent idx="8">policies</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">times</governor>
+            <dependent idx="9">eight</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="6">changed</governor>
+            <dependent idx="10">times</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">years</governor>
+            <dependent idx="12">seven</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">changed</governor>
+            <dependent idx="13">years</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">said</governor>
+            <dependent idx="16">he</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

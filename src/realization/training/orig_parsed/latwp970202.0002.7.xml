@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>very</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>shocking</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>because</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>somehow</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>one</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>does</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>n't</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>reconcile</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>fact</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>that</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>'s</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="16">
+            <word>dead</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>with</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>this</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>person</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="21">
+            <word>this</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>institution</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ 's) (ADJP (RB very) (JJ shocking)) (SBAR (IN because) (S (ADVP (RB somehow)) (NP (PRP one)) (VP (VBZ does) (RB n't) (VP (VB reconcile) (NP (DT the) (NN fact)) (SBAR (IN that) (S (NP (PRP he)) (VP (VBZ 's) (ADJP (JJ dead) (PP (IN with) (NP (NP (DT this) (NN person)) (, ,) (NP (DT this) (NN institution))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">shocking</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">shocking</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">shocking</governor>
+            <dependent idx="3">very</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="6">somehow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="9">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">shocking</governor>
+            <dependent idx="10">reconcile</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">fact</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="12">fact</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead</governor>
+            <dependent idx="15">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="16">dead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">dead</governor>
+            <dependent idx="17">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">person</governor>
+            <dependent idx="18">this</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">with</governor>
+            <dependent idx="19">person</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">institution</governor>
+            <dependent idx="21">this</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">person</governor>
+            <dependent idx="22">institution</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">shocking</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">shocking</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">shocking</governor>
+            <dependent idx="3">very</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="6">somehow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="9">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">shocking</governor>
+            <dependent idx="10">reconcile</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">fact</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="12">fact</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead</governor>
+            <dependent idx="15">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="16">dead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">person</governor>
+            <dependent idx="18">this</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="16">dead</governor>
+            <dependent idx="19">person</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">institution</governor>
+            <dependent idx="21">this</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">person</governor>
+            <dependent idx="22">institution</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocking</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">shocking</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">shocking</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">shocking</governor>
+            <dependent idx="3">very</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="6">somehow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="7">one</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="8">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="9">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">shocking</governor>
+            <dependent idx="10">reconcile</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">fact</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="12">fact</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">dead</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">dead</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="16">dead</governor>
+            <dependent idx="15">'s</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">reconcile</governor>
+            <dependent idx="16">dead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">person</governor>
+            <dependent idx="18">this</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="16">dead</governor>
+            <dependent idx="19">person</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">institution</governor>
+            <dependent idx="21">this</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="19">person</governor>
+            <dependent idx="22">institution</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

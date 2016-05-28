@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>So</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>let</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="3">
+            <word>there</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="4">
+            <word>be</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>no</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>doubt</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (RB So) (VP (VB let) (S (NP (EX there)) (VP (VB be) (NP (DT no) (NN doubt))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">let</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">let</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">be</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">let</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">doubt</governor>
+            <dependent idx="5">no</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="6">doubt</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">let</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">let</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">be</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">let</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">doubt</governor>
+            <dependent idx="5">no</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="6">doubt</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">let</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">let</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">be</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">let</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">doubt</governor>
+            <dependent idx="5">no</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="6">doubt</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>July</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>1973</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>Harari</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>led</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>group</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>which</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="12">
+            <word>accidentally</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>killed</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>an</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>innocent</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>Moroccan</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>waiter</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>Norwegian</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>town</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>of</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>Lillehammer</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (PP (IN in) (NP (NP (NNP July)) (, ,) (NP (CD 1973)))) (, ,) (NP (NNP Harari)) (VP (VBD led) (NP (NP (DT a) (NN group)) (SBAR (WHNP (WDT which)) (S (ADVP (RB accidentally)) (VP (VBD killed) (NP (DT an) (JJ innocent) (NNP Moroccan) (NN waiter)) (PP (IN in) (NP (NP (DT the) (JJ Norwegian) (NN town)) (PP (IN of) (NP (NNP Lillehammer)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">led</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">led</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">led</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">in</governor>
+            <dependent idx="3">July</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">July</governor>
+            <dependent idx="5">1973</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">led</governor>
+            <dependent idx="7">Harari</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">group</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">led</governor>
+            <dependent idx="10">group</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">killed</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">killed</governor>
+            <dependent idx="12">accidentally</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="10">group</governor>
+            <dependent idx="13">killed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">waiter</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">waiter</governor>
+            <dependent idx="15">innocent</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">waiter</governor>
+            <dependent idx="16">Moroccan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">killed</governor>
+            <dependent idx="17">waiter</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">killed</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">town</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">town</governor>
+            <dependent idx="20">Norwegian</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="21">town</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">town</governor>
+            <dependent idx="22">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">of</governor>
+            <dependent idx="23">Lillehammer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">led</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">led</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">led</governor>
+            <dependent idx="3">July</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">July</governor>
+            <dependent idx="5">1973</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">led</governor>
+            <dependent idx="7">Harari</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">group</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">led</governor>
+            <dependent idx="10">group</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">killed</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">killed</governor>
+            <dependent idx="12">accidentally</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="10">group</governor>
+            <dependent idx="13">killed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">waiter</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">waiter</governor>
+            <dependent idx="15">innocent</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">waiter</governor>
+            <dependent idx="16">Moroccan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">killed</governor>
+            <dependent idx="17">waiter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">town</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">town</governor>
+            <dependent idx="20">Norwegian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">killed</governor>
+            <dependent idx="21">town</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">town</governor>
+            <dependent idx="23">Lillehammer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">led</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">led</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">led</governor>
+            <dependent idx="3">July</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">July</governor>
+            <dependent idx="5">1973</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">led</governor>
+            <dependent idx="7">Harari</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">group</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">led</governor>
+            <dependent idx="10">group</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">killed</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">killed</governor>
+            <dependent idx="12">accidentally</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="10">group</governor>
+            <dependent idx="13">killed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">waiter</governor>
+            <dependent idx="14">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">waiter</governor>
+            <dependent idx="15">innocent</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">waiter</governor>
+            <dependent idx="16">Moroccan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">killed</governor>
+            <dependent idx="17">waiter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">town</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">town</governor>
+            <dependent idx="20">Norwegian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">killed</governor>
+            <dependent idx="21">town</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">town</governor>
+            <dependent idx="23">Lillehammer</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Despite</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>his</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="3">
+            <word>popularity</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>with</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>American</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>movie-goers</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>Mastroianni</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>shunned</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>Hollywood</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>decades</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Despite) (NP (NP (PRP$ his) (NN popularity)) (PP (IN with) (NP (JJ American) (NNS movie-goers))))) (, ,) (NP (NNP Mastroianni)) (VP (VBD shunned) (NP (NP (NNP Hollywood)) (PP (IN for) (NP (NNS decades))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">shunned</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">shunned</governor>
+            <dependent idx="1">Despite</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">popularity</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Despite</governor>
+            <dependent idx="3">popularity</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">popularity</governor>
+            <dependent idx="4">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">movie-goers</governor>
+            <dependent idx="5">American</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">with</governor>
+            <dependent idx="6">movie-goers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="8">Mastroianni</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="10">Hollywood</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">Hollywood</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">for</governor>
+            <dependent idx="12">decades</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">shunned</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">popularity</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="9">shunned</governor>
+            <dependent idx="3">popularity</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">movie-goers</governor>
+            <dependent idx="5">American</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">popularity</governor>
+            <dependent idx="6">movie-goers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="8">Mastroianni</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="10">Hollywood</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">Hollywood</governor>
+            <dependent idx="12">decades</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">shunned</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">popularity</governor>
+            <dependent idx="2">his</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="9">shunned</governor>
+            <dependent idx="3">popularity</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">movie-goers</governor>
+            <dependent idx="5">American</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="3">popularity</governor>
+            <dependent idx="6">movie-goers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="8">Mastroianni</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">shunned</governor>
+            <dependent idx="10">Hollywood</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">Hollywood</governor>
+            <dependent idx="12">decades</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

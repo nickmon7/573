@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>he</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>learned</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>value</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>while</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>representing</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>San</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>Quentin</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>prisoner</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>who</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="16">
+            <word>claimed</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>killing</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>another</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>prisoner</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>was</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="23">
+            <word>self-defense</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD learned) (NP (NP (DT the) (NN value)) (PP (IN of) (NP (DT that)))) (SBAR (IN while) (S (S (VP (VBG representing) (NP (NP (DT a) (NNP San) (NNP Quentin) (NN prisoner)) (SBAR (WHNP (WP who)) (S (VP (VBD claimed) (NP (NP (DT the) (NN killing)) (PP (IN of) (NP (DT another) (NN prisoner)))))))))) (VP (VBD was) (ADJP (JJ self-defense))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">learned</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">value</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">learned</governor>
+            <dependent idx="6">value</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">value</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="9">while</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="10">representing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="12">San</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="13">Quentin</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">representing</governor>
+            <dependent idx="14">prisoner</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="16">claimed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">killing</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="18">killing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">killing</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">prisoner</governor>
+            <dependent idx="20">another</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="21">prisoner</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="22">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">learned</governor>
+            <dependent idx="23">self-defense</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">learned</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">value</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">learned</governor>
+            <dependent idx="6">value</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">value</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="9">while</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="10">representing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="12">San</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="13">Quentin</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">representing</governor>
+            <dependent idx="14">prisoner</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="16">claimed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">killing</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="18">killing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">prisoner</governor>
+            <dependent idx="20">another</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">killing</governor>
+            <dependent idx="21">prisoner</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="22">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">learned</governor>
+            <dependent idx="23">self-defense</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">learned</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">learned</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">value</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">learned</governor>
+            <dependent idx="6">value</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">value</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="9">while</dependent>
+          </dep>
+          <dep type="csubj">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="10">representing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="12">San</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="13">Quentin</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">representing</governor>
+            <dependent idx="14">prisoner</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">prisoner</governor>
+            <dependent idx="16">claimed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">killing</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">claimed</governor>
+            <dependent idx="18">killing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">prisoner</governor>
+            <dependent idx="20">another</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">killing</governor>
+            <dependent idx="21">prisoner</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">self-defense</governor>
+            <dependent idx="22">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">learned</governor>
+            <dependent idx="23">self-defense</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Kurtz</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>came</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>from</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>Missouri</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>age</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>14</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>hitch-hiked</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>Los</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>seeking</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="18">
+            <word>top</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="19">
+            <word>diving</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>coaches</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Kurtz)) (VP (VBD came) (PP (PP (IN from) (NP (NNP Missouri))) (, ,) (CC and) (PP (IN at) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (CD 14)))))) (, ,) (S (ADJP (JJ hitch-hiked) (PP (TO to) (NP (NP (NNP Los) (NNP Angeles)) (VP (VBG seeking) (NP (JJ top) (JJ diving) (NNS coaches)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">came</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">came</governor>
+            <dependent idx="1">Kurtz</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">came</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">from</governor>
+            <dependent idx="4">Missouri</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">from</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">from</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">age</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">at</governor>
+            <dependent idx="9">age</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">age</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="11">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">came</governor>
+            <dependent idx="13">hitch-hiked</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">hitch-hiked</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">to</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="17">seeking</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="18">top</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="19">diving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">seeking</governor>
+            <dependent idx="20">coaches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">came</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">came</governor>
+            <dependent idx="1">Kurtz</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">came</governor>
+            <dependent idx="2" copy="1">came</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="2">came</governor>
+            <dependent idx="4">Missouri</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">age</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2" copy="1">came</governor>
+            <dependent idx="9">age</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">age</governor>
+            <dependent idx="11">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">came</governor>
+            <dependent idx="13">hitch-hiked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">hitch-hiked</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="17">seeking</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="18">top</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="19">diving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">seeking</governor>
+            <dependent idx="20">coaches</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">came</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">came</governor>
+            <dependent idx="1">Kurtz</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2" copy="1">came</governor>
+            <dependent idx="1">Kurtz</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">came</governor>
+            <dependent idx="2" copy="1">came</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="2">came</governor>
+            <dependent idx="4">Missouri</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">age</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2" copy="1">came</governor>
+            <dependent idx="9">age</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">age</governor>
+            <dependent idx="11">14</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">came</governor>
+            <dependent idx="13">hitch-hiked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="15">Los</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">hitch-hiked</governor>
+            <dependent idx="16">Angeles</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">Angeles</governor>
+            <dependent idx="17">seeking</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="18">top</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">coaches</governor>
+            <dependent idx="19">diving</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">seeking</governor>
+            <dependent idx="20">coaches</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

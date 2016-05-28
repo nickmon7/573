@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>His</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>death</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>from</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>cardiac</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>arrest</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>was</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>tearfully</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>announced</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>by</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>his</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="11">
+            <word>law</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>partner</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>Ron</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Kuby</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (PRP$ His) (NN death)) (PP (IN from) (NP (JJ cardiac) (NN arrest)))) (VP (VBD was) (ADVP (RB tearfully)) (VP (VBN announced) (PP (IN by) (NP (NP (PRP$ his) (NN law) (NN partner)) (, ,) (NP (NNP Ron) (NNP Kuby)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">announced</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">death</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="2">death</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">death</governor>
+            <dependent idx="3">from</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">arrest</governor>
+            <dependent idx="4">cardiac</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">from</governor>
+            <dependent idx="5">arrest</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">announced</governor>
+            <dependent idx="7">tearfully</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">announced</governor>
+            <dependent idx="9">by</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">partner</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">partner</governor>
+            <dependent idx="11">law</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">by</governor>
+            <dependent idx="12">partner</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Kuby</governor>
+            <dependent idx="14">Ron</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">partner</governor>
+            <dependent idx="15">Kuby</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">announced</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">death</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="2">death</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">arrest</governor>
+            <dependent idx="4">cardiac</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="2">death</governor>
+            <dependent idx="5">arrest</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">announced</governor>
+            <dependent idx="7">tearfully</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">partner</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">partner</governor>
+            <dependent idx="11">law</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="8">announced</governor>
+            <dependent idx="12">partner</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Kuby</governor>
+            <dependent idx="14">Ron</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">partner</governor>
+            <dependent idx="15">Kuby</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">announced</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">death</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="2">death</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">arrest</governor>
+            <dependent idx="4">cardiac</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="2">death</governor>
+            <dependent idx="5">arrest</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">announced</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">announced</governor>
+            <dependent idx="7">tearfully</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">partner</governor>
+            <dependent idx="10">his</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">partner</governor>
+            <dependent idx="11">law</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="8">announced</governor>
+            <dependent idx="12">partner</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Kuby</governor>
+            <dependent idx="14">Ron</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="12">partner</governor>
+            <dependent idx="15">Kuby</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

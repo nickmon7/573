@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>The</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>problem</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>here</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>West</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Germany</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>we</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>have</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="12">
+            <word>an</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>increasingly</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>split</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>labour</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>market</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>''</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="19">
+            <word>Mr</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>Brauninger</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>explained</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (DT The) (NN problem)) (ADVP (RB here)) (VP (VBZ is) (SBAR (IN that) (S (PP (IN in) (NP (NNP West) (NNP Germany))) (NP (PRP we)) (VP (VBP have) (NP (DT an) (ADJP (RB increasingly) (JJ split)) (NN labour) (NN market))))))) (, ,) ('' '') (NP (NNP Mr) (NNP Brauninger)) (VP (VBD explained)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">explained</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">problem</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">is</governor>
+            <dependent idx="3">problem</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">is</governor>
+            <dependent idx="4">here</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="21">explained</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">have</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">have</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Germany</governor>
+            <dependent idx="8">West</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">in</governor>
+            <dependent idx="9">Germany</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">is</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">market</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">split</governor>
+            <dependent idx="13">increasingly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">market</governor>
+            <dependent idx="14">split</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">market</governor>
+            <dependent idx="15">labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="16">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Brauninger</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">explained</governor>
+            <dependent idx="20">Brauninger</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">explained</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">problem</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">is</governor>
+            <dependent idx="3">problem</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">is</governor>
+            <dependent idx="4">here</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="21">explained</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">have</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Germany</governor>
+            <dependent idx="8">West</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">have</governor>
+            <dependent idx="9">Germany</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">is</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">market</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">split</governor>
+            <dependent idx="13">increasingly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">market</governor>
+            <dependent idx="14">split</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">market</governor>
+            <dependent idx="15">labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="16">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Brauninger</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">explained</governor>
+            <dependent idx="20">Brauninger</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="21">explained</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">problem</governor>
+            <dependent idx="2">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">is</governor>
+            <dependent idx="3">problem</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">is</governor>
+            <dependent idx="4">here</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="21">explained</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">have</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Germany</governor>
+            <dependent idx="8">West</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">have</governor>
+            <dependent idx="9">Germany</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">have</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">is</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">market</governor>
+            <dependent idx="12">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">split</governor>
+            <dependent idx="13">increasingly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">market</governor>
+            <dependent idx="14">split</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">market</governor>
+            <dependent idx="15">labour</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">have</governor>
+            <dependent idx="16">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Brauninger</governor>
+            <dependent idx="19">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">explained</governor>
+            <dependent idx="20">Brauninger</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

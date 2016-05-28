@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>minister</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>would</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>retain</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>only</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>right</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>intervention</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>if</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>hospitals</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>or</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>health</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>authorities</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>``</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="16">
+            <word>abused</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>''</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="18">
+            <word>their</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="19">
+            <word>freedom</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="21">
+            <word>develop</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="22">
+            <word>pay-beds</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>at</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="24">
+            <word>will</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN minister)) (VP (MD would) (VP (VB retain) (NP (NP (RB only) (DT a) (NN right)) (PP (IN of) (NP (NN intervention)))) (SBAR (IN if) (S (NP (NP (NNS hospitals)) (CC or) (NP (NN health) (NNS authorities))) (VP (`` ``) (VBN abused) ('' '') (NP (PRP$ their) (NN freedom)) (PP (TO to) (VP (VB develop) (NP (NNS pay-beds)) (PP (IN at) (NP (NN will)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retain</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retain</governor>
+            <dependent idx="2">minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">retain</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">right</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">right</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">retain</governor>
+            <dependent idx="7">right</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">right</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">intervention</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">abused</governor>
+            <dependent idx="10">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">abused</governor>
+            <dependent idx="11">hospitals</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">hospitals</governor>
+            <dependent idx="12">or</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">authorities</governor>
+            <dependent idx="13">health</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">hospitals</governor>
+            <dependent idx="14">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">retain</governor>
+            <dependent idx="16">abused</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">freedom</governor>
+            <dependent idx="18">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">abused</governor>
+            <dependent idx="19">freedom</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">abused</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">to</governor>
+            <dependent idx="21">develop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">develop</governor>
+            <dependent idx="22">pay-beds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">develop</governor>
+            <dependent idx="23">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="23">at</governor>
+            <dependent idx="24">will</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retain</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retain</governor>
+            <dependent idx="2">minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">retain</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">right</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">right</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">retain</governor>
+            <dependent idx="7">right</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">right</governor>
+            <dependent idx="9">intervention</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">abused</governor>
+            <dependent idx="10">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">abused</governor>
+            <dependent idx="11">hospitals</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">authorities</governor>
+            <dependent idx="13">health</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="11">hospitals</governor>
+            <dependent idx="14">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">retain</governor>
+            <dependent idx="16">abused</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">freedom</governor>
+            <dependent idx="18">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">abused</governor>
+            <dependent idx="19">freedom</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">abused</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">to</governor>
+            <dependent idx="21">develop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">develop</governor>
+            <dependent idx="22">pay-beds</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="21">develop</governor>
+            <dependent idx="24">will</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">retain</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">minister</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">retain</governor>
+            <dependent idx="2">minister</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">retain</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">right</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">right</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">retain</governor>
+            <dependent idx="7">right</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">right</governor>
+            <dependent idx="9">intervention</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">abused</governor>
+            <dependent idx="10">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">abused</governor>
+            <dependent idx="11">hospitals</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">authorities</governor>
+            <dependent idx="13">health</dependent>
+          </dep>
+          <dep type="conj_or">
+            <governor idx="11">hospitals</governor>
+            <dependent idx="14">authorities</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">abused</governor>
+            <dependent idx="14">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">retain</governor>
+            <dependent idx="16">abused</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">freedom</governor>
+            <dependent idx="18">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">abused</governor>
+            <dependent idx="19">freedom</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">abused</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="20">to</governor>
+            <dependent idx="21">develop</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">develop</governor>
+            <dependent idx="22">pay-beds</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="21">develop</governor>
+            <dependent idx="24">will</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

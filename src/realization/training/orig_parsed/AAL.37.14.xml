@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Immigration</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>grenade</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>page</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>6</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP Immigration) (NNP grenade)) (, ,) (NP (NN page) (CD 6)))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">grenade</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">grenade</governor>
+            <dependent idx="1">Immigration</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">grenade</governor>
+            <dependent idx="4">page</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">page</governor>
+            <dependent idx="5">6</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">grenade</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">grenade</governor>
+            <dependent idx="1">Immigration</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">grenade</governor>
+            <dependent idx="4">page</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">page</governor>
+            <dependent idx="5">6</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">grenade</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">grenade</governor>
+            <dependent idx="1">Immigration</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">grenade</governor>
+            <dependent idx="4">page</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">page</governor>
+            <dependent idx="5">6</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

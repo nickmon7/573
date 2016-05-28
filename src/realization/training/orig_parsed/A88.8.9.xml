@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>There</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="3">
+            <word>will</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>be</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>consumer</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>watchdog</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>deal</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>with</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>whole</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>range</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>consumer</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>rights</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>needs</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="19">
+            <word>,</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="20">
+            <word>''</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="21">
+            <word>he</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="22">
+            <word>promised</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (EX There)) (VP (VP (MD will) (VP (VB be) (NP (DT a) (NN consumer) (NN watchdog) (S (VP (TO to) (VP (VB deal) (PP (IN with) (NP (NP (DT the) (JJ whole) (NN range)) (PP (IN of) (NP (NN consumer) (NNS rights))))))))))) (CC and) (VP (VBZ needs)))) (, ,) ('' '') (NP (PRP he)) (VP (VBD promised)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">promised</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="6">consumer</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="22">promised</governor>
+            <dependent idx="7">watchdog</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">deal</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="9">deal</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">deal</governor>
+            <dependent idx="10">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">range</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">range</governor>
+            <dependent idx="12">whole</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">with</governor>
+            <dependent idx="13">range</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">range</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">rights</governor>
+            <dependent idx="15">consumer</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="16">rights</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="18">needs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">promised</governor>
+            <dependent idx="21">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">promised</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="6">consumer</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="22">promised</governor>
+            <dependent idx="7">watchdog</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">deal</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="9">deal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">range</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">range</governor>
+            <dependent idx="12">whole</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="9">deal</governor>
+            <dependent idx="13">range</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">rights</governor>
+            <dependent idx="15">consumer</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">range</governor>
+            <dependent idx="16">rights</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="18">needs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">promised</governor>
+            <dependent idx="21">he</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">promised</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="2">There</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="3">will</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="6">consumer</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="22">promised</governor>
+            <dependent idx="7">watchdog</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">deal</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="9">deal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">range</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">range</governor>
+            <dependent idx="12">whole</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="9">deal</governor>
+            <dependent idx="13">range</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">rights</governor>
+            <dependent idx="15">consumer</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">range</governor>
+            <dependent idx="16">rights</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">watchdog</governor>
+            <dependent idx="18">needs</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="22">promised</governor>
+            <dependent idx="18">needs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">promised</governor>
+            <dependent idx="21">he</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

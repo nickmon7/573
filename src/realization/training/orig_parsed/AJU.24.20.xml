@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>If</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>they</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>had</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>found</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>out</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="6">
+            <word>about</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>it</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>Jeffrey</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>would</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="11">
+            <word>have</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>been</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>kicked</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>out</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN If) (S (NP (PRP they)) (VP (VBD had) (VP (VBN found) (PRT (RP out)) (PP (IN about) (NP (PRP it))))))) (, ,) (NP (NNP Jeffrey)) (VP (MD would) (VP (VB have) (VP (VBN been) (VP (VBN kicked) (PRT (RP out)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">kicked</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">found</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">found</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">found</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">kicked</governor>
+            <dependent idx="4">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">found</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">found</governor>
+            <dependent idx="6">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">about</governor>
+            <dependent idx="7">it</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="9">Jeffrey</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="10">would</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">kicked</governor>
+            <dependent idx="14">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">kicked</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">found</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">found</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">found</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">kicked</governor>
+            <dependent idx="4">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">found</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="4">found</governor>
+            <dependent idx="7">it</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="9">Jeffrey</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="10">would</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">kicked</governor>
+            <dependent idx="14">out</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">kicked</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">found</governor>
+            <dependent idx="1">If</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">found</governor>
+            <dependent idx="2">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">found</governor>
+            <dependent idx="3">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">kicked</governor>
+            <dependent idx="4">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">found</governor>
+            <dependent idx="5">out</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="4">found</governor>
+            <dependent idx="7">it</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="9">Jeffrey</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="10">would</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">kicked</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">kicked</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">kicked</governor>
+            <dependent idx="14">out</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

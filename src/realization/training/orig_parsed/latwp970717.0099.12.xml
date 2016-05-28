@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Every</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>film</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>he</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>touched</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>became</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>better</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="8">
+            <word>film</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="10">
+            <word>''</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT Every) (NN film)) (SBAR (S (NP (PRP he)) (VP (VBD touched))))) (VP (VBD became) (NP (DT a) (JJR better) (NN film))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">film</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">film</governor>
+            <dependent idx="1">Every</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">film</governor>
+            <dependent idx="2">film</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="2">film</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">film</governor>
+            <dependent idx="5">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">film</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">film</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">film</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">film</governor>
+            <dependent idx="1">Every</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">film</governor>
+            <dependent idx="2">film</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="2">film</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">film</governor>
+            <dependent idx="5">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">film</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">film</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">film</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">film</governor>
+            <dependent idx="1">Every</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">film</governor>
+            <dependent idx="2">film</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="2">film</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">film</governor>
+            <dependent idx="5">became</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">film</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">film</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>To</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>actors</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>whose</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>WP$</POS>
+          </token>
+          <token id="5">
+            <word>performances</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>he</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="7">
+            <word>spliced</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>together</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="9">
+            <word>-</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="10">
+            <word>from</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Marlon</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Brando</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="14">
+            <word>Marilyn</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>Monroe</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>from</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>Steve</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>McQueen</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>to</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="21">
+            <word>Shirley</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>MacLaine</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>-</word>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="24">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>was</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="26">
+            <word>known</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="27">
+            <word>to</word>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>203</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="28">
+            <word>have</word>
+            <CharacterOffsetBegin>204</CharacterOffsetBegin>
+            <CharacterOffsetEnd>208</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="29">
+            <word>a</word>
+            <CharacterOffsetBegin>209</CharacterOffsetBegin>
+            <CharacterOffsetEnd>210</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="30">
+            <word>knack</word>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="31">
+            <word>for</word>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="32">
+            <word>making</word>
+            <CharacterOffsetBegin>221</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="33">
+            <word>the</word>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="34">
+            <word>most</word>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="35">
+            <word>of</word>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="36">
+            <word>a</word>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>241</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="37">
+            <word>performance</word>
+            <CharacterOffsetBegin>242</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>255</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (PP (TO To) (NP (DT the) (NNS actors))) (SBAR (WHNP (WP$ whose) (NNS performances)) (S (NP (PRP he)) (VP (VBD spliced) (ADVP (ADVP (RB together)) (: -) (PP (IN from) (NP (NNP Marlon) (NNP Brando)))) (PP (TO to) (NP (NNP Marilyn) (NNP Monroe))) (, ,) (PP (IN from) (NP (NP (NNP Steve) (NNP McQueen)) (PP (TO to) (NP (NNP Shirley) (NNP MacLaine))))))))) (: -) (NP (NNP Reynolds)) (VP (VBD was) (VP (VBN known) (S (VP (TO to) (VP (VB have) (NP (NP (DT a) (NN knack)) (PP (IN for) (S (VP (VBG making) (NP (NP (DT the) (JJS most)) (PP (IN of) (NP (DT a) (NN performance))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="26">known</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="26">known</governor>
+            <dependent idx="1">To</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">actors</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">To</governor>
+            <dependent idx="3">actors</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">performances</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="5">performances</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">To</governor>
+            <dependent idx="7">spliced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">spliced</governor>
+            <dependent idx="8">together</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">together</governor>
+            <dependent idx="10">from</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Brando</governor>
+            <dependent idx="11">Marlon</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">from</governor>
+            <dependent idx="12">Brando</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">spliced</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Monroe</governor>
+            <dependent idx="14">Marilyn</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">to</governor>
+            <dependent idx="15">Monroe</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">spliced</governor>
+            <dependent idx="17">from</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="18">Steve</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">from</governor>
+            <dependent idx="19">McQueen</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="20">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">MacLaine</governor>
+            <dependent idx="21">Shirley</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">to</governor>
+            <dependent idx="22">MacLaine</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="26">known</governor>
+            <dependent idx="24">Reynolds</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="26">known</governor>
+            <dependent idx="25">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">have</governor>
+            <dependent idx="27">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">known</governor>
+            <dependent idx="28">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">knack</governor>
+            <dependent idx="29">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">have</governor>
+            <dependent idx="30">knack</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="30">knack</governor>
+            <dependent idx="31">for</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="31">for</governor>
+            <dependent idx="32">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">most</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="32">making</governor>
+            <dependent idx="34">most</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="34">most</governor>
+            <dependent idx="35">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">performance</governor>
+            <dependent idx="36">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="35">of</governor>
+            <dependent idx="37">performance</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="26">known</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="26">known</governor>
+            <dependent idx="1">To</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">actors</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">To</governor>
+            <dependent idx="3">actors</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">performances</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="5">performances</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">To</governor>
+            <dependent idx="7">spliced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">spliced</governor>
+            <dependent idx="8">together</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Brando</governor>
+            <dependent idx="11">Marlon</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="8">together</governor>
+            <dependent idx="12">Brando</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Monroe</governor>
+            <dependent idx="14">Marilyn</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">spliced</governor>
+            <dependent idx="15">Monroe</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="18">Steve</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="7">spliced</governor>
+            <dependent idx="19">McQueen</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">MacLaine</governor>
+            <dependent idx="21">Shirley</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="22">MacLaine</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="26">known</governor>
+            <dependent idx="24">Reynolds</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="26">known</governor>
+            <dependent idx="25">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">have</governor>
+            <dependent idx="27">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">known</governor>
+            <dependent idx="28">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">knack</governor>
+            <dependent idx="29">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">have</governor>
+            <dependent idx="30">knack</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="30">knack</governor>
+            <dependent idx="32">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">most</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="32">making</governor>
+            <dependent idx="34">most</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">performance</governor>
+            <dependent idx="36">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="34">most</governor>
+            <dependent idx="37">performance</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="26">known</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="26">known</governor>
+            <dependent idx="1">To</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">actors</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">To</governor>
+            <dependent idx="3">actors</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">performances</governor>
+            <dependent idx="4">whose</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="5">performances</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">spliced</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">To</governor>
+            <dependent idx="7">spliced</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">spliced</governor>
+            <dependent idx="8">together</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Brando</governor>
+            <dependent idx="11">Marlon</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="8">together</governor>
+            <dependent idx="12">Brando</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">Monroe</governor>
+            <dependent idx="14">Marilyn</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">spliced</governor>
+            <dependent idx="15">Monroe</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="18">Steve</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="7">spliced</governor>
+            <dependent idx="19">McQueen</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">MacLaine</governor>
+            <dependent idx="21">Shirley</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="19">McQueen</governor>
+            <dependent idx="22">MacLaine</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="26">known</governor>
+            <dependent idx="24">Reynolds</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="26">known</governor>
+            <dependent idx="25">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="28">have</governor>
+            <dependent idx="27">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="26">known</governor>
+            <dependent idx="28">have</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">knack</governor>
+            <dependent idx="29">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">have</governor>
+            <dependent idx="30">knack</dependent>
+          </dep>
+          <dep type="prepc_for">
+            <governor idx="30">knack</governor>
+            <dependent idx="32">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="34">most</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="32">making</governor>
+            <dependent idx="34">most</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">performance</governor>
+            <dependent idx="36">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="34">most</governor>
+            <dependent idx="37">performance</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

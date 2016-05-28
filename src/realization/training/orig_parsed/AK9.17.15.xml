@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>John</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Perry</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Garibay</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>Michigan</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>whose</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>WP$</POS>
+          </token>
+          <token id="8">
+            <word>offshore</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>bank</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>Zurich</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Overseas</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>was</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="15">
+            <word>among</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>those</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>being</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="18">
+            <word>investigated</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="19">
+            <word>by</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>Yard</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>and</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="23">
+            <word>the</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="24">
+            <word>Fbi</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>,</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="26">
+            <word>was</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="27">
+            <word>found</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="28">
+            <word>dead</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="29">
+            <word>in</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="30">
+            <word>the</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="31">
+            <word>sea</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="32">
+            <word>off</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="33">
+            <word>the</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="34">
+            <word>southern</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>176</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="35">
+            <word>part</word>
+            <CharacterOffsetBegin>177</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="36">
+            <word>of</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="37">
+            <word>the</word>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="38">
+            <word>island</word>
+            <CharacterOffsetBegin>189</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="39">
+            <word>after</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="40">
+            <word>going</word>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="41">
+            <word>bathing</word>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="42">
+            <word>with</word>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="43">
+            <word>friends</word>
+            <CharacterOffsetBegin>221</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="44">
+            <word>.</word>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP John) (NNP Perry) (NNP Garibay)) (PP (IN of) (NP (NNP Michigan))) (, ,) (SBAR (WHNP (NP (WP$ whose) (VBG offshore) (NN bank)) (, ,) (NP (NNP Zurich) (NNP Overseas)) (, ,)) (S (VP (VBD was) (PP (IN among) (NP (NP (DT those)) (VP (VBG being) (VP (VBN investigated) (PP (IN by) (NP (NP (DT the) (NNP Yard)) (CC and) (NP (DT the) (NN Fbi))))))))))) (, ,)) (VP (VBD was) (VP (VBN found) (PRT (RP dead)) (PP (IN in) (NP (DT the) (NN sea))) (PP (IN off) (NP (NP (DT the) (JJ southern) (NN part)) (PP (IN of) (NP (DT the) (NN island))))) (PP (IN after) (S (VP (VBG going) (NP (NN bathing)) (PP (IN with) (NP (NNS friends)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="27">found</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="2">Perry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="27">found</governor>
+            <dependent idx="3">Garibay</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="5">Michigan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">bank</governor>
+            <dependent idx="7">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">bank</governor>
+            <dependent idx="8">offshore</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">was</governor>
+            <dependent idx="9">bank</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Overseas</governor>
+            <dependent idx="11">Zurich</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">bank</governor>
+            <dependent idx="12">Overseas</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">was</governor>
+            <dependent idx="15">among</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">among</governor>
+            <dependent idx="16">those</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">investigated</governor>
+            <dependent idx="17">being</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">those</governor>
+            <dependent idx="18">investigated</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">investigated</governor>
+            <dependent idx="19">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Yard</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">by</governor>
+            <dependent idx="21">Yard</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">Yard</governor>
+            <dependent idx="22">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Fbi</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="21">Yard</governor>
+            <dependent idx="24">Fbi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">found</governor>
+            <dependent idx="26">was</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="27">found</governor>
+            <dependent idx="28">dead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="27">found</governor>
+            <dependent idx="29">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">sea</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="29">in</governor>
+            <dependent idx="31">sea</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="27">found</governor>
+            <dependent idx="32">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">part</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">part</governor>
+            <dependent idx="34">southern</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="32">off</governor>
+            <dependent idx="35">part</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="35">part</governor>
+            <dependent idx="36">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">island</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="36">of</governor>
+            <dependent idx="38">island</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="27">found</governor>
+            <dependent idx="39">after</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="39">after</governor>
+            <dependent idx="40">going</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="40">going</governor>
+            <dependent idx="41">bathing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="40">going</governor>
+            <dependent idx="42">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="42">with</governor>
+            <dependent idx="43">friends</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="27">found</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="2">Perry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="27">found</governor>
+            <dependent idx="3">Garibay</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="5">Michigan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">bank</governor>
+            <dependent idx="7">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">bank</governor>
+            <dependent idx="8">offshore</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">was</governor>
+            <dependent idx="9">bank</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Overseas</governor>
+            <dependent idx="11">Zurich</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">bank</governor>
+            <dependent idx="12">Overseas</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="14">was</governor>
+            <dependent idx="16">those</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">investigated</governor>
+            <dependent idx="17">being</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">those</governor>
+            <dependent idx="18">investigated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Yard</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="18">investigated</governor>
+            <dependent idx="21">Yard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Fbi</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">Yard</governor>
+            <dependent idx="24">Fbi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">found</governor>
+            <dependent idx="26">was</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="27">found</governor>
+            <dependent idx="28">dead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">sea</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="27">found</governor>
+            <dependent idx="31">sea</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">part</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">part</governor>
+            <dependent idx="34">southern</dependent>
+          </dep>
+          <dep type="prep_off">
+            <governor idx="27">found</governor>
+            <dependent idx="35">part</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">island</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="35">part</governor>
+            <dependent idx="38">island</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="27">found</governor>
+            <dependent idx="40">going</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="40">going</governor>
+            <dependent idx="41">bathing</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="40">going</governor>
+            <dependent idx="43">friends</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="27">found</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="2">Perry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="27">found</governor>
+            <dependent idx="3">Garibay</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="5">Michigan</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">bank</governor>
+            <dependent idx="7">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">bank</governor>
+            <dependent idx="8">offshore</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">was</governor>
+            <dependent idx="9">bank</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Overseas</governor>
+            <dependent idx="11">Zurich</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">bank</governor>
+            <dependent idx="12">Overseas</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="3">Garibay</governor>
+            <dependent idx="14">was</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="14">was</governor>
+            <dependent idx="16">those</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">investigated</governor>
+            <dependent idx="17">being</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="16">those</governor>
+            <dependent idx="18">investigated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Yard</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="18">investigated</governor>
+            <dependent idx="21">Yard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">Fbi</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="18">investigated</governor>
+            <dependent idx="24">Fbi</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">Yard</governor>
+            <dependent idx="24">Fbi</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">found</governor>
+            <dependent idx="26">was</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="27">found</governor>
+            <dependent idx="28">dead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">sea</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="27">found</governor>
+            <dependent idx="31">sea</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="35">part</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="35">part</governor>
+            <dependent idx="34">southern</dependent>
+          </dep>
+          <dep type="prep_off">
+            <governor idx="27">found</governor>
+            <dependent idx="35">part</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">island</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="35">part</governor>
+            <dependent idx="38">island</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="27">found</governor>
+            <dependent idx="40">going</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="40">going</governor>
+            <dependent idx="41">bathing</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="40">going</governor>
+            <dependent idx="43">friends</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

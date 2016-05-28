@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Fraud</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Squad</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>detectives</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>waiting</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>go-ahead</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>from</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>island</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>'s</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="13">
+            <word>Attorney</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>General</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>Stanley</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>Moore</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Fraud) (NNP Squad) (NNS detectives)) (VP (VBP are) (VP (VBG waiting) (PP (IN for) (NP (DT the) (NN go-ahead))) (PP (IN from) (NP (NP (NP (DT the) (NN island) (POS 's)) (NNP Attorney) (NNP General)) (, ,) (NP (NNP Stanley) (NNP Moore)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">waiting</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="1">Fraud</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="2">Squad</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">waiting</governor>
+            <dependent idx="3">detectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">waiting</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">waiting</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">go-ahead</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">for</governor>
+            <dependent idx="8">go-ahead</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">waiting</governor>
+            <dependent idx="9">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">General</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="11">island</governor>
+            <dependent idx="12">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">General</governor>
+            <dependent idx="13">Attorney</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">from</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Moore</governor>
+            <dependent idx="16">Stanley</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">General</governor>
+            <dependent idx="17">Moore</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">waiting</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="1">Fraud</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="2">Squad</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">waiting</governor>
+            <dependent idx="3">detectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">waiting</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">go-ahead</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">waiting</governor>
+            <dependent idx="8">go-ahead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">General</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">General</governor>
+            <dependent idx="13">Attorney</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="5">waiting</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Moore</governor>
+            <dependent idx="16">Stanley</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">General</governor>
+            <dependent idx="17">Moore</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">waiting</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="1">Fraud</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">detectives</governor>
+            <dependent idx="2">Squad</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">waiting</governor>
+            <dependent idx="3">detectives</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">waiting</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">go-ahead</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">waiting</governor>
+            <dependent idx="8">go-ahead</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">island</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="14">General</governor>
+            <dependent idx="11">island</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">General</governor>
+            <dependent idx="13">Attorney</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="5">waiting</governor>
+            <dependent idx="14">General</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Moore</governor>
+            <dependent idx="16">Stanley</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="14">General</governor>
+            <dependent idx="17">Moore</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

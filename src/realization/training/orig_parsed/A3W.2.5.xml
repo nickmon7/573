@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>began</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="4">
+            <word>paint</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>after</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>birth</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>her</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>first</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>child</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>1973</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD began) (S (VP (TO to) (VP (VB paint) (PP (IN after) (NP (NP (DT the) (NN birth)) (PP (IN of) (NP (NP (PRP$ her) (JJ first) (NN child)) (PP (IN in) (NP (CD 1973))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">began</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">began</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">paint</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">began</governor>
+            <dependent idx="4">paint</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">paint</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">birth</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">after</governor>
+            <dependent idx="7">birth</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">birth</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">child</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">child</governor>
+            <dependent idx="10">first</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="11">child</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">child</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="13">1973</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">began</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">began</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">paint</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">began</governor>
+            <dependent idx="4">paint</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">birth</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="4">paint</governor>
+            <dependent idx="7">birth</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">child</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">child</governor>
+            <dependent idx="10">first</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">birth</governor>
+            <dependent idx="11">child</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">child</governor>
+            <dependent idx="13">1973</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">began</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">began</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">paint</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">began</governor>
+            <dependent idx="4">paint</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">birth</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="4">paint</governor>
+            <dependent idx="7">birth</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">child</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">child</governor>
+            <dependent idx="10">first</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">birth</governor>
+            <dependent idx="11">child</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">child</governor>
+            <dependent idx="13">1973</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

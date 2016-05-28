@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Plants</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>will</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="3">
+            <word>open</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="4">
+            <word>again</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>January</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>2</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Plants)) (VP (MD will) (VP (VB open) (ADVP (RB again)) (PP (IN on) (NP (NNP January) (CD 2))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="1">Plants</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">open</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">open</governor>
+            <dependent idx="4">again</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">open</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">on</governor>
+            <dependent idx="6">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">January</governor>
+            <dependent idx="7">2</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="1">Plants</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">open</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">open</governor>
+            <dependent idx="4">again</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">open</governor>
+            <dependent idx="6">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">January</governor>
+            <dependent idx="7">2</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">open</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">open</governor>
+            <dependent idx="1">Plants</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">open</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">open</governor>
+            <dependent idx="4">again</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">open</governor>
+            <dependent idx="6">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">January</governor>
+            <dependent idx="7">2</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

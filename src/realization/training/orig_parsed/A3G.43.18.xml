@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>dam</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>itself</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>--</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="5">
+            <word>45</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>miles</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>west</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Exeter</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>completed</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>two</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>months</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>ago</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>--</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="16">
+            <word>is</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="17">
+            <word>430</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="18">
+            <word>metres</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>across</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>and</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="21">
+            <word>40</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>metres</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="23">
+            <word>high</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (DT The) (NN dam)) (NP (PRP itself))) (PRN (: --) (ADVP (NP (CD 45) (NNS miles)) (RB west)) (UCP (PP (IN of) (NP (NNP Exeter))) (CC and) (VP (VBN completed) (ADVP (NP (CD two) (NNS months)) (RB ago)) (: --) (SQ (VBZ is) (NP (NP (CD 430) (NNS metres)) (PP (IN across) (NP (QP (CC and) (CD 40)))))))))) (VP (VBZ metres) (ADJP (JJ high))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">metres</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dam</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">metres</governor>
+            <dependent idx="2">dam</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">miles</governor>
+            <dependent idx="5">45</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="7">west</governor>
+            <dependent idx="6">miles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="7">west</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">west</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">Exeter</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">of</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">of</governor>
+            <dependent idx="11">completed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">months</governor>
+            <dependent idx="12">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="14">ago</governor>
+            <dependent idx="13">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">completed</governor>
+            <dependent idx="14">ago</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">completed</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">metres</governor>
+            <dependent idx="17">430</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="18">metres</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">metres</governor>
+            <dependent idx="19">across</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">40</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">across</governor>
+            <dependent idx="21">40</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="22">metres</governor>
+            <dependent idx="23">high</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">metres</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dam</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">metres</governor>
+            <dependent idx="2">dam</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">miles</governor>
+            <dependent idx="5">45</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="7">west</governor>
+            <dependent idx="6">miles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="7">west</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">west</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">Exeter</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">of</governor>
+            <dependent idx="11">completed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">months</governor>
+            <dependent idx="12">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="14">ago</governor>
+            <dependent idx="13">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">completed</governor>
+            <dependent idx="14">ago</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">completed</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">metres</governor>
+            <dependent idx="17">430</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="18">metres</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">40</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="prep_across">
+            <governor idx="18">metres</governor>
+            <dependent idx="21">40</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="22">metres</governor>
+            <dependent idx="23">high</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="22">metres</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">dam</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">metres</governor>
+            <dependent idx="2">dam</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="3">itself</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">miles</governor>
+            <dependent idx="5">45</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="7">west</governor>
+            <dependent idx="6">miles</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">dam</governor>
+            <dependent idx="7">west</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">west</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">Exeter</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">west</governor>
+            <dependent idx="11">completed</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">of</governor>
+            <dependent idx="11">completed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">months</governor>
+            <dependent idx="12">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="14">ago</governor>
+            <dependent idx="13">months</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">completed</governor>
+            <dependent idx="14">ago</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">completed</governor>
+            <dependent idx="16">is</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">metres</governor>
+            <dependent idx="17">430</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">is</governor>
+            <dependent idx="18">metres</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">40</governor>
+            <dependent idx="20">and</dependent>
+          </dep>
+          <dep type="prep_across">
+            <governor idx="18">metres</governor>
+            <dependent idx="21">40</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="22">metres</governor>
+            <dependent idx="23">high</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

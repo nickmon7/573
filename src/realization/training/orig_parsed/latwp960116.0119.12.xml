@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Born</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>1938</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>Carbondale</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>Pa.</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>Gillette</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>had</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>his</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="12">
+            <word>first</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>article</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>published</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>in</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>Carbondale</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>Daily</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>News</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>1949</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="22">
+            <word>as</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>an</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="24">
+            <word>11-year-old</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBN Born) (PP (IN in) (NP (CD 1938))) (PP (IN in) (NP (NNP Carbondale) (, ,) (NNP Pa.))))) (, ,) (NP (NNP Gillette)) (VP (VBD had) (NP (NP (PRP$ his) (JJ first) (NN article)) (VP (VBN published) (PP (IN in) (NP (NP (DT the) (NNP Carbondale) (NNP Daily) (NNP News)) (PP (IN in) (NP (CD 1949))))) (PP (IN as) (NP (DT an) (JJ 11-year-old)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">had</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Born</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">in</governor>
+            <dependent idx="3">1938</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Born</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Pa.</governor>
+            <dependent idx="5">Carbondale</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="7">Pa.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">had</governor>
+            <dependent idx="9">Gillette</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">article</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">article</governor>
+            <dependent idx="12">first</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">had</governor>
+            <dependent idx="13">article</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">article</governor>
+            <dependent idx="14">published</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">published</governor>
+            <dependent idx="15">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">News</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="17">Carbondale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="18">Daily</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">in</governor>
+            <dependent idx="19">News</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">News</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="21">1949</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">published</governor>
+            <dependent idx="22">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">11-year-old</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">as</governor>
+            <dependent idx="24">11-year-old</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">had</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Born</governor>
+            <dependent idx="3">1938</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Pa.</governor>
+            <dependent idx="5">Carbondale</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Born</governor>
+            <dependent idx="7">Pa.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">had</governor>
+            <dependent idx="9">Gillette</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">article</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">article</governor>
+            <dependent idx="12">first</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">had</governor>
+            <dependent idx="13">article</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">article</governor>
+            <dependent idx="14">published</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">News</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="17">Carbondale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="18">Daily</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">published</governor>
+            <dependent idx="19">News</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">News</governor>
+            <dependent idx="21">1949</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">11-year-old</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="14">published</governor>
+            <dependent idx="24">11-year-old</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">had</governor>
+            <dependent idx="1">Born</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Born</governor>
+            <dependent idx="3">1938</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Pa.</governor>
+            <dependent idx="5">Carbondale</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Born</governor>
+            <dependent idx="7">Pa.</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">had</governor>
+            <dependent idx="9">Gillette</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">article</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">article</governor>
+            <dependent idx="12">first</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">had</governor>
+            <dependent idx="13">article</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="13">article</governor>
+            <dependent idx="14">published</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">News</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="17">Carbondale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">News</governor>
+            <dependent idx="18">Daily</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">published</governor>
+            <dependent idx="19">News</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">News</governor>
+            <dependent idx="21">1949</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">11-year-old</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="14">published</governor>
+            <dependent idx="24">11-year-old</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

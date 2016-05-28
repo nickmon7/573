@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>They</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>'re</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>very</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>suspicious</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>''</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="8">
+            <word>Forman</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>told</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>Los</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>Times</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>in</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>1981</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (S (NP (PRP They)) (VP (VBP 're) (ADJP (RB very) (JJ suspicious)))) (, ,) ('' '') (NP (NNP Forman)) (VP (VBD told) (NP (NP (DT the) (NNP Los) (NNP Angeles) (NNP Times)) (PP (IN in) (NP (CD 1981))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="2">They</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="3">'re</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="4">very</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">told</governor>
+            <dependent idx="5">suspicious</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">told</governor>
+            <dependent idx="8">Forman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Times</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">told</governor>
+            <dependent idx="13">Times</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">Times</governor>
+            <dependent idx="14">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">in</governor>
+            <dependent idx="15">1981</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="2">They</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="3">'re</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="4">very</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">told</governor>
+            <dependent idx="5">suspicious</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">told</governor>
+            <dependent idx="8">Forman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Times</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">told</governor>
+            <dependent idx="13">Times</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">Times</governor>
+            <dependent idx="15">1981</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="2">They</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="3">'re</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">suspicious</governor>
+            <dependent idx="4">very</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">told</governor>
+            <dependent idx="5">suspicious</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">told</governor>
+            <dependent idx="8">Forman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">Times</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="11">Los</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Times</governor>
+            <dependent idx="12">Angeles</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">told</governor>
+            <dependent idx="13">Times</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">Times</governor>
+            <dependent idx="15">1981</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

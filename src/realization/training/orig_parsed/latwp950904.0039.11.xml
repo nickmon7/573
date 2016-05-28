@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Jurors</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>acquitted</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>seven</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>defendants</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>conspiracy</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>charges</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Jurors)) (VP (VBN acquitted) (NP (NP (DT the) (CD seven) (NNS defendants)) (PP (IN of) (NP (NN conspiracy) (NNS charges))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquitted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="1">Jurors</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">defendants</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">defendants</governor>
+            <dependent idx="4">seven</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="5">defendants</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">defendants</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">charges</governor>
+            <dependent idx="7">conspiracy</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">charges</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquitted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="1">Jurors</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">defendants</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">defendants</governor>
+            <dependent idx="4">seven</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="5">defendants</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">charges</governor>
+            <dependent idx="7">conspiracy</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">defendants</governor>
+            <dependent idx="8">charges</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">acquitted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="1">Jurors</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">defendants</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">defendants</governor>
+            <dependent idx="4">seven</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">acquitted</governor>
+            <dependent idx="5">defendants</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">charges</governor>
+            <dependent idx="7">conspiracy</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">defendants</governor>
+            <dependent idx="8">charges</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

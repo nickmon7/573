@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>information</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>came</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>from</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>variety</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>sources</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>including</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="11">
+            <word>Swapo</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>itself</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN information)) (VP (VBD came) (PP (IN from) (NP (NP (DT a) (NN variety)) (PP (IN of) (NP (NNS sources))))) (, ,) (PP (VBG including) (NP (NP (NNP Swapo)) (ADVP (PRP itself))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">information</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">came</governor>
+            <dependent idx="4">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">variety</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">from</governor>
+            <dependent idx="6">variety</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">variety</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="8">sources</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">came</governor>
+            <dependent idx="10">including</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">including</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">Swapo</governor>
+            <dependent idx="12">itself</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">information</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">variety</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="3">came</governor>
+            <dependent idx="6">variety</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">variety</governor>
+            <dependent idx="8">sources</dependent>
+          </dep>
+          <dep type="prep_including">
+            <governor idx="3">came</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">Swapo</governor>
+            <dependent idx="12">itself</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">information</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">information</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">variety</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="3">came</governor>
+            <dependent idx="6">variety</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">variety</governor>
+            <dependent idx="8">sources</dependent>
+          </dep>
+          <dep type="prep_including">
+            <governor idx="3">came</governor>
+            <dependent idx="11">Swapo</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">Swapo</governor>
+            <dependent idx="12">itself</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

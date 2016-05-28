@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Kunstler</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>had</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>been</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>hospitalized</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>since</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>Aug.</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>28</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>had</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>received</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>pacemaker</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>in</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>hopes</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>stabilizing</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="17">
+            <word>his</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="18">
+            <word>heart</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Kunstler)) (VP (VP (VBD had) (VP (VBN been) (VP (VBN hospitalized) (PP (IN since) (NP (NNP Aug.) (CD 28)))))) (CC and) (VP (VBD had) (VP (VBN received) (NP (DT a) (NN pacemaker)) (PP (IN in) (NP (NP (NNS hopes)) (PP (IN of) (S (VP (VBG stabilizing) (NP (PRP$ his) (NN heart)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">hospitalized</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="1">Kunstler</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="5">since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">since</governor>
+            <dependent idx="6">Aug.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">Aug.</governor>
+            <dependent idx="7">28</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">received</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="10">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">pacemaker</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">received</governor>
+            <dependent idx="12">pacemaker</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">received</governor>
+            <dependent idx="13">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">in</governor>
+            <dependent idx="14">hopes</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">hopes</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="15">of</governor>
+            <dependent idx="16">stabilizing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">heart</governor>
+            <dependent idx="17">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">stabilizing</governor>
+            <dependent idx="18">heart</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">hospitalized</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="1">Kunstler</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="6">Aug.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">Aug.</governor>
+            <dependent idx="7">28</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">received</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="10">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">pacemaker</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">received</governor>
+            <dependent idx="12">pacemaker</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">received</governor>
+            <dependent idx="14">hopes</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="14">hopes</governor>
+            <dependent idx="16">stabilizing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">heart</governor>
+            <dependent idx="17">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">stabilizing</governor>
+            <dependent idx="18">heart</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">hospitalized</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="1">Kunstler</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="10">received</governor>
+            <dependent idx="1">Kunstler</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="2">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="3">been</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="6">Aug.</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="6">Aug.</governor>
+            <dependent idx="7">28</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="10">received</governor>
+            <dependent idx="9">had</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">hospitalized</governor>
+            <dependent idx="10">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">pacemaker</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">received</governor>
+            <dependent idx="12">pacemaker</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">received</governor>
+            <dependent idx="14">hopes</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="14">hopes</governor>
+            <dependent idx="16">stabilizing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">heart</governor>
+            <dependent idx="17">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">stabilizing</governor>
+            <dependent idx="18">heart</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

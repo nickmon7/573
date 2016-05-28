@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Br</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>accepts</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>measures</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>imposed</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>mid-1988</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>ease</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>staff</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>retention</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>problems</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>have</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="14">
+            <word>failed</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Br)) (VP (VBZ accepts) (SBAR (IN that) (S (NP (NP (NNS measures)) (VP (VBN imposed) (PP (IN in) (NP (ADJP (JJ mid-1988) (S (VP (TO to) (VP (VB ease) (NP (NN staff) (NN retention)))))) (NNS problems))))) (VP (VBP have) (VP (VBN failed)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accepts</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accepts</governor>
+            <dependent idx="1">Br</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">failed</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">failed</governor>
+            <dependent idx="4">measures</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">measures</governor>
+            <dependent idx="5">imposed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">imposed</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">problems</governor>
+            <dependent idx="7">mid-1988</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">ease</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">mid-1988</governor>
+            <dependent idx="9">ease</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">retention</governor>
+            <dependent idx="10">staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">ease</governor>
+            <dependent idx="11">retention</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">in</governor>
+            <dependent idx="12">problems</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">failed</governor>
+            <dependent idx="13">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accepts</governor>
+            <dependent idx="14">failed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accepts</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accepts</governor>
+            <dependent idx="1">Br</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">failed</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">failed</governor>
+            <dependent idx="4">measures</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">measures</governor>
+            <dependent idx="5">imposed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">problems</governor>
+            <dependent idx="7">mid-1988</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">ease</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">mid-1988</governor>
+            <dependent idx="9">ease</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">retention</governor>
+            <dependent idx="10">staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">ease</governor>
+            <dependent idx="11">retention</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">imposed</governor>
+            <dependent idx="12">problems</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">failed</governor>
+            <dependent idx="13">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accepts</governor>
+            <dependent idx="14">failed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accepts</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accepts</governor>
+            <dependent idx="1">Br</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">failed</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">failed</governor>
+            <dependent idx="4">measures</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">measures</governor>
+            <dependent idx="5">imposed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">problems</governor>
+            <dependent idx="7">mid-1988</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">ease</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">mid-1988</governor>
+            <dependent idx="9">ease</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">retention</governor>
+            <dependent idx="10">staff</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">ease</governor>
+            <dependent idx="11">retention</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">imposed</governor>
+            <dependent idx="12">problems</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">failed</governor>
+            <dependent idx="13">have</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accepts</governor>
+            <dependent idx="14">failed</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

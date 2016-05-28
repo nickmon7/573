@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>civil</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>rights</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>organisation</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>Lawyers</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>Human</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Rights</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>hastily</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>making</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="15">
+            <word>arrangements</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="17">
+            <word>find</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>defence</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>team</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>for</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>Mr</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>Nofomela</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ civil) (NNS rights) (NN organisation)) (, ,) (NP (NP (NNS Lawyers)) (PP (IN for) (NP (NNP Human) (NNPS Rights)))) (, ,)) (VP (VBD was) (ADVP (NN yesterday)) (VP (ADVP (RB hastily)) (VBG making) (NP (NNS arrangements)) (S (VP (TO to) (VP (VB find) (NP (DT a) (NN defence) (NN team)) (PP (IN for) (NP (NNP Mr) (NNP Nofomela)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">organisation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">organisation</governor>
+            <dependent idx="2">civil</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">organisation</governor>
+            <dependent idx="3">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">making</governor>
+            <dependent idx="4">organisation</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">organisation</governor>
+            <dependent idx="6">Lawyers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">Lawyers</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Rights</governor>
+            <dependent idx="8">Human</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">for</governor>
+            <dependent idx="9">Rights</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">making</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="12">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="13">hastily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">making</governor>
+            <dependent idx="15">arrangements</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">find</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">making</governor>
+            <dependent idx="17">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">team</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">team</governor>
+            <dependent idx="19">defence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">find</governor>
+            <dependent idx="20">team</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">find</governor>
+            <dependent idx="21">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Nofomela</governor>
+            <dependent idx="22">Mr</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">for</governor>
+            <dependent idx="23">Nofomela</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">organisation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">organisation</governor>
+            <dependent idx="2">civil</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">organisation</governor>
+            <dependent idx="3">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">making</governor>
+            <dependent idx="4">organisation</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">organisation</governor>
+            <dependent idx="6">Lawyers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Rights</governor>
+            <dependent idx="8">Human</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">Lawyers</governor>
+            <dependent idx="9">Rights</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">making</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="12">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="13">hastily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">making</governor>
+            <dependent idx="15">arrangements</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">find</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">making</governor>
+            <dependent idx="17">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">team</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">team</governor>
+            <dependent idx="19">defence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">find</governor>
+            <dependent idx="20">team</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Nofomela</governor>
+            <dependent idx="22">Mr</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="17">find</governor>
+            <dependent idx="23">Nofomela</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="14">making</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">organisation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">organisation</governor>
+            <dependent idx="2">civil</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">organisation</governor>
+            <dependent idx="3">rights</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">making</governor>
+            <dependent idx="4">organisation</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">organisation</governor>
+            <dependent idx="6">Lawyers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Rights</governor>
+            <dependent idx="8">Human</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">Lawyers</governor>
+            <dependent idx="9">Rights</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">making</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="12">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">making</governor>
+            <dependent idx="13">hastily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">making</governor>
+            <dependent idx="15">arrangements</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">find</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">making</governor>
+            <dependent idx="17">find</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">team</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">team</governor>
+            <dependent idx="19">defence</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">find</governor>
+            <dependent idx="20">team</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">Nofomela</governor>
+            <dependent idx="22">Mr</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="17">find</governor>
+            <dependent idx="23">Nofomela</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>At</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>time</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>he</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>his</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>commanding</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>officers</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>were</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>more</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>RBR</POS>
+          </token>
+          <token id="12">
+            <word>concerned</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>with</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>preparing</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="15">
+            <word>to</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="16">
+            <word>fight</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="17">
+            <word>Tito</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>'s</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="19">
+            <word>partisans</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="21">
+            <word>Lord</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Aldington</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>added</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (PP (IN At) (NP (DT the) (NN time))) (, ,) (NP (NP (PRP he)) (CC and) (NP (PRP$ his) (JJ commanding) (NNS officers))) (VP (VBD were) (ADJP (RBR more) (VBN concerned) (PP (IN with) (S (VP (VBG preparing) (S (VP (TO to) (VP (VB fight) (NP (NP (NNP Tito) (POS 's)) (NNS partisans))))))))))) (, ,) (NP (NNP Lord) (NNP Aldington)) (VP (VBD added)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">concerned</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">time</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">At</governor>
+            <dependent idx="3">time</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">he</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">officers</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">officers</governor>
+            <dependent idx="8">commanding</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">he</governor>
+            <dependent idx="9">officers</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="10">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">concerned</governor>
+            <dependent idx="11">more</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="23">added</governor>
+            <dependent idx="12">concerned</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">concerned</governor>
+            <dependent idx="13">with</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="13">with</governor>
+            <dependent idx="14">preparing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">fight</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">preparing</governor>
+            <dependent idx="16">fight</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">partisans</governor>
+            <dependent idx="17">Tito</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="17">Tito</governor>
+            <dependent idx="18">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">fight</governor>
+            <dependent idx="19">partisans</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Aldington</governor>
+            <dependent idx="21">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">Aldington</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">time</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">concerned</governor>
+            <dependent idx="3">time</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">officers</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">officers</governor>
+            <dependent idx="8">commanding</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">he</governor>
+            <dependent idx="9">officers</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="10">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">concerned</governor>
+            <dependent idx="11">more</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="23">added</governor>
+            <dependent idx="12">concerned</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="12">concerned</governor>
+            <dependent idx="14">preparing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">fight</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">preparing</governor>
+            <dependent idx="16">fight</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">partisans</governor>
+            <dependent idx="17">Tito</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">fight</governor>
+            <dependent idx="19">partisans</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Aldington</governor>
+            <dependent idx="21">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">Aldington</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="23">added</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">time</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">concerned</governor>
+            <dependent idx="3">time</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="5">he</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">officers</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">officers</governor>
+            <dependent idx="8">commanding</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">he</governor>
+            <dependent idx="9">officers</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="9">officers</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">concerned</governor>
+            <dependent idx="10">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">concerned</governor>
+            <dependent idx="11">more</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="23">added</governor>
+            <dependent idx="12">concerned</dependent>
+          </dep>
+          <dep type="prepc_with">
+            <governor idx="12">concerned</governor>
+            <dependent idx="14">preparing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">fight</governor>
+            <dependent idx="15">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">preparing</governor>
+            <dependent idx="16">fight</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">partisans</governor>
+            <dependent idx="17">Tito</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">fight</governor>
+            <dependent idx="19">partisans</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Aldington</governor>
+            <dependent idx="21">Lord</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">added</governor>
+            <dependent idx="22">Aldington</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>So</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>when</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="3">
+            <word>Leon</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>saw</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>someone</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>star</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>material</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>heard</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>about</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>it</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (IN So) (SBAR (WHADVP (WRB when)) (S (NP (NNP Leon)) (VP (VBD saw) (NP (NP (NN someone)) (PP (IN of) (NP (NN star) (NN material))))))) (, ,) (NP (PRP they)) (VP (VBD heard) (PP (IN about) (NP (PRP it)))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">heard</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heard</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">saw</governor>
+            <dependent idx="2">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saw</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">heard</governor>
+            <dependent idx="4">saw</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saw</governor>
+            <dependent idx="5">someone</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">someone</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">material</governor>
+            <dependent idx="7">star</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="8">material</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heard</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">heard</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">about</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">heard</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heard</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">saw</governor>
+            <dependent idx="2">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saw</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">heard</governor>
+            <dependent idx="4">saw</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saw</governor>
+            <dependent idx="5">someone</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">material</governor>
+            <dependent idx="7">star</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">someone</governor>
+            <dependent idx="8">material</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heard</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="11">heard</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">heard</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">heard</governor>
+            <dependent idx="1">So</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">saw</governor>
+            <dependent idx="2">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saw</governor>
+            <dependent idx="3">Leon</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">heard</governor>
+            <dependent idx="4">saw</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saw</governor>
+            <dependent idx="5">someone</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">material</governor>
+            <dependent idx="7">star</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">someone</governor>
+            <dependent idx="8">material</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">heard</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="11">heard</governor>
+            <dependent idx="13">it</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Leon</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Schwab</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>joined</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>his</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="5">
+            <word>brothers</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>sisters</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>family</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>business</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>after</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>earning</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>his</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="15">
+            <word>pharmaceutical</word>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>degree</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>from</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>University</word>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>of</word>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>Southern</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>California</word>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>217</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Leon) (NNP Schwab)) (VP (VBD joined) (NP (PRP$ his) (NNS brothers) (CC and) (NNS sisters)) (PP (IN in) (NP (DT the) (NN family) (NN business))) (PP (IN after) (S (VP (VBG earning) (NP (PRP$ his) (JJ pharmaceutical) (NN degree)) (PP (IN from) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Southern) (NNP California))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">joined</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Schwab</governor>
+            <dependent idx="1">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">joined</governor>
+            <dependent idx="2">Schwab</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brothers</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">joined</governor>
+            <dependent idx="5">brothers</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">brothers</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">brothers</governor>
+            <dependent idx="7">sisters</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">joined</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">business</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">business</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="11">business</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">joined</governor>
+            <dependent idx="12">after</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="12">after</governor>
+            <dependent idx="13">earning</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">degree</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">degree</governor>
+            <dependent idx="15">pharmaceutical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">earning</governor>
+            <dependent idx="16">degree</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">earning</governor>
+            <dependent idx="17">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">University</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">from</governor>
+            <dependent idx="19">University</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">University</governor>
+            <dependent idx="20">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">California</governor>
+            <dependent idx="21">Southern</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">of</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">joined</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Schwab</governor>
+            <dependent idx="1">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">joined</governor>
+            <dependent idx="2">Schwab</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brothers</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">joined</governor>
+            <dependent idx="5">brothers</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brothers</governor>
+            <dependent idx="7">sisters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">business</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">business</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">joined</governor>
+            <dependent idx="11">business</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="3">joined</governor>
+            <dependent idx="13">earning</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">degree</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">degree</governor>
+            <dependent idx="15">pharmaceutical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">earning</governor>
+            <dependent idx="16">degree</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">University</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="13">earning</governor>
+            <dependent idx="19">University</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">California</governor>
+            <dependent idx="21">Southern</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">University</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">joined</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Schwab</governor>
+            <dependent idx="1">Leon</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">joined</governor>
+            <dependent idx="2">Schwab</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">brothers</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">joined</governor>
+            <dependent idx="5">brothers</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">joined</governor>
+            <dependent idx="7">sisters</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">brothers</governor>
+            <dependent idx="7">sisters</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">business</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">business</governor>
+            <dependent idx="10">family</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">joined</governor>
+            <dependent idx="11">business</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="3">joined</governor>
+            <dependent idx="13">earning</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="16">degree</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">degree</governor>
+            <dependent idx="15">pharmaceutical</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">earning</governor>
+            <dependent idx="16">degree</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">University</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="13">earning</governor>
+            <dependent idx="19">University</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">California</governor>
+            <dependent idx="21">Southern</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="19">University</governor>
+            <dependent idx="22">California</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

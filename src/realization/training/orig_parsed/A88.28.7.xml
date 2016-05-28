@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>His</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>chief</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>challenger</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>is</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>Mr</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Paul</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Davies</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>Transport</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>General</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>Workers</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="14">
+            <word>'</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="15">
+            <word>Union</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>district</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>official</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP$ His) (JJ chief) (NN challenger)) (VP (VBZ is) (NP (NP (NNP Mr) (NNP Paul) (NNP Davies)) (, ,) (NP (DT a) (NN Transport)) (CC and) (NP (NP (NNP General) (NNPS Workers) (POS ')) (NNP Union) (NN district) (NN official)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Davies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">challenger</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">challenger</governor>
+            <dependent idx="2">chief</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Davies</governor>
+            <dependent idx="3">challenger</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Davies</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="5">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="6">Paul</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Transport</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">Davies</governor>
+            <dependent idx="10">Transport</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">Davies</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Workers</governor>
+            <dependent idx="12">General</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">official</governor>
+            <dependent idx="13">Workers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="15">Union</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="16">district</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">Davies</governor>
+            <dependent idx="17">official</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Davies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">challenger</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">challenger</governor>
+            <dependent idx="2">chief</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Davies</governor>
+            <dependent idx="3">challenger</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Davies</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="5">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="6">Paul</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Transport</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">Davies</governor>
+            <dependent idx="10">Transport</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Workers</governor>
+            <dependent idx="12">General</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">official</governor>
+            <dependent idx="13">Workers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="15">Union</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="16">district</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">Davies</governor>
+            <dependent idx="17">official</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">Davies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="3">challenger</governor>
+            <dependent idx="1">His</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">challenger</governor>
+            <dependent idx="2">chief</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">Davies</governor>
+            <dependent idx="3">challenger</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">Davies</governor>
+            <dependent idx="4">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="5">Mr</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">Davies</governor>
+            <dependent idx="6">Paul</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Transport</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">Davies</governor>
+            <dependent idx="10">Transport</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Workers</governor>
+            <dependent idx="12">General</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">official</governor>
+            <dependent idx="13">Workers</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="15">Union</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">official</governor>
+            <dependent idx="16">district</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">Davies</governor>
+            <dependent idx="17">official</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

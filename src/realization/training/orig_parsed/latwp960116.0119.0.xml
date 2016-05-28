@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>LOS</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>ANGELES</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>-</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="4">
+            <word>Paul</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Gillette</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>novelist</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>script</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>writer</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>beverage</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>industry</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>analyst</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>who</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="17">
+            <word>was</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>best</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="19">
+            <word>known</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>for</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>book</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>``</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="24">
+            <word>Play</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="25">
+            <word>Misty</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="26">
+            <word>for</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="27">
+            <word>Me</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="28">
+            <word>,</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="29">
+            <word>''</word>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="30">
+            <word>has</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="31">
+            <word>died</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="32">
+            <word>of</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="33">
+            <word>heart</word>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="34">
+            <word>failure</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="35">
+            <word>in</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="36">
+            <word>Los</word>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="37">
+            <word>Angeles</word>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="38">
+            <word>.</word>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP LOS) (NNP ANGELES)) (: -) (NP (NP (NNP Paul) (NNP Gillette)) (, ,) (NP (NP (NN novelist)) (, ,) (NP (NN script) (NN writer)) (CC and) (NP (NN beverage) (NN industry) (NN analyst))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (RBS best) (VBN known) (PP (IN for) (NP (NP (DT the) (NN book)) (`` ``) (NP (NP (NNP Play) (NNP Misty)) (PP (IN for) (NP (PRP Me))))))))))) (, ,) ('' '')) (VP (VBZ has) (VP (VBN died) (PP (IN of) (NP (NP (NN heart) (NN failure)) (PP (IN in) (NP (NNP Los) (NNP Angeles))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">died</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">died</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="4">Paul</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">Gillette</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="7">novelist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">writer</governor>
+            <dependent idx="9">script</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">novelist</governor>
+            <dependent idx="10">writer</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">novelist</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="12">beverage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="13">industry</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">novelist</governor>
+            <dependent idx="14">analyst</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">known</governor>
+            <dependent idx="16">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">known</governor>
+            <dependent idx="17">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">known</governor>
+            <dependent idx="18">best</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">known</governor>
+            <dependent idx="20">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">book</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">for</governor>
+            <dependent idx="22">book</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">Misty</governor>
+            <dependent idx="24">Play</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">book</governor>
+            <dependent idx="25">Misty</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="25">Misty</governor>
+            <dependent idx="26">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="26">for</governor>
+            <dependent idx="27">Me</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">died</governor>
+            <dependent idx="30">has</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="31">died</governor>
+            <dependent idx="32">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">failure</governor>
+            <dependent idx="33">heart</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="32">of</governor>
+            <dependent idx="34">failure</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="34">failure</governor>
+            <dependent idx="35">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Angeles</governor>
+            <dependent idx="36">Los</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="35">in</governor>
+            <dependent idx="37">Angeles</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">died</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">died</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="4">Paul</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">Gillette</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="7">novelist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">writer</governor>
+            <dependent idx="9">script</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">novelist</governor>
+            <dependent idx="10">writer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="12">beverage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="13">industry</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">novelist</governor>
+            <dependent idx="14">analyst</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">known</governor>
+            <dependent idx="16">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">known</governor>
+            <dependent idx="17">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">known</governor>
+            <dependent idx="18">best</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">book</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">known</governor>
+            <dependent idx="22">book</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">Misty</governor>
+            <dependent idx="24">Play</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">book</governor>
+            <dependent idx="25">Misty</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="25">Misty</governor>
+            <dependent idx="27">Me</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">died</governor>
+            <dependent idx="30">has</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">failure</governor>
+            <dependent idx="33">heart</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="31">died</governor>
+            <dependent idx="34">failure</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Angeles</governor>
+            <dependent idx="36">Los</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="34">failure</governor>
+            <dependent idx="37">Angeles</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="31">died</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="1">LOS</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="31">died</governor>
+            <dependent idx="2">ANGELES</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="4">Paul</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">ANGELES</governor>
+            <dependent idx="5">Gillette</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="7">novelist</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">writer</governor>
+            <dependent idx="9">script</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="10">writer</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">novelist</governor>
+            <dependent idx="10">writer</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="12">beverage</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">analyst</governor>
+            <dependent idx="13">industry</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="14">analyst</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="7">novelist</governor>
+            <dependent idx="14">analyst</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">known</governor>
+            <dependent idx="16">who</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">known</governor>
+            <dependent idx="17">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">known</governor>
+            <dependent idx="18">best</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">Gillette</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">book</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="19">known</governor>
+            <dependent idx="22">book</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">Misty</governor>
+            <dependent idx="24">Play</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="22">book</governor>
+            <dependent idx="25">Misty</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="25">Misty</governor>
+            <dependent idx="27">Me</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="31">died</governor>
+            <dependent idx="30">has</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="34">failure</governor>
+            <dependent idx="33">heart</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="31">died</governor>
+            <dependent idx="34">failure</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">Angeles</governor>
+            <dependent idx="36">Los</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="34">failure</governor>
+            <dependent idx="37">Angeles</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

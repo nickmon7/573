@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Watkins</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>died</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>Friday</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>her</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="6">
+            <word>home</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>St.</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Leonard</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>Md.</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>cancer</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>her</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="17">
+            <word>family</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>said</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Watkins)) (VP (VBD died) (NP-TMP (NNP Friday)) (PP (IN in) (NP (NP (PRP$ her) (NN home)) (PP (IN in) (NP (NP (NP (NNP St.) (NNP Leonard)) (, ,) (NP (NNP Md.)) (, ,)) (PP (IN of) (NP (NN cancer))))))))) (, ,) (NP (PRP$ her) (NN family)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Watkins</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="3">Friday</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">died</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">home</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="6">home</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">home</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="8">St.</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">in</governor>
+            <dependent idx="9">Leonard</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="11">Md.</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="14">cancer</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">family</governor>
+            <dependent idx="16">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">family</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Watkins</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="3">Friday</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">home</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">died</governor>
+            <dependent idx="6">home</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="8">St.</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">home</governor>
+            <dependent idx="9">Leonard</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="11">Md.</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="14">cancer</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">family</governor>
+            <dependent idx="16">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">family</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">died</governor>
+            <dependent idx="1">Watkins</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="2">died</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">died</governor>
+            <dependent idx="3">Friday</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">home</governor>
+            <dependent idx="5">her</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">died</governor>
+            <dependent idx="6">home</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="8">St.</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">home</governor>
+            <dependent idx="9">Leonard</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="11">Md.</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">Leonard</governor>
+            <dependent idx="14">cancer</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">family</governor>
+            <dependent idx="16">her</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">family</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>ground</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>floor</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>has</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="5">
+            <word>big</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>architectural</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>metal</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>sculptures</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>dominated</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>by</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>Elephant</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>Palace</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>whose</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>WP$</POS>
+          </token>
+          <token id="16">
+            <word>abstract</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>form</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>shiny</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>brass</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>echoes</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="22">
+            <word>the</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>monumental</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>mass</word>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>of</word>
+            <CharacterOffsetBegin>153</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="26">
+            <word>an</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="27">
+            <word>elephant</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="28">
+            <word>and</word>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="29">
+            <word>scores</word>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="30">
+            <word>the</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="31">
+            <word>top</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="32">
+            <word>price</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>192</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="33">
+            <word>at</word>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="34">
+            <word>$</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>$</POS>
+          </token>
+          <token id="35">
+            <word>250,000</word>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="36">
+            <word>.</word>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (S (NP (DT The) (NN ground) (NN floor)) (VP (VBZ has) (NP (JJ big) (JJ architectural) (NN metal) (NNS sculptures)))) (, ,) (VP (VBD dominated) (PP (IN by) (NP (NP (DT the) (NNP Elephant) (NNP Palace)) (SBAR (WHNP (NP (WP$ whose) (JJ abstract) (NN form)) (PP (IN in) (NP (JJ shiny) (NN brass)))) (S (VP (VBZ echoes) (NP (NP (DT the) (JJ monumental) (NN mass)) (PP (IN of) (NP (NP (DT an) (NN elephant)) (CC and) (NP (NNS scores))))))))))) (NP (NP (DT the) (JJ top) (NN price)) (PP (IN at) (NP ($ $) (CD 250,000)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dominated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">floor</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">floor</governor>
+            <dependent idx="2">ground</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">floor</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">dominated</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="5">big</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="6">architectural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="7">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="8">sculptures</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">dominated</governor>
+            <dependent idx="11">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Palace</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Palace</governor>
+            <dependent idx="13">Elephant</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">by</governor>
+            <dependent idx="14">Palace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">form</governor>
+            <dependent idx="15">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">form</governor>
+            <dependent idx="16">abstract</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="17">form</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">form</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">brass</governor>
+            <dependent idx="19">shiny</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">in</governor>
+            <dependent idx="20">brass</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Palace</governor>
+            <dependent idx="21">echoes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">mass</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">mass</governor>
+            <dependent idx="23">monumental</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="24">mass</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="24">mass</governor>
+            <dependent idx="25">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">elephant</governor>
+            <dependent idx="26">an</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="25">of</governor>
+            <dependent idx="27">elephant</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="27">elephant</governor>
+            <dependent idx="28">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="27">elephant</governor>
+            <dependent idx="29">scores</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">price</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">price</governor>
+            <dependent idx="31">top</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dominated</governor>
+            <dependent idx="32">price</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="32">price</governor>
+            <dependent idx="33">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="33">at</governor>
+            <dependent idx="34">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="34">$</governor>
+            <dependent idx="35">250,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dominated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">floor</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">floor</governor>
+            <dependent idx="2">ground</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">floor</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">dominated</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="5">big</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="6">architectural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="7">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="8">sculptures</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Palace</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Palace</governor>
+            <dependent idx="13">Elephant</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="10">dominated</governor>
+            <dependent idx="14">Palace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">form</governor>
+            <dependent idx="15">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">form</governor>
+            <dependent idx="16">abstract</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="17">form</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">brass</governor>
+            <dependent idx="19">shiny</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">form</governor>
+            <dependent idx="20">brass</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Palace</governor>
+            <dependent idx="21">echoes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">mass</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">mass</governor>
+            <dependent idx="23">monumental</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="24">mass</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">elephant</governor>
+            <dependent idx="26">an</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">mass</governor>
+            <dependent idx="27">elephant</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="27">elephant</governor>
+            <dependent idx="29">scores</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">price</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">price</governor>
+            <dependent idx="31">top</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dominated</governor>
+            <dependent idx="32">price</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="32">price</governor>
+            <dependent idx="34">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="34">$</governor>
+            <dependent idx="35">250,000</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">dominated</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">floor</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">floor</governor>
+            <dependent idx="2">ground</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">has</governor>
+            <dependent idx="3">floor</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="10">dominated</governor>
+            <dependent idx="4">has</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="5">big</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="6">architectural</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">sculptures</governor>
+            <dependent idx="7">metal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">has</governor>
+            <dependent idx="8">sculptures</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Palace</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">Palace</governor>
+            <dependent idx="13">Elephant</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="10">dominated</governor>
+            <dependent idx="14">Palace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">form</governor>
+            <dependent idx="15">whose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">form</governor>
+            <dependent idx="16">abstract</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="17">form</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">brass</governor>
+            <dependent idx="19">shiny</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">form</governor>
+            <dependent idx="20">brass</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Palace</governor>
+            <dependent idx="21">echoes</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">mass</governor>
+            <dependent idx="22">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">mass</governor>
+            <dependent idx="23">monumental</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="21">echoes</governor>
+            <dependent idx="24">mass</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">elephant</governor>
+            <dependent idx="26">an</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">mass</governor>
+            <dependent idx="27">elephant</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="24">mass</governor>
+            <dependent idx="29">scores</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="27">elephant</governor>
+            <dependent idx="29">scores</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="32">price</governor>
+            <dependent idx="30">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">price</governor>
+            <dependent idx="31">top</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">dominated</governor>
+            <dependent idx="32">price</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="32">price</governor>
+            <dependent idx="34">$</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="34">$</governor>
+            <dependent idx="35">250,000</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

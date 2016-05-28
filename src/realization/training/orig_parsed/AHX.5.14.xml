@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mrs</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Allan</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="4">
+            <word>son</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>disappeared</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>May</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>1989</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>after</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>party</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>during</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>his</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="16">
+            <word>back-packing</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>trip</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>across</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>North</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>America</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Mrs) (NNP Allan) (POS 's)) (NN son)) (VP (VBD disappeared) (PP (IN in) (NP (NP (NNP May)) (, ,) (NP (CD 1989)) (, ,))) (PP (IN after) (NP (DT a) (NN party))) (PP (IN during) (NP (NP (PRP$ his) (JJ back-packing) (NN trip)) (PP (IN across) (NP (NNP North) (NNP America)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">disappeared</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">son</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="2">Allan</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="4">son</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">in</governor>
+            <dependent idx="7">May</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">May</governor>
+            <dependent idx="9">1989</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="11">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">party</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">after</governor>
+            <dependent idx="13">party</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="14">during</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">trip</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">trip</governor>
+            <dependent idx="16">back-packing</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">during</governor>
+            <dependent idx="17">trip</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">trip</governor>
+            <dependent idx="18">across</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">America</governor>
+            <dependent idx="19">North</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">across</governor>
+            <dependent idx="20">America</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">disappeared</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">son</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="4">son</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="7">May</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">May</governor>
+            <dependent idx="9">1989</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">party</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="13">party</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">trip</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">trip</governor>
+            <dependent idx="16">back-packing</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="17">trip</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">America</governor>
+            <dependent idx="19">North</dependent>
+          </dep>
+          <dep type="prep_across">
+            <governor idx="17">trip</governor>
+            <dependent idx="20">America</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">disappeared</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Allan</governor>
+            <dependent idx="1">Mrs</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">son</governor>
+            <dependent idx="2">Allan</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="4">son</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="7">May</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">May</governor>
+            <dependent idx="9">1989</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">party</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="13">party</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">trip</governor>
+            <dependent idx="15">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">trip</governor>
+            <dependent idx="16">back-packing</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="5">disappeared</governor>
+            <dependent idx="17">trip</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">America</governor>
+            <dependent idx="19">North</dependent>
+          </dep>
+          <dep type="prep_across">
+            <governor idx="17">trip</governor>
+            <dependent idx="20">America</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Number</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>people</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>entitled</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>civil</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>legal</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>aid</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>has</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="11">
+            <word>fallen</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>by</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>more</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="14">
+            <word>than</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>14</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>million</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="17">
+            <word>since</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>1979</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="19">
+            <word>,</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="20">
+            <word>according</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="22">
+            <word>research</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>published</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="24">
+            <word>today</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN Number)) (PP (IN of) (NP (NP (NNS people)) (VP (VBN entitled) (PP (TO to) (NP (JJ civil) (JJ legal) (NN aid))))))) (VP (VBZ has) (VP (VBN fallen) (PP (IN by) (NP (QP (XS (JJR more) (IN than)) (CD 14) (CD million)))) (PP (IN since) (NP (CD 1979))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NN research)) (VP (VBN published) (NP-TMP (NN today)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">fallen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">fallen</governor>
+            <dependent idx="2">Number</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Number</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">entitled</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">entitled</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="7">civil</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">to</governor>
+            <dependent idx="9">aid</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">fallen</governor>
+            <dependent idx="10">has</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">fallen</governor>
+            <dependent idx="12">by</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="14">than</governor>
+            <dependent idx="13">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">million</governor>
+            <dependent idx="14">than</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">14</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">by</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">fallen</governor>
+            <dependent idx="17">since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">since</governor>
+            <dependent idx="18">1979</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">fallen</governor>
+            <dependent idx="20">according</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="20">according</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">to</governor>
+            <dependent idx="22">research</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="22">research</governor>
+            <dependent idx="23">published</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="23">published</governor>
+            <dependent idx="24">today</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">fallen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">fallen</governor>
+            <dependent idx="2">Number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Number</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">entitled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="7">civil</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">entitled</governor>
+            <dependent idx="9">aid</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">fallen</governor>
+            <dependent idx="10">has</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="14">than</governor>
+            <dependent idx="13">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">million</governor>
+            <dependent idx="14">than</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">14</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="11">fallen</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="11">fallen</governor>
+            <dependent idx="18">1979</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="11">fallen</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">fallen</governor>
+            <dependent idx="22">research</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="22">research</governor>
+            <dependent idx="23">published</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="23">published</governor>
+            <dependent idx="24">today</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">fallen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Number</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">fallen</governor>
+            <dependent idx="2">Number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">Number</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">entitled</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="7">civil</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">aid</governor>
+            <dependent idx="8">legal</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">entitled</governor>
+            <dependent idx="9">aid</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">fallen</governor>
+            <dependent idx="10">has</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="14">than</governor>
+            <dependent idx="13">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">million</governor>
+            <dependent idx="14">than</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">million</governor>
+            <dependent idx="15">14</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="11">fallen</governor>
+            <dependent idx="16">million</dependent>
+          </dep>
+          <dep type="prep_since">
+            <governor idx="11">fallen</governor>
+            <dependent idx="18">1979</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="11">fallen</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">fallen</governor>
+            <dependent idx="22">research</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="22">research</governor>
+            <dependent idx="23">published</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="23">published</governor>
+            <dependent idx="24">today</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

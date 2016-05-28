@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Schools</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>will</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="3">
+            <word>be</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="4">
+            <word>inspected</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>regularly</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>privatised</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>inspection</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>services</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>chosen</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="11">
+            <word>by</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>head</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>teacher</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>governess</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Schools)) (VP (MD will) (VP (VB be) (VP (VBN inspected) (ADVP (RB regularly)) (PP (IN by) (NP (NP (JJ privatised) (NN inspection) (NNS services)) (VP (VBN chosen) (PP (IN by) (NP (NP (DT the) (NN head) (NN teacher)) (CC and) (NP (NNS governess)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">inspected</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="1">Schools</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">inspected</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="3">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">inspected</governor>
+            <dependent idx="5">regularly</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">inspected</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">services</governor>
+            <dependent idx="7">privatised</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">services</governor>
+            <dependent idx="8">inspection</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="9">services</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="9">services</governor>
+            <dependent idx="10">chosen</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">chosen</governor>
+            <dependent idx="11">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">teacher</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">teacher</governor>
+            <dependent idx="13">head</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">by</governor>
+            <dependent idx="14">teacher</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">teacher</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">teacher</governor>
+            <dependent idx="16">governess</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">inspected</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="1">Schools</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">inspected</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="3">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">inspected</governor>
+            <dependent idx="5">regularly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">services</governor>
+            <dependent idx="7">privatised</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">services</governor>
+            <dependent idx="8">inspection</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="4">inspected</governor>
+            <dependent idx="9">services</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="9">services</governor>
+            <dependent idx="10">chosen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">teacher</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">teacher</governor>
+            <dependent idx="13">head</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="10">chosen</governor>
+            <dependent idx="14">teacher</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">teacher</governor>
+            <dependent idx="16">governess</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">inspected</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="1">Schools</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">inspected</governor>
+            <dependent idx="2">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">inspected</governor>
+            <dependent idx="3">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">inspected</governor>
+            <dependent idx="5">regularly</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">services</governor>
+            <dependent idx="7">privatised</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">services</governor>
+            <dependent idx="8">inspection</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="4">inspected</governor>
+            <dependent idx="9">services</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="9">services</governor>
+            <dependent idx="10">chosen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">teacher</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">teacher</governor>
+            <dependent idx="13">head</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="10">chosen</governor>
+            <dependent idx="14">teacher</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="10">chosen</governor>
+            <dependent idx="16">governess</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">teacher</governor>
+            <dependent idx="16">governess</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

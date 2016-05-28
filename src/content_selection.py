@@ -108,28 +108,34 @@ def get_doc_data(topic_path,all_topics):
 
 def compare_frequency(word,brown_frequencies,doc_frequencies):
     if word in doc_frequencies:
-        if re.search('[^A-z]',word) != None:
-            if (word.lower() in brown_frequencies) & (not word.lower() in stopwords.words('english')):
+        if re.search('[^A-z]',word) == None:
+            if (word in brown_frequencies) & (not word in stopwords.words('english')):
                 try:
-                    return math.log(float(doc_frequencies[word]) / float(brown_frequencies[word.lower()]))
+                    return math.log(float(doc_frequencies[word]) / float(brown_frequencies[word]))
             #maybe change to frequencies given document
                 except ZeroDivisionError:
                     return math.log(float(doc_frequencies[word]))
             else:
                 return math.log(float(doc_frequencies[word]))
-    return 0.0    
-
+    return 0.0
+        
 def topic_frequencies(brown_frequencies,topic):
     topic_frequency = {}
+    all_words = {}
+    for doc in topic['docSet']:
+        for word in doc['wordCounts']:
+            if word.lower() in all_words:
+                all_words[word.lower()] += 1.0
+            else:
+                all_words[word.lower()] = 1.0
     for i,doc in enumerate(topic['docSet']):
         #order sentences in doc
         topic_frequency[doc['id']] = {}
         for sentence in topic['docSet'][i]['sentences']:
             topic_frequency[doc['id']][sentence] = {}
             for word in word_tokenize(sentence):
-                topic_frequency[doc['id']][sentence][word] = compare_frequency(word,brown_frequencies,doc['wordCounts'])
+                topic_frequency[doc['id']][sentence][word] = compare_frequency(word.lower(),brown_frequencies,all_words)
     return topic_frequency
-
 #----------------------------------------------training for model----------------------------------------------
 ##def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
 ##    best_rouge = 0.0
@@ -219,7 +225,6 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
         all_sentence_combs[str(x)]['rouge'] = 0.0
         p1 = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/run_rouge_test.sh ' + "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/config_files/" + doc_id + ".config.xml", shell=True)
         p1.communicate()
-        time.sleep(.5)
         rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/rouge_result.txt')
         for k,line in enumerate(rouge_file):
             if k == 7:
@@ -228,7 +233,7 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
         rouge_file.close()
         lib_data.write(str(all_sentence_combs[str(x)]['rouge']) + " ")
         for t,sent in enumerate(all_sentence_combs[str(x)]['sentences']):
-            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " " + str(t+5) + ":" + str(float(all_sentence_combs[str(x)]['sentences'][sent]['position'])) + " ")
+            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " ")
         lib_data.write("\n")
       except IndexError:
           ""

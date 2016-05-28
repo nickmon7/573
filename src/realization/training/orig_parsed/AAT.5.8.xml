@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Harari</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>spent</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>much</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>his</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="6">
+            <word>adult</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>life</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Israel</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>secret</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>world</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Harari)) (VP (VBD spent) (NP (NP (RB much)) (PP (IN of) (NP (PRP$ his) (JJ adult) (NN life)))) (PP (IN in) (NP (NP (NNP Israel) (POS 's)) (JJ secret) (NN world)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spent</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">spent</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">much</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">life</governor>
+            <dependent idx="6">adult</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="7">life</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">spent</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">world</governor>
+            <dependent idx="9">Israel</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="9">Israel</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">world</governor>
+            <dependent idx="11">secret</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="12">world</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spent</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">spent</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">life</governor>
+            <dependent idx="6">adult</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">much</governor>
+            <dependent idx="7">life</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">world</governor>
+            <dependent idx="9">Israel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">world</governor>
+            <dependent idx="11">secret</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">spent</governor>
+            <dependent idx="12">world</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spent</governor>
+            <dependent idx="1">Harari</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">spent</governor>
+            <dependent idx="3">much</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">life</governor>
+            <dependent idx="6">adult</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">much</governor>
+            <dependent idx="7">life</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">world</governor>
+            <dependent idx="9">Israel</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">world</governor>
+            <dependent idx="11">secret</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">spent</governor>
+            <dependent idx="12">world</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

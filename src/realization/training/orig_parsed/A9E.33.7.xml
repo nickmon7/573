@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>essential</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="5">
+            <word>act</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>quickly</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>avert</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>partition</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>Lebanon</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>into</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>religious</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>cantons</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBD was) (ADJP (JJ essential) (S (VP (TO to) (VP (VB act) (ADVP (RB quickly)) (S (VP (TO to) (VP (VB avert) (NP (NP (DT the) (NN partition)) (PP (IN of) (NP (NNP Lebanon)))) (PP (IN into) (NP (JJ religious) (NNS cantons))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">essential</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">essential</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">essential</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">act</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">essential</governor>
+            <dependent idx="5">act</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">act</governor>
+            <dependent idx="6">quickly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">avert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">act</governor>
+            <dependent idx="8">avert</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">partition</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">avert</governor>
+            <dependent idx="10">partition</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">partition</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">of</governor>
+            <dependent idx="12">Lebanon</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">avert</governor>
+            <dependent idx="13">into</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">cantons</governor>
+            <dependent idx="14">religious</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">into</governor>
+            <dependent idx="15">cantons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">essential</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">essential</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">essential</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">act</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">essential</governor>
+            <dependent idx="5">act</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">act</governor>
+            <dependent idx="6">quickly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">avert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">act</governor>
+            <dependent idx="8">avert</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">partition</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">avert</governor>
+            <dependent idx="10">partition</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">partition</governor>
+            <dependent idx="12">Lebanon</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">cantons</governor>
+            <dependent idx="14">religious</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="8">avert</governor>
+            <dependent idx="15">cantons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">essential</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">essential</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">essential</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">act</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">essential</governor>
+            <dependent idx="5">act</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">act</governor>
+            <dependent idx="6">quickly</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">avert</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="5">act</governor>
+            <dependent idx="8">avert</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">partition</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">avert</governor>
+            <dependent idx="10">partition</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="10">partition</governor>
+            <dependent idx="12">Lebanon</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">cantons</governor>
+            <dependent idx="14">religious</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="8">avert</governor>
+            <dependent idx="15">cantons</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

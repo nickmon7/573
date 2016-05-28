@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>And</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>it</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>perfectly</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>clear</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>old</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>representatives</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Lebanese</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>democracy</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>are</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="14">
+            <word>under</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>considerable</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>pressure</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>talk</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>about</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>reform</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>and</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="22">
+            <word>not</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="23">
+            <word>withdrawal</word>
+            <CharacterOffsetBegin>138</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC And) (NP (PRP it)) (VP (VBZ is) (ADJP (RB perfectly) (JJ clear)) (SBAR (IN that) (S (NP (NP (DT the) (JJ old) (NNS representatives)) (PP (IN of) (NP (JJ Lebanese) (NN democracy)))) (VP (VBP are) (PP (IN under) (NP (JJ considerable) (NN pressure))) (S (VP (TO to) (VP (VB talk) (PP (IN about) (NP (NP (NN reform)) (CC and) (NP (RB not) (NN withdrawal))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">clear</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">perfectly</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">are</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">representatives</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">representatives</governor>
+            <dependent idx="8">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">are</governor>
+            <dependent idx="9">representatives</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">representatives</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">democracy</governor>
+            <dependent idx="11">Lebanese</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="12">democracy</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="13">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">are</governor>
+            <dependent idx="14">under</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">pressure</governor>
+            <dependent idx="15">considerable</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">under</governor>
+            <dependent idx="16">pressure</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">talk</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">are</governor>
+            <dependent idx="18">talk</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">talk</governor>
+            <dependent idx="19">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">about</governor>
+            <dependent idx="20">reform</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="20">reform</governor>
+            <dependent idx="21">and</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">withdrawal</governor>
+            <dependent idx="22">not</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="20">reform</governor>
+            <dependent idx="23">withdrawal</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">clear</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">perfectly</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">are</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">representatives</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">representatives</governor>
+            <dependent idx="8">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">are</governor>
+            <dependent idx="9">representatives</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">democracy</governor>
+            <dependent idx="11">Lebanese</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">representatives</governor>
+            <dependent idx="12">democracy</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="13">are</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">pressure</governor>
+            <dependent idx="15">considerable</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="13">are</governor>
+            <dependent idx="16">pressure</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">talk</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">are</governor>
+            <dependent idx="18">talk</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">talk</governor>
+            <dependent idx="20">reform</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">withdrawal</governor>
+            <dependent idx="22">not</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="20">reform</governor>
+            <dependent idx="23">withdrawal</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">clear</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">perfectly</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">are</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">representatives</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">representatives</governor>
+            <dependent idx="8">old</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">are</governor>
+            <dependent idx="9">representatives</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">democracy</governor>
+            <dependent idx="11">Lebanese</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">representatives</governor>
+            <dependent idx="12">democracy</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="13">are</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">pressure</governor>
+            <dependent idx="15">considerable</dependent>
+          </dep>
+          <dep type="prep_under">
+            <governor idx="13">are</governor>
+            <dependent idx="16">pressure</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">talk</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">are</governor>
+            <dependent idx="18">talk</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">talk</governor>
+            <dependent idx="20">reform</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="23">withdrawal</governor>
+            <dependent idx="22">not</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">talk</governor>
+            <dependent idx="23">withdrawal</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="20">reform</governor>
+            <dependent idx="23">withdrawal</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

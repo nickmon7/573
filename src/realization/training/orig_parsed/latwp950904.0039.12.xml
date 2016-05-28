@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Five</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>found</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>guilty</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>incitement</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (CD Five)) (VP (VBD were) (VP (VBN found) (ADJP (JJ guilty)) (PP (IN of) (NP (NN incitement))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">found</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">found</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">found</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="3">found</governor>
+            <dependent idx="4">guilty</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">found</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">of</governor>
+            <dependent idx="6">incitement</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">found</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">found</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">found</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="3">found</governor>
+            <dependent idx="4">guilty</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">found</governor>
+            <dependent idx="6">incitement</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">found</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">found</governor>
+            <dependent idx="1">Five</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">found</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="3">found</governor>
+            <dependent idx="4">guilty</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">found</governor>
+            <dependent idx="6">incitement</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

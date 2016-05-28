@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Davies</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>worked</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>hard</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>affiliate</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>15</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>Tgwu</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>branches</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>has</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="14">
+            <word>written</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>pamphlet</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>attacking</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="18">
+            <word>Mr</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>Field</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>'s</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="21">
+            <word>views</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>on</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>social</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="24">
+            <word>policy</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Davies)) (VP (VP (VBZ has) (VP (VBN worked) (ADVP (RB hard)) (S (VP (TO to) (VP (VB affiliate) (NP (CD 15) (NNP Tgwu) (NNS branches))))))) (, ,) (CC and) (VP (VBZ has) (VP (VBN written) (NP (DT a) (NN pamphlet)) (S (VP (VBG attacking) (NP (NP (NNP Mr) (NNP Field) (POS 's)) (NNS views)) (PP (IN on) (NP (JJ social) (NN policy)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">worked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Davies</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">worked</governor>
+            <dependent idx="2">Davies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">worked</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">worked</governor>
+            <dependent idx="5">hard</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">worked</governor>
+            <dependent idx="7">affiliate</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">branches</governor>
+            <dependent idx="8">15</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">branches</governor>
+            <dependent idx="9">Tgwu</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="10">branches</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">worked</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">written</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">worked</governor>
+            <dependent idx="14">written</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pamphlet</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">written</governor>
+            <dependent idx="16">pamphlet</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">written</governor>
+            <dependent idx="17">attacking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Field</governor>
+            <dependent idx="18">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">views</governor>
+            <dependent idx="19">Field</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="19">Field</governor>
+            <dependent idx="20">'s</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">attacking</governor>
+            <dependent idx="21">views</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">attacking</governor>
+            <dependent idx="22">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">policy</governor>
+            <dependent idx="23">social</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">on</governor>
+            <dependent idx="24">policy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">worked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Davies</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">worked</governor>
+            <dependent idx="2">Davies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">worked</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">worked</governor>
+            <dependent idx="5">hard</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">worked</governor>
+            <dependent idx="7">affiliate</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">branches</governor>
+            <dependent idx="8">15</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">branches</governor>
+            <dependent idx="9">Tgwu</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="10">branches</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">written</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">worked</governor>
+            <dependent idx="14">written</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pamphlet</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">written</governor>
+            <dependent idx="16">pamphlet</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">written</governor>
+            <dependent idx="17">attacking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Field</governor>
+            <dependent idx="18">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">views</governor>
+            <dependent idx="19">Field</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">attacking</governor>
+            <dependent idx="21">views</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">policy</governor>
+            <dependent idx="23">social</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="17">attacking</governor>
+            <dependent idx="24">policy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">worked</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Davies</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">worked</governor>
+            <dependent idx="2">Davies</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">written</governor>
+            <dependent idx="2">Davies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">worked</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">worked</governor>
+            <dependent idx="5">hard</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="4">worked</governor>
+            <dependent idx="7">affiliate</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">branches</governor>
+            <dependent idx="8">15</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">branches</governor>
+            <dependent idx="9">Tgwu</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">affiliate</governor>
+            <dependent idx="10">branches</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">written</governor>
+            <dependent idx="13">has</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">worked</governor>
+            <dependent idx="14">written</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">pamphlet</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">written</governor>
+            <dependent idx="16">pamphlet</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="14">written</governor>
+            <dependent idx="17">attacking</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Field</governor>
+            <dependent idx="18">Mr</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">views</governor>
+            <dependent idx="19">Field</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">attacking</governor>
+            <dependent idx="21">views</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">policy</governor>
+            <dependent idx="23">social</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="17">attacking</governor>
+            <dependent idx="24">policy</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>#</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>#</POS>
+          </token>
+          <token id="3">
+            <word>16.1</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>m</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>dam</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>will</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="7">
+            <word>hold</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="8">
+            <word>back</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>2.6-mile-long</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>artificial</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>lake</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="14">
+            <word>be</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>known</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>as</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>Roadford</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>Reservoir</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT A) (ADJP (QP (# #) (CD 16.1) (CD m))) (NN dam)) (VP (MD will) (VP (VB hold) (PRT (RP back)) (NP (DT a) (JJ 2.6-mile-long) (JJ artificial) (NN lake)) (S (VP (TO to) (VP (VB be) (VP (VBN known) (PP (IN as) (NP (DT the) (NNP Roadford) (NNP Reservoir))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">hold</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">dam</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="2">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="3">16.1</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dam</governor>
+            <dependent idx="4">m</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hold</governor>
+            <dependent idx="5">dam</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hold</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">hold</governor>
+            <dependent idx="8">back</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">lake</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="10">2.6-mile-long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="11">artificial</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">hold</governor>
+            <dependent idx="12">lake</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">known</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">known</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">hold</governor>
+            <dependent idx="15">known</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">known</governor>
+            <dependent idx="16">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="18">Roadford</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">as</governor>
+            <dependent idx="19">Reservoir</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">hold</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">dam</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="2">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="3">16.1</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dam</governor>
+            <dependent idx="4">m</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hold</governor>
+            <dependent idx="5">dam</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hold</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">hold</governor>
+            <dependent idx="8">back</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">lake</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="10">2.6-mile-long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="11">artificial</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">hold</governor>
+            <dependent idx="12">lake</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">known</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">known</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">hold</governor>
+            <dependent idx="15">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="18">Roadford</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="15">known</governor>
+            <dependent idx="19">Reservoir</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">hold</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">dam</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="2">#</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="4">m</governor>
+            <dependent idx="3">16.1</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">dam</governor>
+            <dependent idx="4">m</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hold</governor>
+            <dependent idx="5">dam</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hold</governor>
+            <dependent idx="6">will</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="7">hold</governor>
+            <dependent idx="8">back</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">lake</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="10">2.6-mile-long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">lake</governor>
+            <dependent idx="11">artificial</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">hold</governor>
+            <dependent idx="12">lake</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">known</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">known</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">hold</governor>
+            <dependent idx="15">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Reservoir</governor>
+            <dependent idx="18">Roadford</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="15">known</governor>
+            <dependent idx="19">Reservoir</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

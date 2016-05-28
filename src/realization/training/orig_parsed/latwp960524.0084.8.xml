@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>added</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>``</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="4">
+            <word>The</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Sporting</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Life</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>''</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="9">
+            <word>which</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="10">
+            <word>satirizes</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="11">
+            <word>sports</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>two</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>years</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>later</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>RBR</POS>
+          </token>
+          <token id="16">
+            <word>and</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>others</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>after</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>that</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (VP (VBD added) (NP (`` ``) (NP (DT The) (NNP Sporting) (NNP Life)) (, ,) ('' '') (SBAR (WHNP (WDT which)) (S (VP (VBZ satirizes) (NP (NP (NP (NNS sports)) (, ,) (ADVP (NP (CD two) (NNS years)) (RBR later))) (CC and) (NP (NP (DT the) (NNS others)) (PP (IN after) (NP (DT that)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Life</governor>
+            <dependent idx="4">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Life</governor>
+            <dependent idx="5">Sporting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">added</governor>
+            <dependent idx="6">Life</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="9">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">Life</governor>
+            <dependent idx="10">satirizes</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="11">sports</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="15">later</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">sports</governor>
+            <dependent idx="15">later</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">sports</governor>
+            <dependent idx="16">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">others</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">sports</governor>
+            <dependent idx="18">others</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">others</governor>
+            <dependent idx="19">after</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">after</governor>
+            <dependent idx="20">that</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Life</governor>
+            <dependent idx="4">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Life</governor>
+            <dependent idx="5">Sporting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">added</governor>
+            <dependent idx="6">Life</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="9">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">Life</governor>
+            <dependent idx="10">satirizes</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="11">sports</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="15">later</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">sports</governor>
+            <dependent idx="15">later</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">others</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">sports</governor>
+            <dependent idx="18">others</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="18">others</governor>
+            <dependent idx="20">that</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">added</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">added</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Life</governor>
+            <dependent idx="4">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Life</governor>
+            <dependent idx="5">Sporting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">added</governor>
+            <dependent idx="6">Life</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="9">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="6">Life</governor>
+            <dependent idx="10">satirizes</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="11">sports</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">two</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="15">later</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">sports</governor>
+            <dependent idx="15">later</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">others</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">satirizes</governor>
+            <dependent idx="18">others</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">sports</governor>
+            <dependent idx="18">others</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="18">others</governor>
+            <dependent idx="20">that</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

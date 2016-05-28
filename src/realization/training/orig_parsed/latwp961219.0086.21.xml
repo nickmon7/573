@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>He</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>most</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RBS</POS>
+          </token>
+          <token id="6">
+            <word>distinguished</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>director</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>Italian</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>theater</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>at</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>time</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP He)) (VP (VBD was) (NP (NP (DT the) (ADJP (RBS most) (JJ distinguished)) (NN director)) (PP (IN in) (NP (NP (DT the) (JJ Italian) (NN theater)) (PP (IN at) (NP (DT the) (NN time))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">director</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">director</governor>
+            <dependent idx="2">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">director</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">director</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">distinguished</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">director</governor>
+            <dependent idx="6">distinguished</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">director</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">theater</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">theater</governor>
+            <dependent idx="10">Italian</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="11">theater</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">theater</governor>
+            <dependent idx="12">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">time</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">at</governor>
+            <dependent idx="14">time</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">director</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">director</governor>
+            <dependent idx="2">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">director</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">director</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">distinguished</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">director</governor>
+            <dependent idx="6">distinguished</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">theater</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">theater</governor>
+            <dependent idx="10">Italian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">director</governor>
+            <dependent idx="11">theater</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">time</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="11">theater</governor>
+            <dependent idx="14">time</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">director</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">director</governor>
+            <dependent idx="2">He</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">director</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">director</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">distinguished</governor>
+            <dependent idx="5">most</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">director</governor>
+            <dependent idx="6">distinguished</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">theater</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">theater</governor>
+            <dependent idx="10">Italian</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">director</governor>
+            <dependent idx="11">theater</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">time</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="11">theater</governor>
+            <dependent idx="14">time</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Here</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>Cornwall</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>you</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>are</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>vanguard</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>conscience</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>and</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>reform</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (ADVP (RB Here)) (IN in) (NP (NNP Cornwall))) (, ,) (NP (PRP you)) (VP (VBP are) (PP (IN in) (NP (NP (DT the) (NN vanguard)) (PP (IN of) (NP (NN conscience) (CC and) (NN reform)))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">in</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">are</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">in</governor>
+            <dependent idx="3">Cornwall</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">are</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">in</governor>
+            <dependent idx="9">vanguard</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="11">conscience</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">conscience</governor>
+            <dependent idx="12">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="11">conscience</governor>
+            <dependent idx="13">reform</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">are</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">are</governor>
+            <dependent idx="3">Cornwall</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">are</governor>
+            <dependent idx="9">vanguard</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="11">conscience</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">conscience</governor>
+            <dependent idx="13">reform</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">are</governor>
+            <dependent idx="1">Here</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">are</governor>
+            <dependent idx="3">Cornwall</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">are</governor>
+            <dependent idx="5">you</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">are</governor>
+            <dependent idx="9">vanguard</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="11">conscience</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">vanguard</governor>
+            <dependent idx="13">reform</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="11">conscience</governor>
+            <dependent idx="13">reform</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>warned</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Conservatives</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>Labour</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>``</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="9">
+            <word>from</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>ancient</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>bastion</word>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>liberalism</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>flames</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>are</word>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="19">
+            <word>fanning</word>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="20">
+            <word>out</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>186</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="21">
+            <word>in</word>
+            <CharacterOffsetBegin>187</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>all</word>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="23">
+            <word>directions</word>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>,</word>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="25">
+            <word>consuming</word>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="26">
+            <word>your</word>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>221</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="27">
+            <word>shabby</word>
+            <CharacterOffsetBegin>222</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="28">
+            <word>campaigns</word>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="29">
+            <word>,</word>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="30">
+            <word>your</word>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="31">
+            <word>out-of-date</word>
+            <CharacterOffsetBegin>246</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="32">
+            <word>policies</word>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>266</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="33">
+            <word>,</word>
+            <CharacterOffsetBegin>267</CharacterOffsetBegin>
+            <CharacterOffsetEnd>268</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="34">
+            <word>your</word>
+            <CharacterOffsetBegin>269</CharacterOffsetBegin>
+            <CharacterOffsetEnd>273</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="35">
+            <word>visions</word>
+            <CharacterOffsetBegin>274</CharacterOffsetBegin>
+            <CharacterOffsetEnd>281</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="36">
+            <word>of</word>
+            <CharacterOffsetBegin>282</CharacterOffsetBegin>
+            <CharacterOffsetEnd>284</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="37">
+            <word>the</word>
+            <CharacterOffsetBegin>285</CharacterOffsetBegin>
+            <CharacterOffsetEnd>288</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="38">
+            <word>future</word>
+            <CharacterOffsetBegin>289</CharacterOffsetBegin>
+            <CharacterOffsetEnd>295</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="39">
+            <word>''</word>
+            <CharacterOffsetBegin>296</CharacterOffsetBegin>
+            <CharacterOffsetEnd>298</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="40">
+            <word>.</word>
+            <CharacterOffsetBegin>299</CharacterOffsetBegin>
+            <CharacterOffsetEnd>300</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD warned) (NP (DT the) (NNPS Conservatives) (CC and) (NNP Labour)) (SBAR (IN that) (`` ``) (S (PP (IN from) (NP (NP (DT the) (JJ ancient) (NN bastion)) (PP (IN of) (NP (NN liberalism))))) (, ,) (NP (DT the) (NNS flames)) (VP (VBP are) (VP (VBG fanning) (PRT (RP out)) (PP (IN in) (NP (DT all) (NNS directions))) (, ,) (S (VP (VBG consuming) (NP (NP (PRP$ your) (JJ shabby) (NNS campaigns)) (, ,) (NP (PRP$ your) (JJ out-of-date) (NNS policies)) (, ,) (NP (NP (PRP$ your) (NNS visions)) (PP (IN of) (NP (DT the) (NN future)))) ('' ''))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">warned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">warned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">warned</governor>
+            <dependent idx="4">Conservatives</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="6">Labour</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">fanning</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">fanning</governor>
+            <dependent idx="9">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">bastion</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bastion</governor>
+            <dependent idx="11">ancient</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">from</governor>
+            <dependent idx="12">bastion</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">bastion</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="14">liberalism</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flames</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">fanning</governor>
+            <dependent idx="17">flames</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">fanning</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">warned</governor>
+            <dependent idx="19">fanning</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">fanning</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">fanning</governor>
+            <dependent idx="21">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">directions</governor>
+            <dependent idx="22">all</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">in</governor>
+            <dependent idx="23">directions</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="19">fanning</governor>
+            <dependent idx="25">consuming</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="26">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="27">shabby</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">consuming</governor>
+            <dependent idx="28">campaigns</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="32">policies</governor>
+            <dependent idx="30">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">policies</governor>
+            <dependent idx="31">out-of-date</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="32">policies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">visions</governor>
+            <dependent idx="34">your</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="35">visions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="35">visions</governor>
+            <dependent idx="36">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">future</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="36">of</governor>
+            <dependent idx="38">future</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">warned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">warned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">warned</governor>
+            <dependent idx="4">Conservatives</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="6">Labour</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">fanning</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">bastion</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bastion</governor>
+            <dependent idx="11">ancient</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">fanning</governor>
+            <dependent idx="12">bastion</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">bastion</governor>
+            <dependent idx="14">liberalism</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flames</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">fanning</governor>
+            <dependent idx="17">flames</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">fanning</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">warned</governor>
+            <dependent idx="19">fanning</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">fanning</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">directions</governor>
+            <dependent idx="22">all</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">fanning</governor>
+            <dependent idx="23">directions</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="19">fanning</governor>
+            <dependent idx="25">consuming</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="26">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="27">shabby</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">consuming</governor>
+            <dependent idx="28">campaigns</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="32">policies</governor>
+            <dependent idx="30">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">policies</governor>
+            <dependent idx="31">out-of-date</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="32">policies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">visions</governor>
+            <dependent idx="34">your</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="35">visions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">future</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="35">visions</governor>
+            <dependent idx="38">future</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">warned</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">warned</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">warned</governor>
+            <dependent idx="4">Conservatives</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">warned</governor>
+            <dependent idx="6">Labour</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">Conservatives</governor>
+            <dependent idx="6">Labour</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="19">fanning</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">bastion</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">bastion</governor>
+            <dependent idx="11">ancient</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">fanning</governor>
+            <dependent idx="12">bastion</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">bastion</governor>
+            <dependent idx="14">liberalism</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flames</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">fanning</governor>
+            <dependent idx="17">flames</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">fanning</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">warned</governor>
+            <dependent idx="19">fanning</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">fanning</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">directions</governor>
+            <dependent idx="22">all</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">fanning</governor>
+            <dependent idx="23">directions</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="19">fanning</governor>
+            <dependent idx="25">consuming</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="26">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="27">shabby</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="25">consuming</governor>
+            <dependent idx="28">campaigns</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="32">policies</governor>
+            <dependent idx="30">your</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">policies</governor>
+            <dependent idx="31">out-of-date</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="32">policies</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="35">visions</governor>
+            <dependent idx="34">your</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="28">campaigns</governor>
+            <dependent idx="35">visions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="38">future</governor>
+            <dependent idx="37">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="35">visions</governor>
+            <dependent idx="38">future</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

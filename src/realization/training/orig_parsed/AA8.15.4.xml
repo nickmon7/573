@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>For</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>me</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>his</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>was</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>pluralist</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>socialism</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>its</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>best</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="10">
+            <word>--</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>service</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>community</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN For) (NP (PRP me))) (NP (PRP$ his)) (VP (VBD was) (NP (NP (JJ pluralist) (NN socialism)) (PP (IN at) (NP (PRP$ its) (JJS best)))) (: --) (PP (IN in) (NP (NP (DT the) (NN service)) (PP (IN of) (NP (DT the) (NN community)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">socialism</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">socialism</governor>
+            <dependent idx="1">For</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">For</governor>
+            <dependent idx="2">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">socialism</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">socialism</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">socialism</governor>
+            <dependent idx="5">pluralist</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">socialism</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">at</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">socialism</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">service</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">community</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="16">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">socialism</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">socialism</governor>
+            <dependent idx="2">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">socialism</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">socialism</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">socialism</governor>
+            <dependent idx="5">pluralist</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">socialism</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">socialism</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">community</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">service</governor>
+            <dependent idx="16">community</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">socialism</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="6">socialism</governor>
+            <dependent idx="2">me</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">socialism</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">socialism</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">socialism</governor>
+            <dependent idx="5">pluralist</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">best</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">socialism</governor>
+            <dependent idx="9">best</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">service</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="6">socialism</governor>
+            <dependent idx="13">service</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">community</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">service</governor>
+            <dependent idx="16">community</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

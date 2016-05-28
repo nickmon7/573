@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>When</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="2">
+            <word>pressed</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>he</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>almost</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>conceded</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>something</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>original</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>philosophy</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>1992</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="16">
+            <word>programme</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>may</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="18">
+            <word>have</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>been</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>lost</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (WHADVP (WRB When)) (S (VP (VBD pressed)))) (, ,) (NP (PRP he)) (ADVP (RB almost)) (VP (VBD conceded) (SBAR (IN that) (S (NP (NP (NN something)) (PP (IN of) (NP (NP (DT the) (JJ original) (NN philosophy)) (PP (IN of) (NP (DT the) (CD 1992) (NN programme)))))) (VP (MD may) (VP (VB have) (VP (VBN been) (VP (VBN lost)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">conceded</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">pressed</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">conceded</governor>
+            <dependent idx="2">pressed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">conceded</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">conceded</governor>
+            <dependent idx="5">almost</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">lost</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="8">something</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">something</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="11">original</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="12">philosophy</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">programme</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">programme</governor>
+            <dependent idx="15">1992</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="16">programme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="17">may</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="18">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="19">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">conceded</governor>
+            <dependent idx="20">lost</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">conceded</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">pressed</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">conceded</governor>
+            <dependent idx="2">pressed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">conceded</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">conceded</governor>
+            <dependent idx="5">almost</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">lost</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="8">something</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="11">original</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">something</governor>
+            <dependent idx="12">philosophy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">programme</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">programme</governor>
+            <dependent idx="15">1992</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="16">programme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="17">may</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="18">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="19">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">conceded</governor>
+            <dependent idx="20">lost</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">conceded</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">pressed</governor>
+            <dependent idx="1">When</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">conceded</governor>
+            <dependent idx="2">pressed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">conceded</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">conceded</governor>
+            <dependent idx="5">almost</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="20">lost</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="8">something</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="11">original</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">something</governor>
+            <dependent idx="12">philosophy</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">programme</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="16">programme</governor>
+            <dependent idx="15">1992</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">philosophy</governor>
+            <dependent idx="16">programme</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="17">may</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">lost</governor>
+            <dependent idx="18">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="20">lost</governor>
+            <dependent idx="19">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">conceded</governor>
+            <dependent idx="20">lost</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

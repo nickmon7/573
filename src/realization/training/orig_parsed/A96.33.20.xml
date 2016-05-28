@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>After</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>receiving</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>proposals</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>before</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>responding</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>Mr</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Adamec</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>had</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>gone</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>on</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>national</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>television</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>on</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>Wednesday</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>night</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>threaten</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="22">
+            <word>quit</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN After) (S (VP (VP (VBG receiving) (NP (DT the) (NNS proposals))) (CC and) (VP (ADVP (RB before)) (VBG responding))))) (, ,) (NP (NNP Mr) (NNP Adamec)) (VP (VBD had) (VP (VBN gone) (PP (IN on) (NP (NP (JJ national) (NN television)) (PP (IN on) (NP (NNP Wednesday))) (NP-TMP (NN night)))) (S (VP (TO to) (VP (VB threaten) (S (VP (TO to) (VP (VB quit))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">gone</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">gone</governor>
+            <dependent idx="1">After</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="1">After</governor>
+            <dependent idx="2">receiving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">proposals</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">receiving</governor>
+            <dependent idx="4">proposals</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">receiving</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">responding</governor>
+            <dependent idx="6">before</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">receiving</governor>
+            <dependent idx="7">responding</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Adamec</governor>
+            <dependent idx="9">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">gone</governor>
+            <dependent idx="10">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">gone</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">gone</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">television</governor>
+            <dependent idx="14">national</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">on</governor>
+            <dependent idx="15">television</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">television</governor>
+            <dependent idx="16">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">on</governor>
+            <dependent idx="17">Wednesday</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="15">television</governor>
+            <dependent idx="18">night</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">threaten</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">gone</governor>
+            <dependent idx="20">threaten</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">quit</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">threaten</governor>
+            <dependent idx="22">quit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">gone</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="12">gone</governor>
+            <dependent idx="2">receiving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">proposals</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">receiving</governor>
+            <dependent idx="4">proposals</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">responding</governor>
+            <dependent idx="6">before</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">receiving</governor>
+            <dependent idx="7">responding</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Adamec</governor>
+            <dependent idx="9">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">gone</governor>
+            <dependent idx="10">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">gone</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">television</governor>
+            <dependent idx="14">national</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="12">gone</governor>
+            <dependent idx="15">television</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="15">television</governor>
+            <dependent idx="17">Wednesday</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="15">television</governor>
+            <dependent idx="18">night</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">threaten</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">gone</governor>
+            <dependent idx="20">threaten</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">quit</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">threaten</governor>
+            <dependent idx="22">quit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">gone</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="12">gone</governor>
+            <dependent idx="2">receiving</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">proposals</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">receiving</governor>
+            <dependent idx="4">proposals</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">responding</governor>
+            <dependent idx="6">before</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">receiving</governor>
+            <dependent idx="7">responding</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="12">gone</governor>
+            <dependent idx="7">responding</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Adamec</governor>
+            <dependent idx="9">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">gone</governor>
+            <dependent idx="10">Adamec</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">gone</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">television</governor>
+            <dependent idx="14">national</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="12">gone</governor>
+            <dependent idx="15">television</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="15">television</governor>
+            <dependent idx="17">Wednesday</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="15">television</governor>
+            <dependent idx="18">night</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="20">threaten</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">gone</governor>
+            <dependent idx="20">threaten</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">quit</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="20">threaten</governor>
+            <dependent idx="22">quit</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

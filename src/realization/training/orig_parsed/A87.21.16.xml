@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Damaras</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="3">
+            <word>were</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>shocked</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>awake</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNPS Damaras)) (VP (VBD were) (VP (VBN shocked) (S (ADJP (RB awake))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Damaras</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="2">Damaras</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shocked</governor>
+            <dependent idx="5">awake</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Damaras</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="2">Damaras</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shocked</governor>
+            <dependent idx="5">awake</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">shocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Damaras</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="2">Damaras</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">shocked</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="4">shocked</governor>
+            <dependent idx="5">awake</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

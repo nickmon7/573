@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Yet</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>that</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>theater</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>'s</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="5">
+            <word>naming</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>illustrates</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="7">
+            <word>how</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="8">
+            <word>Doolittle</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>was</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>quintessential</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>comeback</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>artist</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC Yet) (NP (NP (DT that) (NN theater) (POS 's)) (NN naming)) (VP (VBZ illustrates) (SBAR (WHADVP (WRB how)) (S (NP (NNP Doolittle)) (VP (VBD was) (NP (DT a) (JJ quintessential) (NN comeback) (NN artist)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">illustrates</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="1">Yet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">theater</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">naming</governor>
+            <dependent idx="3">theater</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="3">theater</governor>
+            <dependent idx="4">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="5">naming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">artist</governor>
+            <dependent idx="7">how</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">artist</governor>
+            <dependent idx="8">Doolittle</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">artist</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">artist</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">artist</governor>
+            <dependent idx="11">quintessential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">artist</governor>
+            <dependent idx="12">comeback</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="13">artist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">illustrates</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="1">Yet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">theater</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">naming</governor>
+            <dependent idx="3">theater</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="5">naming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">artist</governor>
+            <dependent idx="7">how</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">artist</governor>
+            <dependent idx="8">Doolittle</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">artist</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">artist</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">artist</governor>
+            <dependent idx="11">quintessential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">artist</governor>
+            <dependent idx="12">comeback</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="13">artist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">illustrates</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="1">Yet</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">theater</governor>
+            <dependent idx="2">that</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">naming</governor>
+            <dependent idx="3">theater</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="5">naming</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">artist</governor>
+            <dependent idx="7">how</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">artist</governor>
+            <dependent idx="8">Doolittle</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">artist</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">artist</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">artist</governor>
+            <dependent idx="11">quintessential</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">artist</governor>
+            <dependent idx="12">comeback</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">illustrates</governor>
+            <dependent idx="13">artist</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

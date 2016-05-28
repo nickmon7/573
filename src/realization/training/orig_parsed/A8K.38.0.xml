@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>David</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Brindle</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>Social</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Services</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="6">
+            <word>Correspondent</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (NP (NNP David) (NNP Brindle)) (, ,) (NP (NNP Social) (NNPS Services) (NNP Correspondent)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Brindle</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="1">David</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="4">Social</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="5">Services</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="6">Correspondent</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Brindle</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="1">David</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="4">Social</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="5">Services</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="6">Correspondent</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">Brindle</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="1">David</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="4">Social</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Correspondent</governor>
+            <dependent idx="5">Services</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="2">Brindle</governor>
+            <dependent idx="6">Correspondent</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

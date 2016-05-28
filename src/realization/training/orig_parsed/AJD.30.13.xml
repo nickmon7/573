@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Who</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="2">
+            <word>could</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="3">
+            <word>it</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>be</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="5">
+            <word>?</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (SBARQ (WHNP (WP Who)) (SQ (MD could) (NP (PRP it)) (VP (VB be))) (. ?))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">be</governor>
+            <dependent idx="1">Who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">be</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">be</governor>
+            <dependent idx="1">Who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">be</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">be</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">be</governor>
+            <dependent idx="1">Who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">be</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">be</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>high</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>motivation</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>skills</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>adaptability</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>new</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>arrivals</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>create</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="13">
+            <word>social</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>tensions</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>that</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="16">
+            <word>will</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="17">
+            <word>be</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="18">
+            <word>expressed</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>economic</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>jealousy</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (JJ high) (NN motivation)) (, ,) (NP (NNS skills)) (CC and) (NP (NP (NN adaptability)) (PP (IN of) (NP (DT the) (JJ new) (NNS arrivals))))) (VP (VBP create) (NP (NP (JJ social) (NNS tensions)) (SBAR (WHNP (WDT that)) (S (VP (MD will) (VP (VB be) (VP (VBN expressed) (PP (IN in) (NP (JJ economic) (NN jealousy)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">create</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">motivation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motivation</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">create</governor>
+            <dependent idx="3">motivation</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">motivation</governor>
+            <dependent idx="5">skills</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">motivation</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">motivation</governor>
+            <dependent idx="7">adaptability</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">adaptability</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="10">new</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="11">arrivals</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="13">social</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">create</governor>
+            <dependent idx="14">tensions</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">expressed</governor>
+            <dependent idx="16">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="18">expressed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">expressed</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">jealousy</governor>
+            <dependent idx="20">economic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="21">jealousy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">create</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">motivation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motivation</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">create</governor>
+            <dependent idx="3">motivation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">motivation</governor>
+            <dependent idx="5">skills</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">motivation</governor>
+            <dependent idx="7">adaptability</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="10">new</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">adaptability</governor>
+            <dependent idx="11">arrivals</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="13">social</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">create</governor>
+            <dependent idx="14">tensions</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">expressed</governor>
+            <dependent idx="16">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="18">expressed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">jealousy</governor>
+            <dependent idx="20">economic</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">expressed</governor>
+            <dependent idx="21">jealousy</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">create</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">motivation</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">motivation</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">create</governor>
+            <dependent idx="3">motivation</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">motivation</governor>
+            <dependent idx="5">skills</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">create</governor>
+            <dependent idx="5">skills</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">motivation</governor>
+            <dependent idx="7">adaptability</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">create</governor>
+            <dependent idx="7">adaptability</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">arrivals</governor>
+            <dependent idx="10">new</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">adaptability</governor>
+            <dependent idx="11">arrivals</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="13">social</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">create</governor>
+            <dependent idx="14">tensions</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="15">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">expressed</governor>
+            <dependent idx="16">will</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">expressed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">tensions</governor>
+            <dependent idx="18">expressed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">jealousy</governor>
+            <dependent idx="20">economic</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="18">expressed</governor>
+            <dependent idx="21">jealousy</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

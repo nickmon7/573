@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Building</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>in</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>cob</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>--</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="5">
+            <word>mud</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>straw</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>cow</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>dung</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>--</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="12">
+            <word>is</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="13">
+            <word>no</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>longer</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>RBR</POS>
+          </token>
+          <token id="15">
+            <word>practised</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NP (NNP Building)) (PP (IN in) (NP (NN cob)))) (PRN (: --) (NP (NP (NN mud) (, ,) (NN straw) (CC and) (NN cow)) (NN dung)) (: --))) (VP (VBZ is) (ADJP (ADVP (RB no) (RBR longer)) (JJ practised))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">practised</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">practised</governor>
+            <dependent idx="1">Building</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Building</governor>
+            <dependent idx="2">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">in</governor>
+            <dependent idx="3">cob</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">dung</governor>
+            <dependent idx="5">mud</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">mud</governor>
+            <dependent idx="7">straw</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">mud</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">mud</governor>
+            <dependent idx="9">cow</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Building</governor>
+            <dependent idx="10">dung</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">practised</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">longer</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">practised</governor>
+            <dependent idx="14">longer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">practised</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">practised</governor>
+            <dependent idx="1">Building</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Building</governor>
+            <dependent idx="3">cob</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">dung</governor>
+            <dependent idx="5">mud</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">mud</governor>
+            <dependent idx="7">straw</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">mud</governor>
+            <dependent idx="9">cow</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Building</governor>
+            <dependent idx="10">dung</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">practised</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">longer</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">practised</governor>
+            <dependent idx="14">longer</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="15">practised</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">practised</governor>
+            <dependent idx="1">Building</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="1">Building</governor>
+            <dependent idx="3">cob</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">dung</governor>
+            <dependent idx="5">mud</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">mud</governor>
+            <dependent idx="7">straw</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">dung</governor>
+            <dependent idx="7">straw</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">mud</governor>
+            <dependent idx="9">cow</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">dung</governor>
+            <dependent idx="9">cow</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Building</governor>
+            <dependent idx="10">dung</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">practised</governor>
+            <dependent idx="12">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">longer</governor>
+            <dependent idx="13">no</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">practised</governor>
+            <dependent idx="14">longer</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

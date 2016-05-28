@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Nonetheless</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>short-term</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>unemployment</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>among</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>refugees</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>likely</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>remain</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>high</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Nonetheless)) (, ,) (NP (NP (JJ short-term) (NN unemployment)) (PP (IN among) (NP (DT the) (NNS refugees)))) (VP (VBZ is) (ADJP (JJ likely) (S (VP (TO to) (VP (VB remain) (ADJP (JJ high))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">likely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">likely</governor>
+            <dependent idx="1">Nonetheless</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="3">short-term</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">likely</governor>
+            <dependent idx="4">unemployment</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="5">among</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">refugees</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">among</governor>
+            <dependent idx="7">refugees</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">likely</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">high</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">high</governor>
+            <dependent idx="11">remain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">likely</governor>
+            <dependent idx="12">high</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">likely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">likely</governor>
+            <dependent idx="1">Nonetheless</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="3">short-term</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">likely</governor>
+            <dependent idx="4">unemployment</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">refugees</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="7">refugees</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">likely</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">high</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">high</governor>
+            <dependent idx="11">remain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">likely</governor>
+            <dependent idx="12">high</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="9">likely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">likely</governor>
+            <dependent idx="1">Nonetheless</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="3">short-term</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">likely</governor>
+            <dependent idx="4">unemployment</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">refugees</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_among">
+            <governor idx="4">unemployment</governor>
+            <dependent idx="7">refugees</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">likely</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">high</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">high</governor>
+            <dependent idx="11">remain</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="9">likely</governor>
+            <dependent idx="12">high</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

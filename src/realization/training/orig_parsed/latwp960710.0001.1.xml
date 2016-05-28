@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Belli</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>suffered</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>stroke</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>last</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>week</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>as</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>result</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>pancreatic</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>cancer</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>family</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>member</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>told</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>Associated</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>Press</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Belli)) (VP (VBD suffered) (NP (DT a) (NN stroke)) (NP-TMP (JJ last) (NN week)) (PP (IN as) (NP (NP (DT a) (NN result)) (PP (IN of) (NP (JJ pancreatic) (NN cancer))))))) (, ,) (NP (DT a) (NN family) (NN member)) (VP (VBD told) (NP (DT the) (NNP Associated) (NNP Press))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">told</governor>
+            <dependent idx="2">suffered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">stroke</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="4">stroke</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">week</governor>
+            <dependent idx="5">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">suffered</governor>
+            <dependent idx="6">week</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">suffered</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">result</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">as</governor>
+            <dependent idx="9">result</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">result</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">cancer</governor>
+            <dependent idx="11">pancreatic</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="12">cancer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">member</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">member</governor>
+            <dependent idx="15">family</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">told</governor>
+            <dependent idx="16">member</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Press</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Press</governor>
+            <dependent idx="19">Associated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">told</governor>
+            <dependent idx="20">Press</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">told</governor>
+            <dependent idx="2">suffered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">stroke</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="4">stroke</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">week</governor>
+            <dependent idx="5">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">suffered</governor>
+            <dependent idx="6">week</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">result</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">suffered</governor>
+            <dependent idx="9">result</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">cancer</governor>
+            <dependent idx="11">pancreatic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">result</governor>
+            <dependent idx="12">cancer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">member</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">member</governor>
+            <dependent idx="15">family</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">told</governor>
+            <dependent idx="16">member</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Press</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Press</governor>
+            <dependent idx="19">Associated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">told</governor>
+            <dependent idx="20">Press</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">told</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="1">Belli</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="17">told</governor>
+            <dependent idx="2">suffered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">stroke</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">suffered</governor>
+            <dependent idx="4">stroke</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">week</governor>
+            <dependent idx="5">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="2">suffered</governor>
+            <dependent idx="6">week</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">result</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">suffered</governor>
+            <dependent idx="9">result</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">cancer</governor>
+            <dependent idx="11">pancreatic</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">result</governor>
+            <dependent idx="12">cancer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">member</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">member</governor>
+            <dependent idx="15">family</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">told</governor>
+            <dependent idx="16">member</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">Press</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">Press</governor>
+            <dependent idx="19">Associated</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">told</governor>
+            <dependent idx="20">Press</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

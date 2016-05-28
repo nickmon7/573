@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Davis</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>born</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="5">
+            <word>raised</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Mayaguez</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>Puerto</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>Rico</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>son</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>government</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>botanist</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Davis)) (VP (VBD was) (VP (VBN born) (CC and) (VBN raised) (PP (IN in) (NP (NP (NNP Mayaguez) (, ,) (NNP Puerto) (NNP Rico)) (, ,) (NP (NP (DT the) (NN son)) (PP (IN of) (NP (DT a) (NN government) (NN botanist)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Davis</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">born</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">born</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">born</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Rico</governor>
+            <dependent idx="7">Mayaguez</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="9">Puerto</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">in</governor>
+            <dependent idx="10">Rico</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">son</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">botanist</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">botanist</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">of</governor>
+            <dependent idx="17">botanist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Davis</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">born</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Rico</governor>
+            <dependent idx="7">Mayaguez</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="9">Puerto</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">born</governor>
+            <dependent idx="10">Rico</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">botanist</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">botanist</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">son</governor>
+            <dependent idx="17">botanist</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">born</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="3">born</governor>
+            <dependent idx="1">Davis</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">raised</governor>
+            <dependent idx="1">Davis</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="3">born</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">born</governor>
+            <dependent idx="5">raised</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Rico</governor>
+            <dependent idx="7">Mayaguez</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="9">Puerto</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">born</governor>
+            <dependent idx="10">Rico</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="10">Rico</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">botanist</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">botanist</governor>
+            <dependent idx="16">government</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="13">son</governor>
+            <dependent idx="17">botanist</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

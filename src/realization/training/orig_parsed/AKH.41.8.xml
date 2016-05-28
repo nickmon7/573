@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>radicals</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>have</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="4">
+            <word>steadily</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>lost</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>ground</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>moderates</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>since</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>then</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNS radicals)) (VP (VBP have) (ADVP (RB steadily)) (VP (VBN lost) (NP (NN ground)) (PP (TO to) (NP (NP (DT the) (NNS moderates)) (PP (IN since) (NP (RB then))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">radicals</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lost</governor>
+            <dependent idx="2">radicals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lost</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">lost</governor>
+            <dependent idx="4">steadily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lost</governor>
+            <dependent idx="6">ground</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">lost</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">moderates</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">to</governor>
+            <dependent idx="9">moderates</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">moderates</governor>
+            <dependent idx="10">since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">since</governor>
+            <dependent idx="11">then</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">radicals</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lost</governor>
+            <dependent idx="2">radicals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lost</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">lost</governor>
+            <dependent idx="4">steadily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lost</governor>
+            <dependent idx="6">ground</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">moderates</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">lost</governor>
+            <dependent idx="9">moderates</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">moderates</governor>
+            <dependent idx="10">since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">since</governor>
+            <dependent idx="11">then</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">radicals</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lost</governor>
+            <dependent idx="2">radicals</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lost</governor>
+            <dependent idx="3">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">lost</governor>
+            <dependent idx="4">steadily</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lost</governor>
+            <dependent idx="6">ground</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">moderates</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">lost</governor>
+            <dependent idx="9">moderates</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">moderates</governor>
+            <dependent idx="10">since</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">since</governor>
+            <dependent idx="11">then</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

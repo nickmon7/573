@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>first</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>would</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>demonstrably</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>be</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>political</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>strike</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>second</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>would</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="13">
+            <word>hardly</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>be</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>trade</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>dispute</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (JJ first)) (VP (MD would) (ADVP (RB demonstrably)) (VP (VB be) (NP (DT a) (JJ political) (NN strike))))) (CC and) (S (NP (DT the) (NN second)) (VP (MD would) (ADVP (RB hardly)) (VP (VB be) (NP (DT a) (NN trade) (NN dispute))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">strike</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">first</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">strike</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">strike</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">strike</governor>
+            <dependent idx="4">demonstrably</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">strike</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">strike</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">strike</governor>
+            <dependent idx="7">political</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">strike</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">second</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">dispute</governor>
+            <dependent idx="11">second</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">dispute</governor>
+            <dependent idx="12">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">dispute</governor>
+            <dependent idx="13">hardly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">dispute</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">dispute</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">dispute</governor>
+            <dependent idx="16">trade</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">strike</governor>
+            <dependent idx="17">dispute</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">strike</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">first</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">strike</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">strike</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">strike</governor>
+            <dependent idx="4">demonstrably</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">strike</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">strike</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">strike</governor>
+            <dependent idx="7">political</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">second</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">dispute</governor>
+            <dependent idx="11">second</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">dispute</governor>
+            <dependent idx="12">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">dispute</governor>
+            <dependent idx="13">hardly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">dispute</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">dispute</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">dispute</governor>
+            <dependent idx="16">trade</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">strike</governor>
+            <dependent idx="17">dispute</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">strike</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">first</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">strike</governor>
+            <dependent idx="2">first</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">strike</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">strike</governor>
+            <dependent idx="4">demonstrably</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">strike</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">strike</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">strike</governor>
+            <dependent idx="7">political</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">second</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">dispute</governor>
+            <dependent idx="11">second</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">dispute</governor>
+            <dependent idx="12">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">dispute</governor>
+            <dependent idx="13">hardly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">dispute</governor>
+            <dependent idx="14">be</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">dispute</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">dispute</governor>
+            <dependent idx="16">trade</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">strike</governor>
+            <dependent idx="17">dispute</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

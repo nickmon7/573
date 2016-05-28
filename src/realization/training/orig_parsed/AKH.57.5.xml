@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>last-minute</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>change</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>saved</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>his</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="6">
+            <word>life</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>:</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="8">
+            <word>61</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>Squadron</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>'s</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="11">
+            <word>aircraft</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>was</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>lost</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>on</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>raid</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (JJ last-minute) (NN change)) (VP (VBD saved) (NP (PRP$ his) (NN life)))) (: :) (S (NP (NP (NNP 61) (NNP Squadron) (POS 's)) (NN aircraft)) (VP (VBD was) (VP (VBN lost) (PP (IN on) (NP (DT the) (NN raid)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">saved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">change</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">change</governor>
+            <dependent idx="2">last-minute</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saved</governor>
+            <dependent idx="3">change</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saved</governor>
+            <dependent idx="6">life</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Squadron</governor>
+            <dependent idx="8">61</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">aircraft</governor>
+            <dependent idx="9">Squadron</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="9">Squadron</governor>
+            <dependent idx="10">'s</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="11">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">saved</governor>
+            <dependent idx="13">lost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">lost</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">raid</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">on</governor>
+            <dependent idx="16">raid</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">saved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">change</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">change</governor>
+            <dependent idx="2">last-minute</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saved</governor>
+            <dependent idx="3">change</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saved</governor>
+            <dependent idx="6">life</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Squadron</governor>
+            <dependent idx="8">61</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">aircraft</governor>
+            <dependent idx="9">Squadron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="11">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">saved</governor>
+            <dependent idx="13">lost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">raid</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="13">lost</governor>
+            <dependent idx="16">raid</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">saved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">change</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">change</governor>
+            <dependent idx="2">last-minute</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">saved</governor>
+            <dependent idx="3">change</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">life</governor>
+            <dependent idx="5">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">saved</governor>
+            <dependent idx="6">life</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">Squadron</governor>
+            <dependent idx="8">61</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">aircraft</governor>
+            <dependent idx="9">Squadron</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="11">aircraft</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">lost</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">saved</governor>
+            <dependent idx="13">lost</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">raid</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="13">lost</governor>
+            <dependent idx="16">raid</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

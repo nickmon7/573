@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Despite</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>high</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>unemployment</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>some</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>areas</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>there</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="8">
+            <word>were</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>large</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>openings</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>in</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>sectors</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>such</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>as</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>electronics</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>engineering</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>industries</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>south</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Despite) (NP (NP (JJ high) (NN unemployment)) (PP (IN in) (NP (DT some) (NNS areas))))) (NP (EX there)) (VP (VBD were) (NP (NP (JJ large) (NNS openings)) (PP (IN in) (NP (NP (NNS sectors)) (PP (JJ such) (IN as) (NP (NP (DT the) (NP (NNS electronics) (CC and) (NN engineering)) (NNS industries)) (PP (IN in) (NP (DT the) (NN south))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">were</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">were</governor>
+            <dependent idx="1">Despite</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Despite</governor>
+            <dependent idx="3">unemployment</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">areas</governor>
+            <dependent idx="5">some</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="6">areas</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">openings</governor>
+            <dependent idx="9">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">were</governor>
+            <dependent idx="10">openings</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">openings</governor>
+            <dependent idx="11">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">in</governor>
+            <dependent idx="12">sectors</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="14">as</governor>
+            <dependent idx="13">such</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">sectors</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">industries</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">industries</governor>
+            <dependent idx="16">electronics</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">electronics</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">electronics</governor>
+            <dependent idx="18">engineering</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">as</governor>
+            <dependent idx="19">industries</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">industries</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">south</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="22">south</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="8">were</governor>
+            <dependent idx="3">unemployment</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">areas</governor>
+            <dependent idx="5">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="6">areas</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">openings</governor>
+            <dependent idx="9">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">were</governor>
+            <dependent idx="10">openings</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">openings</governor>
+            <dependent idx="12">sectors</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">industries</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">industries</governor>
+            <dependent idx="16">electronics</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">electronics</governor>
+            <dependent idx="18">engineering</dependent>
+          </dep>
+          <dep type="prep_such_as">
+            <governor idx="12">sectors</governor>
+            <dependent idx="19">industries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">south</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">industries</governor>
+            <dependent idx="22">south</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="2">high</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="8">were</governor>
+            <dependent idx="3">unemployment</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">areas</governor>
+            <dependent idx="5">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">unemployment</governor>
+            <dependent idx="6">areas</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="8">were</governor>
+            <dependent idx="7">there</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">openings</governor>
+            <dependent idx="9">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">were</governor>
+            <dependent idx="10">openings</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="10">openings</governor>
+            <dependent idx="12">sectors</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">industries</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">industries</governor>
+            <dependent idx="16">electronics</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">electronics</governor>
+            <dependent idx="18">engineering</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">industries</governor>
+            <dependent idx="18">engineering</dependent>
+          </dep>
+          <dep type="prep_such_as">
+            <governor idx="12">sectors</governor>
+            <dependent idx="19">industries</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">south</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="19">industries</governor>
+            <dependent idx="22">south</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

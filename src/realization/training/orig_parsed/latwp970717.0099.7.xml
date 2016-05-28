@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Reynolds</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="3">
+            <word>his</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>friends</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>colleagues</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>said</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>was</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>superlative</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>story-teller</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Reynolds)) (PRN (, ,) (S (NP (PRP$ his) (NNS friends) (CC and) (NNS colleagues)) (VP (VBD said))) (, ,)) (VP (VBD was) (NP (DT a) (JJ superlative) (NN story-teller))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">story-teller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="1">Reynolds</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">friends</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">said</governor>
+            <dependent idx="4">friends</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">friends</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">friends</governor>
+            <dependent idx="6">colleagues</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="7">said</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="11">superlative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">story-teller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="1">Reynolds</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">friends</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">said</governor>
+            <dependent idx="4">friends</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">friends</governor>
+            <dependent idx="6">colleagues</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="7">said</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="11">superlative</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">story-teller</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="1">Reynolds</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">friends</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">said</governor>
+            <dependent idx="4">friends</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">friends</governor>
+            <dependent idx="6">colleagues</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">said</governor>
+            <dependent idx="6">colleagues</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="7">said</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">story-teller</governor>
+            <dependent idx="11">superlative</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

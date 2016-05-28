@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>insisted</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>:</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="4">
+            <word>``</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="5">
+            <word>The</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>inevitable</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>result</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>proportional</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>representation</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>is</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="12">
+            <word>coalition</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>government</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD insisted) (: :) (`` ``) (S (NP (NP (DT The) (JJ inevitable) (NN result)) (PP (IN of) (NP (JJ proportional) (NN representation)))) (VP (VBZ is) (NP (NN coalition) (NN government))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">insisted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">insisted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">result</governor>
+            <dependent idx="5">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">result</governor>
+            <dependent idx="6">inevitable</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">government</governor>
+            <dependent idx="7">result</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">result</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">representation</governor>
+            <dependent idx="9">proportional</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="10">representation</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">government</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">coalition</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">insisted</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">insisted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">insisted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">result</governor>
+            <dependent idx="5">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">result</governor>
+            <dependent idx="6">inevitable</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">government</governor>
+            <dependent idx="7">result</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">representation</governor>
+            <dependent idx="9">proportional</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">result</governor>
+            <dependent idx="10">representation</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">government</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">coalition</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">insisted</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">insisted</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">insisted</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">result</governor>
+            <dependent idx="5">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">result</governor>
+            <dependent idx="6">inevitable</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">government</governor>
+            <dependent idx="7">result</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">representation</governor>
+            <dependent idx="9">proportional</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">result</governor>
+            <dependent idx="10">representation</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="13">government</governor>
+            <dependent idx="11">is</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">government</governor>
+            <dependent idx="12">coalition</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">insisted</governor>
+            <dependent idx="13">government</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

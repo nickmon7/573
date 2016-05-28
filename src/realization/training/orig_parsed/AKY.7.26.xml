@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Land</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>sea</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>links</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>remain</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="6">
+            <word>unaffected</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NN Land) (CC and) (NN sea)) (NNS links)) (VP (VBP remain) (ADJP (JJ unaffected))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">unaffected</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">links</governor>
+            <dependent idx="1">Land</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Land</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Land</governor>
+            <dependent idx="3">sea</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="4">links</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="5">remain</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">unaffected</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">links</governor>
+            <dependent idx="1">Land</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Land</governor>
+            <dependent idx="3">sea</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="4">links</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="5">remain</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">unaffected</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">links</governor>
+            <dependent idx="1">Land</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Land</governor>
+            <dependent idx="3">sea</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">links</governor>
+            <dependent idx="3">sea</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="4">links</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">unaffected</governor>
+            <dependent idx="5">remain</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

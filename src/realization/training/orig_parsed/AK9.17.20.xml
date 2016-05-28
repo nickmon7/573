@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Their</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>worthlessness</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>discovered</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>only</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>when</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>duped</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>client</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>attempts</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>sell</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>them</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>on</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>legitimate</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>market</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP$ Their) (NNS worthlessness)) (VP (VBZ is) (VP (VBN discovered) (ADVP (RB only)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (JJ duped) (NN client)) (VP (VBZ attempts) (S (VP (TO to) (VP (VB sell) (NP (PRP them)) (PP (IN on) (NP (DT the) (JJ legitimate) (NN market))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">discovered</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">worthlessness</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="2">worthlessness</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">discovered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">attempts</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">client</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">client</governor>
+            <dependent idx="8">duped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">attempts</governor>
+            <dependent idx="9">client</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">discovered</governor>
+            <dependent idx="10">attempts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">sell</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">attempts</governor>
+            <dependent idx="12">sell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sell</governor>
+            <dependent idx="13">them</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">sell</governor>
+            <dependent idx="14">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">market</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">market</governor>
+            <dependent idx="16">legitimate</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">on</governor>
+            <dependent idx="17">market</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">discovered</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">worthlessness</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="2">worthlessness</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">discovered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">attempts</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">client</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">client</governor>
+            <dependent idx="8">duped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">attempts</governor>
+            <dependent idx="9">client</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">discovered</governor>
+            <dependent idx="10">attempts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">sell</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">attempts</governor>
+            <dependent idx="12">sell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sell</governor>
+            <dependent idx="13">them</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">market</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">market</governor>
+            <dependent idx="16">legitimate</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="12">sell</governor>
+            <dependent idx="17">market</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">discovered</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">worthlessness</governor>
+            <dependent idx="1">Their</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="2">worthlessness</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">discovered</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">discovered</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">attempts</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">client</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">client</governor>
+            <dependent idx="8">duped</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">attempts</governor>
+            <dependent idx="9">client</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">discovered</governor>
+            <dependent idx="10">attempts</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">sell</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">attempts</governor>
+            <dependent idx="12">sell</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">sell</governor>
+            <dependent idx="13">them</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">market</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">market</governor>
+            <dependent idx="16">legitimate</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="12">sell</governor>
+            <dependent idx="17">market</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

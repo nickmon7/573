@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Many</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>future</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>stars</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>did</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>get</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>their</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="7">
+            <word>break</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>by</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>frequenting</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>drug</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>store</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>however</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>thanks</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>Leon</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>Schwab</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (JJ Many) (JJ future) (NNS stars)) (VP (VBD did) (VP (VB get) (NP (PRP$ their) (NN break)) (PP (IN by) (S (VP (VBG frequenting) (NP (DT the) (NN drug) (NN store)) (, ,) (ADVP (RB however)) (, ,) (ADVP (NNS thanks) (PP (TO to) (NP (NNP Leon) (NNP Schwab))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">get</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="1">Many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="2">future</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">get</governor>
+            <dependent idx="3">stars</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">get</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">break</governor>
+            <dependent idx="6">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">get</governor>
+            <dependent idx="7">break</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">get</governor>
+            <dependent idx="8">by</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="8">by</governor>
+            <dependent idx="9">frequenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">store</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">store</governor>
+            <dependent idx="11">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="12">store</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="14">however</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="16">thanks</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">thanks</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Schwab</governor>
+            <dependent idx="18">Leon</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">to</governor>
+            <dependent idx="19">Schwab</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">get</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="1">Many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="2">future</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">get</governor>
+            <dependent idx="3">stars</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">get</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">break</governor>
+            <dependent idx="6">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">get</governor>
+            <dependent idx="7">break</dependent>
+          </dep>
+          <dep type="prepc_by">
+            <governor idx="5">get</governor>
+            <dependent idx="9">frequenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">store</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">store</governor>
+            <dependent idx="11">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="12">store</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="14">however</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Schwab</governor>
+            <dependent idx="18">Leon</dependent>
+          </dep>
+          <dep type="prep_thanks_to">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="19">Schwab</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">get</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="1">Many</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">stars</governor>
+            <dependent idx="2">future</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">get</governor>
+            <dependent idx="3">stars</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">get</governor>
+            <dependent idx="4">did</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="7">break</governor>
+            <dependent idx="6">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">get</governor>
+            <dependent idx="7">break</dependent>
+          </dep>
+          <dep type="prepc_by">
+            <governor idx="5">get</governor>
+            <dependent idx="9">frequenting</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">store</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">store</governor>
+            <dependent idx="11">drug</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="12">store</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="14">however</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">Schwab</governor>
+            <dependent idx="18">Leon</dependent>
+          </dep>
+          <dep type="prep_thanks_to">
+            <governor idx="9">frequenting</governor>
+            <dependent idx="19">Schwab</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Actress</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Catherine</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Deneuve</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>their</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="6">
+            <word>daughter</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>Chiara</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>his</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="12">
+            <word>other</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>daughter</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="15">
+            <word>Barbara</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>were</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>with</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>him</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>at</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>his</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="22">
+            <word>death</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Actress) (NNP Catherine) (NNP Deneuve)) (, ,) (NP (PRP$ their) (NN daughter)) (, ,) (NP (NP (NNP Chiara)) (, ,) (CC and) (NP (PRP$ his) (JJ other) (NN daughter))) (, ,) (NP (NNP Barbara)) (, ,)) (VP (VBD were) (PP (IN with) (NP (PRP him))) (PP (IN at) (NP (PRP$ his) (NN death)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">were</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="1">Actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="2">Catherine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">were</governor>
+            <dependent idx="3">Deneuve</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">daughter</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="6">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="8">Chiara</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">Chiara</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">daughter</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">daughter</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">Chiara</governor>
+            <dependent idx="13">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="15">Barbara</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">were</governor>
+            <dependent idx="18">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">with</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">were</governor>
+            <dependent idx="20">at</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">death</governor>
+            <dependent idx="21">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">at</governor>
+            <dependent idx="22">death</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">were</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="1">Actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="2">Catherine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">were</governor>
+            <dependent idx="3">Deneuve</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">daughter</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="6">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="8">Chiara</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">daughter</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">daughter</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">Chiara</governor>
+            <dependent idx="13">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="15">Barbara</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="17">were</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">death</governor>
+            <dependent idx="21">his</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="17">were</governor>
+            <dependent idx="22">death</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">were</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="1">Actress</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="2">Catherine</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">were</governor>
+            <dependent idx="3">Deneuve</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="6">daughter</governor>
+            <dependent idx="5">their</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="6">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="8">Chiara</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="13">daughter</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">daughter</governor>
+            <dependent idx="12">other</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="13">daughter</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">Chiara</governor>
+            <dependent idx="13">daughter</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="3">Deneuve</governor>
+            <dependent idx="15">Barbara</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="17">were</governor>
+            <dependent idx="19">him</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="22">death</governor>
+            <dependent idx="21">his</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="17">were</governor>
+            <dependent idx="22">death</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

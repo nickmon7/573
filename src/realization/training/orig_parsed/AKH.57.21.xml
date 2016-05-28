@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>married</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>1940</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>Sally</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>Biddle</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>;</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>:</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>had</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="13">
+            <word>son</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="14">
+            <word>and</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>daughter</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP He)) (VP (VBD married) (, ,) (PP (IN in) (NP (CD 1940))) (, ,) (S (NP (NNP Sally) (NNP Biddle))))) (: ;) (S (NP (PRP they)) (VP (VBD had) (NP (NP (DT a) (NN son)) (CC and) (NP (DT a) (NN daughter))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">married</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">married</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="5">1940</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Biddle</governor>
+            <dependent idx="7">Sally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">married</governor>
+            <dependent idx="8">Biddle</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">married</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">had</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">son</governor>
+            <dependent idx="14">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">daughter</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">son</governor>
+            <dependent idx="16">daughter</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">married</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">married</governor>
+            <dependent idx="5">1940</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Biddle</governor>
+            <dependent idx="7">Sally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">married</governor>
+            <dependent idx="8">Biddle</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">married</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">had</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">daughter</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">son</governor>
+            <dependent idx="16">daughter</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">married</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">married</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">married</governor>
+            <dependent idx="5">1940</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Biddle</governor>
+            <dependent idx="7">Sally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">married</governor>
+            <dependent idx="8">Biddle</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">had</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">married</governor>
+            <dependent idx="11">had</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">son</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">had</governor>
+            <dependent idx="13">son</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">daughter</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">had</governor>
+            <dependent idx="16">daughter</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">son</governor>
+            <dependent idx="16">daughter</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

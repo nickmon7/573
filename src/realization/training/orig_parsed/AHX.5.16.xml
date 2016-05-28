@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>flew</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="4">
+            <word>Canada</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>retrace</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="7">
+            <word>his</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="8">
+            <word>steps</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="10">
+            <word>month</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>later</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>but</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="13">
+            <word>had</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>return</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="16">
+            <word>after</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>running</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="18">
+            <word>out</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>money</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VP (VBD flew) (PP (TO to) (NP (NNP Canada))) (S (VP (TO to) (VP (VB retrace) (NP (PRP$ his) (NNS steps)) (ADVP (NP (DT a) (NN month)) (RB later)))))) (CC but) (VP (VBD had) (S (VP (TO to) (VP (VB return) (PP (IN after) (S (VP (VBG running) (PRT (RP out)) (PP (IN of) (NP (NN money))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">flew</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">flew</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">flew</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">to</governor>
+            <dependent idx="4">Canada</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">retrace</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">flew</governor>
+            <dependent idx="6">retrace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">steps</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">retrace</governor>
+            <dependent idx="8">steps</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">month</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">later</governor>
+            <dependent idx="10">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">retrace</governor>
+            <dependent idx="11">later</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">flew</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">flew</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">return</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">had</governor>
+            <dependent idx="15">return</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">return</governor>
+            <dependent idx="16">after</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="16">after</governor>
+            <dependent idx="17">running</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="17">running</governor>
+            <dependent idx="18">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">running</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="20">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">flew</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">flew</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">flew</governor>
+            <dependent idx="4">Canada</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">retrace</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">flew</governor>
+            <dependent idx="6">retrace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">steps</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">retrace</governor>
+            <dependent idx="8">steps</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">month</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">later</governor>
+            <dependent idx="10">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">retrace</governor>
+            <dependent idx="11">later</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="2">flew</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">return</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">had</governor>
+            <dependent idx="15">return</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="15">return</governor>
+            <dependent idx="17">running</dependent>
+          </dep>
+          <dep type="prep_out_of">
+            <governor idx="17">running</governor>
+            <dependent idx="20">money</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">flew</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">flew</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">had</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">flew</governor>
+            <dependent idx="4">Canada</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">retrace</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">flew</governor>
+            <dependent idx="6">retrace</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">steps</governor>
+            <dependent idx="7">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">retrace</governor>
+            <dependent idx="8">steps</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">month</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="npadvmod">
+            <governor idx="11">later</governor>
+            <dependent idx="10">month</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">retrace</governor>
+            <dependent idx="11">later</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="2">flew</governor>
+            <dependent idx="13">had</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">return</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">had</governor>
+            <dependent idx="15">return</dependent>
+          </dep>
+          <dep type="prepc_after">
+            <governor idx="15">return</governor>
+            <dependent idx="17">running</dependent>
+          </dep>
+          <dep type="prep_out_of">
+            <governor idx="17">running</governor>
+            <dependent idx="20">money</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

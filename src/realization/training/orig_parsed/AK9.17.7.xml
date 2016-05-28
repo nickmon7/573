@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Yard</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Fbi</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>believe</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>many</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>banks</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>have</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="13">
+            <word>been</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>used</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>in</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>tax</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>evasion</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>schemes</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>,</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="20">
+            <word>by</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>fraudsters</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>and</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="23">
+            <word>to</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="24">
+            <word>launder</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="25">
+            <word>money</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="26">
+            <word>for</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="27">
+            <word>South</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="28">
+            <word>American</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="29">
+            <word>cocaine</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="30">
+            <word>cartels</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="31">
+            <word>,</word>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="32">
+            <word>which</word>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="33">
+            <word>moved</word>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="34">
+            <word>to</word>
+            <CharacterOffsetBegin>176</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="35">
+            <word>the</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="36">
+            <word>island</word>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="37">
+            <word>after</word>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>195</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="38">
+            <word>the</word>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>199</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="39">
+            <word>Us</word>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="40">
+            <word>authorities</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="41">
+            <word>applied</word>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="42">
+            <word>pressure</word>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="43">
+            <word>on</word>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="44">
+            <word>the</word>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="45">
+            <word>Panamanian</word>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>249</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="46">
+            <word>banking</word>
+            <CharacterOffsetBegin>250</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="47">
+            <word>system</word>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="48">
+            <word>.</word>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>266</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NNP Yard)) (CC and) (NP (DT the) (NN Fbi))) (VP (VBP believe) (SBAR (IN that) (S (NP (NP (JJ many)) (PP (IN of) (NP (DT the) (NNS banks)))) (VP (VBP have) (VP (VBN been) (VP (VBN used) (PP (IN in) (NP (NN tax) (NN evasion) (NNS schemes))) (, ,) (PP (IN by) (NP (NP (NNS fraudsters)) (CC and) (S (VP (TO to) (VP (VB launder) (NP (NP (NN money)) (PP (IN for) (NP (NNP South) (NNP American) (NN cocaine) (NNS cartels))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD moved) (PP (TO to) (NP (DT the) (NN island))) (SBAR (IN after) (S (NP (DT the) (JJ Us) (NNS authorities)) (VP (VBD applied) (NP (NN pressure)) (PP (IN on) (NP (DT the) (JJ Panamanian) (NN banking) (NN system))))))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Yard</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="2">Yard</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">Yard</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Fbi</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">Yard</governor>
+            <dependent idx="5">Fbi</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">used</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">used</governor>
+            <dependent idx="8">many</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">many</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">banks</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="11">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">used</governor>
+            <dependent idx="12">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">used</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="14">used</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">used</governor>
+            <dependent idx="15">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="16">tax</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="17">evasion</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">in</governor>
+            <dependent idx="18">schemes</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">used</governor>
+            <dependent idx="20">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">by</governor>
+            <dependent idx="21">fraudsters</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="21">fraudsters</governor>
+            <dependent idx="22">and</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">launder</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="21">fraudsters</governor>
+            <dependent idx="24">launder</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">launder</governor>
+            <dependent idx="25">money</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="25">money</governor>
+            <dependent idx="26">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="27">South</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="28">American</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="29">cocaine</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="26">for</governor>
+            <dependent idx="30">cartels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="33">moved</governor>
+            <dependent idx="32">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="25">money</governor>
+            <dependent idx="33">moved</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="33">moved</governor>
+            <dependent idx="34">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">island</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="34">to</governor>
+            <dependent idx="36">island</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="41">applied</governor>
+            <dependent idx="37">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="40">authorities</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="40">authorities</governor>
+            <dependent idx="39">Us</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="41">applied</governor>
+            <dependent idx="40">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="33">moved</governor>
+            <dependent idx="41">applied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">applied</governor>
+            <dependent idx="42">pressure</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="41">applied</governor>
+            <dependent idx="43">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="47">system</governor>
+            <dependent idx="44">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="47">system</governor>
+            <dependent idx="45">Panamanian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="47">system</governor>
+            <dependent idx="46">banking</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="43">on</governor>
+            <dependent idx="47">system</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Yard</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="2">Yard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Fbi</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Yard</governor>
+            <dependent idx="5">Fbi</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">used</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">used</governor>
+            <dependent idx="8">many</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">banks</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">many</governor>
+            <dependent idx="11">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">used</governor>
+            <dependent idx="12">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">used</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="14">used</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="16">tax</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="17">evasion</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">used</governor>
+            <dependent idx="18">schemes</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="14">used</governor>
+            <dependent idx="21">fraudsters</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">launder</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">fraudsters</governor>
+            <dependent idx="24">launder</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">launder</governor>
+            <dependent idx="25">money</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="27">South</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="28">American</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="29">cocaine</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="25">money</governor>
+            <dependent idx="30">cartels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="33">moved</governor>
+            <dependent idx="32">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="25">money</governor>
+            <dependent idx="33">moved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">island</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="33">moved</governor>
+            <dependent idx="36">island</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="41">applied</governor>
+            <dependent idx="37">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="40">authorities</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="40">authorities</governor>
+            <dependent idx="39">Us</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="41">applied</governor>
+            <dependent idx="40">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="33">moved</governor>
+            <dependent idx="41">applied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">applied</governor>
+            <dependent idx="42">pressure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="47">system</governor>
+            <dependent idx="44">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="47">system</governor>
+            <dependent idx="45">Panamanian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="47">system</governor>
+            <dependent idx="46">banking</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="41">applied</governor>
+            <dependent idx="47">system</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Yard</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="2">Yard</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Fbi</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Yard</governor>
+            <dependent idx="5">Fbi</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="5">Fbi</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">used</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">used</governor>
+            <dependent idx="8">many</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">banks</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">many</governor>
+            <dependent idx="11">banks</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">used</governor>
+            <dependent idx="12">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">used</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="14">used</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="16">tax</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="18">schemes</governor>
+            <dependent idx="17">evasion</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="14">used</governor>
+            <dependent idx="18">schemes</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="14">used</governor>
+            <dependent idx="21">fraudsters</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="24">launder</governor>
+            <dependent idx="23">to</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="14">used</governor>
+            <dependent idx="24">launder</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="21">fraudsters</governor>
+            <dependent idx="24">launder</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="24">launder</governor>
+            <dependent idx="25">money</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="27">South</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="28">American</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">cartels</governor>
+            <dependent idx="29">cocaine</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="25">money</governor>
+            <dependent idx="30">cartels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="33">moved</governor>
+            <dependent idx="32">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="25">money</governor>
+            <dependent idx="33">moved</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="36">island</governor>
+            <dependent idx="35">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="33">moved</governor>
+            <dependent idx="36">island</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="41">applied</governor>
+            <dependent idx="37">after</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="40">authorities</governor>
+            <dependent idx="38">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="40">authorities</governor>
+            <dependent idx="39">Us</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="41">applied</governor>
+            <dependent idx="40">authorities</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="33">moved</governor>
+            <dependent idx="41">applied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="41">applied</governor>
+            <dependent idx="42">pressure</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="47">system</governor>
+            <dependent idx="44">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="47">system</governor>
+            <dependent idx="45">Panamanian</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="47">system</governor>
+            <dependent idx="46">banking</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="41">applied</governor>
+            <dependent idx="47">system</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

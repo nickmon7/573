@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Ministry</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>officials</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>were</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>also</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>accused</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>giving</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>conflicting</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>evidence</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>leaving</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>doubt</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>as</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>accuracy</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>and</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="18">
+            <word>reliability</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>reports</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>of</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>infection</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Ministry) (NNS officials)) (VP (VBD were) (ADVP (RB also)) (VP (VBN accused) (PP (IN of) (S (VP (VP (VBG giving) (NP (JJ conflicting) (NN evidence))) (, ,) (VP (VBG leaving) (ADVP (NN doubt) (IN as)) (PP (TO to) (NP (NP (DT the) (NN accuracy) (CC and) (NN reliability)) (PP (IN of) (NP (NP (NNS reports)) (PP (IN of) (NP (NN infection))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">accused</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">officials</governor>
+            <dependent idx="1">Ministry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="2">officials</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">accused</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">accused</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="6">of</governor>
+            <dependent idx="7">giving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">evidence</governor>
+            <dependent idx="8">conflicting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">giving</governor>
+            <dependent idx="9">evidence</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">giving</governor>
+            <dependent idx="11">leaving</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">as</governor>
+            <dependent idx="12">doubt</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">leaving</governor>
+            <dependent idx="13">as</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">leaving</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">to</governor>
+            <dependent idx="16">accuracy</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="17">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="18">reliability</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="20">reports</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">reports</governor>
+            <dependent idx="21">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">of</governor>
+            <dependent idx="22">infection</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">accused</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">officials</governor>
+            <dependent idx="1">Ministry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="2">officials</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">accused</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="5">accused</governor>
+            <dependent idx="7">giving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">evidence</governor>
+            <dependent idx="8">conflicting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">giving</governor>
+            <dependent idx="9">evidence</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">giving</governor>
+            <dependent idx="11">leaving</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">leaving</governor>
+            <dependent idx="12">doubt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_as_to">
+            <governor idx="11">leaving</governor>
+            <dependent idx="16">accuracy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="18">reliability</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="20">reports</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">reports</governor>
+            <dependent idx="22">infection</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">accused</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">officials</governor>
+            <dependent idx="1">Ministry</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="2">officials</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">accused</governor>
+            <dependent idx="3">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">accused</governor>
+            <dependent idx="4">also</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="5">accused</governor>
+            <dependent idx="7">giving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">evidence</governor>
+            <dependent idx="8">conflicting</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">giving</governor>
+            <dependent idx="9">evidence</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">giving</governor>
+            <dependent idx="11">leaving</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">leaving</governor>
+            <dependent idx="12">doubt</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_as_to">
+            <governor idx="11">leaving</governor>
+            <dependent idx="16">accuracy</dependent>
+          </dep>
+          <dep type="prep_as_to">
+            <governor idx="11">leaving</governor>
+            <dependent idx="18">reliability</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="18">reliability</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="16">accuracy</governor>
+            <dependent idx="20">reports</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="20">reports</governor>
+            <dependent idx="22">infection</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

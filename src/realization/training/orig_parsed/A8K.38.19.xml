@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Although</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>practice</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>budgets</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>being</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="6">
+            <word>offered</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>only</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>larger</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="10">
+            <word>practices</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>with</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>11,000</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>patients</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>or</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="15">
+            <word>more</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>bill</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>sets</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="20">
+            <word>no</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>such</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>lower</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="23">
+            <word>limit</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN Although) (S (NP (NN practice) (NNS budgets)) (VP (VBP are) (VP (VBG being) (VP (VBN offered) (ADVP (RB only)) (PP (TO to) (NP (NP (JJR larger) (NNS practices)) (PP (IN with) (NP (CD 11,000) (NNS patients) (QP (CC or) (JJR more))))))))))) (, ,) (NP (DT the) (NN bill)) (VP (VBZ sets) (NP (DT no) (JJ such) (ADJP (JJR lower)) (NN limit))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">sets</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">offered</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">budgets</governor>
+            <dependent idx="2">practice</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">budgets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">sets</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="7">only</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">offered</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">practices</governor>
+            <dependent idx="9">larger</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="10">practices</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">practices</governor>
+            <dependent idx="11">with</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="12">11,000</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">with</governor>
+            <dependent idx="13">patients</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">more</governor>
+            <dependent idx="14">or</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="15">more</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">bill</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">sets</governor>
+            <dependent idx="18">bill</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">limit</governor>
+            <dependent idx="20">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="21">such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="22">lower</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">sets</governor>
+            <dependent idx="23">limit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">sets</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">offered</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">budgets</governor>
+            <dependent idx="2">practice</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">budgets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">sets</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="7">only</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">practices</governor>
+            <dependent idx="9">larger</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="6">offered</governor>
+            <dependent idx="10">practices</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="12">11,000</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">practices</governor>
+            <dependent idx="13">patients</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">more</governor>
+            <dependent idx="14">or</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="15">more</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">bill</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">sets</governor>
+            <dependent idx="18">bill</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">limit</governor>
+            <dependent idx="20">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="21">such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="22">lower</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">sets</governor>
+            <dependent idx="23">limit</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">sets</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">offered</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">budgets</governor>
+            <dependent idx="2">practice</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="3">budgets</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">offered</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">offered</governor>
+            <dependent idx="5">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">sets</governor>
+            <dependent idx="6">offered</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">offered</governor>
+            <dependent idx="7">only</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">practices</governor>
+            <dependent idx="9">larger</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="6">offered</governor>
+            <dependent idx="10">practices</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="12">11,000</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">practices</governor>
+            <dependent idx="13">patients</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="15">more</governor>
+            <dependent idx="14">or</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">patients</governor>
+            <dependent idx="15">more</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">bill</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">sets</governor>
+            <dependent idx="18">bill</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">limit</governor>
+            <dependent idx="20">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="21">such</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">limit</governor>
+            <dependent idx="22">lower</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">sets</governor>
+            <dependent idx="23">limit</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

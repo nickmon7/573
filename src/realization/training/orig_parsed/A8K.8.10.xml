@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Pre-School</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Playgroups</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Association</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>launched</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>nationwide</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>campaign</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>to</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="11">
+            <word>provide</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="12">
+            <word>facilities</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>so</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>mothers</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>can</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="16">
+            <word>return</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>work</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Pre-School) (NNP Playgroups) (NNP Association)) (NP-TMP (NN yesterday)) (VP (VBD launched) (NP (DT a) (JJ nationwide) (NN campaign)) (S (VP (TO to) (VP (VB provide) (NP (NNS facilities)) (SBAR (IN so) (S (NP (NNS mothers)) (VP (MD can) (VP (VB return) (S (VP (TO to) (VP (VB work)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Association</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="2">Pre-School</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="3">Playgroups</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="4">Association</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">campaign</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">campaign</governor>
+            <dependent idx="8">nationwide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="9">campaign</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">provide</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">launched</governor>
+            <dependent idx="11">provide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">provide</governor>
+            <dependent idx="12">facilities</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">return</governor>
+            <dependent idx="13">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">return</governor>
+            <dependent idx="14">mothers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">return</governor>
+            <dependent idx="15">can</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">provide</governor>
+            <dependent idx="16">return</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">work</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">return</governor>
+            <dependent idx="18">work</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Association</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="2">Pre-School</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="3">Playgroups</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="4">Association</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">campaign</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">campaign</governor>
+            <dependent idx="8">nationwide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="9">campaign</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">provide</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">launched</governor>
+            <dependent idx="11">provide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">provide</governor>
+            <dependent idx="12">facilities</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">return</governor>
+            <dependent idx="13">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">return</governor>
+            <dependent idx="14">mothers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">return</governor>
+            <dependent idx="15">can</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">provide</governor>
+            <dependent idx="16">return</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">work</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">return</governor>
+            <dependent idx="18">work</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">launched</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Association</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="2">Pre-School</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Association</governor>
+            <dependent idx="3">Playgroups</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">launched</governor>
+            <dependent idx="4">Association</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">launched</governor>
+            <dependent idx="5">yesterday</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">campaign</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">campaign</governor>
+            <dependent idx="8">nationwide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">launched</governor>
+            <dependent idx="9">campaign</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">provide</governor>
+            <dependent idx="10">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">launched</governor>
+            <dependent idx="11">provide</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">provide</governor>
+            <dependent idx="12">facilities</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">return</governor>
+            <dependent idx="13">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">return</governor>
+            <dependent idx="14">mothers</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">return</governor>
+            <dependent idx="15">can</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="11">provide</governor>
+            <dependent idx="16">return</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">work</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="16">return</governor>
+            <dependent idx="18">work</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

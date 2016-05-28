@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>We</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>never</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>been</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="6">
+            <word>Treasury</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="8">
+            <word>ask</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="9">
+            <word>for</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>funds</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>for</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>more</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="13">
+            <word>than</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>20</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP We)) (VP (VBP have) (ADVP (RB never)) (VP (VBN been) (PP (TO to) (NP (NP (NNP Treasury)) (SBAR (S (VP (TO to) (VP (VB ask) (PP (IN for) (NP (NP (NNS funds)) (PP (IN for) (NP (QP (XS (JJR more) (IN than)) (CD 20)))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">been</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">been</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">been</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">been</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">to</governor>
+            <dependent idx="6">Treasury</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">ask</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">Treasury</governor>
+            <dependent idx="8">ask</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">ask</governor>
+            <dependent idx="9">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">for</governor>
+            <dependent idx="10">funds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">funds</governor>
+            <dependent idx="11">for</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="13">than</governor>
+            <dependent idx="12">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="14">20</governor>
+            <dependent idx="13">than</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">for</governor>
+            <dependent idx="14">20</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">been</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">been</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">been</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="4">been</governor>
+            <dependent idx="6">Treasury</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">ask</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">Treasury</governor>
+            <dependent idx="8">ask</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">ask</governor>
+            <dependent idx="10">funds</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="13">than</governor>
+            <dependent idx="12">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="14">20</governor>
+            <dependent idx="13">than</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">funds</governor>
+            <dependent idx="14">20</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">been</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">been</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">been</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="4">been</governor>
+            <dependent idx="6">Treasury</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">ask</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">Treasury</governor>
+            <dependent idx="8">ask</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">ask</governor>
+            <dependent idx="10">funds</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="13">than</governor>
+            <dependent idx="12">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="14">20</governor>
+            <dependent idx="13">than</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="10">funds</governor>
+            <dependent idx="14">20</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

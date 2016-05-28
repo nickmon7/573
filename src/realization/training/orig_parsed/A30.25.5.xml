@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>have</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>my</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="5">
+            <word>memory</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>feeling</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>that</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>we</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>had</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>satisfied</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>ourselves</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="13">
+            <word>that</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>international</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>law</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>would</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="17">
+            <word>be</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="18">
+            <word>obeyed</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="20">
+            <word>''</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP I)) (VP (VBP have) (PP (IN in) (NP (PRP$ my) (NN memory))) (NP (NP (DT a) (NN feeling)) (SBAR (IN that) (S (NP (PRP we)) (VP (VBD had) (VP (VBN satisfied) (NP (PRP ourselves)) (SBAR (IN that) (S (NP (JJ international) (NN law)) (VP (MD would) (VP (VB be) (VP (VBN obeyed)))))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">have</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">memory</governor>
+            <dependent idx="4">my</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">in</governor>
+            <dependent idx="5">memory</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">feeling</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">have</governor>
+            <dependent idx="7">feeling</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="9">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">feeling</governor>
+            <dependent idx="11">satisfied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="12">ourselves</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">law</governor>
+            <dependent idx="14">international</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="15">law</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="18">obeyed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">memory</governor>
+            <dependent idx="4">my</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">have</governor>
+            <dependent idx="5">memory</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">feeling</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">have</governor>
+            <dependent idx="7">feeling</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="9">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">feeling</governor>
+            <dependent idx="11">satisfied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="12">ourselves</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">law</governor>
+            <dependent idx="14">international</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="15">law</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="18">obeyed</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">have</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">have</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">memory</governor>
+            <dependent idx="4">my</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">have</governor>
+            <dependent idx="5">memory</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">feeling</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">have</governor>
+            <dependent idx="7">feeling</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="8">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="9">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">feeling</governor>
+            <dependent idx="11">satisfied</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="12">ourselves</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="13">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">law</governor>
+            <dependent idx="14">international</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="15">law</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="18">obeyed</governor>
+            <dependent idx="17">be</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">satisfied</governor>
+            <dependent idx="18">obeyed</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>referred</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="4">
+            <word>two</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="5">
+            <word>documents</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>where</word>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>Yugoslavs</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="9">
+            <word>gave</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>158</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>undertakings</word>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>about</word>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>treatment</word>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>repatriated</word>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>citizens</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>213</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD referred) (PP (TO to) (NP (CD two) (NNS documents))) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NNPS Yugoslavs)) (VP (VBD gave) (NP (NNS undertakings)) (PP (IN about) (NP (NP (NN treatment)) (PP (IN of) (NP (JJ repatriated) (NNS citizens))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">referred</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">referred</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">referred</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">documents</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">to</governor>
+            <dependent idx="5">documents</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">gave</governor>
+            <dependent idx="6">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Yugoslavs</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">gave</governor>
+            <dependent idx="8">Yugoslavs</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">referred</governor>
+            <dependent idx="9">gave</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">gave</governor>
+            <dependent idx="10">undertakings</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">gave</governor>
+            <dependent idx="11">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">about</governor>
+            <dependent idx="12">treatment</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">treatment</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">citizens</governor>
+            <dependent idx="14">repatriated</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="15">citizens</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">referred</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">referred</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">documents</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">referred</governor>
+            <dependent idx="5">documents</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">gave</governor>
+            <dependent idx="6">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Yugoslavs</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">gave</governor>
+            <dependent idx="8">Yugoslavs</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">referred</governor>
+            <dependent idx="9">gave</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">gave</governor>
+            <dependent idx="10">undertakings</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="9">gave</governor>
+            <dependent idx="12">treatment</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">citizens</governor>
+            <dependent idx="14">repatriated</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">treatment</governor>
+            <dependent idx="15">citizens</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">referred</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">referred</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="5">documents</governor>
+            <dependent idx="4">two</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">referred</governor>
+            <dependent idx="5">documents</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">gave</governor>
+            <dependent idx="6">where</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">Yugoslavs</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">gave</governor>
+            <dependent idx="8">Yugoslavs</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">referred</governor>
+            <dependent idx="9">gave</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">gave</governor>
+            <dependent idx="10">undertakings</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="9">gave</governor>
+            <dependent idx="12">treatment</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">citizens</governor>
+            <dependent idx="14">repatriated</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">treatment</governor>
+            <dependent idx="15">citizens</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

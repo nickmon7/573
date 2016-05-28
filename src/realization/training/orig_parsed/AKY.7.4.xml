@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>There</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="2">
+            <word>are</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>still</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>about</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>one</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>million</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="7">
+            <word>foreigners</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>in</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Libya</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>including</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="12">
+            <word>5,000</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="13">
+            <word>Britons</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (EX There)) (VP (VBP are) (ADVP (RB still)) (NP (NP (QP (RB about) (CD one) (CD million)) (NNS foreigners)) (PP (IN in) (NP (NNP Libya))) (, ,) (PP (VBG including) (NP (CD 5,000) (NNS Britons))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">are</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">are</governor>
+            <dependent idx="3">still</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">million</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="6">million</governor>
+            <dependent idx="5">one</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="6">million</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">are</governor>
+            <dependent idx="7">foreigners</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="8">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">in</governor>
+            <dependent idx="9">Libya</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="11">including</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">Britons</governor>
+            <dependent idx="12">5,000</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">including</governor>
+            <dependent idx="13">Britons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">are</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">are</governor>
+            <dependent idx="3">still</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">million</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="6">million</governor>
+            <dependent idx="5">one</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="6">million</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">are</governor>
+            <dependent idx="7">foreigners</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="9">Libya</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">Britons</governor>
+            <dependent idx="12">5,000</dependent>
+          </dep>
+          <dep type="prep_including">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="13">Britons</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">are</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">are</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">are</governor>
+            <dependent idx="3">still</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">million</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="6">million</governor>
+            <dependent idx="5">one</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="6">million</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">are</governor>
+            <dependent idx="7">foreigners</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="9">Libya</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">Britons</governor>
+            <dependent idx="12">5,000</dependent>
+          </dep>
+          <dep type="prep_including">
+            <governor idx="7">foreigners</governor>
+            <dependent idx="13">Britons</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

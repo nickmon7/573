@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>At</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>present</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>about</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>a</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>third</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>arrivals</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>are</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="11">
+            <word>unemployed</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN At) (ADJP (JJ present))) (, ,) (NP (NP (QP (RB about) (DT a) (JJ third))) (PP (IN of) (NP (DT the) (NNS arrivals)))) (VP (VBP are) (ADJP (JJ unemployed))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">unemployed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="1">At</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">At</governor>
+            <dependent idx="2">present</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">third</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arrivals</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">arrivals</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">unemployed</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="2">present</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arrivals</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">third</governor>
+            <dependent idx="9">arrivals</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">unemployed</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="2">present</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="4">about</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="6">third</governor>
+            <dependent idx="5">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="6">third</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">arrivals</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">third</governor>
+            <dependent idx="9">arrivals</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">unemployed</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

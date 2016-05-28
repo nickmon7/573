@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Democracy</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>finally</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>arrived</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>this</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>remote</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>corner</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>Namibia</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>be</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>greeted</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>with</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>determined</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>enthusiasm</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Democracy)) (ADVP (RB finally)) (VP (VBD arrived) (PP (IN in) (NP (NP (DT this) (JJ remote) (NN corner)) (PP (IN of) (NP (NNP Namibia))))) (NP-TMP (NN yesterday)) (, ,) (S (VP (TO to) (VP (VB be) (VP (VBN greeted) (PP (IN with) (NP (JJ determined) (NN enthusiasm)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arrived</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arrived</governor>
+            <dependent idx="1">Democracy</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="2">finally</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">arrived</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">corner</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">corner</governor>
+            <dependent idx="6">remote</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="7">corner</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">corner</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">Namibia</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">greeted</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">greeted</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arrived</governor>
+            <dependent idx="14">greeted</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">greeted</governor>
+            <dependent idx="15">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">enthusiasm</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">with</governor>
+            <dependent idx="17">enthusiasm</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arrived</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arrived</governor>
+            <dependent idx="1">Democracy</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="2">finally</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">corner</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">corner</governor>
+            <dependent idx="6">remote</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">arrived</governor>
+            <dependent idx="7">corner</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">corner</governor>
+            <dependent idx="9">Namibia</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">greeted</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">greeted</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arrived</governor>
+            <dependent idx="14">greeted</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">enthusiasm</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="14">greeted</governor>
+            <dependent idx="17">enthusiasm</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">arrived</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">arrived</governor>
+            <dependent idx="1">Democracy</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="2">finally</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">corner</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">corner</governor>
+            <dependent idx="6">remote</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="3">arrived</governor>
+            <dependent idx="7">corner</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">corner</governor>
+            <dependent idx="9">Namibia</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">arrived</governor>
+            <dependent idx="10">yesterday</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">greeted</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">greeted</governor>
+            <dependent idx="13">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">arrived</governor>
+            <dependent idx="14">greeted</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">enthusiasm</governor>
+            <dependent idx="16">determined</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="14">greeted</governor>
+            <dependent idx="17">enthusiasm</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

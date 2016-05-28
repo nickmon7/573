@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Both</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>were</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>unconscious</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="4">
+            <word>when</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="5">
+            <word>they</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>arrived</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>at</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>hospital</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>were</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>immediately</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>placed</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="15">
+            <word>on</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>life-support</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>equipment</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>she</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="20">
+            <word>said</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT Both)) (VP (VBD were) (ADJP (JJ unconscious)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VP (VBD arrived) (PP (IN at) (NP (DT the) (NN hospital)))) (, ,) (CC and) (VP (VBD were) (VP (ADVP (RB immediately)) (VBN placed) (PP (IN on) (NP (JJ life-support) (NN equipment)))))))))) (, ,) (NP (PRP she)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="3">unconscious</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">arrived</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">arrived</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="6">arrived</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">arrived</governor>
+            <dependent idx="7">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">hospital</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">at</governor>
+            <dependent idx="9">hospital</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">arrived</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">placed</governor>
+            <dependent idx="12">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">placed</governor>
+            <dependent idx="13">immediately</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">arrived</governor>
+            <dependent idx="14">placed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">placed</governor>
+            <dependent idx="15">on</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">equipment</governor>
+            <dependent idx="16">life-support</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">on</governor>
+            <dependent idx="17">equipment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="19">she</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="3">unconscious</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">arrived</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">arrived</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="6">arrived</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">hospital</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">arrived</governor>
+            <dependent idx="9">hospital</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">placed</governor>
+            <dependent idx="12">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">placed</governor>
+            <dependent idx="13">immediately</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">arrived</governor>
+            <dependent idx="14">placed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">equipment</governor>
+            <dependent idx="16">life-support</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="14">placed</governor>
+            <dependent idx="17">equipment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="19">she</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="20">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="2">were</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="20">said</governor>
+            <dependent idx="3">unconscious</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">arrived</governor>
+            <dependent idx="4">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">arrived</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">placed</governor>
+            <dependent idx="5">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="6">arrived</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">hospital</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="6">arrived</governor>
+            <dependent idx="9">hospital</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">placed</governor>
+            <dependent idx="12">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">placed</governor>
+            <dependent idx="13">immediately</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">unconscious</governor>
+            <dependent idx="14">placed</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">arrived</governor>
+            <dependent idx="14">placed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">equipment</governor>
+            <dependent idx="16">life-support</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="14">placed</governor>
+            <dependent idx="17">equipment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">said</governor>
+            <dependent idx="19">she</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

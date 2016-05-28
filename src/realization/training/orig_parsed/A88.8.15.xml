@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Last</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="2">
+            <word>year</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>fares</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>rose</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>slightly</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>higher</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="8">
+            <word>than</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>inflation</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>most</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="12">
+            <word>areas</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP-TMP (JJ Last) (NN year)) (, ,) (NP (NNS fares)) (VP (VBD rose) (ADJP (ADJP (RB slightly) (JJR higher)) (PP (IN than) (NP (NN inflation)))) (PP (IN in) (NP (JJS most) (NNS areas)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">year</governor>
+            <dependent idx="1">Last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">rose</governor>
+            <dependent idx="2">year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rose</governor>
+            <dependent idx="4">fares</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">higher</governor>
+            <dependent idx="6">slightly</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="5">rose</governor>
+            <dependent idx="7">higher</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">higher</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">than</governor>
+            <dependent idx="9">inflation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">rose</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">areas</governor>
+            <dependent idx="11">most</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="12">areas</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">year</governor>
+            <dependent idx="1">Last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">rose</governor>
+            <dependent idx="2">year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rose</governor>
+            <dependent idx="4">fares</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">higher</governor>
+            <dependent idx="6">slightly</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="5">rose</governor>
+            <dependent idx="7">higher</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="7">higher</governor>
+            <dependent idx="9">inflation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">areas</governor>
+            <dependent idx="11">most</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">rose</governor>
+            <dependent idx="12">areas</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">rose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">year</governor>
+            <dependent idx="1">Last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">rose</governor>
+            <dependent idx="2">year</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">rose</governor>
+            <dependent idx="4">fares</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">higher</governor>
+            <dependent idx="6">slightly</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="5">rose</governor>
+            <dependent idx="7">higher</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="7">higher</governor>
+            <dependent idx="9">inflation</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">areas</governor>
+            <dependent idx="11">most</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">rose</governor>
+            <dependent idx="12">areas</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

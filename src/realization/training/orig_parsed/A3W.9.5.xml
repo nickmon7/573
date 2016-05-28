@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Of</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>24,058</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="4">
+            <word>people</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>interviewed</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>37.7</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>FW</POS>
+          </token>
+          <token id="8">
+            <word>per</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>FW</POS>
+          </token>
+          <token id="9">
+            <word>cent</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>women</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>attended</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>arts</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>events</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>33.1</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>per</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>cent</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>men</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Of) (NP (NP (DT the) (CD 24,058) (NNS people)) (VP (VBN interviewed)))) (, ,) (NP (NP (FW 37.7) (FW per) (NN cent)) (PP (IN of) (NP (NNS women)))) (VP (VBD attended) (NP (NP (JJ arts) (NNS events) (CC and) (NNS 33.1)) (PP (IN per) (NP (NP (NN cent)) (PP (IN of) (NP (NNS men))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">attended</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">attended</governor>
+            <dependent idx="1">Of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">people</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">24,058</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Of</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">interviewed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="7">37.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="8">per</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">attended</governor>
+            <dependent idx="9">cent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">cent</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">of</governor>
+            <dependent idx="11">women</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">events</governor>
+            <dependent idx="13">arts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">attended</governor>
+            <dependent idx="14">events</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">events</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">events</governor>
+            <dependent idx="16">33.1</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">events</governor>
+            <dependent idx="17">per</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">per</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">cent</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="20">men</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">attended</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">people</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">24,058</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">attended</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">interviewed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="7">37.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="8">per</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">attended</governor>
+            <dependent idx="9">cent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">cent</governor>
+            <dependent idx="11">women</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">events</governor>
+            <dependent idx="13">arts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">attended</governor>
+            <dependent idx="14">events</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">events</governor>
+            <dependent idx="16">33.1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="14">events</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">cent</governor>
+            <dependent idx="20">men</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">attended</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">people</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="4">people</governor>
+            <dependent idx="3">24,058</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">attended</governor>
+            <dependent idx="4">people</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">people</governor>
+            <dependent idx="5">interviewed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="7">37.7</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">cent</governor>
+            <dependent idx="8">per</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">attended</governor>
+            <dependent idx="9">cent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="9">cent</governor>
+            <dependent idx="11">women</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">events</governor>
+            <dependent idx="13">arts</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">attended</governor>
+            <dependent idx="14">events</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">attended</governor>
+            <dependent idx="16">33.1</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">events</governor>
+            <dependent idx="16">33.1</dependent>
+          </dep>
+          <dep type="prep_per">
+            <governor idx="14">events</governor>
+            <dependent idx="18">cent</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">cent</governor>
+            <dependent idx="20">men</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Man</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>with</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>bulbous</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>nose</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="8">
+            <word>large</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>gold</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>pinky</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>ring</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>was</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="13">
+            <word>determined</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>to</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="15">
+            <word>have</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="16">
+            <word>his</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="17">
+            <word>photograph</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>taken</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="19">
+            <word>with</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>Congressman</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>Jim</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>Florio</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN Man)) (PP (IN with) (NP (NP (DT the) (JJ bulbous) (NN nose)) (CC and) (NP (JJ large) (JJ gold) (NN pinky) (NN ring))))) (VP (VBD was) (VP (VBN determined) (S (VP (TO to) (VP (VB have) (NP (NP (PRP$ his) (NN photograph)) (VP (VBN taken) (PP (IN with) (NP (NNP Congressman) (NNP Jim) (NNP Florio)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">determined</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="2">Man</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">Man</governor>
+            <dependent idx="3">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">nose</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">nose</governor>
+            <dependent idx="5">bulbous</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">with</governor>
+            <dependent idx="6">nose</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">nose</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="8">large</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="9">gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">ring</governor>
+            <dependent idx="10">pinky</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">nose</governor>
+            <dependent idx="11">ring</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">have</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">determined</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">photograph</governor>
+            <dependent idx="16">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">have</governor>
+            <dependent idx="17">photograph</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="17">photograph</governor>
+            <dependent idx="18">taken</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">taken</governor>
+            <dependent idx="19">with</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="20">Congressman</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="21">Jim</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">with</governor>
+            <dependent idx="22">Florio</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">determined</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="2">Man</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">nose</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">nose</governor>
+            <dependent idx="5">bulbous</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">Man</governor>
+            <dependent idx="6">nose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="8">large</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="9">gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">ring</governor>
+            <dependent idx="10">pinky</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">nose</governor>
+            <dependent idx="11">ring</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">have</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">determined</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">photograph</governor>
+            <dependent idx="16">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">have</governor>
+            <dependent idx="17">photograph</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="17">photograph</governor>
+            <dependent idx="18">taken</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="20">Congressman</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="21">Jim</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="18">taken</governor>
+            <dependent idx="22">Florio</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">determined</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="2">Man</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">nose</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">nose</governor>
+            <dependent idx="5">bulbous</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">Man</governor>
+            <dependent idx="6">nose</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="8">large</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">ring</governor>
+            <dependent idx="9">gold</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">ring</governor>
+            <dependent idx="10">pinky</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="2">Man</governor>
+            <dependent idx="11">ring</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">nose</governor>
+            <dependent idx="11">ring</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">determined</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">have</governor>
+            <dependent idx="14">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="13">determined</governor>
+            <dependent idx="15">have</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">photograph</governor>
+            <dependent idx="16">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">have</governor>
+            <dependent idx="17">photograph</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="17">photograph</governor>
+            <dependent idx="18">taken</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="20">Congressman</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="22">Florio</governor>
+            <dependent idx="21">Jim</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="18">taken</governor>
+            <dependent idx="22">Florio</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

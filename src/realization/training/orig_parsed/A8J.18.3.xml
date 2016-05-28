@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>``</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="2">
+            <word>It</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>become</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="5">
+            <word>clear</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>crop</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>failure</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>there</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>has</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="12">
+            <word>been</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>far</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="14">
+            <word>worse</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="15">
+            <word>than</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>we</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>realised</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (`` ``) (NP (PRP It)) (VP (VBZ 's) (VP (VBN become) (ADJP (JJ clear)) (SBAR (IN that) (S (NP (DT the) (NN crop) (NN failure)) (ADVP (RB there)) (VP (VBZ has) (VP (VBN been) (ADJP (ADJP (RB far) (JJR worse)) (SBAR (IN than) (S (NP (PRP we)) (VP (VBD realised))))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">become</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">worse</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">failure</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">failure</governor>
+            <dependent idx="8">crop</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">worse</governor>
+            <dependent idx="9">failure</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="10">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">worse</governor>
+            <dependent idx="11">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">worse</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="13">far</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="14">worse</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">realised</governor>
+            <dependent idx="15">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">realised</governor>
+            <dependent idx="16">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">worse</governor>
+            <dependent idx="17">realised</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">become</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">worse</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">failure</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">failure</governor>
+            <dependent idx="8">crop</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">worse</governor>
+            <dependent idx="9">failure</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="10">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">worse</governor>
+            <dependent idx="11">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">worse</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="13">far</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="14">worse</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">realised</governor>
+            <dependent idx="15">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">realised</governor>
+            <dependent idx="16">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">worse</governor>
+            <dependent idx="17">realised</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">clear</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="2">It</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">clear</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">clear</governor>
+            <dependent idx="4">become</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">worse</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">failure</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">failure</governor>
+            <dependent idx="8">crop</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">worse</governor>
+            <dependent idx="9">failure</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="10">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">worse</governor>
+            <dependent idx="11">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">worse</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">worse</governor>
+            <dependent idx="13">far</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">clear</governor>
+            <dependent idx="14">worse</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">realised</governor>
+            <dependent idx="15">than</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">realised</governor>
+            <dependent idx="16">we</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="14">worse</governor>
+            <dependent idx="17">realised</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>UH</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (INTJ (UH .))) </parse>
+        <dependencies type="basic-dependencies"/>
+        <dependencies type="collapsed-dependencies"/>
+        <dependencies type="collapsed-ccprocessed-dependencies"/>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Clarke</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>said</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>ministers</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>now</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="6">
+            <word>accepted</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>internal</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>market</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>would</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="12">
+            <word>initially</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>rely</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>heavily</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>on</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>large-scale</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>block</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>contracts</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Clarke)) (VP (VBD said) (SBAR (S (NP (NNS ministers)) (ADVP (RB now)) (VP (VBD accepted) (SBAR (IN that) (S (NP (DT the) (JJ internal) (NN market)) (VP (MD would) (ADVP (RB initially)) (VP (VB rely) (ADVP (RB heavily)) (PP (IN on) (NP (NP (JJ large-scale)) (, ,) (NP (NN block) (NNS contracts)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Clarke</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Clarke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">accepted</governor>
+            <dependent idx="4">ministers</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">accepted</governor>
+            <dependent idx="5">now</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">accepted</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">rely</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">market</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">market</governor>
+            <dependent idx="9">internal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rely</governor>
+            <dependent idx="10">market</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rely</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">accepted</governor>
+            <dependent idx="13">rely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="14">heavily</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">rely</governor>
+            <dependent idx="15">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">on</governor>
+            <dependent idx="16">large-scale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">contracts</governor>
+            <dependent idx="18">block</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="16">large-scale</governor>
+            <dependent idx="19">contracts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Clarke</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Clarke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">accepted</governor>
+            <dependent idx="4">ministers</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">accepted</governor>
+            <dependent idx="5">now</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">accepted</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">rely</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">market</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">market</governor>
+            <dependent idx="9">internal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rely</governor>
+            <dependent idx="10">market</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rely</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">accepted</governor>
+            <dependent idx="13">rely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="14">heavily</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="13">rely</governor>
+            <dependent idx="16">large-scale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">contracts</governor>
+            <dependent idx="18">block</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="16">large-scale</governor>
+            <dependent idx="19">contracts</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Clarke</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Clarke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">accepted</governor>
+            <dependent idx="4">ministers</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">accepted</governor>
+            <dependent idx="5">now</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="6">accepted</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">rely</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">market</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">market</governor>
+            <dependent idx="9">internal</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">rely</governor>
+            <dependent idx="10">market</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">rely</governor>
+            <dependent idx="11">would</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="12">initially</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">accepted</governor>
+            <dependent idx="13">rely</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">rely</governor>
+            <dependent idx="14">heavily</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="13">rely</governor>
+            <dependent idx="16">large-scale</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">contracts</governor>
+            <dependent idx="18">block</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="16">large-scale</governor>
+            <dependent idx="19">contracts</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Others</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="2">
+            <word>speculated</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>foundations</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>were</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>being</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>laid</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="9">
+            <word>for</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>a</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="11">
+            <word>pan-European</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>unity</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>which</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="14">
+            <word>might</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="15">
+            <word>stretch</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="16">
+            <word>from</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>the</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="18">
+            <word>Urals</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>to</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>Atlantic</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS Others)) (VP (VBD speculated) (SBAR (IN that) (S (NP (DT the) (NNS foundations)) (VP (VBD were) (VP (VBG being) (VP (VBN laid) (PP (IN for) (NP (NP (DT a) (JJ pan-European) (NN unity)) (SBAR (WHNP (WDT which)) (S (VP (MD might) (VP (VB stretch) (PP (IN from) (NP (DT the) (NNS Urals))) (PP (TO to) (NP (DT the) (NNP Atlantic))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">speculated</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">speculated</governor>
+            <dependent idx="1">Others</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">laid</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">foundations</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="5">foundations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">laid</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="7">being</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">speculated</governor>
+            <dependent idx="8">laid</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">laid</governor>
+            <dependent idx="9">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">unity</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">unity</governor>
+            <dependent idx="11">pan-European</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">for</governor>
+            <dependent idx="12">unity</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">stretch</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stretch</governor>
+            <dependent idx="14">might</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="12">unity</governor>
+            <dependent idx="15">stretch</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">stretch</governor>
+            <dependent idx="16">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Urals</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">from</governor>
+            <dependent idx="18">Urals</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">stretch</governor>
+            <dependent idx="19">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Atlantic</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">to</governor>
+            <dependent idx="21">Atlantic</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">speculated</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">speculated</governor>
+            <dependent idx="1">Others</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">laid</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">foundations</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="5">foundations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">laid</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="7">being</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">speculated</governor>
+            <dependent idx="8">laid</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">unity</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">unity</governor>
+            <dependent idx="11">pan-European</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">laid</governor>
+            <dependent idx="12">unity</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">stretch</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stretch</governor>
+            <dependent idx="14">might</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="12">unity</governor>
+            <dependent idx="15">stretch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Urals</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">stretch</governor>
+            <dependent idx="18">Urals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Atlantic</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">stretch</governor>
+            <dependent idx="21">Atlantic</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">speculated</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">speculated</governor>
+            <dependent idx="1">Others</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">laid</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">foundations</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="5">foundations</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">laid</governor>
+            <dependent idx="6">were</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="8">laid</governor>
+            <dependent idx="7">being</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">speculated</governor>
+            <dependent idx="8">laid</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">unity</governor>
+            <dependent idx="10">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">unity</governor>
+            <dependent idx="11">pan-European</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="8">laid</governor>
+            <dependent idx="12">unity</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">stretch</governor>
+            <dependent idx="13">which</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">stretch</governor>
+            <dependent idx="14">might</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="12">unity</governor>
+            <dependent idx="15">stretch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">Urals</governor>
+            <dependent idx="17">the</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">stretch</governor>
+            <dependent idx="18">Urals</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Atlantic</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="15">stretch</governor>
+            <dependent idx="21">Atlantic</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

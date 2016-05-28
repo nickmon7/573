@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Existing</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="2">
+            <word>homes</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="3">
+            <word>would</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="4">
+            <word>not</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>be</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>affected</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (VBG Existing) (NNS homes)) (VP (MD would) (RB not) (VP (VB be) (VP (VBN affected)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">affected</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">homes</governor>
+            <dependent idx="1">Existing</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="2">homes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">affected</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">affected</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">affected</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">homes</governor>
+            <dependent idx="1">Existing</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="2">homes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">affected</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">affected</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">affected</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">homes</governor>
+            <dependent idx="1">Existing</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="2">homes</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">affected</governor>
+            <dependent idx="3">would</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="6">affected</governor>
+            <dependent idx="4">not</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">affected</governor>
+            <dependent idx="5">be</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

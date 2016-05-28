@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Straw</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>said</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>this</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>involved</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>``</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="7">
+            <word>veiled</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>threats</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>if</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>did</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>not</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>cough</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="14">
+            <word>up</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="15">
+            <word>and</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="16">
+            <word>clear</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="17">
+            <word>promises</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>of</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>honours</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="20">
+            <word>if</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>they</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="22">
+            <word>did</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="23">
+            <word>''</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Straw)) (VP (VBD said) (SBAR (S (NP (NP (DT this)) (VP (VBN involved))) (`` ``) (VP (VBD veiled) (NP (NNS threats)) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD did) (RB not) (VP (VP (VB cough) (PRT (RP up))) (CC and) (VP (VB clear) (NP (NP (NNS promises)) (PP (IN of) (NP (NNS honours)))) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD did)))))))))) ('' '')))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Straw</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Straw</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">this</governor>
+            <dependent idx="5">involved</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="7">veiled</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="8">threats</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">cough</governor>
+            <dependent idx="9">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">cough</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cough</governor>
+            <dependent idx="11">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">cough</governor>
+            <dependent idx="12">not</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">veiled</governor>
+            <dependent idx="13">cough</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">cough</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="13">cough</governor>
+            <dependent idx="15">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="13">cough</governor>
+            <dependent idx="16">clear</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">clear</governor>
+            <dependent idx="17">promises</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">promises</governor>
+            <dependent idx="18">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">of</governor>
+            <dependent idx="19">honours</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">did</governor>
+            <dependent idx="20">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">did</governor>
+            <dependent idx="21">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">clear</governor>
+            <dependent idx="22">did</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Straw</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Straw</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">this</governor>
+            <dependent idx="5">involved</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="7">veiled</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="8">threats</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">cough</governor>
+            <dependent idx="9">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">cough</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cough</governor>
+            <dependent idx="11">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">cough</governor>
+            <dependent idx="12">not</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">veiled</governor>
+            <dependent idx="13">cough</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">cough</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">cough</governor>
+            <dependent idx="16">clear</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">clear</governor>
+            <dependent idx="17">promises</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">promises</governor>
+            <dependent idx="19">honours</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">did</governor>
+            <dependent idx="20">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">did</governor>
+            <dependent idx="21">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">clear</governor>
+            <dependent idx="22">did</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">said</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Straw</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">said</governor>
+            <dependent idx="2">Straw</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="4">this</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="4">this</governor>
+            <dependent idx="5">involved</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">said</governor>
+            <dependent idx="7">veiled</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">veiled</governor>
+            <dependent idx="8">threats</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="13">cough</governor>
+            <dependent idx="9">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">cough</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">clear</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">cough</governor>
+            <dependent idx="11">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">cough</governor>
+            <dependent idx="12">not</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">veiled</governor>
+            <dependent idx="13">cough</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">cough</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">veiled</governor>
+            <dependent idx="16">clear</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">cough</governor>
+            <dependent idx="16">clear</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">clear</governor>
+            <dependent idx="17">promises</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="17">promises</governor>
+            <dependent idx="19">honours</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="22">did</governor>
+            <dependent idx="20">if</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">did</governor>
+            <dependent idx="21">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">clear</governor>
+            <dependent idx="22">did</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

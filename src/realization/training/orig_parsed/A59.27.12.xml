@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>accept</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>there</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="5">
+            <word>was</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>no</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>great</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>degree</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>violence</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>used</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="12">
+            <word>by</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>you</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP I)) (VP (VBP accept) (SBAR (IN that) (S (NP (EX there)) (VP (VBD was) (NP (NP (DT no) (JJ great) (NN degree)) (PP (IN of) (NP (NP (NN violence)) (VP (VBN used) (PP (IN by) (NP (PRP you))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accept</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accept</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">was</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="5">was</governor>
+            <dependent idx="4">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accept</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">degree</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">degree</governor>
+            <dependent idx="7">great</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">was</governor>
+            <dependent idx="8">degree</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">degree</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="10">violence</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">violence</governor>
+            <dependent idx="11">used</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">used</governor>
+            <dependent idx="12">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">by</governor>
+            <dependent idx="13">you</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accept</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accept</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">was</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="5">was</governor>
+            <dependent idx="4">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accept</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">degree</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">degree</governor>
+            <dependent idx="7">great</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">was</governor>
+            <dependent idx="8">degree</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">degree</governor>
+            <dependent idx="10">violence</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">violence</governor>
+            <dependent idx="11">used</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="11">used</governor>
+            <dependent idx="13">you</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accept</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accept</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">was</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="5">was</governor>
+            <dependent idx="4">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">accept</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">degree</governor>
+            <dependent idx="6">no</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">degree</governor>
+            <dependent idx="7">great</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">was</governor>
+            <dependent idx="8">degree</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">degree</governor>
+            <dependent idx="10">violence</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="10">violence</governor>
+            <dependent idx="11">used</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="11">used</governor>
+            <dependent idx="13">you</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

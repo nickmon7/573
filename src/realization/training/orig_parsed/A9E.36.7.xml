@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Three</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="2">
+            <word>Polish</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>prisoners</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>were</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>killed</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>when</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="7">
+            <word>riots</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>broke</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="9">
+            <word>out</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>five</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="12">
+            <word>jails</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>after</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>parliament</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>excluded</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>habitual</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>offenders</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>from</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>an</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>amnesty</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (CD Three) (JJ Polish) (NNS prisoners)) (VP (VBD were) (VP (VBN killed) (SBAR (WHADVP (WRB when)) (S (NP (NNS riots)) (VP (VBD broke) (PRT (RP out)) (PP (IN in) (NP (CD five) (NNS jails))) (PP (IN after) (NP (NP (NN parliament)) (VP (VBN excluded) (NP (JJ habitual) (NNS offenders)) (PP (IN from) (NP (DT an) (NN amnesty))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="1">Three</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="2">Polish</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="3">prisoners</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">broke</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">broke</governor>
+            <dependent idx="7">riots</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">killed</governor>
+            <dependent idx="8">broke</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">broke</governor>
+            <dependent idx="9">out</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">broke</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">jails</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="12">jails</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">broke</governor>
+            <dependent idx="13">after</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">after</governor>
+            <dependent idx="14">parliament</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">parliament</governor>
+            <dependent idx="15">excluded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">offenders</governor>
+            <dependent idx="16">habitual</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">excluded</governor>
+            <dependent idx="17">offenders</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">excluded</governor>
+            <dependent idx="18">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">amnesty</governor>
+            <dependent idx="19">an</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">from</governor>
+            <dependent idx="20">amnesty</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="1">Three</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="2">Polish</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="3">prisoners</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">broke</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">broke</governor>
+            <dependent idx="7">riots</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">killed</governor>
+            <dependent idx="8">broke</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">broke</governor>
+            <dependent idx="9">out</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">jails</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">broke</governor>
+            <dependent idx="12">jails</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="8">broke</governor>
+            <dependent idx="14">parliament</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">parliament</governor>
+            <dependent idx="15">excluded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">offenders</governor>
+            <dependent idx="16">habitual</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">excluded</governor>
+            <dependent idx="17">offenders</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">amnesty</governor>
+            <dependent idx="19">an</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">excluded</governor>
+            <dependent idx="20">amnesty</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">killed</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="1">Three</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">prisoners</governor>
+            <dependent idx="2">Polish</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="3">prisoners</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">killed</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">broke</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">broke</governor>
+            <dependent idx="7">riots</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">killed</governor>
+            <dependent idx="8">broke</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="8">broke</governor>
+            <dependent idx="9">out</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">jails</governor>
+            <dependent idx="11">five</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="8">broke</governor>
+            <dependent idx="12">jails</dependent>
+          </dep>
+          <dep type="prep_after">
+            <governor idx="8">broke</governor>
+            <dependent idx="14">parliament</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">parliament</governor>
+            <dependent idx="15">excluded</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">offenders</governor>
+            <dependent idx="16">habitual</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">excluded</governor>
+            <dependent idx="17">offenders</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">amnesty</governor>
+            <dependent idx="19">an</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="15">excluded</governor>
+            <dependent idx="20">amnesty</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

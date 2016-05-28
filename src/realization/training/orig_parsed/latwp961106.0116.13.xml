@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>developed</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>as</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>an</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>athlete</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>at</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Hollywood</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>High</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>School</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>University</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Southern</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>California</word>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD developed) (PP (IN as) (NP (DT an) (NN athlete))) (PP (IN at) (NP (NP (NNP Hollywood) (NNP High) (NNP School)) (CC and) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Southern) (NNP California))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">developed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">developed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">developed</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">athlete</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">as</governor>
+            <dependent idx="5">athlete</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">developed</governor>
+            <dependent idx="6">at</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="7">Hollywood</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">High</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">at</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">School</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">University</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">School</governor>
+            <dependent idx="12">University</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">University</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">California</governor>
+            <dependent idx="14">Southern</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="15">California</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">developed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">developed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">athlete</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">developed</governor>
+            <dependent idx="5">athlete</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="7">Hollywood</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">High</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2">developed</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">University</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">School</governor>
+            <dependent idx="12">University</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">California</governor>
+            <dependent idx="14">Southern</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">University</governor>
+            <dependent idx="15">California</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">developed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">developed</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">athlete</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">developed</governor>
+            <dependent idx="5">athlete</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="7">Hollywood</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">School</governor>
+            <dependent idx="8">High</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2">developed</governor>
+            <dependent idx="9">School</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">University</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="2">developed</governor>
+            <dependent idx="12">University</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">School</governor>
+            <dependent idx="12">University</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">California</governor>
+            <dependent idx="14">Southern</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">University</governor>
+            <dependent idx="15">California</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Throughout</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>most</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>his</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="5">
+            <word>career</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="8">
+            <word>deep-spoken</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>lawyer</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>battled</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>system</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>with</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>theatrical</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>flair</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN Throughout) (NP (NP (JJS most)) (PP (IN of) (NP (PRP$ his) (NN career))))) (, ,) (NP (DT the) (JJ deep-spoken) (NN lawyer)) (VP (VBD battled) (NP (DT the) (NN system)) (PP (IN with) (NP (JJ theatrical) (NN flair)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">battled</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">battled</governor>
+            <dependent idx="1">Throughout</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Throughout</governor>
+            <dependent idx="2">most</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">most</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">career</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="5">career</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="8">deep-spoken</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">battled</governor>
+            <dependent idx="9">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">system</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">battled</governor>
+            <dependent idx="12">system</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">battled</governor>
+            <dependent idx="13">with</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flair</governor>
+            <dependent idx="14">theatrical</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">with</governor>
+            <dependent idx="15">flair</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">battled</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="10">battled</governor>
+            <dependent idx="2">most</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">career</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">most</governor>
+            <dependent idx="5">career</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="8">deep-spoken</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">battled</governor>
+            <dependent idx="9">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">system</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">battled</governor>
+            <dependent idx="12">system</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flair</governor>
+            <dependent idx="14">theatrical</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">battled</governor>
+            <dependent idx="15">flair</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">battled</dependent>
+          </dep>
+          <dep type="prep_throughout">
+            <governor idx="10">battled</governor>
+            <dependent idx="2">most</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="5">career</governor>
+            <dependent idx="4">his</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">most</governor>
+            <dependent idx="5">career</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="9">lawyer</governor>
+            <dependent idx="8">deep-spoken</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">battled</governor>
+            <dependent idx="9">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">system</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">battled</governor>
+            <dependent idx="12">system</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">flair</governor>
+            <dependent idx="14">theatrical</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="10">battled</governor>
+            <dependent idx="15">flair</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

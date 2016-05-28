@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>environment</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>debate</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>showed</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>conference</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>representatives</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>concerned</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="8">
+            <word>about</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>unsuitable</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>housing</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>development</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>countryside</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>freeing</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="17">
+            <word>derelict</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>land</word>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>cities</word>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="23">
+            <word>and</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="24">
+            <word>litter</word>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>175</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN environment) (NN debate)) (VP (VBD showed) (NP (NP (NP (NN conference) (NNS representatives)) (VP (VBN concerned) (PP (IN about) (NP (JJ unsuitable) (NN housing) (NN development))) (PP (IN in) (NP (DT the) (NN countryside))) (, ,) (S (VP (VBG freeing) (NP (JJ derelict) (NN land)) (PP (IN in) (NP (DT the) (NNS cities))))))) (, ,) (CC and) (NP (NN litter)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">showed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">debate</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">debate</governor>
+            <dependent idx="2">environment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">showed</governor>
+            <dependent idx="3">debate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">representatives</governor>
+            <dependent idx="5">conference</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">showed</governor>
+            <dependent idx="6">representatives</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">representatives</governor>
+            <dependent idx="7">concerned</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">concerned</governor>
+            <dependent idx="8">about</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">development</governor>
+            <dependent idx="9">unsuitable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">development</governor>
+            <dependent idx="10">housing</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">about</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">concerned</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">concerned</governor>
+            <dependent idx="16">freeing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">land</governor>
+            <dependent idx="17">derelict</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">freeing</governor>
+            <dependent idx="18">land</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">freeing</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">cities</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">in</governor>
+            <dependent idx="21">cities</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">representatives</governor>
+            <dependent idx="23">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">representatives</governor>
+            <dependent idx="24">litter</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">showed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">debate</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">debate</governor>
+            <dependent idx="2">environment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">showed</governor>
+            <dependent idx="3">debate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">representatives</governor>
+            <dependent idx="5">conference</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">showed</governor>
+            <dependent idx="6">representatives</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">representatives</governor>
+            <dependent idx="7">concerned</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">development</governor>
+            <dependent idx="9">unsuitable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">development</governor>
+            <dependent idx="10">housing</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="7">concerned</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">concerned</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">concerned</governor>
+            <dependent idx="16">freeing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">land</governor>
+            <dependent idx="17">derelict</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">freeing</governor>
+            <dependent idx="18">land</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">cities</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">freeing</governor>
+            <dependent idx="21">cities</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">representatives</governor>
+            <dependent idx="24">litter</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">showed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">debate</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">debate</governor>
+            <dependent idx="2">environment</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">showed</governor>
+            <dependent idx="3">debate</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">representatives</governor>
+            <dependent idx="5">conference</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">showed</governor>
+            <dependent idx="6">representatives</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="6">representatives</governor>
+            <dependent idx="7">concerned</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">development</governor>
+            <dependent idx="9">unsuitable</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">development</governor>
+            <dependent idx="10">housing</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="7">concerned</governor>
+            <dependent idx="11">development</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">countryside</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="7">concerned</governor>
+            <dependent idx="14">countryside</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">concerned</governor>
+            <dependent idx="16">freeing</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">land</governor>
+            <dependent idx="17">derelict</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="16">freeing</governor>
+            <dependent idx="18">land</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">cities</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">freeing</governor>
+            <dependent idx="21">cities</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">showed</governor>
+            <dependent idx="24">litter</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">representatives</governor>
+            <dependent idx="24">litter</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Wherever</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="2">
+            <word>she</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>she</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="6">
+            <word>helped</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>other</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="8">
+            <word>loyal</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>flexible</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>wives</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>cope</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VB Wherever) (SBAR (S (NP (PRP she)) (VP (VBD was)))))) (, ,) (NP (PRP she)) (VP (VBD helped) (S (NP (JJ other) (ADJP (JJ loyal) (CC and) (JJ flexible)) (NNS wives)) (VP (VB cope)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">helped</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="1">Wherever</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Wherever</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">helped</governor>
+            <dependent idx="5">she</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="7">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="8">loyal</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">loyal</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">loyal</governor>
+            <dependent idx="10">flexible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">cope</governor>
+            <dependent idx="11">wives</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="12">cope</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">helped</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="1">Wherever</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Wherever</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">helped</governor>
+            <dependent idx="5">she</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="7">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="8">loyal</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">loyal</governor>
+            <dependent idx="10">flexible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">cope</governor>
+            <dependent idx="11">wives</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="12">cope</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">helped</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="1">Wherever</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">was</governor>
+            <dependent idx="2">she</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="1">Wherever</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">helped</governor>
+            <dependent idx="5">she</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="7">other</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="8">loyal</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="8">loyal</governor>
+            <dependent idx="10">flexible</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">wives</governor>
+            <dependent idx="10">flexible</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">cope</governor>
+            <dependent idx="11">wives</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">helped</governor>
+            <dependent idx="12">cope</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>A</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>permanent</word>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>exhibition</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>on</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>history</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>valley</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>is</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="11">
+            <word>to</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="12">
+            <word>be</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="13">
+            <word>established</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>near</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>dam</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>in</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>early</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>1990s</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT A) (JJ permanent) (NN exhibition)) (PP (IN on) (NP (NP (DT the) (NN history)) (PP (IN of) (NP (DT the) (NN valley)))))) (VP (VBZ is) (S (VP (TO to) (VP (VB be) (VP (VBN established) (PP (IN near) (NP (NP (DT the) (NN dam)) (PP (IN in) (NP (DT the) (JJ early) (NNS 1990s)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="2">permanent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">is</governor>
+            <dependent idx="3">exhibition</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="4">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">history</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">on</governor>
+            <dependent idx="6">history</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">history</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">valley</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="9">valley</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">established</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">established</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">is</governor>
+            <dependent idx="13">established</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">established</governor>
+            <dependent idx="14">near</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dam</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">near</governor>
+            <dependent idx="16">dam</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">dam</governor>
+            <dependent idx="17">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">1990s</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">1990s</governor>
+            <dependent idx="19">early</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">in</governor>
+            <dependent idx="20">1990s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="2">permanent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">is</governor>
+            <dependent idx="3">exhibition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">history</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="6">history</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">valley</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">history</governor>
+            <dependent idx="9">valley</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">established</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">established</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">is</governor>
+            <dependent idx="13">established</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dam</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_near">
+            <governor idx="13">established</governor>
+            <dependent idx="16">dam</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">1990s</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">1990s</governor>
+            <dependent idx="19">early</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">dam</governor>
+            <dependent idx="20">1990s</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="10">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="1">A</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="2">permanent</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">is</governor>
+            <dependent idx="3">exhibition</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">history</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="3">exhibition</governor>
+            <dependent idx="6">history</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">valley</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">history</governor>
+            <dependent idx="9">valley</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">established</governor>
+            <dependent idx="11">to</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">established</governor>
+            <dependent idx="12">be</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="10">is</governor>
+            <dependent idx="13">established</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">dam</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="prep_near">
+            <governor idx="13">established</governor>
+            <dependent idx="16">dam</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">1990s</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">1990s</governor>
+            <dependent idx="19">early</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="16">dam</governor>
+            <dependent idx="20">1990s</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

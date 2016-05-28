@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>served</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="3">
+            <word>as</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>consultant</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>to</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="7">
+            <word>wine</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>industry</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>clients</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>California</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>Washington</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="14">
+            <word>state</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>France</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="18">
+            <word>Italy</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>and</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>Argentina</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBN served) (PP (IN as) (NP (DT a) (NN consultant))) (PP (TO to) (NP (NP (NN wine) (NN industry) (NNS clients)) (PP (IN in) (NP (NNP California))))) (, ,) (NP (NNP Washington) (NN state) (, ,) (NNP France) (, ,) (NNP Italy) (CC and) (NNP Argentina))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">served</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">served</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">served</governor>
+            <dependent idx="3">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">consultant</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">as</governor>
+            <dependent idx="5">consultant</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">served</governor>
+            <dependent idx="6">to</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="7">wine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="8">industry</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">to</governor>
+            <dependent idx="9">clients</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">clients</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="11">California</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">state</governor>
+            <dependent idx="13">Washington</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">state</governor>
+            <dependent idx="16">France</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">state</governor>
+            <dependent idx="18">Italy</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="14">state</governor>
+            <dependent idx="19">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="14">state</governor>
+            <dependent idx="20">Argentina</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">served</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">served</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">consultant</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">served</governor>
+            <dependent idx="5">consultant</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="7">wine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="8">industry</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">served</governor>
+            <dependent idx="9">clients</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">clients</governor>
+            <dependent idx="11">California</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">state</governor>
+            <dependent idx="13">Washington</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="16">France</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="18">Italy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="20">Argentina</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">served</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">served</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">consultant</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="2">served</governor>
+            <dependent idx="5">consultant</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="7">wine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">clients</governor>
+            <dependent idx="8">industry</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="2">served</governor>
+            <dependent idx="9">clients</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">clients</governor>
+            <dependent idx="11">California</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="14">state</governor>
+            <dependent idx="13">Washington</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="14">state</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="16">France</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="16">France</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="18">Italy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="18">Italy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">served</governor>
+            <dependent idx="20">Argentina</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="14">state</governor>
+            <dependent idx="20">Argentina</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

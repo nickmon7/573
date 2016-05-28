@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Neil</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Kinnock</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>won</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>a</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>decisive</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>victory</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>yesterday</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>when</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>party</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>rejected</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>demands</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="14">
+            <word>embrace</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="15">
+            <word>proportional</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>representation</word>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>by</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="19">
+            <word>three-to-one</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="20">
+            <word>majority</word>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Neil) (NNP Kinnock)) (VP (VBD won) (NP (DT a) (JJ decisive) (NN victory)) (NP-TMP (NN yesterday)) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ his) (NN party)) (VP (VBD rejected) (NP (NNS demands)) (S (VP (TO to) (VP (VB embrace) (NP (JJ proportional) (NN representation)) (PP (IN by) (NP (DT a) (JJ three-to-one) (NN majority)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">won</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Kinnock</governor>
+            <dependent idx="1">Neil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">won</governor>
+            <dependent idx="2">Kinnock</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">victory</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">victory</governor>
+            <dependent idx="5">decisive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">won</governor>
+            <dependent idx="6">victory</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">won</governor>
+            <dependent idx="7">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">rejected</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">party</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="10">party</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">won</governor>
+            <dependent idx="11">rejected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="12">demands</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">embrace</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">rejected</governor>
+            <dependent idx="14">embrace</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">representation</governor>
+            <dependent idx="15">proportional</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">embrace</governor>
+            <dependent idx="16">representation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">embrace</governor>
+            <dependent idx="17">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">majority</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">majority</governor>
+            <dependent idx="19">three-to-one</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">by</governor>
+            <dependent idx="20">majority</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">won</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Kinnock</governor>
+            <dependent idx="1">Neil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">won</governor>
+            <dependent idx="2">Kinnock</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">victory</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">victory</governor>
+            <dependent idx="5">decisive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">won</governor>
+            <dependent idx="6">victory</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">won</governor>
+            <dependent idx="7">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">rejected</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">party</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="10">party</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">won</governor>
+            <dependent idx="11">rejected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="12">demands</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">embrace</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">rejected</governor>
+            <dependent idx="14">embrace</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">representation</governor>
+            <dependent idx="15">proportional</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">embrace</governor>
+            <dependent idx="16">representation</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">majority</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">majority</governor>
+            <dependent idx="19">three-to-one</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="14">embrace</governor>
+            <dependent idx="20">majority</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">won</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Kinnock</governor>
+            <dependent idx="1">Neil</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">won</governor>
+            <dependent idx="2">Kinnock</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">victory</governor>
+            <dependent idx="4">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">victory</governor>
+            <dependent idx="5">decisive</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">won</governor>
+            <dependent idx="6">victory</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="3">won</governor>
+            <dependent idx="7">yesterday</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">rejected</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">party</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="10">party</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">won</governor>
+            <dependent idx="11">rejected</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">rejected</governor>
+            <dependent idx="12">demands</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">embrace</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="11">rejected</governor>
+            <dependent idx="14">embrace</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">representation</governor>
+            <dependent idx="15">proportional</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">embrace</governor>
+            <dependent idx="16">representation</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">majority</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">majority</governor>
+            <dependent idx="19">three-to-one</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="14">embrace</governor>
+            <dependent idx="20">majority</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

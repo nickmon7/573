@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Forum</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>rigorously</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>denied</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>this</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NNP Forum)) (ADVP (RB rigorously)) (VP (VBD denied) (NP (DT this))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">denied</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">denied</governor>
+            <dependent idx="3">rigorously</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">denied</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">denied</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">denied</governor>
+            <dependent idx="3">rigorously</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">denied</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">denied</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">Forum</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">denied</governor>
+            <dependent idx="2">Forum</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">denied</governor>
+            <dependent idx="3">rigorously</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">denied</governor>
+            <dependent idx="5">this</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

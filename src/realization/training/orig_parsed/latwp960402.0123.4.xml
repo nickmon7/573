@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Both</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Burns</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="4">
+            <word>Gilbert</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>suffered</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>head</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>injuries</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="10">
+            <word>Gilbert</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>suffered</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>chest</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>injuries</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>as</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="15">
+            <word>well</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="16">
+            <word>,</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="17">
+            <word>Louw</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>said</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (S (NP (DT Both) (NNP Burns) (CC and) (NNP Gilbert)) (VP (VBD suffered) (NP (NN head) (NNS injuries)))) (, ,) (CC and) (S (NP (NNP Gilbert)) (VP (VBD suffered) (NP (NN chest) (NNS injuries)) (ADVP (RB as) (RB well))))) (, ,) (NP (NNP Louw)) (VP (VBD said)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="preconj">
+            <governor idx="2">Burns</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="2">Burns</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">Burns</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">Burns</governor>
+            <dependent idx="4">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="5">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">injuries</governor>
+            <dependent idx="6">head</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="7">injuries</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">suffered</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">Gilbert</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">injuries</governor>
+            <dependent idx="12">chest</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="13">injuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">well</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">suffered</governor>
+            <dependent idx="15">well</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">Louw</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="preconj">
+            <governor idx="2">Burns</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="2">Burns</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Burns</governor>
+            <dependent idx="4">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="5">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">injuries</governor>
+            <dependent idx="6">head</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="7">injuries</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">Gilbert</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">suffered</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">injuries</governor>
+            <dependent idx="12">chest</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="13">injuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">well</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">suffered</governor>
+            <dependent idx="15">well</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">Louw</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">said</dependent>
+          </dep>
+          <dep type="preconj">
+            <governor idx="2">Burns</governor>
+            <dependent idx="1">Both</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="2">Burns</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Burns</governor>
+            <dependent idx="4">Gilbert</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="4">Gilbert</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="5">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="7">injuries</governor>
+            <dependent idx="6">head</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">suffered</governor>
+            <dependent idx="7">injuries</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">Gilbert</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">suffered</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="18">said</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">injuries</governor>
+            <dependent idx="12">chest</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="13">injuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">well</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">suffered</governor>
+            <dependent idx="15">well</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">said</governor>
+            <dependent idx="17">Louw</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

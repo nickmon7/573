@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Apart</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>from</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="3">
+            <word>drugs</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="5">
+            <word>detectives</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>believe</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="7">
+            <word>money</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>is</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="9">
+            <word>laundered</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>from</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>variety</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>black</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>market</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>deals</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>involving</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="18">
+            <word>arms</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>and</word>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>high</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="21">
+            <word>technology</word>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (ADVP (RB Apart)) (IN from) (NP (NNS drugs))) (, ,) (NP (NNS detectives)) (VP (VBP believe) (SBAR (S (NP (NN money)) (VP (VBZ is) (ADJP (JJ laundered) (PP (IN from) (NP (NP (DT a) (NN variety)) (PP (IN of) (NP (NP (JJ black) (NN market) (NNS deals)) (PP (VBG involving) (NP (NP (NNS arms)) (CC and) (NP (JJ high) (NN technology))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="2">from</governor>
+            <dependent idx="1">Apart</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">believe</governor>
+            <dependent idx="2">from</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">from</governor>
+            <dependent idx="3">drugs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="5">detectives</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">laundered</governor>
+            <dependent idx="7">money</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">laundered</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="9">laundered</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">laundered</governor>
+            <dependent idx="10">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">variety</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">from</governor>
+            <dependent idx="12">variety</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">variety</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">deals</governor>
+            <dependent idx="14">black</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">deals</governor>
+            <dependent idx="15">market</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="16">deals</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">deals</governor>
+            <dependent idx="17">involving</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">involving</governor>
+            <dependent idx="18">arms</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="18">arms</governor>
+            <dependent idx="19">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">technology</governor>
+            <dependent idx="20">high</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="18">arms</governor>
+            <dependent idx="21">technology</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="prep_apart_from">
+            <governor idx="6">believe</governor>
+            <dependent idx="3">drugs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="5">detectives</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">laundered</governor>
+            <dependent idx="7">money</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">laundered</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="9">laundered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">variety</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="9">laundered</governor>
+            <dependent idx="12">variety</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">deals</governor>
+            <dependent idx="14">black</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">deals</governor>
+            <dependent idx="15">market</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">variety</governor>
+            <dependent idx="16">deals</dependent>
+          </dep>
+          <dep type="prep_involving">
+            <governor idx="16">deals</governor>
+            <dependent idx="18">arms</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">technology</governor>
+            <dependent idx="20">high</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="18">arms</governor>
+            <dependent idx="21">technology</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">believe</dependent>
+          </dep>
+          <dep type="prep_apart_from">
+            <governor idx="6">believe</governor>
+            <dependent idx="3">drugs</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">believe</governor>
+            <dependent idx="5">detectives</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">laundered</governor>
+            <dependent idx="7">money</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">laundered</governor>
+            <dependent idx="8">is</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">believe</governor>
+            <dependent idx="9">laundered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">variety</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="9">laundered</governor>
+            <dependent idx="12">variety</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">deals</governor>
+            <dependent idx="14">black</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">deals</governor>
+            <dependent idx="15">market</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">variety</governor>
+            <dependent idx="16">deals</dependent>
+          </dep>
+          <dep type="prep_involving">
+            <governor idx="16">deals</governor>
+            <dependent idx="18">arms</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">technology</governor>
+            <dependent idx="20">high</dependent>
+          </dep>
+          <dep type="prep_involving">
+            <governor idx="16">deals</governor>
+            <dependent idx="21">technology</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="18">arms</governor>
+            <dependent idx="21">technology</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

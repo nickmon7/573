@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>he</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="3">
+            <word>bravely</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="4">
+            <word>touched</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>on</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>issue</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>CTCs</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="11">
+            <word>which</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="12">
+            <word>he</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="13">
+            <word>said</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="14">
+            <word>his</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="15">
+            <word>party</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>would</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="17">
+            <word>scrap</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (PRP he)) (ADVP (RB bravely)) (VP (VBD touched) (PP (IN on) (NP (NP (DT the) (NN issue)) (PP (IN of) (NP (NNP CTCs))) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP he)) (VP (VBD said) (SBAR (S (NP (PRP$ his) (NN party)) (VP (MD would) (VP (VB scrap))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">touched</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">bravely</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">touched</governor>
+            <dependent idx="5">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">on</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">issue</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">of</governor>
+            <dependent idx="9">CTCs</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">said</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">said</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">issue</governor>
+            <dependent idx="13">said</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">party</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">scrap</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">scrap</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">said</governor>
+            <dependent idx="17">scrap</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">touched</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">bravely</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">touched</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">issue</governor>
+            <dependent idx="9">CTCs</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">said</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">said</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">issue</governor>
+            <dependent idx="13">said</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">party</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">scrap</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">scrap</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">said</governor>
+            <dependent idx="17">scrap</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">touched</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">touched</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">touched</governor>
+            <dependent idx="2">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">touched</governor>
+            <dependent idx="3">bravely</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">issue</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="4">touched</governor>
+            <dependent idx="7">issue</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="7">issue</governor>
+            <dependent idx="9">CTCs</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">said</governor>
+            <dependent idx="11">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">said</governor>
+            <dependent idx="12">he</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">issue</governor>
+            <dependent idx="13">said</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">party</governor>
+            <dependent idx="14">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">scrap</governor>
+            <dependent idx="15">party</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">scrap</governor>
+            <dependent idx="16">would</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="13">said</governor>
+            <dependent idx="17">scrap</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

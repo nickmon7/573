@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>``</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="3">
+            <word>The</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Turning</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>Point</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="7">
+            <word>''</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="8">
+            <word>starring</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>MacLaine</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>Anne</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>Bancroft</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>director</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>Herbert</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Ross</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>shot</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="18">
+            <word>excerpts</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>from</word>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>a</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>number</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>of</word>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>ballets</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (`` ``) (NP (DT The) (NNP Turning) (NNP Point)) (, ,) ('' '') (VP (VBG starring) (NP (NP (NNP MacLaine)) (CC and) (NP (NNP Anne) (NNP Bancroft)))))) (, ,) (NP (NN director) (NNP Herbert) (NNP Ross)) (VP (VBD shot) (NP (NNS excerpts)) (PP (IN from) (NP (NP (DT a) (NN number)) (PP (IN of) (NP (NNS ballets)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">shot</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">shot</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Point</governor>
+            <dependent idx="3">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Point</governor>
+            <dependent idx="4">Turning</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="5">Point</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Point</governor>
+            <dependent idx="8">starring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">starring</governor>
+            <dependent idx="9">MacLaine</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">MacLaine</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Bancroft</governor>
+            <dependent idx="11">Anne</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">MacLaine</governor>
+            <dependent idx="12">Bancroft</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="15">Herbert</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">shot</governor>
+            <dependent idx="16">Ross</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">shot</governor>
+            <dependent idx="18">excerpts</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">shot</governor>
+            <dependent idx="19">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">number</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">from</governor>
+            <dependent idx="21">number</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">number</governor>
+            <dependent idx="22">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">of</governor>
+            <dependent idx="23">ballets</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">shot</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Point</governor>
+            <dependent idx="3">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Point</governor>
+            <dependent idx="4">Turning</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">shot</governor>
+            <dependent idx="5">Point</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Point</governor>
+            <dependent idx="8">starring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">starring</governor>
+            <dependent idx="9">MacLaine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Bancroft</governor>
+            <dependent idx="11">Anne</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">MacLaine</governor>
+            <dependent idx="12">Bancroft</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="15">Herbert</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">shot</governor>
+            <dependent idx="16">Ross</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">shot</governor>
+            <dependent idx="18">excerpts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">number</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="17">shot</governor>
+            <dependent idx="21">number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">number</governor>
+            <dependent idx="23">ballets</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="17">shot</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">Point</governor>
+            <dependent idx="3">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">Point</governor>
+            <dependent idx="4">Turning</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="17">shot</governor>
+            <dependent idx="5">Point</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="5">Point</governor>
+            <dependent idx="8">starring</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">starring</governor>
+            <dependent idx="9">MacLaine</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">Bancroft</governor>
+            <dependent idx="11">Anne</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">starring</governor>
+            <dependent idx="12">Bancroft</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">MacLaine</governor>
+            <dependent idx="12">Bancroft</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="14">director</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="16">Ross</governor>
+            <dependent idx="15">Herbert</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">shot</governor>
+            <dependent idx="16">Ross</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="17">shot</governor>
+            <dependent idx="18">excerpts</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">number</governor>
+            <dependent idx="20">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="17">shot</governor>
+            <dependent idx="21">number</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="21">number</governor>
+            <dependent idx="23">ballets</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

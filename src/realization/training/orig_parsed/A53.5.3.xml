@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="3">
+            <word>acquired</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="4">
+            <word>an</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>autonomy</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="7">
+            <word>influence</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>staggering</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="9">
+            <word>even</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="10">
+            <word>by</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>standards</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>a</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>country</word>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="16">
+            <word>where</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="17">
+            <word>anomalies</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="18">
+            <word>are</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="19">
+            <word>institutionalised</word>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBZ has) (VP (VBN acquired) (NP (DT an) (NN autonomy) (CC and) (NN influence)) (S (VP (VBG staggering) (ADVP (RB even)) (PP (IN by) (NP (NP (DT the) (NNS standards)) (PP (IN of) (NP (DT a) (NN country))))) (SBAR (WHADVP (WRB where)) (S (NP (NNS anomalies)) (VP (VBP are) (VP (VBN institutionalised))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">acquired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">acquired</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="5">autonomy</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="7">influence</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">acquired</governor>
+            <dependent idx="8">staggering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">staggering</governor>
+            <dependent idx="9">even</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">staggering</governor>
+            <dependent idx="10">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">standards</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">by</governor>
+            <dependent idx="12">standards</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">standards</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">country</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="15">country</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="16">where</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="17">anomalies</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">staggering</governor>
+            <dependent idx="19">institutionalised</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">acquired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">acquired</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="5">autonomy</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="7">influence</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">acquired</governor>
+            <dependent idx="8">staggering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">staggering</governor>
+            <dependent idx="9">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">standards</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="8">staggering</governor>
+            <dependent idx="12">standards</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">country</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">standards</governor>
+            <dependent idx="15">country</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="16">where</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="17">anomalies</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">staggering</governor>
+            <dependent idx="19">institutionalised</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">acquired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="3">acquired</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="4">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="5">autonomy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">acquired</governor>
+            <dependent idx="7">influence</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">autonomy</governor>
+            <dependent idx="7">influence</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">acquired</governor>
+            <dependent idx="8">staggering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">staggering</governor>
+            <dependent idx="9">even</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">standards</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="8">staggering</governor>
+            <dependent idx="12">standards</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">country</governor>
+            <dependent idx="14">a</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">standards</governor>
+            <dependent idx="15">country</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="16">where</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="17">anomalies</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">institutionalised</governor>
+            <dependent idx="18">are</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="8">staggering</governor>
+            <dependent idx="19">institutionalised</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

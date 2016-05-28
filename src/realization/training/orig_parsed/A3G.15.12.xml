@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Of</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>course</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>there</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="4">
+            <word>have</word>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="5">
+            <word>been</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>discussions</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>between</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>Trust</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>civil</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>servants</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>but</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>nothing</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>has</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="16">
+            <word>gone</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>Pesc</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="19">
+            <word>-LRB-</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>-LRB-</POS>
+          </token>
+          <token id="20">
+            <word>the</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="21">
+            <word>expenditure</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>talks</word>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>-RRB-</word>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>-RRB-</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="25">
+            <word>''</word>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (PP (IN Of) (NP (NN course))) (NP (EX there)) (VP (VBP have) (VP (VBN been) (NP (NP (NNS discussions)) (PP (IN between) (NP (NP (DT the) (NNP Trust)) (CC and) (NP (JJ civil) (NNS servants)))))))) (CC but) (S (NP (NN nothing)) (VP (VBZ has) (VP (VBN gone) (PP (TO to) (NP (NP (NNP Pesc)) (PRN (-LRB- -LRB-) (NP (NP (DT the) (NN expenditure)) (NP (NNS talks))) (-RRB- -RRB-))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">discussions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">discussions</governor>
+            <dependent idx="1">Of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">Of</governor>
+            <dependent idx="2">course</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">discussions</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">discussions</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">discussions</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">discussions</governor>
+            <dependent idx="7">between</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">between</governor>
+            <dependent idx="9">Trust</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">Trust</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">servants</governor>
+            <dependent idx="11">civil</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Trust</governor>
+            <dependent idx="12">servants</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">discussions</governor>
+            <dependent idx="13">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gone</governor>
+            <dependent idx="14">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">gone</governor>
+            <dependent idx="15">has</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">discussions</governor>
+            <dependent idx="16">gone</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="16">gone</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">to</governor>
+            <dependent idx="18">Pesc</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">Pesc</governor>
+            <dependent idx="21">expenditure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="22">talks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">discussions</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">discussions</governor>
+            <dependent idx="2">course</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">discussions</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">discussions</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">discussions</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="6">discussions</governor>
+            <dependent idx="9">Trust</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">servants</governor>
+            <dependent idx="11">civil</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Trust</governor>
+            <dependent idx="12">servants</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gone</governor>
+            <dependent idx="14">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">gone</governor>
+            <dependent idx="15">has</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="6">discussions</governor>
+            <dependent idx="16">gone</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="16">gone</governor>
+            <dependent idx="18">Pesc</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">Pesc</governor>
+            <dependent idx="21">expenditure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="22">talks</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">discussions</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">discussions</governor>
+            <dependent idx="2">course</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="6">discussions</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">discussions</governor>
+            <dependent idx="4">have</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">discussions</governor>
+            <dependent idx="5">been</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">Trust</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="6">discussions</governor>
+            <dependent idx="9">Trust</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">servants</governor>
+            <dependent idx="11">civil</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="6">discussions</governor>
+            <dependent idx="12">servants</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Trust</governor>
+            <dependent idx="12">servants</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="16">gone</governor>
+            <dependent idx="14">nothing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="16">gone</governor>
+            <dependent idx="15">has</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="6">discussions</governor>
+            <dependent idx="16">gone</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="16">gone</governor>
+            <dependent idx="18">Pesc</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="20">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">Pesc</governor>
+            <dependent idx="21">expenditure</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">expenditure</governor>
+            <dependent idx="22">talks</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Although</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>Sir</word>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Cyril</word>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>had</word>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>spoken</word>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>in</word>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>January</word>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>1988</word>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="9">
+            <word>about</word>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>``</word>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="11">
+            <word>hundreds</word>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>''</word>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>199</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>CTCs</word>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>these</word>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="17">
+            <word>would</word>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>221</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="18">
+            <word>be</word>
+            <CharacterOffsetBegin>222</CharacterOffsetBegin>
+            <CharacterOffsetEnd>224</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>funded</word>
+            <CharacterOffsetBegin>225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="20">
+            <word>by</word>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>234</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>local</word>
+            <CharacterOffsetBegin>235</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="22">
+            <word>education</word>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>250</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>authorities</word>
+            <CharacterOffsetBegin>251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>262</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>263</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN Although) (S (NP (NNP Sir) (NNP Cyril)) (VP (VBD had) (VP (VBN spoken) (PP (IN in) (NP (NNP January) (CD 1988))) (PP (IN about) (NP (`` ``) (NP (NNS hundreds)) ('' '') (PP (IN of) (NP (NNP CTCs))))))))) (, ,) (NP (DT these)) (VP (MD would) (VP (VB be) (VP (VBN funded) (PP (IN by) (NP (JJ local) (NN education) (NNS authorities)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">funded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">spoken</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Cyril</governor>
+            <dependent idx="2">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">spoken</governor>
+            <dependent idx="3">Cyril</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">spoken</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">funded</governor>
+            <dependent idx="5">spoken</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">spoken</governor>
+            <dependent idx="6">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">in</governor>
+            <dependent idx="7">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">January</governor>
+            <dependent idx="8">1988</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">spoken</governor>
+            <dependent idx="9">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">about</governor>
+            <dependent idx="11">hundreds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">hundreds</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="14">CTCs</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="16">these</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">funded</governor>
+            <dependent idx="17">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">funded</governor>
+            <dependent idx="20">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">authorities</governor>
+            <dependent idx="21">local</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">authorities</governor>
+            <dependent idx="22">education</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">by</governor>
+            <dependent idx="23">authorities</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">funded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">spoken</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Cyril</governor>
+            <dependent idx="2">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">spoken</governor>
+            <dependent idx="3">Cyril</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">spoken</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">funded</governor>
+            <dependent idx="5">spoken</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">spoken</governor>
+            <dependent idx="7">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">January</governor>
+            <dependent idx="8">1988</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="5">spoken</governor>
+            <dependent idx="11">hundreds</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">hundreds</governor>
+            <dependent idx="14">CTCs</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="16">these</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">funded</governor>
+            <dependent idx="17">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">authorities</governor>
+            <dependent idx="21">local</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">authorities</governor>
+            <dependent idx="22">education</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="19">funded</governor>
+            <dependent idx="23">authorities</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="19">funded</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">spoken</governor>
+            <dependent idx="1">Although</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">Cyril</governor>
+            <dependent idx="2">Sir</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">spoken</governor>
+            <dependent idx="3">Cyril</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">spoken</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="19">funded</governor>
+            <dependent idx="5">spoken</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="5">spoken</governor>
+            <dependent idx="7">January</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">January</governor>
+            <dependent idx="8">1988</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="5">spoken</governor>
+            <dependent idx="11">hundreds</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">hundreds</governor>
+            <dependent idx="14">CTCs</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="16">these</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="19">funded</governor>
+            <dependent idx="17">would</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="19">funded</governor>
+            <dependent idx="18">be</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">authorities</governor>
+            <dependent idx="21">local</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="23">authorities</governor>
+            <dependent idx="22">education</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="19">funded</governor>
+            <dependent idx="23">authorities</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

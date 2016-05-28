@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Mr</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Murphy</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>says</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>eligibility</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="5">
+            <word>levels</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>which</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>WDT</POS>
+          </token>
+          <token id="7">
+            <word>took</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>account</word>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="9">
+            <word>of</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="10">
+            <word>variations</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>between</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="12">
+            <word>households</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="14">
+            <word>actual</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="16">
+            <word>rather</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="17">
+            <word>than</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="18">
+            <word>assumed</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="19">
+            <word>,</word>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="20">
+            <word>figures</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="21">
+            <word>for</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="22">
+            <word>tax</word>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="23">
+            <word>and</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>140</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="24">
+            <word>housing</word>
+            <CharacterOffsetBegin>141</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>,</word>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="26">
+            <word>could</word>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="27">
+            <word>be</word>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="28">
+            <word>definitively</word>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="29">
+            <word>assessed</word>
+            <CharacterOffsetBegin>173</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="30">
+            <word>by</word>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>184</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="31">
+            <word>further</word>
+            <CharacterOffsetBegin>185</CharacterOffsetBegin>
+            <CharacterOffsetEnd>192</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="32">
+            <word>analysis</word>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="33">
+            <word>of</word>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>204</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="34">
+            <word>detailed</word>
+            <CharacterOffsetBegin>205</CharacterOffsetBegin>
+            <CharacterOffsetEnd>213</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="35">
+            <word>Family</word>
+            <CharacterOffsetBegin>214</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="36">
+            <word>Expenditure</word>
+            <CharacterOffsetBegin>221</CharacterOffsetBegin>
+            <CharacterOffsetEnd>232</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="37">
+            <word>Survey</word>
+            <CharacterOffsetBegin>233</CharacterOffsetBegin>
+            <CharacterOffsetEnd>239</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="38">
+            <word>statistics</word>
+            <CharacterOffsetBegin>240</CharacterOffsetBegin>
+            <CharacterOffsetEnd>250</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="39">
+            <word>at</word>
+            <CharacterOffsetBegin>251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="40">
+            <word>the</word>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>257</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="41">
+            <word>cost</word>
+            <CharacterOffsetBegin>258</CharacterOffsetBegin>
+            <CharacterOffsetEnd>262</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="42">
+            <word>of</word>
+            <CharacterOffsetBegin>263</CharacterOffsetBegin>
+            <CharacterOffsetEnd>265</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="43">
+            <word>only</word>
+            <CharacterOffsetBegin>266</CharacterOffsetBegin>
+            <CharacterOffsetEnd>270</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="44">
+            <word>a</word>
+            <CharacterOffsetBegin>271</CharacterOffsetBegin>
+            <CharacterOffsetEnd>272</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="45">
+            <word>few</word>
+            <CharacterOffsetBegin>273</CharacterOffsetBegin>
+            <CharacterOffsetEnd>276</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="46">
+            <word>thousand</word>
+            <CharacterOffsetBegin>277</CharacterOffsetBegin>
+            <CharacterOffsetEnd>285</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="47">
+            <word>pounds</word>
+            <CharacterOffsetBegin>286</CharacterOffsetBegin>
+            <CharacterOffsetEnd>292</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="48">
+            <word>.</word>
+            <CharacterOffsetBegin>293</CharacterOffsetBegin>
+            <CharacterOffsetEnd>294</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Mr) (NNP Murphy)) (VP (VBZ says) (NP (NP (NN eligibility) (NNS levels)) (SBAR (WHNP (WDT which)) (S (VP (VP (VBD took) (NP (NP (NN account)) (PP (IN of) (NP (NP (NNS variations)) (PP (IN between) (NP (NP (NNS households)) (CC and) (NP (JJ actual)))))))) (, ,) (CONJP (RB rather) (IN than)) (VP (VBD assumed)) (, ,) (VP (VBZ figures) (PP (IN for) (NP (NN tax) (CC and) (NN housing)))) (, ,) (VP (MD could) (VP (VB be) (VP (ADVP (RB definitively)) (VBN assessed) (PP (IN by) (NP (NP (JJ further) (NN analysis)) (PP (IN of) (NP (JJ detailed) (NNP Family) (NNP Expenditure) (NNP Survey) (NNS statistics))))) (PP (IN at) (NP (NP (DT the) (NN cost)) (PP (IN of) (NP (QP (RB only) (DT a) (JJ few) (CD thousand)) (NNS pounds))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Murphy</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Murphy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">levels</governor>
+            <dependent idx="4">eligibility</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">says</governor>
+            <dependent idx="5">levels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">took</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="7">took</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">took</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">account</governor>
+            <dependent idx="9">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">of</governor>
+            <dependent idx="10">variations</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">variations</governor>
+            <dependent idx="11">between</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="11">between</governor>
+            <dependent idx="12">households</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="12">households</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="12">households</governor>
+            <dependent idx="14">actual</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="7">took</governor>
+            <dependent idx="16">rather</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="16">rather</governor>
+            <dependent idx="17">than</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">took</governor>
+            <dependent idx="18">assumed</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">took</governor>
+            <dependent idx="20">figures</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="20">figures</governor>
+            <dependent idx="21">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">for</governor>
+            <dependent idx="22">tax</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="22">tax</governor>
+            <dependent idx="23">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="22">tax</governor>
+            <dependent idx="24">housing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="29">assessed</governor>
+            <dependent idx="26">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="29">assessed</governor>
+            <dependent idx="27">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="29">assessed</governor>
+            <dependent idx="28">definitively</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="7">took</governor>
+            <dependent idx="29">assessed</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="29">assessed</governor>
+            <dependent idx="30">by</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">analysis</governor>
+            <dependent idx="31">further</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="30">by</governor>
+            <dependent idx="32">analysis</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="32">analysis</governor>
+            <dependent idx="33">of</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="38">statistics</governor>
+            <dependent idx="34">detailed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="35">Family</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="36">Expenditure</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="37">Survey</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="33">of</governor>
+            <dependent idx="38">statistics</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="29">assessed</governor>
+            <dependent idx="39">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="41">cost</governor>
+            <dependent idx="40">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="39">at</governor>
+            <dependent idx="41">cost</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="41">cost</governor>
+            <dependent idx="42">of</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="43">only</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="44">a</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="45">few</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="47">pounds</governor>
+            <dependent idx="46">thousand</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="42">of</governor>
+            <dependent idx="47">pounds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Murphy</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Murphy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">levels</governor>
+            <dependent idx="4">eligibility</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">says</governor>
+            <dependent idx="5">levels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">took</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="7">took</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">took</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">account</governor>
+            <dependent idx="10">variations</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="10">variations</governor>
+            <dependent idx="12">households</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">households</governor>
+            <dependent idx="14">actual</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="18">assumed</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="20">figures</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="20">figures</governor>
+            <dependent idx="22">tax</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="22">tax</governor>
+            <dependent idx="24">housing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="29">assessed</governor>
+            <dependent idx="26">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="29">assessed</governor>
+            <dependent idx="27">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="29">assessed</governor>
+            <dependent idx="28">definitively</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="29">assessed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">analysis</governor>
+            <dependent idx="31">further</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="29">assessed</governor>
+            <dependent idx="32">analysis</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="38">statistics</governor>
+            <dependent idx="34">detailed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="35">Family</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="36">Expenditure</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="37">Survey</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="32">analysis</governor>
+            <dependent idx="38">statistics</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="41">cost</governor>
+            <dependent idx="40">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="29">assessed</governor>
+            <dependent idx="41">cost</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="43">only</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="44">a</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="45">few</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="47">pounds</governor>
+            <dependent idx="46">thousand</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="41">cost</governor>
+            <dependent idx="47">pounds</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">says</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="2">Murphy</governor>
+            <dependent idx="1">Mr</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">says</governor>
+            <dependent idx="2">Murphy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">levels</governor>
+            <dependent idx="4">eligibility</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">says</governor>
+            <dependent idx="5">levels</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">took</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">assumed</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">figures</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="29">assessed</governor>
+            <dependent idx="6">which</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="7">took</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">took</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="8">account</governor>
+            <dependent idx="10">variations</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="10">variations</governor>
+            <dependent idx="12">households</dependent>
+          </dep>
+          <dep type="prep_between">
+            <governor idx="10">variations</governor>
+            <dependent idx="14">actual</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="12">households</governor>
+            <dependent idx="14">actual</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="18">assumed</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="18">assumed</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="20">figures</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="20">figures</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="20">figures</governor>
+            <dependent idx="22">tax</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="20">figures</governor>
+            <dependent idx="24">housing</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="22">tax</governor>
+            <dependent idx="24">housing</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="29">assessed</governor>
+            <dependent idx="26">could</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="29">assessed</governor>
+            <dependent idx="27">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="29">assessed</governor>
+            <dependent idx="28">definitively</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">levels</governor>
+            <dependent idx="29">assessed</dependent>
+          </dep>
+          <dep type="conj_negcc">
+            <governor idx="7">took</governor>
+            <dependent idx="29">assessed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="32">analysis</governor>
+            <dependent idx="31">further</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="29">assessed</governor>
+            <dependent idx="32">analysis</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="38">statistics</governor>
+            <dependent idx="34">detailed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="35">Family</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="36">Expenditure</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="38">statistics</governor>
+            <dependent idx="37">Survey</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="32">analysis</governor>
+            <dependent idx="38">statistics</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="41">cost</governor>
+            <dependent idx="40">the</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="29">assessed</governor>
+            <dependent idx="41">cost</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="43">only</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="44">a</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="46">thousand</governor>
+            <dependent idx="45">few</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="47">pounds</governor>
+            <dependent idx="46">thousand</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="41">cost</governor>
+            <dependent idx="47">pounds</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

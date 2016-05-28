@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>More</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>JJR</POS>
+          </token>
+          <token id="2">
+            <word>varied</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="3">
+            <word>roles</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>followed</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="6">
+            <word>however</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="8">
+            <word>and</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="9">
+            <word>his</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="10">
+            <word>versatility</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>noted</word>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (JJR More) (JJ varied) (NNS roles)) (VP (VBD followed) (, ,) (ADVP (RB however)))) (, ,) (CC and) (S (NP (PRP$ his) (NN versatility)) (VP (VBD was) (VP (VBN noted)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">followed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="1">More</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="2">varied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">followed</governor>
+            <dependent idx="3">roles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">followed</governor>
+            <dependent idx="6">however</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">followed</governor>
+            <dependent idx="8">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">versatility</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="10">versatility</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">followed</governor>
+            <dependent idx="12">noted</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">followed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="1">More</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="2">varied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">followed</governor>
+            <dependent idx="3">roles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">followed</governor>
+            <dependent idx="6">however</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">versatility</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="10">versatility</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">followed</governor>
+            <dependent idx="12">noted</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">followed</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="1">More</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">roles</governor>
+            <dependent idx="2">varied</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">followed</governor>
+            <dependent idx="3">roles</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">followed</governor>
+            <dependent idx="6">however</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">versatility</governor>
+            <dependent idx="9">his</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="10">versatility</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">noted</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">followed</governor>
+            <dependent idx="12">noted</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

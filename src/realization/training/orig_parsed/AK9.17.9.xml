@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>there</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>EX</POS>
+          </token>
+          <token id="4">
+            <word>were</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>``</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="6">
+            <word>good</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="7">
+            <word>grounds</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>for</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>suspicion</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>that</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>certain</word>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>offshore</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>banks</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>are</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="15">
+            <word>used</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>for</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>fraudulent</word>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="18">
+            <word>purposes</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="19">
+            <word>''</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD were) (`` ``) (NP (NP (JJ good) (NNS grounds)) (PP (IN for) (NP (NN suspicion))) (SBAR (IN that) (S (NP (JJ certain) (JJ offshore) (NNS banks)) (VP (VBP are) (VP (VBN used) (PP (IN for) (NP (JJ fraudulent) (NNS purposes)))))))))))) ('' '') (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">were</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">grounds</governor>
+            <dependent idx="6">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">were</governor>
+            <dependent idx="7">grounds</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">grounds</governor>
+            <dependent idx="8">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">for</governor>
+            <dependent idx="9">suspicion</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">used</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="11">certain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="12">offshore</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">used</governor>
+            <dependent idx="13">banks</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">used</governor>
+            <dependent idx="14">are</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">grounds</governor>
+            <dependent idx="15">used</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">used</governor>
+            <dependent idx="16">for</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">purposes</governor>
+            <dependent idx="17">fraudulent</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">for</governor>
+            <dependent idx="18">purposes</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">were</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">grounds</governor>
+            <dependent idx="6">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">were</governor>
+            <dependent idx="7">grounds</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">grounds</governor>
+            <dependent idx="9">suspicion</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">used</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="11">certain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="12">offshore</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">used</governor>
+            <dependent idx="13">banks</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">used</governor>
+            <dependent idx="14">are</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">grounds</governor>
+            <dependent idx="15">used</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">purposes</governor>
+            <dependent idx="17">fraudulent</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">used</governor>
+            <dependent idx="18">purposes</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="4">were</governor>
+            <dependent idx="3">there</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">grounds</governor>
+            <dependent idx="6">good</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">were</governor>
+            <dependent idx="7">grounds</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">grounds</governor>
+            <dependent idx="9">suspicion</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">used</governor>
+            <dependent idx="10">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="11">certain</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">banks</governor>
+            <dependent idx="12">offshore</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="15">used</governor>
+            <dependent idx="13">banks</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="15">used</governor>
+            <dependent idx="14">are</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">grounds</governor>
+            <dependent idx="15">used</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">purposes</governor>
+            <dependent idx="17">fraudulent</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="15">used</governor>
+            <dependent idx="18">purposes</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

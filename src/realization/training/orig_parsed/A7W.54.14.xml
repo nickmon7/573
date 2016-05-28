@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>An</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>Fo</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>memo</word>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>of</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>1943</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="6">
+            <word>noted</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>``</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="8">
+            <word>our</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>information</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>about</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>Roatta</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="12">
+            <word>confirms</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="14">
+            <word>information</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="15">
+            <word>circulating</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="16">
+            <word>about</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="17">
+            <word>him</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="18">
+            <word>''</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT An) (NNP Fo) (NN memo)) (PP (IN of) (NP (CD 1943)))) (VP (VBD noted) (SBAR (S (`` ``) (NP (NP (PRP$ our) (NN information)) (PP (IN about) (NP (NNP Roatta)))) (VP (VBZ confirms) (NP (NP (DT the) (NN information)) (VP (VBG circulating) (IN about) (NP (PRP him)) ('' ''))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">noted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">memo</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">memo</governor>
+            <dependent idx="2">Fo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">noted</governor>
+            <dependent idx="3">memo</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">memo</governor>
+            <dependent idx="4">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">of</governor>
+            <dependent idx="5">1943</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">information</governor>
+            <dependent idx="8">our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="9">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">information</governor>
+            <dependent idx="10">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">about</governor>
+            <dependent idx="11">Roatta</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">noted</governor>
+            <dependent idx="12">confirms</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">information</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="14">information</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">information</governor>
+            <dependent idx="15">circulating</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">circulating</governor>
+            <dependent idx="16">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">circulating</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">noted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">memo</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">memo</governor>
+            <dependent idx="2">Fo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">noted</governor>
+            <dependent idx="3">memo</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">memo</governor>
+            <dependent idx="5">1943</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">information</governor>
+            <dependent idx="8">our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="9">information</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="9">information</governor>
+            <dependent idx="11">Roatta</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">noted</governor>
+            <dependent idx="12">confirms</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">information</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="14">information</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">information</governor>
+            <dependent idx="15">circulating</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">circulating</governor>
+            <dependent idx="16">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">circulating</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">noted</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">memo</governor>
+            <dependent idx="1">An</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">memo</governor>
+            <dependent idx="2">Fo</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">noted</governor>
+            <dependent idx="3">memo</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="3">memo</governor>
+            <dependent idx="5">1943</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">information</governor>
+            <dependent idx="8">our</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="9">information</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="9">information</governor>
+            <dependent idx="11">Roatta</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">noted</governor>
+            <dependent idx="12">confirms</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">information</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">confirms</governor>
+            <dependent idx="14">information</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="14">information</governor>
+            <dependent idx="15">circulating</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="15">circulating</governor>
+            <dependent idx="16">about</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">circulating</governor>
+            <dependent idx="17">him</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

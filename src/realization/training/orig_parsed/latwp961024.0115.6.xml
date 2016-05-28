@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Nearly</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>200,000</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="3">
+            <word>lawsuits</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="4">
+            <word>were</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>brought</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="6">
+            <word>by</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>women</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>who</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="9">
+            <word>said</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="11">
+            <word>suffered</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>injuries</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>ranging</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>from</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>minor</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="16">
+            <word>inflammation</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>to</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="18">
+            <word>infertility</word>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>and</word>
+            <CharacterOffsetBegin>125</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="20">
+            <word>in</word>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="21">
+            <word>some</word>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="22">
+            <word>cases</word>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="23">
+            <word>,</word>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="24">
+            <word>death</word>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>150</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>151</CharacterOffsetBegin>
+            <CharacterOffsetEnd>152</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (QP (RB Nearly) (CD 200,000)) (NNS lawsuits)) (VP (VBD were) (VP (VBN brought) (PP (IN by) (NP (NP (NNS women)) (SBAR (WHNP (WP who)) (S (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD suffered) (NP (NP (NNS injuries)) (VP (VBG ranging) (PP (IN from) (NP (JJ minor) (NN inflammation))) (PP (PP (TO to) (NP (NN infertility))) (CC and) (PP (IN in) (NP (NP (DT some) (NNS cases)) (, ,) (NP (NN death))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">brought</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">200,000</governor>
+            <dependent idx="1">Nearly</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">lawsuits</governor>
+            <dependent idx="2">200,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="3">lawsuits</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">brought</governor>
+            <dependent idx="6">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">by</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">said</governor>
+            <dependent idx="8">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">women</governor>
+            <dependent idx="9">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">said</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="12">injuries</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">injuries</governor>
+            <dependent idx="13">ranging</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">ranging</governor>
+            <dependent idx="14">from</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">inflammation</governor>
+            <dependent idx="15">minor</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">from</governor>
+            <dependent idx="16">inflammation</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">ranging</governor>
+            <dependent idx="17">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="17">to</governor>
+            <dependent idx="18">infertility</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="17">to</governor>
+            <dependent idx="19">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="17">to</governor>
+            <dependent idx="20">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cases</governor>
+            <dependent idx="21">some</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">in</governor>
+            <dependent idx="22">cases</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="22">cases</governor>
+            <dependent idx="24">death</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">brought</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">200,000</governor>
+            <dependent idx="1">Nearly</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">lawsuits</governor>
+            <dependent idx="2">200,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="3">lawsuits</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">brought</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">said</governor>
+            <dependent idx="8">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">women</governor>
+            <dependent idx="9">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">said</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="12">injuries</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">injuries</governor>
+            <dependent idx="13">ranging</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">ranging</governor>
+            <dependent idx="13" copy="1">ranging</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">inflammation</governor>
+            <dependent idx="15">minor</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="13">ranging</governor>
+            <dependent idx="16">inflammation</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">ranging</governor>
+            <dependent idx="18">infertility</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cases</governor>
+            <dependent idx="21">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13" copy="1">ranging</governor>
+            <dependent idx="22">cases</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="22">cases</governor>
+            <dependent idx="24">death</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">brought</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="2">200,000</governor>
+            <dependent idx="1">Nearly</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="3">lawsuits</governor>
+            <dependent idx="2">200,000</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="3">lawsuits</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="5">brought</governor>
+            <dependent idx="4">were</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="5">brought</governor>
+            <dependent idx="7">women</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">said</governor>
+            <dependent idx="8">who</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="7">women</governor>
+            <dependent idx="9">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="9">said</governor>
+            <dependent idx="11">suffered</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">suffered</governor>
+            <dependent idx="12">injuries</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">injuries</governor>
+            <dependent idx="13">ranging</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">injuries</governor>
+            <dependent idx="13" copy="1">ranging</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="13">ranging</governor>
+            <dependent idx="13" copy="1">ranging</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="16">inflammation</governor>
+            <dependent idx="15">minor</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="13">ranging</governor>
+            <dependent idx="16">inflammation</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="13">ranging</governor>
+            <dependent idx="18">infertility</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cases</governor>
+            <dependent idx="21">some</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13" copy="1">ranging</governor>
+            <dependent idx="22">cases</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="22">cases</governor>
+            <dependent idx="24">death</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

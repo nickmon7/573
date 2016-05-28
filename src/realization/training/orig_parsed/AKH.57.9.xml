@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Geoffrey</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>Percy</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="3">
+            <word>Sansom</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Thomas</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>was</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>born</word>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>April</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>24</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="10">
+            <word>1915</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="12">
+            <word>educated</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>at</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>King</word>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="15">
+            <word>'s</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="16">
+            <word>College</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>School</word>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="19">
+            <word>Wimbledon</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Geoffrey) (NNP Percy) (NNP Sansom) (NNP Thomas)) (VP (VBD was) (VP (VP (VBN born) (PP (IN on) (NP (NNP April) (CD 24) (NNS 1915)))) (CC and) (VP (VBN educated) (PP (IN at) (NP (NP (NP (NNP King) (POS 's)) (NNP College) (NNP School)) (, ,) (NP (NNP Wimbledon))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">born</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="1">Geoffrey</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="2">Percy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="3">Sansom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">born</governor>
+            <dependent idx="4">Thomas</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">born</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">born</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">1915</governor>
+            <dependent idx="8">April</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">1915</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="10">1915</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">born</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">born</governor>
+            <dependent idx="12">educated</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">educated</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">School</governor>
+            <dependent idx="14">King</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="14">King</governor>
+            <dependent idx="15">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">School</governor>
+            <dependent idx="16">College</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">at</governor>
+            <dependent idx="17">School</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">School</governor>
+            <dependent idx="19">Wimbledon</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">born</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="1">Geoffrey</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="2">Percy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="3">Sansom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">born</governor>
+            <dependent idx="4">Thomas</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">born</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">1915</governor>
+            <dependent idx="8">April</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">1915</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">born</governor>
+            <dependent idx="10">1915</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">born</governor>
+            <dependent idx="12">educated</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">School</governor>
+            <dependent idx="14">King</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">School</governor>
+            <dependent idx="16">College</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">educated</governor>
+            <dependent idx="17">School</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">School</governor>
+            <dependent idx="19">Wimbledon</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">born</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="1">Geoffrey</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="2">Percy</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Thomas</governor>
+            <dependent idx="3">Sansom</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="6">born</governor>
+            <dependent idx="4">Thomas</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">educated</governor>
+            <dependent idx="4">Thomas</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="6">born</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">1915</governor>
+            <dependent idx="8">April</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="10">1915</governor>
+            <dependent idx="9">24</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="6">born</governor>
+            <dependent idx="10">1915</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="6">born</governor>
+            <dependent idx="12">educated</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="17">School</governor>
+            <dependent idx="14">King</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">School</governor>
+            <dependent idx="16">College</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="12">educated</governor>
+            <dependent idx="17">School</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="17">School</governor>
+            <dependent idx="19">Wimbledon</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

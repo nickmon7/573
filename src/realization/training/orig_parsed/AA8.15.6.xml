@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>Commons</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+          </token>
+          <token id="4">
+            <word>he</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="5">
+            <word>was</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>an</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>independently</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="8">
+            <word>minded</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>but</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="11">
+            <word>loyal</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>member</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="15">
+            <word>Parliamentary</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="16">
+            <word>Labour</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="17">
+            <word>Party</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (DT the) (NNPS Commons))) (NP (PRP he)) (VP (VBD was) (NP (NP (DT an) (ADJP (ADJP (ADVP (RB independently)) (JJ minded)) (, ,) (CC but) (ADJP (JJ loyal))) (NN member)) (PP (IN of) (NP (DT the) (NNP Parliamentary) (NNP Labour) (NNP Party))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">member</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">member</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Commons</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="3">Commons</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">member</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">member</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">member</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">minded</governor>
+            <dependent idx="7">independently</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">member</governor>
+            <dependent idx="8">minded</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">minded</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">minded</governor>
+            <dependent idx="11">loyal</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">member</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Party</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="15">Parliamentary</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="16">Labour</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="17">Party</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">member</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Commons</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">member</governor>
+            <dependent idx="3">Commons</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">member</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">member</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">member</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">minded</governor>
+            <dependent idx="7">independently</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">member</governor>
+            <dependent idx="8">minded</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="8">minded</governor>
+            <dependent idx="11">loyal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Party</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="15">Parliamentary</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="16">Labour</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">member</governor>
+            <dependent idx="17">Party</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="12">member</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">Commons</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">member</governor>
+            <dependent idx="3">Commons</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">member</governor>
+            <dependent idx="4">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">member</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">member</governor>
+            <dependent idx="6">an</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">minded</governor>
+            <dependent idx="7">independently</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">member</governor>
+            <dependent idx="8">minded</dependent>
+          </dep>
+          <dep type="conj_but">
+            <governor idx="8">minded</governor>
+            <dependent idx="11">loyal</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">member</governor>
+            <dependent idx="11">loyal</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Party</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="15">Parliamentary</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Party</governor>
+            <dependent idx="16">Labour</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">member</governor>
+            <dependent idx="17">Party</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

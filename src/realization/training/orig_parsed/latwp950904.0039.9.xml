@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>My</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="2">
+            <word>purpose</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>is</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+          </token>
+          <token id="4">
+            <word>to</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="5">
+            <word>keep</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="7">
+            <word>state</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="8">
+            <word>from</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="9">
+            <word>becoming</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="10">
+            <word>all-domineering</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="12">
+            <word>all</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="13">
+            <word>powerful</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+          <token id="15">
+            <word>''</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP$ My) (NN purpose)) (VP (VBZ is) (S (VP (TO to) (VP (VB keep) (NP (DT the) (NN state)) (PP (IN from) (S (VP (VBG becoming) (ADJP (JJ all-domineering) (, ,) (RB all) (JJ powerful))))))))) (. .) ('' ''))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">purpose</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="2">purpose</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">keep</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">is</governor>
+            <dependent idx="5">keep</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">state</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">keep</governor>
+            <dependent idx="7">state</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">keep</governor>
+            <dependent idx="8">from</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="8">from</governor>
+            <dependent idx="9">becoming</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="10">all-domineering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">becoming</governor>
+            <dependent idx="13">powerful</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">purpose</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="2">purpose</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">keep</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">is</governor>
+            <dependent idx="5">keep</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">state</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">keep</governor>
+            <dependent idx="7">state</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="5">keep</governor>
+            <dependent idx="9">becoming</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="10">all-domineering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">becoming</governor>
+            <dependent idx="13">powerful</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">is</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="2">purpose</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">is</governor>
+            <dependent idx="2">purpose</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">keep</governor>
+            <dependent idx="4">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">is</governor>
+            <dependent idx="5">keep</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">state</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">keep</governor>
+            <dependent idx="7">state</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="5">keep</governor>
+            <dependent idx="9">becoming</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="10">all-domineering</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="13">powerful</governor>
+            <dependent idx="12">all</dependent>
+          </dep>
+          <dep type="acomp">
+            <governor idx="9">becoming</governor>
+            <dependent idx="13">powerful</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>scored</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>some</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>notable</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>successes</word>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD scored) (NP (DT some) (JJ notable) (NNS successes))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">scored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">scored</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">successes</governor>
+            <dependent idx="3">some</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">successes</governor>
+            <dependent idx="4">notable</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">scored</governor>
+            <dependent idx="5">successes</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">scored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">scored</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">successes</governor>
+            <dependent idx="3">some</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">successes</governor>
+            <dependent idx="4">notable</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">scored</governor>
+            <dependent idx="5">successes</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">scored</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">scored</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">successes</governor>
+            <dependent idx="3">some</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">successes</governor>
+            <dependent idx="4">notable</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">scored</governor>
+            <dependent idx="5">successes</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

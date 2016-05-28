@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Shortly</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="2">
+            <word>afterwards</word>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="5">
+            <word>Swiss</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="6">
+            <word>Cabinet</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>decided</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>join</word>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>in</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>sanctions</word>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="14">
+            <word>despite</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>country</word>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>'s</word>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="18">
+            <word>tradition</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="19">
+            <word>of</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>109</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="20">
+            <word>neutrality</word>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Shortly)) (ADVP (RB afterwards)) (, ,) (NP (DT the) (NNP Swiss) (NNP Cabinet)) (VP (VBD decided) (S (VP (TO to) (VP (VB join) (PP (IN in) (NP (DT the) (NNS sanctions))) (, ,) (PP (IN despite) (NP (NP (NP (DT the) (NN country) (POS 's)) (NN tradition)) (PP (IN of) (NP (NN neutrality))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">decided</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="1">Shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="2">afterwards</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="5">Swiss</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">decided</governor>
+            <dependent idx="6">Cabinet</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">join</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">decided</governor>
+            <dependent idx="9">join</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">join</governor>
+            <dependent idx="10">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">sanctions</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">in</governor>
+            <dependent idx="12">sanctions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">join</governor>
+            <dependent idx="14">despite</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">country</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">tradition</governor>
+            <dependent idx="16">country</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="16">country</governor>
+            <dependent idx="17">'s</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">despite</governor>
+            <dependent idx="18">tradition</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">tradition</governor>
+            <dependent idx="19">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="19">of</governor>
+            <dependent idx="20">neutrality</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">decided</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="1">Shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="2">afterwards</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="5">Swiss</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">decided</governor>
+            <dependent idx="6">Cabinet</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">join</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">decided</governor>
+            <dependent idx="9">join</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">sanctions</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">join</governor>
+            <dependent idx="12">sanctions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">country</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">tradition</governor>
+            <dependent idx="16">country</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="9">join</governor>
+            <dependent idx="18">tradition</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">tradition</governor>
+            <dependent idx="20">neutrality</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">decided</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="1">Shortly</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">decided</governor>
+            <dependent idx="2">afterwards</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="6">Cabinet</governor>
+            <dependent idx="5">Swiss</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">decided</governor>
+            <dependent idx="6">Cabinet</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">join</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">decided</governor>
+            <dependent idx="9">join</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">sanctions</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="9">join</governor>
+            <dependent idx="12">sanctions</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">country</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="18">tradition</governor>
+            <dependent idx="16">country</dependent>
+          </dep>
+          <dep type="prep_despite">
+            <governor idx="9">join</governor>
+            <dependent idx="18">tradition</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="18">tradition</governor>
+            <dependent idx="20">neutrality</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

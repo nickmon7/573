@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="2">
+            <word>even</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>his</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="4">
+            <word>detractors</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="5">
+            <word>and</word>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="6">
+            <word>enemies</word>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="7">
+            <word>within</word>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="9">
+            <word>Palestinian</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="10">
+            <word>movement</word>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="11">
+            <word>confessed</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="12">
+            <word>to</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="13">
+            <word>having</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="14">
+            <word>feelings</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>of</word>
+            <CharacterOffsetBegin>97</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>unease</word>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (ADVP (RB even)) (NP (NP (PRP$ his) (NNS detractors) (CC and) (NNS enemies)) (PP (IN within) (NP (DT the) (JJ Palestinian) (NN movement)))) (VP (VBD confessed) (PP (TO to) (S (VP (VBG having) (NP (NP (NNS feelings)) (PP (IN of) (NP (NN unease)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">confessed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">confessed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">confessed</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">detractors</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">confessed</governor>
+            <dependent idx="4">detractors</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">detractors</governor>
+            <dependent idx="5">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">detractors</governor>
+            <dependent idx="6">enemies</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">detractors</governor>
+            <dependent idx="7">within</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">movement</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">movement</governor>
+            <dependent idx="9">Palestinian</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">within</governor>
+            <dependent idx="10">movement</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">confessed</governor>
+            <dependent idx="12">to</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="12">to</governor>
+            <dependent idx="13">having</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">having</governor>
+            <dependent idx="14">feelings</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="14">feelings</governor>
+            <dependent idx="15">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">of</governor>
+            <dependent idx="16">unease</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">confessed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">confessed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">confessed</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">detractors</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">confessed</governor>
+            <dependent idx="4">detractors</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">detractors</governor>
+            <dependent idx="6">enemies</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">movement</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">movement</governor>
+            <dependent idx="9">Palestinian</dependent>
+          </dep>
+          <dep type="prep_within">
+            <governor idx="4">detractors</governor>
+            <dependent idx="10">movement</dependent>
+          </dep>
+          <dep type="prepc_to">
+            <governor idx="11">confessed</governor>
+            <dependent idx="13">having</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">having</governor>
+            <dependent idx="14">feelings</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">feelings</governor>
+            <dependent idx="16">unease</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="11">confessed</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="11">confessed</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">confessed</governor>
+            <dependent idx="2">even</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="4">detractors</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">confessed</governor>
+            <dependent idx="4">detractors</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="4">detractors</governor>
+            <dependent idx="6">enemies</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">confessed</governor>
+            <dependent idx="6">enemies</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">movement</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">movement</governor>
+            <dependent idx="9">Palestinian</dependent>
+          </dep>
+          <dep type="prep_within">
+            <governor idx="4">detractors</governor>
+            <dependent idx="10">movement</dependent>
+          </dep>
+          <dep type="prepc_to">
+            <governor idx="11">confessed</governor>
+            <dependent idx="13">having</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">having</governor>
+            <dependent idx="14">feelings</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="14">feelings</governor>
+            <dependent idx="16">unease</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>order</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>came</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>as</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="5">
+            <word>rebels</word>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="6">
+            <word>announced</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="7">
+            <word>plans</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="9">
+            <word>free</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="10">
+            <word>two</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="11">
+            <word>Soviet</word>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="12">
+            <word>soldiers</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>captured</word>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>during</word>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="16">
+            <word>Soviet</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="17">
+            <word>occupation</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN order)) (VP (VBD came) (SBAR (IN as) (S (NP (NNS rebels)) (VP (VBD announced) (NP (NNS plans)) (S (VP (TO to) (VP (VB free) (NP (NP (CD two) (JJ Soviet) (NNS soldiers)) (VP (VBN captured) (PP (IN during) (NP (DT the) (JJ Soviet) (NN occupation)))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">order</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">rebels</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">came</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="7">plans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">free</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announced</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="11">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">free</governor>
+            <dependent idx="12">soldiers</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="13">captured</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">captured</governor>
+            <dependent idx="14">during</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">occupation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">occupation</governor>
+            <dependent idx="16">Soviet</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="14">during</governor>
+            <dependent idx="17">occupation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">order</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">rebels</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">came</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="7">plans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">free</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announced</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="11">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">free</governor>
+            <dependent idx="12">soldiers</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="13">captured</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">occupation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">occupation</governor>
+            <dependent idx="16">Soviet</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="13">captured</governor>
+            <dependent idx="17">occupation</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">came</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">order</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">came</governor>
+            <dependent idx="2">order</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="6">announced</governor>
+            <dependent idx="4">as</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">announced</governor>
+            <dependent idx="5">rebels</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">came</governor>
+            <dependent idx="6">announced</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">announced</governor>
+            <dependent idx="7">plans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">free</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="6">announced</governor>
+            <dependent idx="9">free</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="10">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="11">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">free</governor>
+            <dependent idx="12">soldiers</dependent>
+          </dep>
+          <dep type="vmod">
+            <governor idx="12">soldiers</governor>
+            <dependent idx="13">captured</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">occupation</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">occupation</governor>
+            <dependent idx="16">Soviet</dependent>
+          </dep>
+          <dep type="prep_during">
+            <governor idx="13">captured</governor>
+            <dependent idx="17">occupation</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

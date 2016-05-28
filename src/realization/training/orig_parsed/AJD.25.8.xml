@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="3">
+            <word>Fawlty</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Towers</word>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>belt</word>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>Torquay</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="9">
+            <word>abandoned</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="10">
+            <word>hotels</word>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="11">
+            <word>have</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="12">
+            <word>been</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="13">
+            <word>boarded</word>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="14">
+            <word>up</word>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>RP</POS>
+          </token>
+          <token id="15">
+            <word>against</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="16">
+            <word>vandals</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NP (DT the) (NNP Fawlty) (NNP Towers) (NN belt)) (PP (IN of) (NP (NNP Torquay))))) (, ,) (NP (VBN abandoned) (NNS hotels)) (VP (VBP have) (VP (VBN been) (VP (VBN boarded) (PRT (RP up)) (PP (IN against) (NP (NNS vandals)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">boarded</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">boarded</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">belt</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="3">Fawlty</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="4">Towers</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="5">belt</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">belt</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">of</governor>
+            <dependent idx="7">Torquay</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">hotels</governor>
+            <dependent idx="9">abandoned</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="10">hotels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">boarded</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">boarded</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="13">boarded</governor>
+            <dependent idx="15">against</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="15">against</governor>
+            <dependent idx="16">vandals</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">boarded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">belt</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="3">Fawlty</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="4">Towers</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">boarded</governor>
+            <dependent idx="5">belt</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">belt</governor>
+            <dependent idx="7">Torquay</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">hotels</governor>
+            <dependent idx="9">abandoned</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="10">hotels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">boarded</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">boarded</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="prep_against">
+            <governor idx="13">boarded</governor>
+            <dependent idx="16">vandals</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">boarded</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">belt</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="3">Fawlty</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">belt</governor>
+            <dependent idx="4">Towers</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="13">boarded</governor>
+            <dependent idx="5">belt</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="5">belt</governor>
+            <dependent idx="7">Torquay</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">hotels</governor>
+            <dependent idx="9">abandoned</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="10">hotels</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">boarded</governor>
+            <dependent idx="11">have</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="13">boarded</governor>
+            <dependent idx="12">been</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="13">boarded</governor>
+            <dependent idx="14">up</dependent>
+          </dep>
+          <dep type="prep_against">
+            <governor idx="13">boarded</governor>
+            <dependent idx="16">vandals</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

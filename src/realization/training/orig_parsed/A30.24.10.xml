@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Cleese</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>CC</POS>
+          </token>
+          <token id="3">
+            <word>Michael</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Palin</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>were</word>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>with</word>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>him</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="8">
+            <word>when</word>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>WRB</POS>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="10">
+            <word>died</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Cleese)) (CC and) (NP (NNP Michael) (NNP Palin))) (VP (VBD were) (PP (IN with) (NP (PRP him))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD died))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">were</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">were</governor>
+            <dependent idx="1">Cleese</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">Cleese</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Palin</governor>
+            <dependent idx="3">Michael</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">Cleese</governor>
+            <dependent idx="4">Palin</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">were</governor>
+            <dependent idx="6">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">with</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">died</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">died</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">were</governor>
+            <dependent idx="10">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">were</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">were</governor>
+            <dependent idx="1">Cleese</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Palin</governor>
+            <dependent idx="3">Michael</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Cleese</governor>
+            <dependent idx="4">Palin</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="5">were</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">died</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">died</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">were</governor>
+            <dependent idx="10">died</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">were</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">were</governor>
+            <dependent idx="1">Cleese</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Palin</governor>
+            <dependent idx="3">Michael</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">Cleese</governor>
+            <dependent idx="4">Palin</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">were</governor>
+            <dependent idx="4">Palin</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="5">were</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">died</governor>
+            <dependent idx="8">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">died</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">were</governor>
+            <dependent idx="10">died</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

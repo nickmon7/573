@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Soviet</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="2">
+            <word>ship</word>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="3">
+            <word>fire</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>.</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Soviet)) (VP (VBP ship) (NP (NN fire))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ship</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ship</governor>
+            <dependent idx="1">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ship</governor>
+            <dependent idx="3">fire</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ship</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ship</governor>
+            <dependent idx="1">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ship</governor>
+            <dependent idx="3">fire</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ship</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ship</governor>
+            <dependent idx="1">Soviet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ship</governor>
+            <dependent idx="3">fire</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

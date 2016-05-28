@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>again</word>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="3">
+            <word>offered</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="4">
+            <word>strong</word>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="5">
+            <word>economic</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>backing</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="7">
+            <word>for</word>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>reforms</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP They)) (ADVP (RB again)) (VP (VBD offered) (NP (JJ strong) (JJ economic) (NN backing)) (PP (IN for) (NP (NNS reforms)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">offered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">offered</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">offered</governor>
+            <dependent idx="2">again</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="4">strong</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">offered</governor>
+            <dependent idx="6">backing</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="3">offered</governor>
+            <dependent idx="7">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">for</governor>
+            <dependent idx="8">reforms</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">offered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">offered</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">offered</governor>
+            <dependent idx="2">again</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="4">strong</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">offered</governor>
+            <dependent idx="6">backing</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="3">offered</governor>
+            <dependent idx="8">reforms</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">offered</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">offered</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">offered</governor>
+            <dependent idx="2">again</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="4">strong</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">backing</governor>
+            <dependent idx="5">economic</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">offered</governor>
+            <dependent idx="6">backing</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="3">offered</governor>
+            <dependent idx="8">reforms</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

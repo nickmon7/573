@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>said</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>he</word>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="4">
+            <word>only</word>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="5">
+            <word>refrained</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="6">
+            <word>from</word>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="7">
+            <word>inserting</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="8">
+            <word>his</word>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>truncheon</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="10">
+            <word>into</word>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="11">
+            <word>her</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="13">
+            <word>after</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>she</word>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="15">
+            <word>begged</word>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="16">
+            <word>him</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="17">
+            <word>not</word>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="18">
+            <word>to</word>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>96</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP She)) (VP (VBD said) (SBAR (S (NP (PRP he)) (ADVP (RB only)) (VP (VBD refrained) (PP (IN from) (S (VP (VBG inserting) (NP (PRP$ his) (NN truncheon)) (PP (IN into) (NP (PRP her)))))) (, ,) (SBAR (IN after) (S (NP (PRP she)) (VP (VBN begged) (S (NP (PRP him)) (ADJP (RB not) (PP (TO to))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">refrained</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">refrained</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">refrained</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">refrained</governor>
+            <dependent idx="6">from</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="6">from</governor>
+            <dependent idx="7">inserting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">truncheon</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">inserting</governor>
+            <dependent idx="9">truncheon</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">inserting</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="10">into</governor>
+            <dependent idx="11">her</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">begged</governor>
+            <dependent idx="13">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">begged</governor>
+            <dependent idx="14">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">refrained</governor>
+            <dependent idx="15">begged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">not</governor>
+            <dependent idx="16">him</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">begged</governor>
+            <dependent idx="17">not</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">not</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">refrained</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">refrained</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">refrained</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="5">refrained</governor>
+            <dependent idx="7">inserting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">truncheon</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">inserting</governor>
+            <dependent idx="9">truncheon</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="7">inserting</governor>
+            <dependent idx="11">her</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">begged</governor>
+            <dependent idx="13">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">begged</governor>
+            <dependent idx="14">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">refrained</governor>
+            <dependent idx="15">begged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">not</governor>
+            <dependent idx="16">him</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">begged</governor>
+            <dependent idx="17">not</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">not</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">said</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">refrained</governor>
+            <dependent idx="3">he</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">refrained</governor>
+            <dependent idx="4">only</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">said</governor>
+            <dependent idx="5">refrained</dependent>
+          </dep>
+          <dep type="prepc_from">
+            <governor idx="5">refrained</governor>
+            <dependent idx="7">inserting</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="9">truncheon</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">inserting</governor>
+            <dependent idx="9">truncheon</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="7">inserting</governor>
+            <dependent idx="11">her</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="15">begged</governor>
+            <dependent idx="13">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">begged</governor>
+            <dependent idx="14">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">refrained</governor>
+            <dependent idx="15">begged</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">not</governor>
+            <dependent idx="16">him</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="15">begged</governor>
+            <dependent idx="17">not</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">not</governor>
+            <dependent idx="18">to</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

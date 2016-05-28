@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>He</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+          </token>
+          <token id="2">
+            <word>accused</word>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="3">
+            <word>Gen</word>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="4">
+            <word>Aoun</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="6">
+            <word>using</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="7">
+            <word>as</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="8">
+            <word>``</word>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>``</POS>
+          </token>
+          <token id="9">
+            <word>sandbags</word>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="10">
+            <word>''</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>''</POS>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="12">
+            <word>thousands</word>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="14">
+            <word>Christians</word>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>who</word>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>WP</POS>
+          </token>
+          <token id="16">
+            <word>have</word>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>VBP</POS>
+          </token>
+          <token id="17">
+            <word>gathered</word>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBN</POS>
+          </token>
+          <token id="18">
+            <word>outside</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="20">
+            <word>palace</word>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>to</word>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="22">
+            <word>deter</word>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="23">
+            <word>an</word>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="24">
+            <word>attack</word>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP He)) (VP (VBD accused) (NP (NP (NNP Gen) (NNP Aoun)) (PP (IN of) (S (VP (VBG using) (PP (IN as) (`` ``) (NP (NNS sandbags)) ('' '')) (NP (NP (DT the) (NNS thousands)) (PP (IN of) (NP (NP (NNS Christians)) (SBAR (WHNP (WP who)) (S (VP (VBP have) (VP (VBN gathered) (PP (IN outside) (NP (DT the) (NN palace))) (S (VP (TO to) (VP (VB deter) (NP (DT an) (NN attack))))))))))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accused</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accused</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="3">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">accused</governor>
+            <dependent idx="4">Aoun</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="5">of</governor>
+            <dependent idx="6">using</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">using</governor>
+            <dependent idx="7">as</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">as</governor>
+            <dependent idx="9">sandbags</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">thousands</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">using</governor>
+            <dependent idx="12">thousands</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">thousands</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">of</governor>
+            <dependent idx="14">Christians</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">gathered</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">gathered</governor>
+            <dependent idx="16">have</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Christians</governor>
+            <dependent idx="17">gathered</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">gathered</governor>
+            <dependent idx="18">outside</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">palace</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">outside</governor>
+            <dependent idx="20">palace</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">deter</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">gathered</governor>
+            <dependent idx="22">deter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">attack</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">deter</governor>
+            <dependent idx="24">attack</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accused</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accused</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="3">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">accused</governor>
+            <dependent idx="4">Aoun</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="6">using</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="6">using</governor>
+            <dependent idx="9">sandbags</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">thousands</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">using</governor>
+            <dependent idx="12">thousands</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">thousands</governor>
+            <dependent idx="14">Christians</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">gathered</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">gathered</governor>
+            <dependent idx="16">have</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Christians</governor>
+            <dependent idx="17">gathered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">palace</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_outside">
+            <governor idx="17">gathered</governor>
+            <dependent idx="20">palace</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">deter</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">gathered</governor>
+            <dependent idx="22">deter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">attack</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">deter</governor>
+            <dependent idx="24">attack</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">accused</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">accused</governor>
+            <dependent idx="1">He</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="3">Gen</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">accused</governor>
+            <dependent idx="4">Aoun</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="4">Aoun</governor>
+            <dependent idx="6">using</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="6">using</governor>
+            <dependent idx="9">sandbags</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">thousands</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">using</governor>
+            <dependent idx="12">thousands</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="12">thousands</governor>
+            <dependent idx="14">Christians</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">gathered</governor>
+            <dependent idx="15">who</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">gathered</governor>
+            <dependent idx="16">have</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="14">Christians</governor>
+            <dependent idx="17">gathered</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="20">palace</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="prep_outside">
+            <governor idx="17">gathered</governor>
+            <dependent idx="20">palace</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">deter</governor>
+            <dependent idx="21">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="17">gathered</governor>
+            <dependent idx="22">deter</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">attack</governor>
+            <dependent idx="23">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">deter</governor>
+            <dependent idx="24">attack</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

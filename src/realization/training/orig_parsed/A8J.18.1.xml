@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>According</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBG</POS>
+          </token>
+          <token id="2">
+            <word>to</word>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>TO</POS>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="4">
+            <word>Un</word>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="5">
+            <word>'s</word>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>POS</POS>
+          </token>
+          <token id="6">
+            <word>World</word>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>Food</word>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="8">
+            <word>Programme</word>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>,</POS>
+          </token>
+          <token id="10">
+            <word>twice</word>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="11">
+            <word>as</word>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="12">
+            <word>many</word>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="13">
+            <word>people</word>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="14">
+            <word>as</word>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="15">
+            <word>originally</word>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>RB</POS>
+          </token>
+          <token id="16">
+            <word>estimated</word>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="17">
+            <word>will</word>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>MD</POS>
+          </token>
+          <token id="18">
+            <word>need</word>
+            <CharacterOffsetBegin>96</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>VB</POS>
+          </token>
+          <token id="19">
+            <word>emergency</word>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="20">
+            <word>food</word>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="21">
+            <word>aid</word>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="22">
+            <word>in</word>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="23">
+            <word>1990</word>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="24">
+            <word>.</word>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (VBG According) (PP (TO to) (NP (NP (DT the) (NNP Un) (POS 's)) (NNP World) (NNP Food) (NNP Programme)))) (, ,) (NP (NP (QP (RB twice) (RB as) (JJ many)) (NNS people)) (SBAR (IN as) (S (ADVP (RB originally)) (VP (VBD estimated))))) (VP (MD will) (VP (VB need) (NP (NP (NN emergency) (NN food) (NN aid)) (PP (IN in) (NP (CD 1990)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">need</governor>
+            <dependent idx="1">According</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="1">According</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Un</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">Programme</governor>
+            <dependent idx="4">Un</dependent>
+          </dep>
+          <dep type="possessive">
+            <governor idx="4">Un</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="7">Food</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">to</governor>
+            <dependent idx="8">Programme</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="10">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">people</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">need</governor>
+            <dependent idx="13">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">estimated</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">estimated</governor>
+            <dependent idx="15">originally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">people</governor>
+            <dependent idx="16">estimated</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">need</governor>
+            <dependent idx="17">will</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="19">emergency</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="20">food</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">need</governor>
+            <dependent idx="21">aid</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">aid</governor>
+            <dependent idx="22">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">in</governor>
+            <dependent idx="23">1990</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="18">need</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Un</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">Programme</governor>
+            <dependent idx="4">Un</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="7">Food</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">need</governor>
+            <dependent idx="8">Programme</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="10">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">people</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">need</governor>
+            <dependent idx="13">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">estimated</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">estimated</governor>
+            <dependent idx="15">originally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">people</governor>
+            <dependent idx="16">estimated</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">need</governor>
+            <dependent idx="17">will</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="19">emergency</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="20">food</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">need</governor>
+            <dependent idx="21">aid</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">aid</governor>
+            <dependent idx="23">1990</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">need</dependent>
+          </dep>
+          <dep type="prepc_according_to">
+            <governor idx="18">need</governor>
+            <dependent idx="2">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">Un</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">Programme</governor>
+            <dependent idx="4">Un</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="6">World</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">Programme</governor>
+            <dependent idx="7">Food</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">need</governor>
+            <dependent idx="8">Programme</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="10">twice</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="12">many</governor>
+            <dependent idx="11">as</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="13">people</governor>
+            <dependent idx="12">many</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">need</governor>
+            <dependent idx="13">people</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="16">estimated</governor>
+            <dependent idx="14">as</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">estimated</governor>
+            <dependent idx="15">originally</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="13">people</governor>
+            <dependent idx="16">estimated</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="18">need</governor>
+            <dependent idx="17">will</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="19">emergency</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">aid</governor>
+            <dependent idx="20">food</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">need</governor>
+            <dependent idx="21">aid</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="21">aid</governor>
+            <dependent idx="23">1990</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

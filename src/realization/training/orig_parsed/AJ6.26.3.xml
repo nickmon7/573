@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+          </token>
+          <token id="2">
+            <word>television</word>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="3">
+            <word>naturalist</word>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+          </token>
+          <token id="4">
+            <word>said</word>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="5">
+            <word>southern</word>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>JJ</POS>
+          </token>
+          <token id="6">
+            <word>England</word>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="7">
+            <word>recorded</word>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>VBD</POS>
+          </token>
+          <token id="8">
+            <word>its</word>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+          </token>
+          <token id="9">
+            <word>lowest</word>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJS</POS>
+          </token>
+          <token id="10">
+            <word>January</word>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNP</POS>
+          </token>
+          <token id="11">
+            <word>rainfall</word>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="12">
+            <word>for</word>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>IN</POS>
+          </token>
+          <token id="13">
+            <word>154</word>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>CD</POS>
+          </token>
+          <token id="14">
+            <word>years</word>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>NNS</POS>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>.</POS>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN television) (NN naturalist)) (VP (VBD said) (SBAR (S (NP (JJ southern) (NNP England)) (VP (VBD recorded) (NP (PRP$ its) (JJS lowest) (NNP January) (NNS rainfall)) (PP (IN for) (NP (CD 154) (NNS years))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">naturalist</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">England</governor>
+            <dependent idx="5">southern</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="6">England</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="7">recorded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="9">lowest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="10">January</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="11">rainfall</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">recorded</governor>
+            <dependent idx="12">for</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">154</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">for</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">naturalist</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">England</governor>
+            <dependent idx="5">southern</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="6">England</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="7">recorded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="9">lowest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="10">January</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="11">rainfall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">154</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">recorded</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">said</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="3">naturalist</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">said</governor>
+            <dependent idx="3">naturalist</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">England</governor>
+            <dependent idx="5">southern</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="6">England</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="4">said</governor>
+            <dependent idx="7">recorded</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="8">its</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="9">lowest</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">rainfall</governor>
+            <dependent idx="10">January</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">recorded</governor>
+            <dependent idx="11">rainfall</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="14">years</governor>
+            <dependent idx="13">154</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="7">recorded</governor>
+            <dependent idx="14">years</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
