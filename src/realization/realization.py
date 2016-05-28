@@ -24,7 +24,7 @@ def main():
 			f.write(name + '\n')
 
 	# parse summaries
-	p = Popen('./summ_parse.sh', shell=True)
+	p = Popen('sh /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/realization/summ_parse.sh', shell=True)
 	p.wait()
 
 	# process each summary

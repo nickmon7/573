@@ -3,10 +3,14 @@ import json
 import os
 import re
 
+# CITY, State. (AP) --
+# .+\(AP\)\s+-+\s+
+# .+_
+
 def main():
 	print 'Preprocessing...'
-	text_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/text/'
-	#text_dir = 'text'
+	#text_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/'
+	text_dir = 'text'
 	all_topics = load_all_topics(text_dir)
 	if not os.path.exists('topics'):
 		os.makedirs('topics')
@@ -43,9 +47,10 @@ def process_topic(topic_data):
 		out_doc = {}
 		out_doc['id'] = doc['id']
 		out_doc['headline'] = doc['headline']
+		# process text
+		text = process_text(doc['text'])
 		# do sentence segmentation on doc
-		text = doc['text']
-		out_doc['sentences'] = sent_tokenize(text)
+		out_doc['sentences'] = process_sentences(text)
 		# get word counts
 		out_doc['wordCounts'] = count_words(text)
 		docSet.append(out_doc)
@@ -53,6 +58,26 @@ def process_topic(topic_data):
 	# output as JSON
 	with open('topics/' + out_topic['id'] + '.json', 'w') as outfile:
 		json.dump(out_topic, outfile, indent=4)
+
+def process_text(text):
+	# remove tags
+	text = re.sub(r'</?\w+>', ' ', text)
+	# clean up whitespace
+	text = re.sub(r'\s+', ' ', text)
+	text = text.strip()
+	return text
+
+def process_sentences(text):
+	sentences = sent_tokenize(text)
+	if len(sentences) > 0:
+		# remove location and news source
+		sentences[0] = re.sub(r'^(\S+\s+){1,4}(--|_)\s+', '', sentences[0])
+	pruned = []
+	for sent in sentences:
+		# only keep sentences with more than 3 words
+		if len(re.findall(r'\S+', sent)) > 3:
+			pruned.append(sent)
+	return pruned
 
 def count_words(text):
 	word_counts = {}
