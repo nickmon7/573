@@ -2,7 +2,7 @@ Kirk LaBuda
 Matthew Calderwood
 Nick Monaco
 
-Deliverables 3 - README
+Deliverables 4 - README
 
 In order to run all programs together, run condor_submit D3.cmd
 
@@ -13,7 +13,7 @@ Type "python extract.py" and "python preprocess.py" in the src folder
 
 To run content selection, information ordering, and content realization -
 
-Type "python content_selection.py" in the src folder
+Type "python run_system.py" in the src folder
 
 
 To implement rouge with our system - 
