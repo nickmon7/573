@@ -1,0 +1,911 @@
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 3 files, skipped 0, total 3
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1113-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 [15.836 seconds]
+} [16.213 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.657 seconds]
+} [3.745 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1101-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1101-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1101-A.M.100.A.1 [25.504 seconds]
+} [25.621 seconds]
+Processed 3 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 44.9 sec.
+TOTAL: 45.0 sec. for 1215 tokens at 27.0 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 47.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 3 files, skipped 0, total 3
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1113-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 [10.946 seconds]
+} [11.181 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.814 seconds]
+} [3.907 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1135-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1135-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1135-A.M.100.G.1 [12.132 seconds]
+} [12.287 seconds]
+Processed 3 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 26.8 sec.
+TOTAL: 26.9 sec. for 1109 tokens at 41.2 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 28.9 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 3 files, skipped 0, total 3
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1113-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 [10.724 seconds]
+} [10.960 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1127-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1127-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1127-A.M.100.E.1 [8.126 seconds]
+} [8.234 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.827 seconds]
+} [3.896 seconds]
+Processed 3 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 22.6 sec.
+TOTAL: 22.7 sec. for 1016 tokens at 44.8 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 24.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 3 files, skipped 0, total 3
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1113-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 [10.316 seconds]
+} [10.552 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.37 seconds]
+} [4.131 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1140-A.M.100.H.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1140-A.M.100.H.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1140-A.M.100.H.1 [15.707 seconds]
+} [15.820 seconds]
+Processed 3 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 30.0 sec.
+TOTAL: 30.1 sec. for 1140 tokens at 37.9 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 31.9 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1113-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1113-A.M.100.C.1 [15.393 seconds]
+} [15.651 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.857 seconds]
+} [4.23 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 19.2 sec.
+TOTAL: 19.2 sec. for 752 tokens at 39.1 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 21.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.625 seconds]
+} [5.823 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1111-A.M.100.B.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1111-A.M.100.B.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1111-A.M.100.B.1 [8.157 seconds]
+} [8.319 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.7 sec.
+TOTAL: 13.8 sec. for 637 tokens at 46.2 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 15.7 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1142-A.M.100.H.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1142-A.M.100.H.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1142-A.M.100.H.1 [9.432 seconds]
+} [9.630 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.863 seconds]
+} [3.967 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.3 sec.
+TOTAL: 13.3 sec. for 614 tokens at 46.2 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 15.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.6 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [6.56 seconds]
+} [6.241 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1139-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1139-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1139-A.M.100.G.1 [14.195 seconds]
+} [14.477 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 20.2 sec.
+TOTAL: 20.2 sec. for 693 tokens at 34.2 tokens/sec.
+Pipeline setup: 1.7 sec.
+Total time for StanfordCoreNLP pipeline: 22.4 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [6.157 seconds]
+} [6.340 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1115-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1115-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1115-A.M.100.C.1 [11.472 seconds]
+} [11.760 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 17.6 sec.
+TOTAL: 17.6 sec. for 692 tokens at 39.3 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 19.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.737 seconds]
+} [5.917 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1109-A.M.100.B.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1109-A.M.100.B.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1109-A.M.100.B.1 [16.876 seconds]
+} [17.154 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 22.6 sec.
+TOTAL: 22.6 sec. for 765 tokens at 33.8 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 24.6 sec.
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Cannot open /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/D1108-A.M.100.B.1
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.7 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.484 seconds]
+} [5.760 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1144-A.M.100.H.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1144-A.M.100.H.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1144-A.M.100.H.1 [11.529 seconds]
+} [11.718 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 17.0 sec.
+TOTAL: 17.0 sec. for 743 tokens at 43.7 tokens/sec.
+Pipeline setup: 1.8 sec.
+Total time for StanfordCoreNLP pipeline: 19.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.7 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1117-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1117-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1117-A.M.100.C.1 [12.346 seconds]
+} [12.568 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.988 seconds]
+} [4.83 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 16.3 sec.
+TOTAL: 16.3 sec. for 673 tokens at 41.2 tokens/sec.
+Pipeline setup: 1.8 sec.
+Total time for StanfordCoreNLP pipeline: 18.4 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.8 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1104-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1104-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1104-A.M.100.A.1 [9.354 seconds]
+} [9.782 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.358 seconds]
+} [4.544 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.7 sec.
+TOTAL: 13.7 sec. for 697 tokens at 50.8 tokens/sec.
+Pipeline setup: 1.9 sec.
+Total time for StanfordCoreNLP pipeline: 16.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.7 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.524 seconds]
+} [5.703 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1118-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1118-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1118-A.M.100.D.1 [5.780 seconds]
+} [5.925 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 11.3 sec.
+TOTAL: 11.3 sec. for 623 tokens at 55.1 tokens/sec.
+Pipeline setup: 1.8 sec.
+Total time for StanfordCoreNLP pipeline: 13.4 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.862 seconds]
+} [6.66 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1120-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1120-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1120-A.M.100.D.1 [15.572 seconds]
+} [15.731 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 21.4 sec.
+TOTAL: 21.4 sec. for 676 tokens at 31.5 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 23.4 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [6.51 seconds]
+} [6.247 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1132-A.M.100.F.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1132-A.M.100.F.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1132-A.M.100.F.1 [6.992 seconds]
+} [7.153 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.0 sec.
+TOTAL: 13.0 sec. for 641 tokens at 49.1 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 15.0 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.164 seconds]
+} [5.349 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1122-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1122-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1122-A.M.100.D.1 [10.83 seconds]
+} [10.266 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 15.2 sec.
+TOTAL: 15.2 sec. for 691 tokens at 45.3 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 17.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.484 seconds]
+} [5.699 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1106-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1106-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1106-A.M.100.A.1 [17.913 seconds]
+} [18.205 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 23.3 sec.
+TOTAL: 23.4 sec. for 765 tokens at 32.7 tokens/sec.
+Pipeline setup: 1.3 sec.
+Total time for StanfordCoreNLP pipeline: 25.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1130-A.M.100.F.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1130-A.M.100.F.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1130-A.M.100.F.1 [7.797 seconds]
+} [7.998 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.168 seconds]
+} [4.277 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 11.9 sec.
+TOTAL: 12.0 sec. for 628 tokens at 52.5 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 13.9 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.9 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.157 seconds]
+} [5.337 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1102-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1102-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1102-A.M.100.A.1 [9.203 seconds]
+} [9.370 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 14.3 sec.
+TOTAL: 14.4 sec. for 650 tokens at 45.3 tokens/sec.
+Pipeline setup: 2.0 sec.
+Total time for StanfordCoreNLP pipeline: 16.7 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.138 seconds]
+} [5.318 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1136-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1136-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1136-A.M.100.G.1 [10.547 seconds]
+} [10.900 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 15.6 sec.
+TOTAL: 15.7 sec. for 686 tokens at 43.7 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 17.7 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [6.418 seconds]
+} [6.607 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1124-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1124-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1124-A.M.100.E.1 [9.77 seconds]
+} [9.259 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 15.4 sec.
+TOTAL: 15.5 sec. for 697 tokens at 45.0 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 17.5 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1126-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1126-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1126-A.M.100.E.1 [14.33 seconds]
+} [14.240 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [3.637 seconds]
+} [3.737 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 17.6 sec.
+TOTAL: 17.7 sec. for 644 tokens at 36.4 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 19.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.824 seconds]
+} [5.0 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1129-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1129-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1129-A.M.100.E.1 [15.793 seconds]
+} [16.35 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 20.6 sec.
+TOTAL: 20.6 sec. for 741 tokens at 35.9 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 22.5 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1134-A.M.100.F.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1134-A.M.100.F.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1134-A.M.100.F.1 [9.17 seconds]
+} [9.271 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.168 seconds]
+} [4.326 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.1 sec.
+TOTAL: 13.2 sec. for 662 tokens at 50.2 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 15.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [4.842 seconds]
+} [5.23 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1141-A.M.100.H.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1141-A.M.100.H.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1141-A.M.100.H.1 [12.51 seconds]
+} [12.243 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 16.8 sec.
+TOTAL: 16.9 sec. for 716 tokens at 42.4 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 18.7 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.877 seconds]
+} [6.69 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1128-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1128-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1128-A.M.100.E.1 [12.755 seconds]
+} [12.935 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 18.6 sec.
+TOTAL: 18.6 sec. for 731 tokens at 39.2 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 20.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.73 seconds]
+} [5.261 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1143-A.M.100.H.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1143-A.M.100.H.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1143-A.M.100.H.1 [10.633 seconds]
+} [10.880 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 15.7 sec.
+TOTAL: 15.7 sec. for 653 tokens at 41.6 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 17.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.7 sec].
+
+Ready to process: 2 files, skipped 0, total 2
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [5.280 seconds]
+} [5.573 seconds]
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1110-A.M.100.B.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1110-A.M.100.B.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1110-A.M.100.B.1 [17.211 seconds]
+} [17.432 seconds]
+Processed 2 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 22.4 sec.
+TOTAL: 22.5 sec. for 746 tokens at 33.2 tokens/sec.
+Pipeline setup: 1.8 sec.
+Total time for StanfordCoreNLP pipeline: 24.9 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.6 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1138-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1138-A.M.100.G.1 [10.402 seconds]
+} [10.629 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 10.4 sec.
+TOTAL: 10.4 sec. for 383 tokens at 36.8 tokens/sec.
+Pipeline setup: 1.7 sec.
+Total time for StanfordCoreNLP pipeline: 12.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1114-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1114-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1114-A.M.100.C.1 [13.628 seconds]
+} [13.883 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.6 sec.
+TOTAL: 13.6 sec. for 409 tokens at 30.0 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 15.4 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1112-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1112-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1112-A.M.100.C.1 [8.388 seconds]
+} [8.662 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 8.3 sec.
+TOTAL: 8.4 sec. for 313 tokens at 37.3 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 10.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1116-A.M.100.C.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1116-A.M.100.C.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1116-A.M.100.C.1 [8.640 seconds]
+} [8.835 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 8.6 sec.
+TOTAL: 8.6 sec. for 319 tokens at 36.9 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 10.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.7 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1108-A.M.100.B.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1108-A.M.100.B.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1108-A.M.100.B.1 [13.218 seconds]
+} [13.446 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.2 sec.
+TOTAL: 13.2 sec. for 408 tokens at 30.9 tokens/sec.
+Pipeline setup: 1.8 sec.
+Total time for StanfordCoreNLP pipeline: 15.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1133-A.M.100.F.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1133-A.M.100.F.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1133-A.M.100.F.1 [16.463 seconds]
+} [16.711 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 16.4 sec.
+TOTAL: 16.5 sec. for 446 tokens at 27.1 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 18.2 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1121-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1121-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1121-A.M.100.D.1 [7.164 seconds]
+} [7.399 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 7.1 sec.
+TOTAL: 7.2 sec. for 302 tokens at 42.2 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 9.0 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.6 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1119-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1119-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1119-A.M.100.D.1 [15.773 seconds]
+} [16.74 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 15.7 sec.
+TOTAL: 15.8 sec. for 474 tokens at 30.1 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 17.7 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1131-A.M.100.F.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1131-A.M.100.F.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1131-A.M.100.F.1 [14.75 seconds]
+} [14.381 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 14.0 sec.
+TOTAL: 14.1 sec. for 400 tokens at 28.4 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 15.8 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1107-A.M.100.B.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1107-A.M.100.B.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1107-A.M.100.B.1 [13.713 seconds]
+} [13.970 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.1 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.6 sec.
+TOTAL: 13.7 sec. for 455 tokens at 33.2 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 15.5 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.6 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1103-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1103-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1103-A.M.100.A.1 [11.361 seconds]
+} [11.637 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 11.3 sec.
+TOTAL: 11.4 sec. for 356 tokens at 31.3 tokens/sec.
+Pipeline setup: 1.6 sec.
+Total time for StanfordCoreNLP pipeline: 13.3 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1123-A.M.100.D.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1123-A.M.100.D.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1123-A.M.100.D.1 [11.885 seconds]
+} [12.109 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 11.8 sec.
+TOTAL: 11.9 sec. for 395 tokens at 33.2 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 13.6 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.3 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1125-A.M.100.E.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1125-A.M.100.E.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1125-A.M.100.E.1 [25.49 seconds]
+} [25.318 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 25.0 sec.
+TOTAL: 25.0 sec. for 489 tokens at 19.5 tokens/sec.
+Pipeline setup: 1.4 sec.
+Total time for StanfordCoreNLP pipeline: 26.8 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.4 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1137-A.M.100.G.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1137-A.M.100.G.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1137-A.M.100.G.1 [3.391 seconds]
+} [3.568 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 3.4 sec.
+TOTAL: 3.4 sec. for 230 tokens at 67.8 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 5.1 sec.
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1.5 sec].
+
+Ready to process: 1 files, skipped 0, total 1
+Processing file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1105-A.M.100.A.1 ... writing to /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed/D1105-A.M.100.A.1.xml {
+  Annotating file /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs/D1105-A.M.100.A.1 [13.376 seconds]
+} [13.606 seconds]
+Processed 1 documents
+Skipped 0 documents, error annotating 0 documents
+Annotation pipeline timing information:
+PTBTokenizerAnnotator: 0.0 sec.
+WordsToSentencesAnnotator: 0.0 sec.
+ParserAnnotator: 13.3 sec.
+TOTAL: 13.4 sec. for 406 tokens at 30.4 tokens/sec.
+Pipeline setup: 1.5 sec.
+Total time for StanfordCoreNLP pipeline: 15.1 sec.

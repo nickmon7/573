@@ -94,17 +94,17 @@ def reorder_by_date(summary_sentences,topic_docs):
 def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
     best_rouge = 0.0
     if test_mode == True:
-        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test','a')
+        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data_test','a')
     else:
-        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data','a')
+        lib_data = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data','a')
     all_sentence_combs = {}
 ##    for i,document in enumerate(doc_data['docSet']):
 ##        for j,sentence in enumerate(document['sentences']):
 ##            sentences.append((sentence,document['id'],j,i))
     x = 0
     current_summary = None
-    while x < 300:
-      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + doc_id,'w')
+    while x < 50:
+      output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4/' + doc_id,'w')
       all_sentence_combs[str(x)] = {'sentences':{},
                                       'rouge':0.0}
       current_sentences = []
@@ -115,14 +115,14 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
                 randoms[v] += 1
         for rand_num in randoms:
             all_sentence_combs[str(x)]['sentences'][sentences[rand_num][0]] = {'freq' : sentences[rand_num][1],
-                                                                  'position' : rand_num}
+                                                                  'position' : float(rand_num) / float(len(sentences))}
             current_sentences.append(sentences[rand_num][0])
         summary = create_summary(current_sentences)
         output.write("\n".join([t for t in summary]))
         output.close()
-        p1 = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/run_rouge_test.sh ' + "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/config_files/" + doc_id + ".config.xml", shell=True)
+        p1 = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/run_rouge_test.sh ' + "/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/config_files/" + doc_id + ".config.xml", shell=True)
         p1.communicate()
-        rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/rouge_result.txt')
+        rouge_file = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/rouge_result.txt')
         all_sentence_combs[str(x)]['rouge'] = 0.0
         for k,line in enumerate(rouge_file):
             if k == 7:
@@ -136,18 +136,21 @@ def extract_for_SVM(frequencies,doc_data,sentences,doc_id,test_mode):
                     best_rouge = current_rouge
         rouge_file.close()
         lib_data.write(str(all_sentence_combs[str(x)]['rouge']) + " ")
+        normalize_const = sum([all_sentence_combs[str(x)]['sentences'][b]['freq'] for b in all_sentence_combs[str(x)]['sentences']])
+        for sent in all_sentence_combs[str(x)]['sentences']:
+            all_sentence_combs[str(x)]['sentences'][sent]['freq'] /= normalize_const
         for t,sent in enumerate(all_sentence_combs[str(x)]['sentences']):
-            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " ")
+            lib_data.write(str(t) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['freq']) + " " + str(t+5) + ":" + str(all_sentence_combs[str(x)]['sentences'][sent]['position']) + " ")
         lib_data.write("\n")
       except IndexError:
           ""
       x += 1
-    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/' + doc_id,'w')
+    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/' + doc_id,'w')
     try:
         output.write("\n".join([t for t in current_summary]))
     except TypeError:
         output.write(" ")
-    print str(best_rouge) + " " + doc_id
+    print(str(best_rouge) + " " + doc_id)
     output.close()
     lib_data.close()
 
@@ -217,14 +220,14 @@ def reorder_by_theme(summary, stopwords, docSetDict):
 def main():
     test_mode = False
     working_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/'
-    frequencies = json.load(open(working_dir[:-7] + 'brown_freqs','r'))
+    frequencies = json.load(open(working_dir[:-8] + 'brown_freqs','r'))
     all_docs = load_all_docs(working_dir)
     counter = 0
     for u,item in enumerate(all_docs):
         if len(all_docs[item]) > 0:
             counter +=1
             x = topic_frequencies(frequencies,all_docs[item])
-            output = open("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/" + str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
+            output = open("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4/" + str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
         ##    for y in x:
         ##        print str(y) + "\n\n\n"
             #change to sort by date
@@ -251,8 +254,8 @@ def main():
             output = open(str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
             output.write(" ")
     if test_mode == False:
-        Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale',shell=True)
-        Popen("svm-train -s 4 -t 0 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model",shell=True)
+        Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.scale',shell=True)
+        Popen("svm-train -s 4 -t 2 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.model",shell=True)
 
 if __name__== '__main__':
     main()

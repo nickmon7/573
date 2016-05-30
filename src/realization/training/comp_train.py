@@ -7,6 +7,7 @@ from xml.dom.minidom import parse
 import xml.dom.minidom
 
 def main():
+	print('Getting training data...')
 	# input directories
 	parsed_dir = 'orig_parsed'
 	comp_dir = 'comp_raw'
@@ -41,10 +42,8 @@ def process_pair(parsed_path, comp_path):
 	# assign partial and omitted nodes
 	assign_node_status(tree)
 	# get features and output them
-	#f = open('train_vectors.txt', 'a')
 	global vec_file
 	get_features(vec_file, tree)
-	#f.close()
 
 def get_tree(parsed_path):
 	DOMTree = xml.dom.minidom.parse(parsed_path)
@@ -111,9 +110,9 @@ def get_features(f, node):
 		# first/last leaf pos
 		f.write(' 0_leaf=' + leaves[0].lower() + ':1')
 		f.write(' -1_leaf=' + leaves[-1].lower() + ':1')
-		#if len(leaves) > 2:
-		#	f.write(' 1_leaf=' + leaves[1].lower() + ':1')
-		#	f.write(' -2_leaf=' + leaves[-2].lower() + ':1')
+		if len(leaves) > 2:
+			f.write(' 1_leaf=' + leaves[1].lower() + ':1')
+			f.write(' -2_leaf=' + leaves[-2].lower() + ':1')
 	parent = node.parent()
 	if parent != None:
 		if parent[0] == node:
@@ -130,29 +129,39 @@ def get_features(f, node):
 			f.write(' gp_pos=' + grandparent.label()[2:] + ':1')
 	L_sib = node.left_sibling()
 	if L_sib != None:
+		# left sibling pos
 		f.write(' L_sib_pos=' + L_sib.label()[2:] + ':1')
 	R_sib = node.right_sibling()
 	if R_sib != None:
+		# right sibling pos
 		f.write(' R_sib_pos=' + R_sib.label()[2:] + ':1')
-	
+	global negatives
+	for leaf in leaves:
+		if leaf in negatives:
+			f.write(' negative:1')
+			break
+
 	f.write('\n')
 	# recurse
 	for child in node:
 		if type(child) == ParentedTree:
 			get_features(f, child)
 
-print('Getting training data...')
+def fix_output():
+	print('Fixing symbols...')
+	file_str = ''
+	with open('train_vectors.txt', 'r') as f:
+		file_str = f.read()
+	file_str = re.sub(r':(?=\S*:)', 'COLON', file_str)
+	file_str = file_str.replace('#', 'HASH')
+	with open('train_vectors.txt', 'w') as f:
+		f.write(file_str)
+	print('Done')
+
+
+negatives = set(['not', 'n\'t', 'no', 'nor', 'neither'])
 vec_file = open('train_vectors.txt', 'w')
 main()
 vec_file.close()
-
-print('Fixing symbols...')
-file_str = ''
-with open('train_vectors.txt', 'r') as f:
-	file_str = f.read()
-file_str = re.sub(r':(?=\S*:)', 'COLON', file_str)
-file_str = file_str.replace('#', 'HASH')
-with open('train_vectors.txt', 'w') as f:
-	f.write(file_str)
-print('Done')
+fix_output()
 

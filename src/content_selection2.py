@@ -2,6 +2,7 @@ from nltk.corpus import brown, stopwords
 from nltk.probability import FreqDist
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
+from scipy import spatial
 import nltk
 import random
 import re
@@ -86,27 +87,80 @@ def reorder_by_theme(summary, stopwords, docSetDict):
 		newSummary+=" "+tuple[1] #this concatenates the reordered sentences together
 	return newSummary.strip()
 
-def main():
-    all_sentence_combs = json.load(file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data_test.json'))
+#This method constructs a vector out of a sentence in our summary.
+#it assigns each word a default slot/dimension in the vector.
+#This is preprocessing to use the scipy package to compare sentences as vectors
+#sentence comes in as tokenlist
+def cosineReadable(sentences):
+	#FIRST CHECK - we need at least 3 sentences for this method to be worth it
+	if (len(nltk.sent_tokenize(sentences)) <= 2):
+		return sentences
+	else:	#we have enough sentences to do a readability overhaul
+		wordDimensions = [] #this gives every word an assigned dimension in the vector
+		for sent in nltk.sent_tokenize(sentences):
+			for word in nltk.word_tokenize(sent):
+				if word not in wordDimensions: #no duplicates
+					wordDimensions.append(word)
+
+		sentlist = nltk.sent_tokenize(sentences)
+		firstsent = sentlist[0]		
+		sentenceVectors = [] #this will be a list of sentVectors for every sent in summary
+		for i in range(0,len(sentlist)): #turn every sentence into a vector
+			vec = makeSentVector(sentlist[i], wordDimensions)
+			sentenceVectors.append(vec)
+		sentScores = {} #dic keeps track of cosine distance scores for the sentences (in comparison to the first sentence)		
+		firstSentVec = sentenceVectors[0]
+		for x in range(1, len(sentlist)):
+			sent = sentlist[x]
+			val = spatial.distance.cosine(firstSentVec, sentenceVectors[x])
+			sentScores[sent] = val
+		
+		sentScores = sorted(sentScores, reverse=True, key=sentScores.get)
+		summary = str(sentlist[0])+"\n"
+		for otherSent in sentScores:
+			summary+=str(otherSent).strip()+"\n"
+		summary = summary.strip()
+		return summary
+
+#this fn makes a vector out of a sentence
+#Parameters passed are
+#(1) the sentence in question and
+#(2) the wordDimension vector for the whole summary
+def makeSentVector(sentence, wordDimensions):
+	sentTokens = {}
+	sentVec = []
+	for word in nltk.word_tokenize(sentence):
+		if word in sentTokens:
+			sentTokens[word]+=1
+		else: #word not in dic
+			sentTokens[word] = 1
+	for i in range(0, len(wordDimensions)):
+		if wordDimensions[i] in nltk.word_tokenize(sentence):
+			sentVec.append(sentTokens[wordDimensions[i]]) #append this sentences number of occurences for this word at the right slot
+		else: #ERROR
+			sentVec.append(0)	
+	return sentVec
+
+def run():
+    all_sentence_combs = json.load(file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data_test.json'))
     best_rouge = 0.0
     spot = 0
-    p2 = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/predict.sh',shell=True)
+    p2 = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/predict.sh',shell=True)
     p2.communicate()
-    for n,line in enumerate(open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/prediction')):
-        print line
+    for n,line in enumerate(open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/prediction')):
         line = line.split()
-        try:
-            if (float(line[0]) > best_rouge) & (float(line[0]) < .8):
+        print float(line[0])
+        if (float(line[0]) > best_rouge) & (float(line[0]) < .8):
+                print "*"
                 best_rouge = float(line[0])
                 spot = n
-        except IndexError:
-            ""
-    file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/prediction').close()
+    file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/prediction').close()
     print spot
     best_summary = create_summary(all_sentence_combs[str(spot)]['sentences'])
-    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/' + str(sys.argv[2][:-1]) + '-A.M.100.' + str(sys.argv[2][-1]) + ".1",'w')
-    output.write(reorder_by_theme("\n".join([t for t in best_summary]),stopwords.words('english'),json.load(file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/all_docs.json'))))
+    output = open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/' + str(sys.argv[2][:-1]) + '-A.M.100.' + str(sys.argv[2][-1]) + ".1",'w')
+    print cosineReadable(reorder_by_theme("\n".join([t for t in best_summary]),stopwords.words('english'),json.load(file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/all_docs.json'))))
+    output.write(cosineReadable(reorder_by_theme("\n".join([t for t in best_summary]),stopwords.words('english'),json.load(file('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/all_docs.json')))))
     print str(best_rouge) + " " + str(sys.argv[2][:-1]) + '-A.M.100.' + str(sys.argv[2][-1]) + ".1"
     output.close()
 
-main()
+run()

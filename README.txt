@@ -6,9 +6,9 @@ Deliverables 3 - README
 
 In order to run all programs together, run condor_submit D3.cmd
 
-To run preprocessing -
+To run text extracting and preprocessing -
 
-Type "mono preprocess.exe" in the src folder
+Type "python extract.py" and "python preprocess.py" in the src folder
 
 
 To run content selection, information ordering, and content realization -

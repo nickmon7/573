@@ -7,8 +7,6 @@ from xml.dom.minidom import parse
 import xml.dom.minidom
 
 def main():
-	# initialize dictionary
-	get_model()
 	summ_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summs'
 	parsed_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_parsed'
 
@@ -19,13 +17,16 @@ def main():
 		summ_files.append(path)
 
 	# print input list for corenlp
-	with open('summ_list.txt', 'w') as f:
+	with open('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/summ_list.txt', 'w') as f:
 		for name in summ_files:
 			f.write(name + '\n')
 
 	# parse summaries
-	p = Popen('sh /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/realization/summ_parse.sh', shell=True)
+	p = Popen('/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/realization/summ_parse.sh', shell=True)
 	p.wait()
+
+	# initialize dictionary
+	get_model()
 
 	# process each summary
 	for filename in os.listdir(summ_dir):
@@ -62,7 +63,17 @@ def process_summ(summ_dir, parsed_dir, filename):
 	for tree in trees:
 		trimmed = process_tree(tree)
 		output_summ += trimmed + ' '
-	
+
+	# fix output formatting
+	output_summ = re.sub("-LRB-", "(", output_summ)
+	output_summ = re.sub("-RRB-", ")", output_summ)
+	output_summ = re.sub(r"\$\s", "$", output_summ)
+	output_summ = re.sub(r"``\s", r"``", output_summ)
+	output_summ = re.sub(r"\s''", r"''", output_summ)
+	output_summ = re.sub(r"\sn't", r"n't", output_summ)
+	output_summ = re.sub(r"\s(?=[.!?,':;%])", "", output_summ)
+	output_summ = re.sub(r"\s+", " ", output_summ)
+
 	# overwrite original
 	summ_path = os.path.join(summ_dir, filename)
 	with open(summ_path, 'w') as f:
@@ -116,19 +127,19 @@ def label_node(node, labels):
 		features.append('word=' + leaves[0].lower())
 	elif len(leaves) > 1:
 		# first/last leaf pos
-		features.append('0_leaf=' + leaves[0].lower() + ':1')
-		features.append('-1_leaf=' + leaves[-1].lower() + ':1')
+		features.append('0_leaf=' + leaves[0].lower())
+		features.append('-1_leaf=' + leaves[-1].lower())
 		if len(leaves) > 2:
-			features.append('1_leaf=' + leaves[1].lower() + ':1')
-			features.append('-2_leaf=' + leaves[-2].lower() + ':1')
+			features.append('1_leaf=' + leaves[1].lower())
+			features.append('-2_leaf=' + leaves[-2].lower())
 	parent = node.parent()
 	if parent != None:
 		if parent[0] == node:
 			# left-most child
-			features.append('LM_child:1')
+			features.append('LM_child')
 		elif len(parent) > 1 and parent[1] == node:
 			# second left-most child
-			features.append('SLM_child:1')
+			features.append('SLM_child')
 		# parent pos
 		features.append('p_pos=' + parent.label())
 		grandparent = parent.parent()
@@ -137,10 +148,16 @@ def label_node(node, labels):
 			features.append('gp_pos=' + grandparent.label())
 	L_sib = node.left_sibling()
 	if L_sib != None:
-		features.append('L_sib_pos=' + L_sib.label() + ':1')
+		features.append('L_sib_pos=' + L_sib.label())
 	R_sib = node.right_sibling()
 	if R_sib != None:
-		features.append('R_sib_pos=' + R_sib.label() + ':1')
+		features.append('R_sib_pos=' + R_sib.label())
+	global negatives
+	for leaf in leaves:
+		if leaf in negatives:
+			features.append('negative')
+			break
+
 	# fix colons and hashtags
 	for i in range(len(features)):
 		features[i] = re.sub(r':(?=\S*:)', 'COLON', features[i])
@@ -162,5 +179,6 @@ def best_label(features):
 	return max(numerators, key=lambda i: numerators[i])
 
 feat_weights = {}
+negatives = set(['not', 'n\'t', 'no', 'nor', 'neither'])
 main()
 

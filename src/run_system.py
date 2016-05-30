@@ -2,6 +2,7 @@ from nltk.corpus import brown, stopwords
 from nltk.probability import FreqDist
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
+from scipy import spatial
 import nltk
 import random
 import re
@@ -72,6 +73,60 @@ def topic_frequencies(brown_frequencies,topic):
     return topic_frequency
 
 
+#This method constructs a vector out of a sentence in our summary.
+#it assigns each word a default slot/dimension in the vector.
+#This is preprocessing to use the scipy package to compare sentences as vectors
+#sentence comes in as tokenlist
+def cosineReadable(sentences):
+	#FIRST CHECK - we need at least 3 sentences for this method to be worth it
+	if (len(nltk.sent_tokenize(sentences)) <= 2):
+		return sentences
+	else:	#we have enough sentences to do a readability overhaul
+		wordDimensions = [] #this gives every word an assigned dimension in the vector
+		for sent in nltk.sent_tokenize(sentences):
+			for word in nltk.word_tokenize(sent):
+				if word not in wordDimensions: #no duplicates
+					wordDimensions.append(word)
+
+		sentlist = nltk.sent_tokenize(sentences)
+		firstsent = sentlist[0]		
+		sentenceVectors = [] #this will be a list of sentVectors for every sent in summary
+		for i in range(0,len(sentlist)): #turn every sentence into a vector
+			vec = makeSentVector(sentlist[i], wordDimensions)
+			sentenceVectors.append(vec)
+		sentScores = {} #dic keeps track of cosine distance scores for the sentences (in comparison to the first sentence)		
+		firstSentVec = sentenceVectors[0]
+		for x in range(1, len(sentlist)):
+			sent = sentlist[x]
+			val = spatial.distance.cosine(firstSentVec, sentenceVectors[x])
+			sentScores[sent] = val
+		
+		sentScores = sorted(sentScores, reverse=True, key=sentScores.get)
+		summary = str(sentlist[0])+" "
+		for otherSent in sentScores:
+			summary+=str(otherSent).strip()+" "
+		summary = summary.strip()
+		return summary
+
+#this fn makes a vector out of a sentence
+#Parameters passed are
+#(1) the sentence in question and
+#(2) the wordDimension vector for the whole summary
+def makeSentVector(sentence, wordDimensions):
+	sentTokens = {}
+	sentVec = []
+	for word in nltk.word_tokenize(sentence):
+		if word in sentTokens:
+			sentTokens[word]+=1
+		else: #word not in dic
+			sentTokens[word] = 1
+	for i in range(0, len(wordDimensions)):
+		if wordDimensions[i] in nltk.word_tokenize(sentence):
+			sentVec.append(sentTokens[wordDimensions[i]]) #append this sentences number of occurences for this word at the right slot
+		else: #ERROR
+			sentVec.append(0)	
+	return sentVec
+
 #This method reorders a summary by themes...
 #1st parameter = summary comes in as a STRING... 
 #2nd parameter = stopwords is list of stopwords
@@ -137,15 +192,15 @@ def reorder_by_theme(summary, stopwords, docSetDict):
 
 def main():
     test_mode = True
-    working_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics/'
-    frequencies = json.load(open(working_dir[:-7] + 'brown_freqs','r'))
+    working_dir = '/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/src/topics2/'
+    frequencies = json.load(open(working_dir[:-8] + 'brown_freqs','r'))
     all_docs = load_all_docs(working_dir)
     counter = 0
     for u,item in enumerate(all_docs):
         if len(all_docs[item]) > 0:
             counter +=1
             x = topic_frequencies(frequencies,all_docs[item])
-            output = open("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D3/" + str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
+            output = open("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/output/D4_evaltest/" + str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
         ##    for y in x:
         ##        print str(y) + "\n\n\n"
             #change to sort by date
@@ -164,7 +219,7 @@ def main():
                         x[y][g][e] = x[y][g][e] / 2.0
                     sentence_probs[g] = sentence_probs[g] / count
             #--------------------------add position in document--------------------------------
-            p1 = Popen("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/run_test_scripts.sh " + str(u) + " " + item,shell=True)
+            p1 = Popen("/workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/run_test_scripts.sh " + str(u) + " " + item,shell=True)
             p1.communicate()
             #----------------------------------------------------------------------------------
 ##            output.write("\n".join([t[0] for t in ordered_sentences]))
@@ -172,7 +227,7 @@ def main():
             output = open(str(item[:-1]) + '-A.M.100.' + str(item[-1]) + ".1",'w')
             output.write(" ")
     if test_mode == False:
-        Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale',shell=True)
-        Popen("svm-train -s 4 -t 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D3/lib_data.model",shell=True)
+        Popen('svm-scale -l -1 -u 1 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data > /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.scale',shell=True)
+        Popen("svm-train -s 4 -t 2 /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.scale /workspace/ling573_sp_2016/nickmon_calderma_kwlabuda/test_for_rouge/D4/lib_data.model",shell=True)
 
 main()
